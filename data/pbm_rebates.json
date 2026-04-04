@@ -1,0 +1,46 @@
+[
+  {
+    "pbm_id": "cvs_caremark",
+    "pbm_name": "CVS Caremark",
+    "parent_company": "CVS Health",
+    "market_share": 33,
+    "estimated_rebate_revenue": 4500000000000,
+    "passthrough_rate": 64,
+    "retained_rate": 36,
+    "source": "FTC Interim Report on PBMs, 2024; CMS actuarial analysis",
+    "year": 2023
+  },
+  {
+    "pbm_id": "express_scripts",
+    "pbm_name": "Express Scripts",
+    "parent_company": "The Cigna Group (Evernorth)",
+    "market_share": 24,
+    "estimated_rebate_revenue": 3200000000000,
+    "passthrough_rate": 60,
+    "retained_rate": 40,
+    "source": "FTC Interim Report on PBMs, 2024; SEC 10-K filings",
+    "year": 2023
+  },
+  {
+    "pbm_id": "optumrx",
+    "pbm_name": "OptumRx",
+    "parent_company": "UnitedHealth Group (Optum)",
+    "market_share": 23,
+    "estimated_rebate_revenue": 3100000000000,
+    "passthrough_rate": 62,
+    "retained_rate": 38,
+    "source": "FTC Interim Report on PBMs, 2024; SEC 10-K filings",
+    "year": 2023
+  },
+  {
+    "pbm_id": "others",
+    "pbm_name": "All Other PBMs",
+    "parent_company": "Various",
+    "market_share": 20,
+    "estimated_rebate_revenue": 1500000000000,
+    "passthrough_rate": 72,
+    "retained_rate": 28,
+    "source": "Industry estimates, Drug Channels Institute",
+    "year": 2023
+  }
+]

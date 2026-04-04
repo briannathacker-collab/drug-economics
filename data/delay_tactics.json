@@ -1,0 +1,640 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "manufacturer": "AbbVie",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "AbbVie built a wall of over 100 patents around Humira, including patents on manufacturing processes, formulations, and treatment methods, creating a 'patent thicket' that deterred biosimilar competition.",
+        "delay_months": 72,
+        "outcome": "Multiple biosimilar entrants delayed by years through litigation risk"
+      },
+      {
+        "type": "pay_for_delay",
+        "description": "AbbVie reached settlements with multiple biosimilar manufacturers, granting them licenses to launch only after specific dates far beyond the original patent expiry.",
+        "ftc_case_ref": "FTC v. AbbVie Inc. — Investigated anti-competitive patent settlement agreements",
+        "settlement_amount": 0,
+        "delay_months": 48,
+        "outcome": "Biosimilar launches delayed until January 2023, years after original biologic patent expiry"
+      },
+      {
+        "type": "evergreening",
+        "description": "Filed additional patents for citrate-free formulation and auto-injector device years after original approval to extend exclusivity period.",
+        "delay_months": 36,
+        "outcome": "Extended effective exclusivity beyond original patent cliff"
+      }
+    ],
+    "total_delay_years": 7,
+    "estimated_patient_cost_of_delay": 16800000000000,
+    "estimated_patient_population": 200000
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "manufacturer": "Bristol-Myers Squibb (Celgene)",
+    "tactics": [
+      {
+        "type": "rems_abuse",
+        "description": "Celgene used its mandatory REMS safety program to restrict access to drug samples, preventing generic makers from conducting required bioequivalence testing.",
+        "ftc_case_ref": "FTC complaint against Celgene Corp. (2024) — REMS abuse to block generic entry",
+        "delay_months": 60,
+        "outcome": "FTC action filed; generic entry delayed by approximately 5 years"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Celgene obtained multiple secondary patents on dosing regimens and treatment methods for Revlimid, extending beyond the original compound patent.",
+        "delay_months": 36,
+        "outcome": "Generic competitors forced to design around patents or wait"
+      },
+      {
+        "type": "pay_for_delay",
+        "description": "Celgene settled with generic makers, allowing limited volumes initially then full entry years later.",
+        "court_case": "In re Celgene Corp. Antitrust Litigation",
+        "settlement_amount": 0,
+        "delay_months": 30,
+        "outcome": "Controlled generic entry with volume caps"
+      }
+    ],
+    "total_delay_years": 5,
+    "estimated_patient_cost_of_delay": 12500000000000,
+    "estimated_patient_population": 50000
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "manufacturer": "Bristol-Myers Squibb / Pfizer",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Multiple method-of-use and formulation patents filed after initial approval to extend exclusivity.",
+        "delay_months": 24,
+        "outcome": "Generic entry contested through 2028"
+      },
+      {
+        "type": "citizen_petition",
+        "description": "Filed citizen petitions at FDA raising safety and bioequivalence concerns about potential generic versions.",
+        "delay_months": 12,
+        "outcome": "Delayed FDA review of generic applications"
+      }
+    ],
+    "total_delay_years": 3,
+    "estimated_patient_cost_of_delay": 9800000000000,
+    "estimated_patient_population": 3000000
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "manufacturer": "Johnson & Johnson",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "J&J accumulated over 40 patents on Stelara covering manufacturing, formulation, and methods of treatment, creating barriers to biosimilar entry.",
+        "delay_months": 30,
+        "outcome": "Multiple biosimilar applicants facing patent litigation"
+      },
+      {
+        "type": "30_month_stay",
+        "description": "Filed patent infringement suits triggering 30-month stays of FDA approval for biosimilar applicants.",
+        "delay_months": 30,
+        "outcome": "Automatic regulatory delay for each biosimilar applicant"
+      }
+    ],
+    "total_delay_years": 3,
+    "estimated_patient_cost_of_delay": 6500000000000,
+    "estimated_patient_population": 120000
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "manufacturer": "Amgen / Pfizer",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Amgen obtained a secondary patent on the manufacturing process for Enbrel that extended protection to 2029, far beyond the original compound patent.",
+        "delay_months": 96,
+        "outcome": "Biosimilar Erelzi (Sandoz) approved 2016 but blocked from launching"
+      },
+      {
+        "type": "authorized_generic",
+        "description": "Rather than face true biosimilar competition, Amgen launched its own authorized biosimilar to control the competitive landscape.",
+        "delay_months": 12,
+        "outcome": "Market entry of independent biosimilars further delayed"
+      }
+    ],
+    "total_delay_years": 8,
+    "estimated_patient_cost_of_delay": 10200000000000,
+    "estimated_patient_population": 150000
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "manufacturer": "AbbVie / Janssen",
+    "tactics": [
+      {
+        "type": "evergreening",
+        "description": "Filed additional patents covering combination therapies and new indications after initial approval to extend the exclusivity window.",
+        "delay_months": 36,
+        "outcome": "Generic entry pushed beyond 2032"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Multiple formulation and dosage patents filed to create barriers for generic entry.",
+        "delay_months": 24,
+        "outcome": "Potential generics face complex patent landscape"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 5800000000000,
+    "estimated_patient_population": 35000
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "manufacturer": "Merck",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Merck has filed extensive patents covering Keytruda's manufacturing, formulations, and numerous method-of-use applications across cancer types.",
+        "delay_months": 48,
+        "outcome": "Biosimilar entry unlikely before 2030s despite biologic patent lifecycle"
+      },
+      {
+        "type": "evergreening",
+        "description": "Continued filing new indication patents as Keytruda gains approvals in additional cancer types, extending the patent portfolio.",
+        "delay_months": 24,
+        "outcome": "Each new indication adds potential patent protection"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 15000000000000,
+    "estimated_patient_population": 400000
+  },
+  {
+    "drug_id": "gleevec",
+    "drug_name": "Gleevec",
+    "manufacturer": "Novartis",
+    "tactics": [
+      {
+        "type": "evergreening",
+        "description": "Novartis filed a patent on the beta crystalline form of imatinib mesylate to extend protection beyond the original compound patent. This was challenged internationally in landmark Supreme Court cases.",
+        "delay_months": 24,
+        "outcome": "India's Supreme Court rejected the crystalline form patent in 2013; US generic entry eventually occurred in 2016"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Filed over 40 secondary patents covering dosage forms, treatment methods for various cancers, and salt forms of imatinib.",
+        "delay_months": 36,
+        "outcome": "Created litigation risk for generic manufacturers despite straightforward chemistry"
+      },
+      {
+        "type": "authorized_generic",
+        "description": "Novartis launched its own authorized generic to capture generic market share and limit independent generic competition profitability.",
+        "delay_months": 0,
+        "outcome": "Reduced incentive for additional generic entrants by capturing first-mover advantage in generic market"
+      }
+    ],
+    "total_delay_years": 5,
+    "estimated_patient_cost_of_delay": 8500000000000,
+    "estimated_patient_population": 30000
+  },
+  {
+    "drug_id": "sovaldi",
+    "drug_name": "Sovaldi",
+    "manufacturer": "Gilead Sciences",
+    "tactics": [
+      {
+        "type": "pricing_strategy",
+        "description": "Gilead set the launch price at $84,000 for a 12-week course ($1,000/pill) despite production costs under $200. A Senate Finance Committee investigation found Gilead's pricing was designed to maximize revenue with no regard to patient access.",
+        "ftc_case_ref": "US Senate Finance Committee Investigation, 2015 — 'The Price of Sovaldi and its Impact on the US Healthcare System'",
+        "delay_months": 0,
+        "outcome": "Medicaid and prison systems rationed access; many patients denied treatment due to cost"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Gilead built a portfolio of 52+ patents around sofosbuvir covering compound, formulation, combination therapy, and method-of-treatment claims.",
+        "delay_months": 48,
+        "outcome": "Generic competition delayed until 2029+ in the US despite massive international generic production"
+      },
+      {
+        "type": "pay_for_delay",
+        "description": "Gilead reached settlements with generic manufacturers limiting early entry and establishing volume caps for authorized generics.",
+        "delay_months": 24,
+        "outcome": "Controlled generic entry through licensing agreements"
+      }
+    ],
+    "total_delay_years": 6,
+    "estimated_patient_cost_of_delay": 25000000000000,
+    "estimated_patient_population": 2400000
+  },
+  {
+    "drug_id": "tecfidera",
+    "drug_name": "Tecfidera",
+    "manufacturer": "Biogen",
+    "tactics": [
+      {
+        "type": "evergreening",
+        "description": "Biogen developed Vumerity (diroximel fumarate), a prodrug that converts to the same active metabolite as Tecfidera, to transition patients before generic entry.",
+        "delay_months": 12,
+        "outcome": "Captured revenue by switching patients to patent-protected successor product"
+      },
+      {
+        "type": "citizen_petition",
+        "description": "Biogen filed citizen petitions at FDA raising safety concerns about generic dimethyl fumarate bioequivalence.",
+        "delay_months": 6,
+        "outcome": "Delayed FDA review of generic applications"
+      }
+    ],
+    "total_delay_years": 1,
+    "estimated_patient_cost_of_delay": 3200000000000,
+    "estimated_patient_population": 100000
+  },
+  {
+    "drug_id": "trikafta",
+    "drug_name": "Trikafta",
+    "manufacturer": "Vertex Pharmaceuticals",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Vertex has built an 82-patent fortress around Trikafta and its component molecules, creating one of the most extensive patent thickets for any drug.",
+        "delay_months": 60,
+        "outcome": "No generic or biosimilar competition possible until late 2030s"
+      },
+      {
+        "type": "monopoly_pricing",
+        "description": "As the sole manufacturer of effective CFTR modulators for cystic fibrosis, Vertex faces zero therapeutic competition, enabling sustained premium pricing with no market alternatives.",
+        "delay_months": 0,
+        "outcome": "CF patients and insurers have no negotiating leverage; pricing power absolute"
+      }
+    ],
+    "total_delay_years": 5,
+    "estimated_patient_cost_of_delay": 14000000000000,
+    "estimated_patient_population": 40000
+  },
+  {
+    "drug_id": "dupixent",
+    "drug_name": "Dupixent",
+    "manufacturer": "Regeneron / Sanofi",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Regeneron and Sanofi have filed 64+ patents covering the dupilumab antibody, its various indications, dosing regimens, and manufacturing methods.",
+        "delay_months": 36,
+        "outcome": "Biosimilar entry unlikely before early 2030s"
+      },
+      {
+        "type": "evergreening",
+        "description": "Each new indication approval (eczema, asthma, COPD, prurigo nodularis, chronic sinusitis) adds method-of-treatment patents extending exclusivity beyond the original biologic patent.",
+        "delay_months": 24,
+        "outcome": "Patent portfolio continuously expanding with each FDA approval"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 8000000000000,
+    "estimated_patient_population": 300000
+  },
+  {
+    "drug_id": "pomalyst",
+    "drug_name": "Pomalyst",
+    "manufacturer": "Bristol-Myers Squibb (Celgene)",
+    "tactics": [
+      {
+        "type": "rems_abuse",
+        "description": "Like Revlimid, Celgene used the mandatory REMS safety program for thalidomide analogues to restrict sample access, preventing generic manufacturers from obtaining product for bioequivalence testing.",
+        "ftc_case_ref": "FTC complaint against Celgene Corp. — REMS abuse pattern across IMiD portfolio",
+        "delay_months": 48,
+        "outcome": "Generic entry delayed years beyond patent expiry"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Built secondary patent portfolio on crystalline forms and treatment methods extending well beyond original compound patent.",
+        "delay_months": 36,
+        "outcome": "Generic competitors face multi-year patent litigation delays"
+      }
+    ],
+    "total_delay_years": 7,
+    "estimated_patient_cost_of_delay": 5500000000000,
+    "estimated_patient_population": 25000
+  },
+  {
+    "drug_id": "harvoni",
+    "drug_name": "Harvoni",
+    "manufacturer": "Gilead Sciences",
+    "tactics": [
+      {
+        "type": "pricing_strategy",
+        "description": "Gilead priced Harvoni at $94,500 for a 12-week course despite production costs under $250. Like Sovaldi, the pricing strategy prioritized maximum revenue over broad patient access.",
+        "delay_months": 0,
+        "outcome": "State Medicaid programs rationed treatment; many patients with Hep C denied access due to cost"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Gilead filed 58+ patents covering both component molecules and the combination, creating overlapping patent protection with the Sovaldi portfolio.",
+        "delay_months": 36,
+        "outcome": "Generic competition delayed until 2030+ despite straightforward small-molecule chemistry"
+      }
+    ],
+    "total_delay_years": 3,
+    "estimated_patient_cost_of_delay": 18000000000000,
+    "estimated_patient_population": 2400000
+  },
+  {
+    "drug_id": "sprycel",
+    "drug_name": "Sprycel",
+    "manufacturer": "Bristol-Myers Squibb",
+    "tactics": [
+      {
+        "type": "evergreening",
+        "description": "BMS obtained secondary patents on the monohydrate crystalline form of dasatinib, extending exclusivity 4 years beyond the original compound patent.",
+        "delay_months": 48,
+        "outcome": "Generic entry delayed until late 2024 despite original patent expiring in 2020"
+      },
+      {
+        "type": "citizen_petition",
+        "description": "Filed citizen petitions raising bioequivalence concerns about generic dasatinib formulations.",
+        "delay_months": 12,
+        "outcome": "Delayed FDA review of generic applications"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 4200000000000,
+    "estimated_patient_population": 20000
+  },
+  {
+    "drug_id": "venclexta",
+    "drug_name": "Venclexta",
+    "manufacturer": "AbbVie / Genentech",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "AbbVie has filed 47+ patents around venetoclax covering compound forms, combination therapies, and treatment methods, applying the same patent thicket strategy perfected with Humira.",
+        "delay_months": 42,
+        "outcome": "Generic entry unlikely before mid-2030s"
+      },
+      {
+        "type": "evergreening",
+        "description": "Continued filing combination therapy patents (venetoclax + obinutuzumab, venetoclax + azacitidine) extending protection well beyond the original compound patent.",
+        "delay_months": 24,
+        "outcome": "Each combination approval adds method-of-treatment patent protection"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 3800000000000,
+    "estimated_patient_population": 45000
+  },
+  {
+    "drug_id": "xeljanz",
+    "drug_name": "Xeljanz",
+    "manufacturer": "Pfizer",
+    "tactics": [
+      {
+        "type": "evergreening",
+        "description": "Pfizer developed Xeljanz XR (extended-release) formulation to extend patent protection beyond the original compound patent, encouraging patients to switch to the patent-protected formulation.",
+        "delay_months": 36,
+        "outcome": "XR formulation patents extend to 2028, well beyond original 2025 compound patent"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Filed 42+ patents covering salt forms, formulations, and method-of-treatment patents for each approved indication.",
+        "delay_months": 24,
+        "outcome": "Complex patent landscape creating barriers for generic entry"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 4500000000000,
+    "estimated_patient_population": 150000
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "manufacturer": "Regeneron",
+    "tactics": [
+      {
+        "type": "product_hopping",
+        "description": "Regeneron launched Eylea HD (8mg, higher dose) in 2023 just as biosimilar competition for standard Eylea (2mg) emerged, attempting to shift patients to a new formulation with fresh patent protection.",
+        "delay_months": 36,
+        "outcome": "Patients being transitioned to Eylea HD ahead of biosimilar launches for standard Eylea"
+      },
+      {
+        "type": "citizen_petition",
+        "description": "Regeneron filed citizen petitions with FDA raising safety concerns about aflibercept biosimilars, delaying review timelines.",
+        "delay_months": 12,
+        "outcome": "Some biosimilar approvals delayed by 6-12 months"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 3200000000000,
+    "estimated_patient_population": 1200000
+  },
+  {
+    "drug_id": "xtandi",
+    "drug_name": "Xtandi",
+    "manufacturer": "Pfizer/Astellas",
+    "tactics": [
+      {
+        "type": "taxpayer_funded_pricing",
+        "description": "Enzalutamide was developed with NIH funding at UCLA. Despite taxpayer-funded research, the drug was licensed exclusively to Medivation/Astellas and priced at over $150,000/year. UCLA attempted to use march-in rights but was denied.",
+        "delay_months": 0,
+        "outcome": "Government declined to exercise march-in rights despite public funding origins"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Multiple secondary patents filed on formulation and method-of-treatment after initial compound patent.",
+        "delay_months": 36,
+        "outcome": "Generic entry delayed beyond original compound patent expiry"
+      }
+    ],
+    "total_delay_years": 3,
+    "estimated_patient_cost_of_delay": 5400000000000,
+    "estimated_patient_population": 150000
+  },
+  {
+    "drug_id": "vyvanse",
+    "drug_name": "Vyvanse",
+    "manufacturer": "Takeda (Shire)",
+    "tactics": [
+      {
+        "type": "prodrug_reformulation",
+        "description": "Lisdexamfetamine is a prodrug of dextroamphetamine. Shire created a patentable prodrug form of a molecule (amphetamine) that has been off-patent since the 1970s, enabling new patent protection and premium pricing for essentially the same active drug.",
+        "delay_months": 192,
+        "outcome": "Generic amphetamine salts cost under $30/month; Vyvanse sold at $400/month until 2023"
+      },
+      {
+        "type": "authorized_generic_delay",
+        "description": "Shire/Takeda negotiated settlement with generic manufacturers to delay entry until August 2023.",
+        "delay_months": 24,
+        "outcome": "Generic lisdexamfetamine entry delayed from 2021 to August 2023"
+      }
+    ],
+    "total_delay_years": 2,
+    "estimated_patient_cost_of_delay": 4000000000000,
+    "estimated_patient_population": 3000000
+  },
+  {
+    "drug_id": "cosentyx",
+    "drug_name": "Cosentyx",
+    "manufacturer": "Novartis",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Novartis filed 44 patents covering the antibody, formulations, autoinjector devices, and multiple treatment methods to build a broad exclusivity wall.",
+        "delay_months": 40,
+        "outcome": "Biosimilar development timelines extended due to patent uncertainty"
+      },
+      {
+        "type": "indication_expansion",
+        "description": "Continuous filing of method-of-treatment patents for each new indication approval extends the overall patent estate.",
+        "delay_months": 24,
+        "outcome": "Each new indication adds years of protection via method patents"
+      }
+    ],
+    "total_delay_years": 3.3,
+    "estimated_patient_cost_of_delay": 2800000000000,
+    "estimated_patient_population": 300000
+  },
+  {
+    "drug_id": "biktarvy",
+    "drug_name": "Biktarvy",
+    "manufacturer": "Gilead",
+    "tactics": [
+      {
+        "type": "combination_evergreening",
+        "description": "Gilead combines multiple APIs (bictegravir + emtricitabine + TAF) into single-tablet regimens, then patents the specific combination. Individual components may lose protection earlier, but the combination patent extends exclusivity.",
+        "delay_months": 42,
+        "outcome": "Generic versions of individual components available internationally at under $50/month; US brand price remains $3,700/month"
+      },
+      {
+        "type": "patent_thicket",
+        "description": "Filed 56 patents covering the combination, crystal forms, and treatment methods.",
+        "delay_months": 36,
+        "outcome": "Broad patent estate discouraging generic challenges"
+      }
+    ],
+    "total_delay_years": 3.3,
+    "estimated_patient_cost_of_delay": 8000000000000,
+    "estimated_patient_population": 700000
+  },
+  {
+    "drug_id": "januvia",
+    "drug_name": "Januvia",
+    "manufacturer": "Merck",
+    "tactics": [
+      {
+        "type": "pay_for_delay",
+        "description": "Merck reached patent settlements with multiple generic manufacturers including Teva, Mylan, and Sun Pharma, granting them licenses to launch sitagliptin generics only after agreed-upon future dates well beyond original compound patent expiry.",
+        "delay_months": 24,
+        "outcome": "Generic entry delayed until 2026 despite original compound patent expiring in 2022"
+      },
+      {
+        "type": "evergreening",
+        "description": "Filed secondary patents on crystalline forms of sitagliptin phosphate and fixed-dose metformin combinations (Janumet) to extend effective exclusivity beyond the original compound patent.",
+        "delay_months": 48,
+        "outcome": "Extended effective exclusivity from 2022 to 2026 through crystal form and combination patents"
+      },
+      {
+        "type": "citizen_petition",
+        "description": "Filed citizen petitions with the FDA raising bioequivalence concerns for proposed generic sitagliptin products, triggering mandatory FDA review periods.",
+        "delay_months": 6,
+        "outcome": "FDA review period added months of delay to generic approval timelines"
+      }
+    ],
+    "total_delay_years": 4,
+    "estimated_patient_cost_of_delay": 850000000000,
+    "estimated_patient_population": 1500000
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "manufacturer": "Merck",
+    "tactics": [
+      {
+        "type": "product_hopping",
+        "description": "Transitioned from 4-valent Gardasil to 9-valent Gardasil 9 with new patent protection, effectively resetting the patent clock on the HPV vaccine franchise while discontinuing the original product.",
+        "delay_months": 120,
+        "outcome": "New composition patents extend protection to 2028+; no generic 4-valent Gardasil was ever launched"
+      },
+      {
+        "type": "manufacturing_complexity",
+        "description": "The 9-antigen virus-like particle vaccine requires highly specialized yeast fermentation and purification processes that create significant barriers to biosimilar development beyond patent protection.",
+        "delay_months": 0,
+        "outcome": "No biosimilar HPV vaccine approved anywhere in the world as of 2024; manufacturing serves as de facto exclusivity"
+      }
+    ],
+    "total_delay_years": 10,
+    "estimated_patient_cost_of_delay": 2500000000000,
+    "estimated_patient_population": 4000000
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "manufacturer": "Johnson & Johnson",
+    "tactics": [
+      {
+        "type": "contracting_exclusion",
+        "description": "J&J used exclusionary contracts with hospitals and insurers, offering steep rebates contingent on excluding biosimilar infliximab products like Inflectra and Renflexis from formularies.",
+        "delay_months": 36,
+        "outcome": "Despite biosimilar availability since 2016, Remicade maintained >80% market share for years through contracting"
+      },
+      {
+        "type": "bundled_rebates",
+        "description": "Offered bundled rebates across J&J's immunology portfolio, tying Remicade discounts to purchases of other J&J products to make biosimilar switching economically unfavorable.",
+        "ftc_case_ref": "Pfizer Inc. v. Johnson & Johnson — antitrust suit over exclusionary Remicade contracts (filed 2017)",
+        "delay_months": 24,
+        "outcome": "Pfizer (Inflectra) sued J&J for anticompetitive behavior; case settled 2021"
+      }
+    ],
+    "total_delay_years": 5,
+    "estimated_patient_cost_of_delay": 3500000000000,
+    "estimated_patient_population": 350000
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "manufacturer": "AbbVie (Allergan)",
+    "tactics": [
+      {
+        "type": "patent_thicket",
+        "description": "Built a 95-patent estate around Botox covering formulations, manufacturing processes, treatment methods, and injection techniques, creating significant barriers to biosimilar development.",
+        "delay_months": 120,
+        "outcome": "No FDA-approved Botox biosimilar as of 2024 despite original patent expiring in 2014"
+      },
+      {
+        "type": "manufacturing_complexity",
+        "description": "Botulinum toxin manufacturing requires specialized BSL-2 facilities and expertise in Clostridium fermentation; regulatory requirements for potency testing create additional barriers beyond patents.",
+        "delay_months": 0,
+        "outcome": "Only two competitors (Dysport, Xeomin) have navigated the regulatory/manufacturing barriers; no interchangeable biosimilar"
+      },
+      {
+        "type": "indication_expansion",
+        "description": "Continuously expanded approved indications (chronic migraine 2010, overactive bladder 2013, upper/lower limb spasticity) creating new method-of-use patents for each indication.",
+        "delay_months": 60,
+        "outcome": "Each new indication brings new patents extending effective exclusivity for therapeutic uses"
+      }
+    ],
+    "total_delay_years": 10,
+    "estimated_patient_cost_of_delay": 5000000000000,
+    "estimated_patient_population": 800000
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "manufacturer": "Genentech/Roche",
+    "tactics": [
+      {
+        "type": "product_hopping",
+        "description": "Developed and promoted subcutaneous formulation Rituxan Hycela (rituximab/hyaluronidase) with new patent protection, encouraging providers to switch from IV Rituxan before biosimilar entry.",
+        "delay_months": 24,
+        "outcome": "Rituxan Hycela captured significant market share from IV Rituxan, partially shielding revenue from biosimilar competition"
+      },
+      {
+        "type": "method_of_treatment_patents",
+        "description": "Filed secondary patents on specific treatment methods, particularly for rheumatoid arthritis, extending method-of-use exclusivity beyond the original antibody patent.",
+        "delay_months": 36,
+        "outcome": "RA indication protected by method patents extending to 2026 despite original patent expiring in 2015"
+      }
+    ],
+    "total_delay_years": 3,
+    "estimated_patient_cost_of_delay": 2200000000000,
+    "estimated_patient_population": 500000
+  }
+]

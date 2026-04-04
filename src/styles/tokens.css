@@ -1,0 +1,13 @@
+/* Design tokens — Vytalis Research brand */
+:root {
+  --green-dark: #0B6B3A;
+  --green-action: #0B6B3A;
+  --green-hover: #07542D;
+  --red-crisis: #C41E3A;
+  --amber-warning: #B45309;
+  --page-bg: #F7F9F8;
+  --text-heading: #1F2A24;
+  --text-body: #6B7771;
+  --text-muted: #6B7771;
+  --border: #E5ECE8;
+}

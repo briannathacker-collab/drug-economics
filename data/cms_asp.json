@@ -1,0 +1,2520 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "generic_name": "adalimumab",
+    "manufacturer_id": "abbvie",
+    "hcpcs_code": "J0135",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 663000,
+        "wac_per_unit": 680000,
+        "asp_wac_discount": 2.5,
+        "quarter_over_quarter_change": 1.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 670000,
+        "wac_per_unit": 688000,
+        "asp_wac_discount": 2.6,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 674000,
+        "wac_per_unit": 693000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 660000,
+        "wac_per_unit": 695000,
+        "asp_wac_discount": 5,
+        "quarter_over_quarter_change": -2.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 640000,
+        "wac_per_unit": 697000,
+        "asp_wac_discount": 8.2,
+        "quarter_over_quarter_change": -3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 625000,
+        "wac_per_unit": 698000,
+        "asp_wac_discount": 10.5,
+        "quarter_over_quarter_change": -2.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 610000,
+        "wac_per_unit": 699000,
+        "asp_wac_discount": 12.7,
+        "quarter_over_quarter_change": -2.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 598000,
+        "wac_per_unit": 699900,
+        "asp_wac_discount": 14.6,
+        "quarter_over_quarter_change": -2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "ASP declining due to biosimilar competition beginning in 2023",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "generic_name": "pembrolizumab",
+    "manufacturer_id": "merck",
+    "hcpcs_code": "J9271",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 1000000,
+        "wac_per_unit": 1040000,
+        "asp_wac_discount": 3.8,
+        "quarter_over_quarter_change": 2.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 1015000,
+        "wac_per_unit": 1050000,
+        "asp_wac_discount": 3.3,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 1030000,
+        "wac_per_unit": 1060000,
+        "asp_wac_discount": 2.8,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 1042000,
+        "wac_per_unit": 1070000,
+        "asp_wac_discount": 2.6,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 1055000,
+        "wac_per_unit": 1080000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 1065000,
+        "wac_per_unit": 1090000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 1078000,
+        "wac_per_unit": 1098000,
+        "asp_wac_discount": 1.8,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 1085000,
+        "wac_per_unit": 1102800,
+        "asp_wac_discount": 1.6,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Tight ASP-WAC spread reflects limited competition in PD-1 class",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "generic_name": "apixaban",
+    "manufacturer_id": "bms",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 54000,
+        "wac_per_unit": 55500,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 1.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 54800,
+        "wac_per_unit": 56000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 55500,
+        "wac_per_unit": 57000,
+        "asp_wac_discount": 2.6,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 56200,
+        "wac_per_unit": 57500,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 56800,
+        "wac_per_unit": 58000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 57400,
+        "wac_per_unit": 58500,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 58200,
+        "wac_per_unit": 59500,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 58800,
+        "wac_per_unit": 60000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Retail pharmacy drug; ASP less relevant. Included for completeness.",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "generic_name": "ustekinumab",
+    "manufacturer_id": "jnj",
+    "hcpcs_code": "J3358",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 2050000,
+        "wac_per_unit": 2080000,
+        "asp_wac_discount": 1.4,
+        "quarter_over_quarter_change": 2.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 2070000,
+        "wac_per_unit": 2090000,
+        "asp_wac_discount": 1,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 2085000,
+        "wac_per_unit": 2120000,
+        "asp_wac_discount": 1.7,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 2100000,
+        "wac_per_unit": 2140000,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 2115000,
+        "wac_per_unit": 2160000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 2130000,
+        "wac_per_unit": 2175000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 2145000,
+        "wac_per_unit": 2190000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 2155000,
+        "wac_per_unit": 2197500,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Biosimilar competition expected 2025; spread may widen",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "ibrance",
+    "drug_name": "Ibrance",
+    "generic_name": "palbociclib",
+    "manufacturer_id": "pfizer",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 1310000,
+        "wac_per_unit": 1340000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 1318000,
+        "wac_per_unit": 1345000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 1325000,
+        "wac_per_unit": 1355000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 1332000,
+        "wac_per_unit": 1365000,
+        "asp_wac_discount": 2.4,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 1340000,
+        "wac_per_unit": 1370000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 1348000,
+        "wac_per_unit": 1375000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 1358000,
+        "wac_per_unit": 1388000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 1368000,
+        "wac_per_unit": 1400000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Oral oncology; pharmacy benefit. Generic competition expected after patent expiry.",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "generic_name": "lenalidomide",
+    "manufacturer_id": "bms",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 1680000,
+        "wac_per_unit": 1710000,
+        "asp_wac_discount": 1.8,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 1695000,
+        "wac_per_unit": 1720000,
+        "asp_wac_discount": 1.5,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 1600000,
+        "wac_per_unit": 1730000,
+        "asp_wac_discount": 7.5,
+        "quarter_over_quarter_change": -5.6,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 1480000,
+        "wac_per_unit": 1740000,
+        "asp_wac_discount": 14.9,
+        "quarter_over_quarter_change": -7.5,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 1350000,
+        "wac_per_unit": 1750000,
+        "asp_wac_discount": 22.9,
+        "quarter_over_quarter_change": -8.8,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 1250000,
+        "wac_per_unit": 1760000,
+        "asp_wac_discount": 29,
+        "quarter_over_quarter_change": -7.4,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 1180000,
+        "wac_per_unit": 1780000,
+        "asp_wac_discount": 33.7,
+        "quarter_over_quarter_change": -5.6,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 1120000,
+        "wac_per_unit": 1800000,
+        "asp_wac_discount": 37.8,
+        "quarter_over_quarter_change": -5.1,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "ASP falling sharply due to limited generic entry beginning 2022; WAC maintained at high levels despite competition",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "ozempic",
+    "drug_name": "Ozempic",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "hcpcs_code": "J3490",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 91000,
+        "wac_per_unit": 94500,
+        "asp_wac_discount": 3.7,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 91800,
+        "wac_per_unit": 95000,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 92500,
+        "wac_per_unit": 95800,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 93200,
+        "wac_per_unit": 96500,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 93800,
+        "wac_per_unit": 96800,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 94500,
+        "wac_per_unit": 97500,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 95200,
+        "wac_per_unit": 98200,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 95800,
+        "wac_per_unit": 99100,
+        "asp_wac_discount": 3.3,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Steady ASP growth reflecting strong demand; no generic/biosimilar competition",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "xarelto",
+    "drug_name": "Xarelto",
+    "generic_name": "rivaroxaban",
+    "manufacturer_id": "jnj",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 50500,
+        "wac_per_unit": 52500,
+        "asp_wac_discount": 3.8,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 51000,
+        "wac_per_unit": 53000,
+        "asp_wac_discount": 3.8,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 51500,
+        "wac_per_unit": 53500,
+        "asp_wac_discount": 3.7,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 52000,
+        "wac_per_unit": 54000,
+        "asp_wac_discount": 3.7,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 52300,
+        "wac_per_unit": 54200,
+        "asp_wac_discount": 3.5,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 52800,
+        "wac_per_unit": 54500,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 53200,
+        "wac_per_unit": 54800,
+        "asp_wac_discount": 2.9,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 53500,
+        "wac_per_unit": 55000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Oral anticoagulant; pharmacy benefit",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "jardiance",
+    "drug_name": "Jardiance",
+    "generic_name": "empagliflozin",
+    "manufacturer_id": "lilly",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 52000,
+        "wac_per_unit": 54000,
+        "asp_wac_discount": 3.7,
+        "quarter_over_quarter_change": 2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 52800,
+        "wac_per_unit": 54500,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 53500,
+        "wac_per_unit": 55200,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 54200,
+        "wac_per_unit": 55800,
+        "asp_wac_discount": 2.9,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 54800,
+        "wac_per_unit": 56500,
+        "asp_wac_discount": 3,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 55500,
+        "wac_per_unit": 57000,
+        "asp_wac_discount": 2.6,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 56200,
+        "wac_per_unit": 57500,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 56800,
+        "wac_per_unit": 58000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "SGLT2 inhibitor; expanding indications driving volume growth",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "trulicity",
+    "drug_name": "Trulicity",
+    "generic_name": "dulaglutide",
+    "manufacturer_id": "lilly",
+    "hcpcs_code": "J3490",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 93500,
+        "wac_per_unit": 96500,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 94000,
+        "wac_per_unit": 97000,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 94500,
+        "wac_per_unit": 97500,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 95000,
+        "wac_per_unit": 98000,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 95200,
+        "wac_per_unit": 98200,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 95500,
+        "wac_per_unit": 98500,
+        "asp_wac_discount": 3,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 95800,
+        "wac_per_unit": 99000,
+        "asp_wac_discount": 3.2,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 96000,
+        "wac_per_unit": 99400,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 0.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "GLP-1 RA; losing market share to Ozempic/Mounjaro",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "opdivo",
+    "drug_name": "Opdivo",
+    "generic_name": "nivolumab",
+    "manufacturer_id": "bms",
+    "hcpcs_code": "J9299",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 1410000,
+        "wac_per_unit": 1440000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 2.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 1420000,
+        "wac_per_unit": 1450000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 1435000,
+        "wac_per_unit": 1465000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 1445000,
+        "wac_per_unit": 1475000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 1455000,
+        "wac_per_unit": 1485000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 1465000,
+        "wac_per_unit": 1495000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 1478000,
+        "wac_per_unit": 1510000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 1490000,
+        "wac_per_unit": 1520000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "PD-1 checkpoint inhibitor; buy-and-bill under Part B",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "generic_name": "ibrutinib",
+    "manufacturer_id": "abbvie",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 1470000,
+        "wac_per_unit": 1505000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 2.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 1480000,
+        "wac_per_unit": 1510000,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 1495000,
+        "wac_per_unit": 1530000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 1510000,
+        "wac_per_unit": 1545000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 1525000,
+        "wac_per_unit": 1560000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 1540000,
+        "wac_per_unit": 1575000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 1555000,
+        "wac_per_unit": 1590000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 1565000,
+        "wac_per_unit": 1600000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "BTK inhibitor for CLL/MCL; pharmacy benefit",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "generic_name": "etanercept",
+    "manufacturer_id": "pfizer",
+    "hcpcs_code": "J1438",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 600000,
+        "wac_per_unit": 625000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 605000,
+        "wac_per_unit": 630000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 608000,
+        "wac_per_unit": 635000,
+        "asp_wac_discount": 4.3,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 610000,
+        "wac_per_unit": 638000,
+        "asp_wac_discount": 4.4,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 612000,
+        "wac_per_unit": 640000,
+        "asp_wac_discount": 4.4,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 614000,
+        "wac_per_unit": 643000,
+        "asp_wac_discount": 4.5,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 616000,
+        "wac_per_unit": 646000,
+        "asp_wac_discount": 4.6,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 618000,
+        "wac_per_unit": 650000,
+        "asp_wac_discount": 4.9,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Biosimilars available but limited uptake in US; widening ASP-WAC gap",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "rinvoq",
+    "drug_name": "Rinvoq",
+    "generic_name": "upadacitinib",
+    "manufacturer_id": "abbvie",
+    "hcpcs_code": "N/A",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 540000,
+        "wac_per_unit": 555000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 545000,
+        "wac_per_unit": 558000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 550000,
+        "wac_per_unit": 565000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 555000,
+        "wac_per_unit": 568000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 558000,
+        "wac_per_unit": 572000,
+        "asp_wac_discount": 2.4,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 562000,
+        "wac_per_unit": 574000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 565000,
+        "wac_per_unit": 577000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 568000,
+        "wac_per_unit": 580000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "JAK inhibitor; rapidly growing as Humira replacement",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "skyrizi",
+    "drug_name": "Skyrizi",
+    "generic_name": "risankizumab",
+    "manufacturer_id": "abbvie",
+    "hcpcs_code": "J3490",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 505000,
+        "wac_per_unit": 518000,
+        "asp_wac_discount": 2.5,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 510000,
+        "wac_per_unit": 520000,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 515000,
+        "wac_per_unit": 528000,
+        "asp_wac_discount": 2.5,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 520000,
+        "wac_per_unit": 532000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 525000,
+        "wac_per_unit": 536000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 530000,
+        "wac_per_unit": 540000,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 535000,
+        "wac_per_unit": 545000,
+        "asp_wac_discount": 1.8,
+        "quarter_over_quarter_change": 0.9,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 538000,
+        "wac_per_unit": 550000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "IL-23 inhibitor; growing rapidly as psoriasis/PsA treatment",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "generic_name": "aflibercept",
+    "manufacturer_id": "regeneron",
+    "hcpcs_code": "J0178",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 178000,
+        "wac_per_unit": 182000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 179000,
+        "wac_per_unit": 183000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 180000,
+        "wac_per_unit": 184000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 180000,
+        "wac_per_unit": 184000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 176000,
+        "wac_per_unit": 184500,
+        "asp_wac_discount": 4.6,
+        "quarter_over_quarter_change": -2.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 173000,
+        "wac_per_unit": 185000,
+        "asp_wac_discount": 6.5,
+        "quarter_over_quarter_change": -1.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 170000,
+        "wac_per_unit": 185000,
+        "asp_wac_discount": 8.1,
+        "quarter_over_quarter_change": -1.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 168000,
+        "wac_per_unit": 185000,
+        "asp_wac_discount": 9.2,
+        "quarter_over_quarter_change": -1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "ASP declining as biosimilar aflibercept products enter the market",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "darzalex",
+    "drug_name": "Darzalex",
+    "generic_name": "daratumumab",
+    "manufacturer_id": "jnj",
+    "hcpcs_code": "J9145",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 360000,
+        "wac_per_unit": 370000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 363000,
+        "wac_per_unit": 372000,
+        "asp_wac_discount": 2.4,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 366000,
+        "wac_per_unit": 374000,
+        "asp_wac_discount": 2.1,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 368000,
+        "wac_per_unit": 375000,
+        "asp_wac_discount": 1.9,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 370000,
+        "wac_per_unit": 375000,
+        "asp_wac_discount": 1.3,
+        "quarter_over_quarter_change": 0.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 371000,
+        "wac_per_unit": 375000,
+        "asp_wac_discount": 1.1,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 372000,
+        "wac_per_unit": 375000,
+        "asp_wac_discount": 0.8,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 373000,
+        "wac_per_unit": 375000,
+        "asp_wac_discount": 0.5,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Minimal discount gap; strong market position with no biosimilar competition",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "ocrevus",
+    "drug_name": "Ocrevus",
+    "generic_name": "ocrelizumab",
+    "manufacturer_id": "genentech",
+    "hcpcs_code": "J2350",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 3400000,
+        "wac_per_unit": 3460000,
+        "asp_wac_discount": 1.7,
+        "quarter_over_quarter_change": 0.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 3410000,
+        "wac_per_unit": 3470000,
+        "asp_wac_discount": 1.7,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 3420000,
+        "wac_per_unit": 3475000,
+        "asp_wac_discount": 1.6,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 3430000,
+        "wac_per_unit": 3478000,
+        "asp_wac_discount": 1.4,
+        "quarter_over_quarter_change": 0.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 3435000,
+        "wac_per_unit": 3479000,
+        "asp_wac_discount": 1.3,
+        "quarter_over_quarter_change": 0.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 3440000,
+        "wac_per_unit": 3480000,
+        "asp_wac_discount": 1.1,
+        "quarter_over_quarter_change": 0.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 3440000,
+        "wac_per_unit": 3480000,
+        "asp_wac_discount": 1.1,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 3442000,
+        "wac_per_unit": 3480000,
+        "asp_wac_discount": 1.1,
+        "quarter_over_quarter_change": 0.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "notes": "Infused every 6 months; ASP per infusion (~$34K); minimal discount due to no competition",
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "bridion",
+    "drug_name": "Bridion",
+    "generic_name": "sugammadex",
+    "manufacturer_id": "merck",
+    "hcpcs_code": "J3490",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 13500,
+        "wac_per_unit": 14000,
+        "asp_wac_discount": 3.6,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 13600,
+        "wac_per_unit": 14100,
+        "asp_wac_discount": 3.5,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 13800,
+        "wac_per_unit": 14200,
+        "asp_wac_discount": 2.8,
+        "quarter_over_quarter_change": 1.5,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 13900,
+        "wac_per_unit": 14300,
+        "asp_wac_discount": 2.8,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 14000,
+        "wac_per_unit": 14500,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 14200,
+        "wac_per_unit": 14600,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 1.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 14400,
+        "wac_per_unit": 14700,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 1.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 14500,
+        "wac_per_unit": 14800,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "generic_name": "human papillomavirus 9-valent vaccine, recombinant",
+    "manufacturer_id": "merck",
+    "hcpcs_code": "90651",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 28500,
+        "wac_per_unit": 29200,
+        "asp_wac_discount": 2.4,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 28800,
+        "wac_per_unit": 29500,
+        "asp_wac_discount": 2.4,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 29000,
+        "wac_per_unit": 29800,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 29200,
+        "wac_per_unit": 30000,
+        "asp_wac_discount": 2.7,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 29500,
+        "wac_per_unit": 30200,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 29800,
+        "wac_per_unit": 30400,
+        "asp_wac_discount": 2,
+        "quarter_over_quarter_change": 1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 30000,
+        "wac_per_unit": 30500,
+        "asp_wac_discount": 1.6,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 30200,
+        "wac_per_unit": 30600,
+        "asp_wac_discount": 1.3,
+        "quarter_over_quarter_change": 0.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "generic_name": "infliximab",
+    "manufacturer_id": "jnj",
+    "hcpcs_code": "J1745",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 110000,
+        "wac_per_unit": 125000,
+        "asp_wac_discount": 12,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 108000,
+        "wac_per_unit": 126000,
+        "asp_wac_discount": 14.3,
+        "quarter_over_quarter_change": -1.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 105000,
+        "wac_per_unit": 127000,
+        "asp_wac_discount": 17.3,
+        "quarter_over_quarter_change": -2.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 102000,
+        "wac_per_unit": 128000,
+        "asp_wac_discount": 20.3,
+        "quarter_over_quarter_change": -2.9,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 98000,
+        "wac_per_unit": 129000,
+        "asp_wac_discount": 24,
+        "quarter_over_quarter_change": -3.9,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 95000,
+        "wac_per_unit": 129500,
+        "asp_wac_discount": 26.6,
+        "quarter_over_quarter_change": -3.1,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 92000,
+        "wac_per_unit": 130000,
+        "asp_wac_discount": 29.2,
+        "quarter_over_quarter_change": -3.2,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 90000,
+        "wac_per_unit": 130000,
+        "asp_wac_discount": 30.8,
+        "quarter_over_quarter_change": -2.2,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "generic_name": "rituximab",
+    "manufacturer_id": "genentech",
+    "hcpcs_code": "J9312",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 390000,
+        "wac_per_unit": 440000,
+        "asp_wac_discount": 11.4,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 385000,
+        "wac_per_unit": 442000,
+        "asp_wac_discount": 12.9,
+        "quarter_over_quarter_change": -1.3,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 378000,
+        "wac_per_unit": 445000,
+        "asp_wac_discount": 15.1,
+        "quarter_over_quarter_change": -1.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 370000,
+        "wac_per_unit": 447000,
+        "asp_wac_discount": 17.2,
+        "quarter_over_quarter_change": -2.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 362000,
+        "wac_per_unit": 448000,
+        "asp_wac_discount": 19.2,
+        "quarter_over_quarter_change": -2.2,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 355000,
+        "wac_per_unit": 449000,
+        "asp_wac_discount": 20.9,
+        "quarter_over_quarter_change": -1.9,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 348000,
+        "wac_per_unit": 450000,
+        "asp_wac_discount": 22.7,
+        "quarter_over_quarter_change": -2,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 342000,
+        "wac_per_unit": 450000,
+        "asp_wac_discount": 24,
+        "quarter_over_quarter_change": -1.7,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "herceptin",
+    "drug_name": "Herceptin",
+    "generic_name": "trastuzumab",
+    "manufacturer_id": "genentech",
+    "hcpcs_code": "J9355",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 420000,
+        "wac_per_unit": 465000,
+        "asp_wac_discount": 9.7,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 410000,
+        "wac_per_unit": 468000,
+        "asp_wac_discount": 12.4,
+        "quarter_over_quarter_change": -2.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 395000,
+        "wac_per_unit": 470000,
+        "asp_wac_discount": 16,
+        "quarter_over_quarter_change": -3.7,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 380000,
+        "wac_per_unit": 472000,
+        "asp_wac_discount": 19.5,
+        "quarter_over_quarter_change": -3.8,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 365000,
+        "wac_per_unit": 475000,
+        "asp_wac_discount": 23.2,
+        "quarter_over_quarter_change": -3.9,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 350000,
+        "wac_per_unit": 477000,
+        "asp_wac_discount": 26.6,
+        "quarter_over_quarter_change": -4.1,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 340000,
+        "wac_per_unit": 478000,
+        "asp_wac_discount": 28.9,
+        "quarter_over_quarter_change": -2.9,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 332000,
+        "wac_per_unit": 480000,
+        "asp_wac_discount": 30.8,
+        "quarter_over_quarter_change": -2.4,
+        "flagged": true,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "generic_name": "onabotulinumtoxinA",
+    "manufacturer_id": "abbvie",
+    "hcpcs_code": "J0585",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 120000,
+        "wac_per_unit": 125000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 121000,
+        "wac_per_unit": 126000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 123000,
+        "wac_per_unit": 127000,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 1.7,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 124000,
+        "wac_per_unit": 128000,
+        "asp_wac_discount": 3.1,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 126000,
+        "wac_per_unit": 129000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 1.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 127000,
+        "wac_per_unit": 130000,
+        "asp_wac_discount": 2.3,
+        "quarter_over_quarter_change": 0.8,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 128500,
+        "wac_per_unit": 130000,
+        "asp_wac_discount": 1.2,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 129000,
+        "wac_per_unit": 130000,
+        "asp_wac_discount": 0.8,
+        "quarter_over_quarter_change": 0.4,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  },
+  {
+    "drug_id": "prolia",
+    "drug_name": "Prolia",
+    "generic_name": "denosumab",
+    "manufacturer_id": "amgen",
+    "hcpcs_code": "J0897",
+    "quarterly_asp": [
+      {
+        "quarter": "2022-Q3",
+        "asp_per_unit": 165000,
+        "wac_per_unit": 172000,
+        "asp_wac_discount": 4.1,
+        "quarter_over_quarter_change": 0,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2022-Q4",
+        "asp_per_unit": 167000,
+        "wac_per_unit": 174000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q1",
+        "asp_per_unit": 168000,
+        "wac_per_unit": 175000,
+        "asp_wac_discount": 4,
+        "quarter_over_quarter_change": 0.6,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q2",
+        "asp_per_unit": 170000,
+        "wac_per_unit": 176000,
+        "asp_wac_discount": 3.4,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q3",
+        "asp_per_unit": 172000,
+        "wac_per_unit": 177000,
+        "asp_wac_discount": 2.8,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2023-Q4",
+        "asp_per_unit": 174000,
+        "wac_per_unit": 178000,
+        "asp_wac_discount": 2.2,
+        "quarter_over_quarter_change": 1.2,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q1",
+        "asp_per_unit": 176000,
+        "wac_per_unit": 179000,
+        "asp_wac_discount": 1.7,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2024-Q2",
+        "asp_per_unit": 178000,
+        "wac_per_unit": 180000,
+        "asp_wac_discount": 1.1,
+        "quarter_over_quarter_change": 1.1,
+        "flagged": false,
+        "data_year": 2024,
+        "data_quarter": "Q4",
+        "source": "CMS_ASP"
+      }
+    ],
+    "data_year": 2024,
+    "data_quarter": "Q4",
+    "source": "CMS_ASP"
+  }
+]

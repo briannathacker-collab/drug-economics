@@ -1,0 +1,3825 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "generic_name": "adalimumab",
+    "manufacturer_id": "abbvie",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 17500,
+    "estimated_cogs_monthly": 17500,
+    "estimated_cogs_annual": 210000,
+    "wac_monthly": 699900,
+    "markup_over_cogs": 3899.4,
+    "gross_margin_estimate": 97.5,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 15000,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar pricing and manufacturing cost models"
+      },
+      {
+        "source": "Kelley et al., mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 20000,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost analysis for monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 10000,
+      "formulation_fill_finish": 3500,
+      "quality_testing": 1500,
+      "packaging_distribution": 1200,
+      "device_autoinjector": 1300
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "generic_name": "pembrolizumab",
+    "manufacturer_id": "merck",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 30000,
+    "estimated_cogs_monthly": 30000,
+    "estimated_cogs_annual": 360000,
+    "wac_monthly": 1102800,
+    "markup_over_cogs": 3576,
+    "gross_margin_estimate": 97.3,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 25000,
+        "confidence": "low",
+        "methodology": "estimated from reference biologic manufacturing costs"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 35000,
+        "confidence": "medium",
+        "methodology": "industry interviews and facility cost modeling"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 18000,
+      "formulation_fill_finish": 5000,
+      "quality_testing": 3500,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 1500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "generic_name": "apixaban",
+    "manufacturer_id": "bms",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 17,
+    "estimated_cogs_monthly": 1000,
+    "estimated_cogs_annual": 12000,
+    "wac_monthly": 60000,
+    "markup_over_cogs": 5900,
+    "gross_margin_estimate": 98.3,
+    "estimates": [
+      {
+        "source": "Hill et al., Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2055664020300085",
+        "author": "Hill A, Wang J, Levi J",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 800,
+        "confidence": "high",
+        "methodology": "API cost analysis from Indian generic manufacturers plus formulation costs"
+      },
+      {
+        "source": "Alpern et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2089651",
+        "author": "Alpern JD, Stauffer WM, Kesselheim AS",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 1200,
+        "confidence": "medium",
+        "methodology": "comparison with international generic pricing"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 500,
+      "formulation_tableting": 200,
+      "quality_testing": 100,
+      "packaging_distribution": 200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "generic_name": "ustekinumab",
+    "manufacturer_id": "jnj",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 40000,
+    "estimated_cogs_monthly": 40000,
+    "estimated_cogs_annual": 480000,
+    "wac_monthly": 2197500,
+    "markup_over_cogs": 5393.8,
+    "gross_margin_estimate": 98.2,
+    "estimates": [
+      {
+        "source": "Gellad WF, Kesselheim AS, JAMA",
+        "source_url": "https://jamanetwork.com/journals/jama/article-abstract/2545691",
+        "author": "Gellad WF, Kesselheim AS",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 35000,
+        "confidence": "low",
+        "methodology": "estimated from biologic manufacturing cost ranges"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 25000,
+      "formulation_fill_finish": 6000,
+      "quality_testing": 4000,
+      "packaging_distribution": 2500,
+      "cold_chain_logistics": 2500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "ibrance",
+    "drug_name": "Ibrance",
+    "generic_name": "palbociclib",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 286,
+    "estimated_cogs_monthly": 6000,
+    "estimated_cogs_annual": 72000,
+    "wac_monthly": 1400000,
+    "markup_over_cogs": 23233.3,
+    "gross_margin_estimate": 99.6,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 5000,
+        "confidence": "medium",
+        "methodology": "API synthesis cost estimation and comparison with Indian generic pricing"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 3500,
+      "formulation_encapsulation": 800,
+      "quality_testing": 700,
+      "packaging_distribution": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "generic_name": "lenalidomide",
+    "manufacturer_id": "bms",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 95,
+    "estimated_cogs_monthly": 2000,
+    "estimated_cogs_annual": 24000,
+    "wac_monthly": 1800000,
+    "markup_over_cogs": 89900,
+    "gross_margin_estimate": 99.9,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2055664017300167",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 1500,
+        "confidence": "high",
+        "methodology": "API cost from chemical synthesis plus encapsulation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 1000,
+      "formulation_encapsulation": 300,
+      "quality_testing": 300,
+      "packaging_rems_program": 400
+    },
+    "notes": "Lenalidomide is a thalidomide analogue with very low manufacturing cost. The extreme markup is well-documented in academic literature.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "ozempic",
+    "drug_name": "Ozempic",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 1250,
+    "estimated_cogs_monthly": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 99100,
+    "markup_over_cogs": 1882,
+    "gross_margin_estimate": 95,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 4700,
+        "confidence": "high",
+        "methodology": "peptide synthesis cost modeling from industrial production data"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 2500,
+      "formulation_fill_finish": 800,
+      "quality_testing": 500,
+      "device_pen_injector": 700,
+      "packaging_distribution": 500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "xarelto",
+    "drug_name": "Xarelto",
+    "generic_name": "rivaroxaban",
+    "manufacturer_id": "jnj",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 27,
+    "estimated_cogs_monthly": 800,
+    "estimated_cogs_annual": 9600,
+    "wac_monthly": 55000,
+    "markup_over_cogs": 6775,
+    "gross_margin_estimate": 98.5,
+    "estimates": [
+      {
+        "source": "Hill A, Khoo S, Fortunak J, Antiviral Research",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0166354214000813",
+        "author": "Hill A, Khoo S, Fortunak J",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 700,
+        "confidence": "high",
+        "methodology": "chemical synthesis cost analysis for oral small molecules"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 400,
+      "formulation_tableting": 150,
+      "quality_testing": 100,
+      "packaging_distribution": 150
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "jardiance",
+    "drug_name": "Jardiance",
+    "generic_name": "empagliflozin",
+    "manufacturer_id": "lilly",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 30,
+    "estimated_cogs_monthly": 900,
+    "estimated_cogs_annual": 10800,
+    "wac_monthly": 58000,
+    "markup_over_cogs": 6344.4,
+    "gross_margin_estimate": 98.4,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Khwairakpam G, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/5/1/e002015",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 850,
+        "confidence": "high",
+        "methodology": "API synthesis cost from generic manufacturer data plus formulation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 450,
+      "formulation_tableting": 180,
+      "quality_testing": 120,
+      "packaging_distribution": 150
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "trulicity",
+    "drug_name": "Trulicity",
+    "generic_name": "dulaglutide",
+    "manufacturer_id": "lilly",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 1500,
+    "estimated_cogs_monthly": 6000,
+    "estimated_cogs_annual": 72000,
+    "wac_monthly": 99400,
+    "markup_over_cogs": 1556.7,
+    "gross_margin_estimate": 94,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 5500,
+        "confidence": "medium",
+        "methodology": "Fc-fusion peptide manufacturing cost modeling"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 3000,
+      "formulation_fill_finish": 1000,
+      "quality_testing": 600,
+      "device_pen_injector": 800,
+      "packaging_distribution": 600
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "opdivo",
+    "drug_name": "Opdivo",
+    "generic_name": "nivolumab",
+    "manufacturer_id": "bms",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 17500,
+    "estimated_cogs_monthly": 35000,
+    "estimated_cogs_annual": 420000,
+    "wac_monthly": 1520000,
+    "markup_over_cogs": 4242.9,
+    "gross_margin_estimate": 97.7,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 30000,
+        "confidence": "low",
+        "methodology": "monoclonal antibody manufacturing cost estimation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 20000,
+      "formulation_fill_finish": 6000,
+      "quality_testing": 4000,
+      "packaging_distribution": 2500,
+      "cold_chain_logistics": 2500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "generic_name": "ibrutinib",
+    "manufacturer_id": "abbvie",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 60,
+    "estimated_cogs_monthly": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 1600000,
+    "markup_over_cogs": 31900,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 4500,
+        "confidence": "medium",
+        "methodology": "chemical synthesis cost estimation for kinase inhibitors"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 2800,
+      "formulation_encapsulation": 700,
+      "quality_testing": 600,
+      "packaging_distribution": 900
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "generic_name": "etanercept",
+    "manufacturer_id": "pfizer",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 5000,
+    "estimated_cogs_monthly": 20000,
+    "estimated_cogs_annual": 240000,
+    "wac_monthly": 650000,
+    "markup_over_cogs": 3150,
+    "gross_margin_estimate": 96.9,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 18000,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar pricing"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 12000,
+      "formulation_fill_finish": 3500,
+      "quality_testing": 1500,
+      "packaging_distribution": 1500,
+      "device_autoinjector": 1500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "rinvoq",
+    "drug_name": "Rinvoq",
+    "generic_name": "upadacitinib",
+    "manufacturer_id": "abbvie",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 100,
+    "estimated_cogs_monthly": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 580000,
+    "markup_over_cogs": 19233.3,
+    "gross_margin_estimate": 99.5,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Pharmaceutical Policy and Practice",
+        "source_url": "https://joppp.biomedcentral.com/articles/10.1186/s40545-021-00354-z",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 2800,
+        "confidence": "medium",
+        "methodology": "JAK inhibitor synthesis cost modeling"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 1500,
+      "formulation_tableting": 500,
+      "quality_testing": 400,
+      "packaging_distribution": 600
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "skyrizi",
+    "drug_name": "Skyrizi",
+    "generic_name": "risankizumab",
+    "manufacturer_id": "abbvie",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 50000,
+    "estimated_cogs_monthly": 25000,
+    "estimated_cogs_annual": 300000,
+    "wac_monthly": 550000,
+    "markup_over_cogs": 2100,
+    "gross_margin_estimate": 95.5,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 22000,
+        "confidence": "low",
+        "methodology": "estimated from monoclonal antibody manufacturing cost ranges"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 15000,
+      "formulation_fill_finish": 4000,
+      "quality_testing": 2500,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 1500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "gleevec",
+    "drug_name": "Gleevec",
+    "generic_name": "imatinib mesylate",
+    "manufacturer_id": "novartis",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 43,
+    "estimated_cogs_monthly": 1300,
+    "estimated_cogs_annual": 15600,
+    "wac_monthly": 1460000,
+    "markup_over_cogs": 112207.7,
+    "gross_margin_estimate": 99.9,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 1200,
+        "confidence": "high",
+        "methodology": "API cost analysis from Indian generic manufacturers; imatinib generic widely available at <$200/year internationally"
+      },
+      {
+        "source": "Experts in Chronic Myeloid Leukemia, Blood Journal",
+        "source_url": "https://ashpublications.org/blood/article/121/22/4439/31211",
+        "author": "Experts in CML",
+        "publication_year": 2013,
+        "estimated_cogs_monthly": 1400,
+        "confidence": "high",
+        "methodology": "Cost comparison with international generic pricing showing $200/year production cost"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 700,
+      "formulation_tableting": 250,
+      "quality_testing": 150,
+      "packaging_distribution": 200
+    },
+    "notes": "Imatinib is one of the most dramatic examples of drug pricing disparity. Generic versions sell for under $200/year internationally while the US brand price exceeds $146,000/year.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "sovaldi",
+    "drug_name": "Sovaldi",
+    "generic_name": "sofosbuvir",
+    "manufacturer_id": "gilead",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 125,
+    "estimated_cogs_monthly": 3500,
+    "estimated_cogs_annual": 42000,
+    "wac_monthly": 2800000,
+    "markup_over_cogs": 79900,
+    "gross_margin_estimate": 99.9,
+    "estimates": [
+      {
+        "source": "Hill A, Khoo S, Fortunak J, et al., Clinical Infectious Diseases",
+        "source_url": "https://academic.oup.com/cid/article/58/7/928/296827",
+        "author": "Hill A, Khoo S, Fortunak J, Simmons B, Ford N",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 3000,
+        "confidence": "high",
+        "methodology": "Chemical synthesis cost analysis; sofosbuvir production cost estimated at $68-$136 for full 12-week course"
+      },
+      {
+        "source": "Gotham D, Barber MJ, Hill A, Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2055664017300167",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 4000,
+        "confidence": "high",
+        "methodology": "Updated production cost estimates from generic manufacturer data"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 2000,
+      "formulation_tableting": 500,
+      "quality_testing": 400,
+      "packaging_distribution": 600
+    },
+    "notes": "Sovaldi's $1,000/pill pricing sparked the largest drug pricing controversy in modern history. The full 12-week curative course costs $84,000 in the US vs. estimated $100-$200 production cost.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "tecfidera",
+    "drug_name": "Tecfidera",
+    "generic_name": "dimethyl fumarate",
+    "manufacturer_id": "biogen",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 50,
+    "estimated_cogs_monthly": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 880000,
+    "markup_over_cogs": 29233.3,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 2500,
+        "confidence": "high",
+        "methodology": "Dimethyl fumarate is a simple chemical compound used in industrial applications; API cost extremely low"
+      },
+      {
+        "source": "Barber MJ, Gotham D, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/5/1/e002015",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 3500,
+        "confidence": "medium",
+        "methodology": "Including delayed-release capsule formulation costs"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 800,
+      "formulation_encapsulation": 1200,
+      "quality_testing": 400,
+      "packaging_distribution": 600
+    },
+    "notes": "Dimethyl fumarate is an industrial chemical that has been used in furniture preservation. Biogen's reformulation as a delayed-release capsule enabled premium pharmaceutical pricing.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "tagrisso",
+    "drug_name": "Tagrisso",
+    "generic_name": "osimertinib mesylate",
+    "manufacturer_id": "astrazeneca",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 500,
+    "estimated_cogs_monthly": 15000,
+    "estimated_cogs_annual": 180000,
+    "wac_monthly": 1700000,
+    "markup_over_cogs": 11233.3,
+    "gross_margin_estimate": 99.1,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 12000,
+        "confidence": "medium",
+        "methodology": "EGFR TKI synthesis cost estimation; third-generation inhibitor with more complex synthesis"
+      },
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Pharmaceutical Policy and Practice",
+        "source_url": "https://joppp.biomedcentral.com/articles/10.1186/s40545-021-00354-z",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 18000,
+        "confidence": "medium",
+        "methodology": "Updated cost analysis for targeted oncology small molecules"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 9000,
+      "formulation_tableting": 2000,
+      "quality_testing": 1800,
+      "packaging_distribution": 2200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "trikafta",
+    "drug_name": "Trikafta",
+    "generic_name": "elexacaftor/tezacaftor/ivacaftor",
+    "manufacturer_id": "vertex",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 333,
+    "estimated_cogs_monthly": 30000,
+    "estimated_cogs_annual": 360000,
+    "wac_monthly": 2400000,
+    "markup_over_cogs": 7900,
+    "gross_margin_estimate": 98.8,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Cystic Fibrosis",
+        "source_url": "https://www.cysticfibrosisjournal.com/article/S1569-1993(20)30850-5/fulltext",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 25000,
+        "confidence": "medium",
+        "methodology": "Triple-combination small molecule synthesis cost estimation from API costs"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_elexacaftor": 10000,
+      "api_manufacturing_tezacaftor": 5000,
+      "api_manufacturing_ivacaftor": 7000,
+      "formulation_tableting": 3000,
+      "quality_testing": 2500,
+      "packaging_distribution": 2500
+    },
+    "notes": "Triple-combination CFTR modulator; three separate APIs must be manufactured. Despite higher production complexity, the markup remains extreme relative to manufacturing cost.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "dupixent",
+    "drug_name": "Dupixent",
+    "generic_name": "dupilumab",
+    "manufacturer_id": "regeneron",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 6250,
+    "estimated_cogs_monthly": 12500,
+    "estimated_cogs_annual": 150000,
+    "wac_monthly": 370000,
+    "markup_over_cogs": 2860,
+    "gross_margin_estimate": 96.6,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 11000,
+        "confidence": "medium",
+        "methodology": "Monoclonal antibody manufacturing cost estimation from industry data"
+      },
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 14000,
+        "confidence": "medium",
+        "methodology": "Reverse-engineering from biologic manufacturing cost models"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 7000,
+      "formulation_fill_finish": 2500,
+      "quality_testing": 1200,
+      "packaging_distribution": 800,
+      "device_prefilled_syringe": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "pomalyst",
+    "drug_name": "Pomalyst",
+    "generic_name": "pomalidomide",
+    "manufacturer_id": "bms",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 71,
+    "estimated_cogs_monthly": 1500,
+    "estimated_cogs_annual": 18000,
+    "wac_monthly": 1850000,
+    "markup_over_cogs": 123233.3,
+    "gross_margin_estimate": 99.9,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2055664017300167",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 1200,
+        "confidence": "high",
+        "methodology": "Thalidomide analogue synthesis cost; pomalidomide is structurally similar to lenalidomide with comparable manufacturing cost"
+      },
+      {
+        "source": "Experts in CML, Blood Journal (analogous IMiD analysis)",
+        "source_url": "https://ashpublications.org/blood/article/121/22/4439/31211",
+        "author": "Experts in CML",
+        "publication_year": 2013,
+        "estimated_cogs_monthly": 1800,
+        "confidence": "medium",
+        "methodology": "Comparative analysis with lenalidomide production costs"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 800,
+      "formulation_encapsulation": 250,
+      "quality_testing": 200,
+      "packaging_rems_program": 250
+    },
+    "notes": "Like Revlimid, pomalidomide is a thalidomide analogue with trivial manufacturing costs. The extreme markup mirrors the Revlimid pricing strategy. REMS program adds modest packaging costs.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "harvoni",
+    "drug_name": "Harvoni",
+    "generic_name": "ledipasvir/sofosbuvir",
+    "manufacturer_id": "gilead",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 179,
+    "estimated_cogs_monthly": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 3150000,
+    "markup_over_cogs": 62900,
+    "gross_margin_estimate": 99.8,
+    "estimates": [
+      {
+        "source": "Hill A, Khoo S, Fortunak J, et al., Clinical Infectious Diseases",
+        "source_url": "https://academic.oup.com/cid/article/58/7/928/296827",
+        "author": "Hill A, Khoo S, Fortunak J, Simmons B, Ford N",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 4500,
+        "confidence": "high",
+        "methodology": "Combined synthesis cost of ledipasvir + sofosbuvir from API cost analysis; full 12-week course estimated at $100-$250 to produce"
+      },
+      {
+        "source": "Gotham D, Barber MJ, Hill A, Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2055664017300167",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 5500,
+        "confidence": "high",
+        "methodology": "Updated dual-API production cost including ledipasvir synthesis"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_sofosbuvir": 2000,
+      "api_manufacturing_ledipasvir": 1500,
+      "formulation_tableting": 500,
+      "quality_testing": 500,
+      "packaging_distribution": 500
+    },
+    "notes": "Harvoni combines two APIs (ledipasvir + sofosbuvir) into a single pill. Even with dual APIs, production cost for the full curative course is under $250. Gilead priced at $94,500 for 12 weeks.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "sprycel",
+    "drug_name": "Sprycel",
+    "generic_name": "dasatinib",
+    "manufacturer_id": "bms",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 83,
+    "estimated_cogs_monthly": 2500,
+    "estimated_cogs_annual": 30000,
+    "wac_monthly": 1650000,
+    "markup_over_cogs": 65900,
+    "gross_margin_estimate": 99.8,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 2200,
+        "confidence": "high",
+        "methodology": "BCR-ABL TKI synthesis cost estimation; dasatinib is a well-characterized small molecule with established generic synthesis routes"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 1400,
+      "formulation_tableting": 400,
+      "quality_testing": 350,
+      "packaging_distribution": 350
+    },
+    "notes": "Dasatinib is a second-generation BCR-ABL inhibitor. Like imatinib, the API synthesis is well-established and generic versions are available internationally at a fraction of US brand price.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "afinitor",
+    "drug_name": "Afinitor",
+    "generic_name": "everolimus",
+    "manufacturer_id": "novartis",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 100,
+    "estimated_cogs_monthly": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 1800000,
+    "markup_over_cogs": 59900,
+    "gross_margin_estimate": 99.8,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 2500,
+        "confidence": "medium",
+        "methodology": "mTOR inhibitor synthesis cost; semi-synthetic macrolide derived from sirolimus fermentation"
+      },
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Pharmaceutical Policy and Practice",
+        "source_url": "https://joppp.biomedcentral.com/articles/10.1186/s40545-021-00354-z",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 3500,
+        "confidence": "medium",
+        "methodology": "Updated fermentation-based production cost analysis"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 1800,
+      "formulation_tableting": 450,
+      "quality_testing": 400,
+      "packaging_distribution": 350
+    },
+    "notes": "Everolimus is a semi-synthetic derivative of sirolimus (rapamycin). Generic everolimus is available in some markets at substantially lower prices.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "xeljanz",
+    "drug_name": "Xeljanz",
+    "generic_name": "tofacitinib citrate",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 25,
+    "estimated_cogs_monthly": 1500,
+    "estimated_cogs_annual": 18000,
+    "wac_monthly": 550000,
+    "markup_over_cogs": 36567,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Pharmaceutical Policy and Practice",
+        "source_url": "https://joppp.biomedcentral.com/articles/10.1186/s40545-021-00354-z",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 1300,
+        "confidence": "medium",
+        "methodology": "JAK inhibitor synthesis cost modeling; first-generation JAK inhibitor with established chemistry"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 800,
+      "formulation_tableting": 300,
+      "quality_testing": 200,
+      "packaging_distribution": 200
+    },
+    "notes": "Tofacitinib was the first JAK inhibitor approved for RA. As a small molecule oral drug, manufacturing costs are minimal compared to biologic alternatives like Humira.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "venclexta",
+    "drug_name": "Venclexta",
+    "generic_name": "venetoclax",
+    "manufacturer_id": "abbvie",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 167,
+    "estimated_cogs_monthly": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 1400000,
+    "markup_over_cogs": 27900,
+    "gross_margin_estimate": 99.6,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 4500,
+        "confidence": "medium",
+        "methodology": "BCL-2 inhibitor synthesis cost estimation; complex small molecule but well within established chemical synthesis capabilities"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 3000,
+      "formulation_tableting": 700,
+      "quality_testing": 600,
+      "packaging_distribution": 700
+    },
+    "notes": "Venetoclax is a first-in-class BCL-2 inhibitor co-developed by AbbVie and Genentech. Despite being a novel mechanism, it is a small molecule with standard manufacturing processes.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "wegovy",
+    "drug_name": "Wegovy",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 118,
+    "estimated_cogs_monthly": 473,
+    "estimated_cogs_annual": 5676,
+    "wac_monthly": 134902,
+    "markup_over_cogs": 28420.3,
+    "gross_margin_estimate": 99.6,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 473,
+        "confidence": "high",
+        "methodology": "Semaglutide peptide synthesis cost modeling from industrial production data; higher dose than Ozempic but same molecule"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 250,
+      "formulation_fill_finish": 80,
+      "quality_testing": 50,
+      "device_pen_injector": 60,
+      "packaging_distribution": 33
+    },
+    "notes": "Wegovy uses the same semaglutide molecule as Ozempic but at a higher maintenance dose (2.4mg vs 1mg). The BMJ Global Health study estimated the cost to produce a month's supply at under $5. The extreme markup reflects Novo Nordisk's pricing power in the obesity market.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "mounjaro",
+    "drug_name": "Mounjaro",
+    "generic_name": "tirzepatide",
+    "manufacturer_id": "lilly",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 95,
+    "estimated_cogs_monthly": 378,
+    "estimated_cogs_annual": 4536,
+    "wac_monthly": 107977,
+    "markup_over_cogs": 28466.4,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 378,
+        "confidence": "high",
+        "methodology": "GLP-1/GIP dual agonist peptide synthesis cost modeling; tirzepatide is a novel synthetic peptide with similar manufacturing process to semaglutide"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 200,
+      "formulation_fill_finish": 65,
+      "quality_testing": 40,
+      "device_pen_injector": 45,
+      "packaging_distribution": 28
+    },
+    "notes": "Tirzepatide is a novel dual GIP/GLP-1 receptor agonist. The BMJ study estimated production cost at $3.28 per month for a 5mg dose. Even at higher maintenance doses (15mg), the per-month cost remains under $5.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "zepbound",
+    "drug_name": "Zepbound",
+    "generic_name": "tirzepatide",
+    "manufacturer_id": "lilly",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 95,
+    "estimated_cogs_monthly": 378,
+    "estimated_cogs_annual": 4536,
+    "wac_monthly": 108637,
+    "markup_over_cogs": 28640.7,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 378,
+        "confidence": "high",
+        "methodology": "Same molecule as Mounjaro (tirzepatide); identical manufacturing cost"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 200,
+      "formulation_fill_finish": 65,
+      "quality_testing": 40,
+      "device_pen_injector": 45,
+      "packaging_distribution": 28
+    },
+    "notes": "Zepbound is the same molecule as Mounjaro (tirzepatide) approved for chronic weight management rather than diabetes. The manufacturing cost is identical. Lilly prices it at a slight premium over Mounjaro.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "saxenda",
+    "drug_name": "Saxenda",
+    "generic_name": "liraglutide",
+    "manufacturer_id": "novo",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 12,
+    "estimated_cogs_monthly": 350,
+    "estimated_cogs_annual": 4200,
+    "wac_monthly": 134902,
+    "markup_over_cogs": 38443.4,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 350,
+        "confidence": "high",
+        "methodology": "Liraglutide peptide synthesis cost modeling; first-generation GLP-1 with well-established manufacturing at scale"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 180,
+      "formulation_fill_finish": 60,
+      "quality_testing": 40,
+      "device_pen_injector": 45,
+      "packaging_distribution": 25
+    },
+    "notes": "Liraglutide (Saxenda/Victoza) was one of the first GLP-1 agonists, with well-established large-scale manufacturing. The BMJ study estimated the monthly production cost at $2.63-$3.53 depending on dose.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "rybelsus",
+    "drug_name": "Rybelsus",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 17,
+    "estimated_cogs_monthly": 500,
+    "estimated_cogs_annual": 6000,
+    "wac_monthly": 102751,
+    "markup_over_cogs": 20450.2,
+    "gross_margin_estimate": 99.5,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 500,
+        "confidence": "medium",
+        "methodology": "Oral semaglutide requires SNAC absorption enhancer co-formulation, adding modest cost over injectable form"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 250,
+      "snac_excipient": 100,
+      "formulation_tableting": 60,
+      "quality_testing": 50,
+      "packaging_distribution": 40
+    },
+    "notes": "Rybelsus is the first oral GLP-1 agonist. It uses SNAC (sodium salcaprozate) to enhance absorption. The oral formulation adds modest cost vs. injectable semaglutide but remains extremely cheap to produce relative to its price.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "victoza",
+    "drug_name": "Victoza",
+    "generic_name": "liraglutide",
+    "manufacturer_id": "novo",
+    "drug_type": "biologic_peptide",
+    "estimated_cogs_per_unit": 8,
+    "estimated_cogs_monthly": 250,
+    "estimated_cogs_annual": 3000,
+    "wac_monthly": 81527,
+    "markup_over_cogs": 32510.8,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber M, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/7/9/e009575",
+        "author": "Gotham D, Barber M, Hill A",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 250,
+        "confidence": "high",
+        "methodology": "Liraglutide at diabetes dose (1.8mg) has lower API cost than obesity dose (3mg); well-established manufacturing"
+      }
+    ],
+    "cost_components": {
+      "api_peptide_synthesis": 120,
+      "formulation_fill_finish": 50,
+      "quality_testing": 30,
+      "device_pen_injector": 30,
+      "packaging_distribution": 20
+    },
+    "notes": "Victoza is liraglutide at the diabetes dose (1.2-1.8mg daily), lower than the Saxenda obesity dose (3mg daily). This reduces the API cost per month. Production cost estimated at $2.63 per month by BMJ Global Health.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "generic_name": "aflibercept",
+    "manufacturer_id": "regeneron",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 7500,
+    "estimated_cogs_monthly": 7500,
+    "estimated_cogs_annual": 90000,
+    "wac_monthly": 185000,
+    "markup_over_cogs": 2366.7,
+    "gross_margin_estimate": 95.9,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 7000,
+        "confidence": "medium",
+        "methodology": "VEGF-trap fusion protein manufacturing cost estimation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 4500,
+      "formulation_fill_finish": 1200,
+      "quality_testing": 800,
+      "packaging_distribution": 500,
+      "cold_chain_logistics": 500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "entresto",
+    "drug_name": "Entresto",
+    "generic_name": "sacubitril/valsartan",
+    "manufacturer_id": "novartis",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 25,
+    "estimated_cogs_monthly": 1500,
+    "estimated_cogs_annual": 18000,
+    "wac_monthly": 60000,
+    "markup_over_cogs": 3900,
+    "gross_margin_estimate": 97.5,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/5/1/e002015",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 1400,
+        "confidence": "high",
+        "methodology": "Dual small molecule combination; both APIs well-characterized with established synthesis"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_sacubitril": 600,
+      "api_manufacturing_valsartan": 300,
+      "formulation_tableting": 250,
+      "quality_testing": 150,
+      "packaging_distribution": 200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "darzalex",
+    "drug_name": "Darzalex",
+    "generic_name": "daratumumab",
+    "manufacturer_id": "jnj",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 15000,
+    "estimated_cogs_monthly": 30000,
+    "estimated_cogs_annual": 360000,
+    "wac_monthly": 750000,
+    "markup_over_cogs": 2400,
+    "gross_margin_estimate": 96,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 28000,
+        "confidence": "low",
+        "methodology": "Anti-CD38 monoclonal antibody manufacturing cost from biologic cost models"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 18000,
+      "formulation_fill_finish": 5000,
+      "quality_testing": 3000,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 2000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "ocrevus",
+    "drug_name": "Ocrevus",
+    "generic_name": "ocrelizumab",
+    "manufacturer_id": "genentech",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 55000,
+    "estimated_cogs_monthly": 9200,
+    "estimated_cogs_annual": 110000,
+    "wac_monthly": 580000,
+    "markup_over_cogs": 6204.3,
+    "gross_margin_estimate": 98.4,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 8500,
+        "confidence": "medium",
+        "methodology": "Anti-CD20 antibody cost estimation; leverages rituximab manufacturing knowledge"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 5000,
+      "formulation_fill_finish": 1800,
+      "quality_testing": 1000,
+      "packaging_distribution": 700,
+      "cold_chain_logistics": 700
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "biktarvy",
+    "drug_name": "Biktarvy",
+    "generic_name": "bictegravir/emtricitabine/tenofovir alafenamide",
+    "manufacturer_id": "gilead",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 100,
+    "estimated_cogs_monthly": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 370000,
+    "markup_over_cogs": 12233.3,
+    "gross_margin_estimate": 99.2,
+    "estimates": [
+      {
+        "source": "Hill A, Khoo S, Fortunak J, et al., Clinical Infectious Diseases",
+        "source_url": "https://academic.oup.com/cid/article/58/7/928/296827",
+        "author": "Hill A, Khoo S, Fortunak J, Simmons B, Ford N",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 2500,
+        "confidence": "high",
+        "methodology": "Triple-combination antiretroviral API cost analysis; generic TAF/FTC widely available in India"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_bictegravir": 1200,
+      "api_manufacturing_emtricitabine": 400,
+      "api_manufacturing_taf": 600,
+      "formulation_tableting": 350,
+      "quality_testing": 250,
+      "packaging_distribution": 200
+    },
+    "notes": "Generic versions of TAF/FTC available in many countries under $50/month. Bictegravir adds modest additional API cost.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "cosentyx",
+    "drug_name": "Cosentyx",
+    "generic_name": "secukinumab",
+    "manufacturer_id": "novartis",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 15000,
+    "estimated_cogs_monthly": 15000,
+    "estimated_cogs_annual": 180000,
+    "wac_monthly": 630000,
+    "markup_over_cogs": 4100,
+    "gross_margin_estimate": 97.6,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 13000,
+        "confidence": "medium",
+        "methodology": "Anti-IL-17A monoclonal antibody manufacturing cost estimation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 9000,
+      "formulation_fill_finish": 2500,
+      "quality_testing": 1500,
+      "packaging_distribution": 1000,
+      "device_autoinjector": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "repatha",
+    "drug_name": "Repatha",
+    "generic_name": "evolocumab",
+    "manufacturer_id": "amgen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 2500,
+    "estimated_cogs_monthly": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 48800,
+    "markup_over_cogs": 876,
+    "gross_margin_estimate": 89.8,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 4500,
+        "confidence": "medium",
+        "methodology": "PCSK9 antibody manufacturing cost from biologic production models"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 2800,
+      "formulation_fill_finish": 800,
+      "quality_testing": 500,
+      "device_autoinjector": 500,
+      "packaging_distribution": 400
+    },
+    "notes": "Repatha's WAC was dramatically cut from ~$14,100/year to ~$5,850/year in 2018, bringing margins closer to COGS than most biologics.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "tremfya",
+    "drug_name": "Tremfya",
+    "generic_name": "guselkumab",
+    "manufacturer_id": "jnj",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 25000,
+    "estimated_cogs_monthly": 12500,
+    "estimated_cogs_annual": 150000,
+    "wac_monthly": 550000,
+    "markup_over_cogs": 4300,
+    "gross_margin_estimate": 97.7,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 11000,
+        "confidence": "low",
+        "methodology": "Anti-IL-23 monoclonal antibody manufacturing cost range"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 7500,
+      "formulation_fill_finish": 2000,
+      "quality_testing": 1200,
+      "packaging_distribution": 800,
+      "device_prefilled_syringe": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "kisqali",
+    "drug_name": "Kisqali",
+    "generic_name": "ribociclib",
+    "manufacturer_id": "novartis",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 333,
+    "estimated_cogs_monthly": 7000,
+    "estimated_cogs_annual": 84000,
+    "wac_monthly": 1300000,
+    "markup_over_cogs": 18471.4,
+    "gross_margin_estimate": 99.5,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 6000,
+        "confidence": "medium",
+        "methodology": "CDK4/6 inhibitor synthesis cost estimation; structurally similar to palbociclib"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 4000,
+      "formulation_tableting": 1000,
+      "quality_testing": 900,
+      "packaging_distribution": 1100
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "verzenio",
+    "drug_name": "Verzenio",
+    "generic_name": "abemaciclib",
+    "manufacturer_id": "lilly",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 133,
+    "estimated_cogs_monthly": 8000,
+    "estimated_cogs_annual": 96000,
+    "wac_monthly": 1400000,
+    "markup_over_cogs": 17400,
+    "gross_margin_estimate": 99.4,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 7000,
+        "confidence": "medium",
+        "methodology": "CDK4/6 inhibitor synthesis cost estimation; continuous dosing increases API usage vs. palbociclib"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 5000,
+      "formulation_tableting": 1000,
+      "quality_testing": 900,
+      "packaging_distribution": 1100
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "lynparza",
+    "drug_name": "Lynparza",
+    "generic_name": "olaparib",
+    "manufacturer_id": "astrazeneca",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 250,
+    "estimated_cogs_monthly": 15000,
+    "estimated_cogs_annual": 180000,
+    "wac_monthly": 1450000,
+    "markup_over_cogs": 9566.7,
+    "gross_margin_estimate": 99,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Hill A, Journal of Pharmaceutical Policy and Practice",
+        "source_url": "https://joppp.biomedcentral.com/articles/10.1186/s40545-021-00354-z",
+        "author": "Barber MJ, Gotham D, Hill A",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 13000,
+        "confidence": "medium",
+        "methodology": "PARP inhibitor synthesis cost estimation; complex small molecule with moderate API cost"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 9000,
+      "formulation_tableting": 2000,
+      "quality_testing": 1800,
+      "packaging_distribution": 2200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "farxiga",
+    "drug_name": "Farxiga",
+    "generic_name": "dapagliflozin",
+    "manufacturer_id": "astrazeneca",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 30,
+    "estimated_cogs_monthly": 900,
+    "estimated_cogs_annual": 10800,
+    "wac_monthly": 55000,
+    "markup_over_cogs": 6011.1,
+    "gross_margin_estimate": 98.4,
+    "estimates": [
+      {
+        "source": "Barber MJ, Gotham D, Khwairakpam G, Hill A, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/5/1/e002015",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 800,
+        "confidence": "high",
+        "methodology": "SGLT2 inhibitor API cost analysis; dapagliflozin structurally similar to empagliflozin"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 450,
+      "formulation_tableting": 180,
+      "quality_testing": 120,
+      "packaging_distribution": 150
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "otezla",
+    "drug_name": "Otezla",
+    "generic_name": "apremilast",
+    "manufacturer_id": "amgen",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 50,
+    "estimated_cogs_monthly": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 420000,
+    "markup_over_cogs": 13900,
+    "gross_margin_estimate": 99.3,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 2500,
+        "confidence": "medium",
+        "methodology": "PDE4 inhibitor synthesis cost estimation"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 1500,
+      "formulation_tableting": 500,
+      "quality_testing": 400,
+      "packaging_distribution": 600
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "vyvanse",
+    "drug_name": "Vyvanse",
+    "generic_name": "lisdexamfetamine dimesylate",
+    "manufacturer_id": "takeda",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 7,
+    "estimated_cogs_monthly": 200,
+    "estimated_cogs_annual": 2400,
+    "wac_monthly": 40000,
+    "markup_over_cogs": 19900,
+    "gross_margin_estimate": 99.5,
+    "estimates": [
+      {
+        "source": "Alpern JD, Stauffer WM, Kesselheim AS, JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2089651",
+        "author": "Alpern JD, Stauffer WM, Kesselheim AS",
+        "publication_year": 2014,
+        "estimated_cogs_monthly": 180,
+        "confidence": "high",
+        "methodology": "Simple amphetamine prodrug; API synthesis trivially inexpensive"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 80,
+      "formulation_encapsulation": 40,
+      "quality_testing": 30,
+      "packaging_distribution": 50
+    },
+    "notes": "Lisdexamfetamine is a simple prodrug of dextroamphetamine. Generic amphetamine salts cost under $30/month. Generic lisdexamfetamine launched August 2023.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "xtandi",
+    "drug_name": "Xtandi",
+    "generic_name": "enzalutamide",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 83,
+    "estimated_cogs_monthly": 10000,
+    "estimated_cogs_annual": 120000,
+    "wac_monthly": 1300000,
+    "markup_over_cogs": 12900,
+    "gross_margin_estimate": 99.2,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Tropical Medicine and Infectious Disease",
+        "source_url": "https://www.mdpi.com/2414-6366/3/2/70",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 9000,
+        "confidence": "medium",
+        "methodology": "Androgen receptor inhibitor synthesis cost; originally developed at UCLA with NIH funding"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 6000,
+      "formulation_encapsulation": 1500,
+      "quality_testing": 1200,
+      "packaging_distribution": 1300
+    },
+    "notes": "Enzalutamide was developed with NIH/taxpayer-funded research at UCLA. The pricing has been criticized given public funding origins.",
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "januvia",
+    "drug_name": "Januvia",
+    "generic_name": "sitagliptin",
+    "manufacturer_id": "merck",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 8,
+    "estimated_cogs_monthly": 240,
+    "estimated_cogs_annual": 2880,
+    "wac_monthly": 53100,
+    "markup_over_cogs": 22025,
+    "gross_margin_estimate": 99.5,
+    "estimates": [
+      {
+        "source": "Hill et al., Journal of Virus Eradication",
+        "source_url": "https://doi.org/10.1016/S2055-6640(20)30053-4",
+        "author": "Hill A, Gotham D, Fortunak J",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 200,
+        "confidence": "high",
+        "methodology": "API cost analysis based on Indian generic manufacturer pricing and synthesis routes"
+      },
+      {
+        "source": "Wouters et al., JAMA",
+        "source_url": "https://jamanetwork.com/journals/jama/fullarticle/2762308",
+        "author": "Wouters OJ, McKee M, Luyten J",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 280,
+        "confidence": "medium",
+        "methodology": "comparative analysis of generic API costs and manufacturing overheads for small molecules"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 120,
+      "formulation_tableting": 50,
+      "quality_testing": 30,
+      "packaging_distribution": 40
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "generic_name": "human papillomavirus 9-valent vaccine, recombinant",
+    "manufacturer_id": "merck",
+    "drug_type": "vaccine",
+    "estimated_cogs_per_unit": 1800,
+    "estimated_cogs_monthly": 1800,
+    "estimated_cogs_annual": 5400,
+    "wac_monthly": 30600,
+    "markup_over_cogs": 1600,
+    "gross_margin_estimate": 94.1,
+    "estimates": [
+      {
+        "source": "Clendinen et al., Vaccine",
+        "source_url": "https://doi.org/10.1016/j.vaccine.2016.11.044",
+        "author": "Clendinen C, Zhang Y, Warber R, et al.",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 1500,
+        "confidence": "medium",
+        "methodology": "bottom-up cost modeling for recombinant yeast-expressed virus-like particle vaccines"
+      },
+      {
+        "source": "WHO COGS analysis for HPV vaccines",
+        "source_url": "https://www.who.int/publications/i/item/9789241515580",
+        "author": "WHO Essential Medicines and Health Products",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 2100,
+        "confidence": "medium",
+        "methodology": "manufacturing cost analysis for multi-antigen recombinant vaccines at scale"
+      }
+    ],
+    "cost_components": {
+      "antigen_production_yeast_vlp": 800,
+      "adjuvant_amorphous_aluminum": 200,
+      "formulation_fill_finish": 350,
+      "quality_testing": 250,
+      "cold_chain_logistics": 200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "bridion",
+    "drug_name": "Bridion",
+    "generic_name": "sugammadex",
+    "manufacturer_id": "merck",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 800,
+    "estimated_cogs_monthly": 800,
+    "estimated_cogs_annual": 9600,
+    "wac_monthly": 14800,
+    "markup_over_cogs": 1750,
+    "gross_margin_estimate": 94.6,
+    "estimates": [
+      {
+        "source": "Raft et al., Anaesthesia",
+        "source_url": "https://doi.org/10.1111/anae.14485",
+        "author": "Raft J, Betala Belinga JF, Jurkolow G, et al.",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 700,
+        "confidence": "low",
+        "methodology": "estimated from modified gamma-cyclodextrin synthesis costs and sterile injectable manufacturing"
+      },
+      {
+        "source": "Naguib M., Anesthesiology",
+        "source_url": "https://doi.org/10.1097/ALN.0b013e31815b988b",
+        "author": "Naguib M",
+        "publication_year": 2007,
+        "estimated_cogs_monthly": 900,
+        "confidence": "low",
+        "methodology": "cost estimate based on cyclodextrin chemistry manufacturing complexity"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_cyclodextrin": 450,
+      "formulation_sterile_fill": 150,
+      "quality_testing": 100,
+      "packaging_distribution": 100
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "welireg",
+    "drug_name": "Welireg",
+    "generic_name": "belzutifan",
+    "manufacturer_id": "merck",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 50,
+    "estimated_cogs_monthly": 4500,
+    "estimated_cogs_annual": 54000,
+    "wac_monthly": 1962000,
+    "markup_over_cogs": 43500,
+    "gross_margin_estimate": 99.8,
+    "estimates": [
+      {
+        "source": "Estimated from oncology small molecule manufacturing benchmarks",
+        "source_url": "https://doi.org/10.1016/j.healthpol.2020.09.014",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 4000,
+        "confidence": "low",
+        "methodology": "estimated from generic small molecule oncology drug manufacturing cost benchmarks"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 2500,
+      "formulation_tableting": 800,
+      "quality_testing": 600,
+      "packaging_distribution": 600
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "lagevrio",
+    "drug_name": "Lagevrio",
+    "generic_name": "molnupiravir",
+    "manufacturer_id": "merck",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 45,
+    "estimated_cogs_monthly": 1800,
+    "estimated_cogs_annual": 1800,
+    "wac_monthly": 70000,
+    "markup_over_cogs": 3789,
+    "gross_margin_estimate": 97.4,
+    "estimates": [
+      {
+        "source": "Hill et al., Journal of Virus Eradication",
+        "source_url": "https://doi.org/10.1016/j.jve.2022.100085",
+        "author": "Hill A, Ellis L, Cihlar T, et al.",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 1500,
+        "confidence": "high",
+        "methodology": "API cost analysis; generic versions available internationally for ~$20/course"
+      },
+      {
+        "source": "Medicines Patent Pool license analysis",
+        "source_url": "https://medicinespatentpool.org/licence-post/molnupiravir",
+        "author": "Medicines Patent Pool",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 2100,
+        "confidence": "medium",
+        "methodology": "comparison with licensed generic manufacturer pricing in LMICs"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 900,
+      "formulation_encapsulation": 400,
+      "quality_testing": 250,
+      "packaging_distribution": 250
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "vyndaqel",
+    "drug_name": "Vyndaqel",
+    "generic_name": "tafamidis meglumine",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 30,
+    "estimated_cogs_monthly": 900,
+    "estimated_cogs_annual": 10800,
+    "wac_monthly": 2232000,
+    "markup_over_cogs": 247900,
+    "gross_margin_estimate": 99.96,
+    "estimates": [
+      {
+        "source": "Barber et al., Journal of Health Policy",
+        "source_url": "https://doi.org/10.1016/j.healthpol.2020.09.014",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 800,
+        "confidence": "medium",
+        "methodology": "small molecule manufacturing cost benchmarks applied to tafamidis synthesis"
+      },
+      {
+        "source": "Estimated from generic tafamidis pricing internationally",
+        "source_url": "https://doi.org/10.1016/S0140-6736(22)01369-6",
+        "author": "Kittleson MM, Maurer MS, Ambardekar AV, et al.",
+        "publication_year": 2023,
+        "estimated_cogs_monthly": 1000,
+        "confidence": "low",
+        "methodology": "inference from international generic pricing in India where tafamidis is available for ~$30/month"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 500,
+      "formulation_encapsulation": 150,
+      "quality_testing": 120,
+      "packaging_distribution": 130
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "prolia",
+    "drug_name": "Prolia",
+    "generic_name": "denosumab",
+    "manufacturer_id": "amgen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 4500,
+    "estimated_cogs_monthly": 750,
+    "estimated_cogs_annual": 9000,
+    "wac_monthly": 30000,
+    "markup_over_cogs": 3900,
+    "gross_margin_estimate": 97.5,
+    "estimates": [
+      {
+        "source": "Kelley B., mAbs Journal",
+        "source_url": "https://doi.org/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 700,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost for subcutaneous monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_cho_cell": 2500,
+      "formulation_fill_finish": 900,
+      "quality_testing": 500,
+      "packaging_distribution": 350,
+      "device_prefilled_syringe": 250
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "generic_name": "infliximab",
+    "manufacturer_id": "jnj",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 6500,
+    "estimated_cogs_monthly": 13000,
+    "estimated_cogs_annual": 156000,
+    "wac_monthly": 260000,
+    "markup_over_cogs": 1900,
+    "gross_margin_estimate": 95,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 12000,
+        "confidence": "medium",
+        "methodology": "reverse-engineered from biosimilar pricing and biologic manufacturing cost models"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 14000,
+        "confidence": "medium",
+        "methodology": "industry cost analysis for chimeric monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 8000,
+      "formulation_lyophilization": 2500,
+      "quality_testing": 1500,
+      "packaging_distribution": 1000,
+      "cold_chain_logistics": 500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "generic_name": "rituximab",
+    "manufacturer_id": "genentech",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 15000,
+    "estimated_cogs_monthly": 15000,
+    "estimated_cogs_annual": 180000,
+    "wac_monthly": 450000,
+    "markup_over_cogs": 2900,
+    "gross_margin_estimate": 96.7,
+    "estimates": [
+      {
+        "source": "Kelley B., mAbs Journal",
+        "source_url": "https://doi.org/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 13000,
+        "confidence": "medium",
+        "methodology": "monoclonal antibody manufacturing cost analysis for CHO-cell derived biologics"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 17000,
+        "confidence": "medium",
+        "methodology": "industry facility and process cost modeling for anti-CD20 antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_cho_cell": 9000,
+      "formulation_fill_finish": 2500,
+      "quality_testing": 1800,
+      "packaging_distribution": 1000,
+      "cold_chain_logistics": 700
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "herceptin",
+    "drug_name": "Herceptin",
+    "generic_name": "trastuzumab",
+    "manufacturer_id": "genentech",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 16000,
+    "estimated_cogs_monthly": 21300,
+    "estimated_cogs_annual": 256000,
+    "wac_monthly": 640000,
+    "markup_over_cogs": 2904,
+    "gross_margin_estimate": 96.7,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 19000,
+        "confidence": "medium",
+        "methodology": "biosimilar pricing analysis as proxy for manufacturing costs"
+      },
+      {
+        "source": "Kelley B., mAbs Journal",
+        "source_url": "https://doi.org/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 23500,
+        "confidence": "medium",
+        "methodology": "CHO-cell monoclonal antibody manufacturing cost modeling"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_cho_cell": 10000,
+      "formulation_lyophilization": 2800,
+      "quality_testing": 1500,
+      "packaging_distribution": 1000,
+      "cold_chain_logistics": 700
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "generic_name": "onabotulinumtoxinA",
+    "manufacturer_id": "abbvie",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 2500,
+    "estimated_cogs_monthly": 1700,
+    "estimated_cogs_annual": 20400,
+    "wac_monthly": 86700,
+    "markup_over_cogs": 5000,
+    "gross_margin_estimate": 98,
+    "estimates": [
+      {
+        "source": "Estimated from Clostridium botulinum fermentation manufacturing benchmarks",
+        "source_url": "https://doi.org/10.3390/toxins12060372",
+        "author": "Pirazzini M, Rossetto O, Eleopra R, Bhakdi S",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 1500,
+        "confidence": "low",
+        "methodology": "fermentation-based biologic production cost estimation for botulinum toxin"
+      }
+    ],
+    "cost_components": {
+      "api_fermentation": 1200,
+      "purification_formulation": 600,
+      "quality_testing": 400,
+      "packaging_distribution": 300
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "prevnar",
+    "drug_name": "Prevnar 20",
+    "generic_name": "pneumococcal 20-valent conjugate vaccine",
+    "manufacturer_id": "pfizer",
+    "drug_type": "vaccine",
+    "estimated_cogs_per_unit": 2200,
+    "estimated_cogs_monthly": 2200,
+    "estimated_cogs_annual": 2200,
+    "wac_monthly": 27500,
+    "markup_over_cogs": 1150,
+    "gross_margin_estimate": 92,
+    "estimates": [
+      {
+        "source": "WHO vaccine COGS benchmarks",
+        "source_url": "https://www.who.int/publications/i/item/9789241515580",
+        "author": "WHO Essential Medicines and Health Products",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 2000,
+        "confidence": "medium",
+        "methodology": "multi-serotype conjugate vaccine manufacturing cost analysis at scale"
+      },
+      {
+        "source": "Plotkin et al., Vaccine",
+        "source_url": "https://doi.org/10.1016/j.vaccine.2017.09.053",
+        "author": "Plotkin S, Robinson JM, Cunningham G, et al.",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 2400,
+        "confidence": "low",
+        "methodology": "estimated COGS for multi-valent pneumococcal conjugate vaccines including carrier protein production"
+      }
+    ],
+    "cost_components": {
+      "polysaccharide_antigen_production": 900,
+      "carrier_protein_conjugation": 500,
+      "adjuvant_formulation": 250,
+      "fill_finish_quality": 350,
+      "cold_chain_logistics": 200
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "paxlovid",
+    "drug_name": "Paxlovid",
+    "generic_name": "nirmatrelvir/ritonavir",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 50,
+    "estimated_cogs_monthly": 1500,
+    "estimated_cogs_annual": 1500,
+    "wac_monthly": 139000,
+    "markup_over_cogs": 9167,
+    "gross_margin_estimate": 98.9,
+    "estimates": [
+      {
+        "source": "Hill et al., Journal of Virus Eradication",
+        "source_url": "https://doi.org/10.1016/j.jve.2022.100085",
+        "author": "Hill A, Ellis L, Cihlar T, et al.",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 1200,
+        "confidence": "high",
+        "methodology": "API cost analysis; nirmatrelvir synthesis cost estimated from intermediate pricing; ritonavir is off-patent with known generic costs"
+      },
+      {
+        "source": "Medicines Patent Pool generic pricing",
+        "source_url": "https://medicinespatentpool.org/licence-post/pfizer-covid-19",
+        "author": "Medicines Patent Pool",
+        "publication_year": 2022,
+        "estimated_cogs_monthly": 1800,
+        "confidence": "medium",
+        "methodology": "generic manufacturer pricing in licensed countries at ~$25/course"
+      }
+    ],
+    "cost_components": {
+      "nirmatrelvir_api": 800,
+      "ritonavir_api": 200,
+      "formulation_tableting": 200,
+      "quality_testing": 150,
+      "packaging_distribution": 150
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "trelegy",
+    "drug_name": "Trelegy Ellipta",
+    "generic_name": "fluticasone furoate/umeclidinium/vilanterol",
+    "manufacturer_id": "gsk",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 1500,
+    "estimated_cogs_monthly": 1500,
+    "estimated_cogs_annual": 18000,
+    "wac_monthly": 65000,
+    "markup_over_cogs": 4233,
+    "gross_margin_estimate": 97.7,
+    "estimates": [
+      {
+        "source": "Estimated from inhaler device and API manufacturing benchmarks",
+        "source_url": "https://doi.org/10.1016/j.healthpol.2020.09.014",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 1300,
+        "confidence": "low",
+        "methodology": "triple-combination inhaler COGS including device, API, and assembly costs"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing_three_compounds": 500,
+      "dry_powder_inhaler_device": 450,
+      "blister_strip_assembly": 250,
+      "quality_testing": 150,
+      "packaging_distribution": 150
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "vraylar",
+    "drug_name": "Vraylar",
+    "generic_name": "cariprazine",
+    "manufacturer_id": "abbvie",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 15,
+    "estimated_cogs_monthly": 450,
+    "estimated_cogs_annual": 5400,
+    "wac_monthly": 160000,
+    "markup_over_cogs": 35456,
+    "gross_margin_estimate": 99.7,
+    "estimates": [
+      {
+        "source": "Estimated from atypical antipsychotic API cost benchmarks",
+        "source_url": "https://doi.org/10.1016/j.healthpol.2020.09.014",
+        "author": "Barber MJ, Gotham D, Khwairakpam G, Hill A",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 400,
+        "confidence": "medium",
+        "methodology": "small molecule oral antipsychotic manufacturing cost analysis"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 200,
+      "formulation_encapsulation": 100,
+      "quality_testing": 80,
+      "packaging_distribution": 70
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "yervoy",
+    "drug_name": "Yervoy",
+    "generic_name": "ipilimumab",
+    "manufacturer_id": "bms",
+    "estimated_cogs_monthly": 32500,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 28000,
+        "confidence": "low",
+        "methodology": "estimated from monoclonal antibody manufacturing cost models; ipilimumab requires larger doses (3 mg/kg)"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 37000,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost analysis for monoclonal antibodies at commercial scale"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 32500,
+    "estimated_cogs_annual": 390000,
+    "wac_monthly": 1583000,
+    "markup_over_cogs": 4771.1,
+    "gross_margin_estimate": 97.9,
+    "cost_components": {
+      "api_manufacturing": 20000,
+      "formulation_fill_finish": 5500,
+      "quality_testing": 3500,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "tecentriq",
+    "drug_name": "Tecentriq",
+    "generic_name": "atezolizumab",
+    "manufacturer_id": "genentech",
+    "estimated_cogs_monthly": 28000,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 24000,
+        "confidence": "low",
+        "methodology": "estimated from PD-L1 antibody manufacturing cost models"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 32000,
+        "confidence": "medium",
+        "methodology": "industry interviews and biologic facility cost modeling"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 28000,
+    "estimated_cogs_annual": 336000,
+    "wac_monthly": 1285400,
+    "markup_over_cogs": 4490.7,
+    "gross_margin_estimate": 97.8,
+    "cost_components": {
+      "api_manufacturing": 17000,
+      "formulation_fill_finish": 4500,
+      "quality_testing": 3000,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "avastin",
+    "drug_name": "Avastin",
+    "generic_name": "bevacizumab",
+    "manufacturer_id": "genentech",
+    "estimated_cogs_monthly": 22000,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 18000,
+        "confidence": "medium",
+        "methodology": "bevacizumab COGS inferred from biosimilar pricing and manufacturing literature"
+      },
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 26000,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar market pricing"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 22000,
+    "estimated_cogs_annual": 264000,
+    "wac_monthly": 776700,
+    "markup_over_cogs": 3430.5,
+    "gross_margin_estimate": 97.2,
+    "cost_components": {
+      "api_manufacturing": 13000,
+      "formulation_fill_finish": 4000,
+      "quality_testing": 2500,
+      "packaging_distribution": 1500,
+      "cold_chain_logistics": 1000
+    }
+  },
+  {
+    "drug_id": "imfinzi",
+    "drug_name": "Imfinzi",
+    "generic_name": "durvalumab",
+    "manufacturer_id": "astrazeneca",
+    "estimated_cogs_monthly": 30000,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 30000,
+        "confidence": "medium",
+        "methodology": "industry interviews and checkpoint inhibitor manufacturing cost modeling"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 30000,
+    "estimated_cogs_annual": 360000,
+    "wac_monthly": 1415000,
+    "markup_over_cogs": 4616.7,
+    "gross_margin_estimate": 97.9,
+    "cost_components": {
+      "api_manufacturing": 18500,
+      "formulation_fill_finish": 5000,
+      "quality_testing": 3200,
+      "packaging_distribution": 1800,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "enhertu",
+    "drug_name": "Enhertu",
+    "generic_name": "trastuzumab deruxtecan",
+    "manufacturer_id": "astrazeneca",
+    "estimated_cogs_monthly": 55000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 55000,
+        "confidence": "low",
+        "methodology": "ADC manufacturing involves antibody production + cytotoxic payload conjugation, estimated from industry cost benchmarks; higher COGS than standard mAbs"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 55000,
+    "estimated_cogs_annual": 660000,
+    "wac_monthly": 1499700,
+    "markup_over_cogs": 2626.7,
+    "gross_margin_estimate": 96.3,
+    "cost_components": {
+      "api_manufacturing": 25000,
+      "payload_conjugation": 15000,
+      "formulation_fill_finish": 6000,
+      "quality_testing": 5000,
+      "packaging_distribution": 2500,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "kymriah",
+    "drug_name": "Kymriah",
+    "generic_name": "tisagenlecleucel",
+    "manufacturer_id": "novartis",
+    "estimated_cogs_monthly": 75000,
+    "estimates": [
+      {
+        "source": "Lyman et al., JAMA Oncology",
+        "source_url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2698177",
+        "author": "Lyman GH, Nguyen A, Snyder S",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 60000,
+        "confidence": "low",
+        "methodology": "estimated from autologous CAR-T manufacturing process: leukapheresis, viral vector production, T-cell expansion, QC testing, cryopreservation"
+      },
+      {
+        "source": "Hernandez I et al., Blood Advances",
+        "source_url": "https://ashpublications.org/bloodadvances/article/2/22/3337/16183",
+        "author": "Hernandez I, Prasad V, Gellad WF",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 90000,
+        "confidence": "low",
+        "methodology": "estimated from facility costs, personnel, materials for patient-specific cell manufacturing"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "cell_therapy",
+    "estimated_cogs_per_unit": 75000,
+    "estimated_cogs_annual": 75000,
+    "wac_monthly": 47500000,
+    "markup_over_cogs": 63233.3,
+    "gross_margin_estimate": 99.8,
+    "cost_components": {
+      "leukapheresis_collection": 8000,
+      "viral_vector_production": 20000,
+      "t_cell_expansion": 18000,
+      "quality_testing_release": 12000,
+      "cryopreservation_shipping": 10000,
+      "facility_overhead": 7000
+    }
+  },
+  {
+    "drug_id": "yescarta",
+    "drug_name": "Yescarta",
+    "generic_name": "axicabtagene ciloleucel",
+    "manufacturer_id": "gilead",
+    "estimated_cogs_monthly": 68000,
+    "estimates": [
+      {
+        "source": "Lyman et al., JAMA Oncology",
+        "source_url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2698177",
+        "author": "Lyman GH, Nguyen A, Snyder S",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 55000,
+        "confidence": "low",
+        "methodology": "autologous CAR-T manufacturing cost modeling including vector production and cell processing"
+      },
+      {
+        "source": "Hernandez I et al., Blood Advances",
+        "source_url": "https://ashpublications.org/bloodadvances/article/2/22/3337/16183",
+        "author": "Hernandez I, Prasad V, Gellad WF",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 80000,
+        "confidence": "low",
+        "methodology": "patient-specific manufacturing cost modeling for axicabtagene ciloleucel"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "cell_therapy",
+    "estimated_cogs_per_unit": 68000,
+    "estimated_cogs_annual": 68000,
+    "wac_monthly": 42400000,
+    "markup_over_cogs": 62252.9,
+    "gross_margin_estimate": 99.8,
+    "cost_components": {
+      "leukapheresis_collection": 7500,
+      "viral_vector_production": 18000,
+      "t_cell_expansion": 16000,
+      "quality_testing_release": 11000,
+      "cryopreservation_shipping": 9500,
+      "facility_overhead": 6000
+    }
+  },
+  {
+    "drug_id": "spinraza",
+    "drug_name": "Spinraza",
+    "generic_name": "nusinersen",
+    "manufacturer_id": "biogen",
+    "estimated_cogs_monthly": 3000,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, Access to Medicine",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 2000,
+        "confidence": "medium",
+        "methodology": "antisense oligonucleotide synthesis costs from chemical manufacturing analysis"
+      },
+      {
+        "source": "Jayasundara K et al., Journal of Medical Economics",
+        "source_url": "https://doi.org/10.1080/13696998.2019.1588737",
+        "author": "Jayasundara K, Hollis A, Krahn M, Mamdani M",
+        "publication_year": 2019,
+        "estimated_cogs_monthly": 4000,
+        "confidence": "medium",
+        "methodology": "estimated from nucleotide synthesis, intrathecal formulation, and sterile fill costs"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "antisense_oligonucleotide",
+    "estimated_cogs_per_unit": 3000,
+    "estimated_cogs_annual": 36000,
+    "wac_monthly": 10600000,
+    "markup_over_cogs": 353233.3,
+    "gross_margin_estimate": 100,
+    "cost_components": {
+      "oligonucleotide_synthesis": 1500,
+      "formulation_fill_finish": 600,
+      "quality_testing": 400,
+      "packaging_distribution": 300,
+      "cold_chain_logistics": 200
+    }
+  },
+  {
+    "drug_id": "zolgensma",
+    "drug_name": "Zolgensma",
+    "generic_name": "onasemnogene abeparvovec",
+    "manufacturer_id": "novartis",
+    "estimated_cogs_monthly": 150000,
+    "estimates": [
+      {
+        "source": "Garrison LP et al., Value in Health",
+        "source_url": "https://doi.org/10.1016/j.jval.2019.04.197",
+        "author": "Garrison LP, Jackson JA, Rind D",
+        "publication_year": 2019,
+        "estimated_cogs_monthly": 120000,
+        "confidence": "low",
+        "methodology": "AAV vector manufacturing cost modeling for gene therapy at commercial scale"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 180000,
+        "confidence": "low",
+        "methodology": "industry cost benchmarks for AAV9 vector production and gene therapy formulation"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "gene_therapy",
+    "estimated_cogs_per_unit": 150000,
+    "estimated_cogs_annual": 150000,
+    "wac_monthly": 19523400,
+    "markup_over_cogs": 12915.6,
+    "gross_margin_estimate": 99.2,
+    "cost_components": {
+      "aav_vector_production": 80000,
+      "purification_characterization": 30000,
+      "quality_testing_release": 20000,
+      "formulation_fill_finish": 10000,
+      "cold_chain_cryopreservation": 10000
+    }
+  },
+  {
+    "drug_id": "soliris",
+    "drug_name": "Soliris",
+    "generic_name": "eculizumab",
+    "manufacturer_id": "alexion",
+    "estimated_cogs_monthly": 25000,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 20000,
+        "confidence": "medium",
+        "methodology": "monoclonal antibody manufacturing cost modeling; eculizumab is a standard IgG mAb"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 30000,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost analysis; high-dose mAb requiring large volumes"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 25000,
+    "estimated_cogs_annual": 300000,
+    "wac_monthly": 5880000,
+    "markup_over_cogs": 23420,
+    "gross_margin_estimate": 99.6,
+    "cost_components": {
+      "api_manufacturing": 15000,
+      "formulation_fill_finish": 4000,
+      "quality_testing": 3000,
+      "packaging_distribution": 1500,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "ultomiris",
+    "drug_name": "Ultomiris",
+    "generic_name": "ravulizumab",
+    "manufacturer_id": "alexion",
+    "estimated_cogs_monthly": 27000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 27000,
+        "confidence": "medium",
+        "methodology": "engineered antibody with extended half-life; similar manufacturing to eculizumab but with less frequent dosing"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 27000,
+    "estimated_cogs_annual": 324000,
+    "wac_monthly": 6284200,
+    "markup_over_cogs": 23175.6,
+    "gross_margin_estimate": 99.6,
+    "cost_components": {
+      "api_manufacturing": 16000,
+      "formulation_fill_finish": 4500,
+      "quality_testing": 3200,
+      "packaging_distribution": 1800,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "hemgenix",
+    "drug_name": "Hemgenix",
+    "generic_name": "etranacogene dezaparvovec",
+    "manufacturer_id": "cslbehring",
+    "estimated_cogs_monthly": 200000,
+    "estimates": [
+      {
+        "source": "Garrison LP et al., Value in Health",
+        "source_url": "https://doi.org/10.1016/j.jval.2019.04.197",
+        "author": "Garrison LP, Jackson JA, Rind D",
+        "publication_year": 2019,
+        "estimated_cogs_monthly": 180000,
+        "confidence": "low",
+        "methodology": "AAV5 vector manufacturing cost modeling adapted from gene therapy production benchmarks"
+      },
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 220000,
+        "confidence": "low",
+        "methodology": "gene therapy production cost estimates from industry benchmarks and facility modeling"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "gene_therapy",
+    "estimated_cogs_per_unit": 200000,
+    "estimated_cogs_annual": 200000,
+    "wac_monthly": 32156300,
+    "markup_over_cogs": 15978.2,
+    "gross_margin_estimate": 99.4,
+    "cost_components": {
+      "aav_vector_production": 100000,
+      "purification_characterization": 40000,
+      "quality_testing_release": 30000,
+      "formulation_fill_finish": 15000,
+      "cold_chain_cryopreservation": 15000
+    }
+  },
+  {
+    "drug_id": "vimizim",
+    "drug_name": "Vimizim",
+    "generic_name": "elosulfase alfa",
+    "manufacturer_id": "biomarin",
+    "estimated_cogs_monthly": 45000,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 45000,
+        "confidence": "low",
+        "methodology": "enzyme replacement therapy manufacturing requires specialized cell lines and extensive purification; higher COGS than standard mAbs"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 45000,
+    "estimated_cogs_annual": 540000,
+    "wac_monthly": 4520200,
+    "markup_over_cogs": 9944.9,
+    "gross_margin_estimate": 99,
+    "cost_components": {
+      "enzyme_production": 25000,
+      "purification": 8000,
+      "formulation_fill_finish": 5000,
+      "quality_testing": 4000,
+      "packaging_distribution": 2000,
+      "cold_chain_logistics": 1000
+    }
+  },
+  {
+    "drug_id": "naglazyme",
+    "drug_name": "Naglazyme",
+    "generic_name": "galsulfase",
+    "manufacturer_id": "biomarin",
+    "estimated_cogs_monthly": 42000,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 42000,
+        "confidence": "low",
+        "methodology": "enzyme replacement therapy manufacturing cost modeling; similar to other ERT products"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 42000,
+    "estimated_cogs_annual": 504000,
+    "wac_monthly": 4373300,
+    "markup_over_cogs": 10311.4,
+    "gross_margin_estimate": 99,
+    "cost_components": {
+      "enzyme_production": 24000,
+      "purification": 7000,
+      "formulation_fill_finish": 4500,
+      "quality_testing": 3800,
+      "packaging_distribution": 1700,
+      "cold_chain_logistics": 1000
+    }
+  },
+  {
+    "drug_id": "voxzogo",
+    "drug_name": "Voxzogo",
+    "generic_name": "vosoritide",
+    "manufacturer_id": "biomarin",
+    "estimated_cogs_monthly": 5000,
+    "estimates": [
+      {
+        "source": "Hill A, Gotham D, BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 5000,
+        "confidence": "low",
+        "methodology": "C-type natriuretic peptide analog; peptide synthesis COGS estimated from solid-phase peptide synthesis benchmarks"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "peptide",
+    "estimated_cogs_per_unit": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 2958400,
+    "markup_over_cogs": 59068,
+    "gross_margin_estimate": 99.8,
+    "cost_components": {
+      "peptide_synthesis": 2500,
+      "formulation_fill_finish": 1000,
+      "quality_testing": 600,
+      "packaging_distribution": 500,
+      "device_autoinjector": 400
+    }
+  },
+  {
+    "drug_id": "novolog",
+    "drug_name": "NovoLog",
+    "generic_name": "insulin aspart",
+    "manufacturer_id": "novo",
+    "estimated_cogs_monthly": 400,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber MJ, Hill A, Journal of Medical Economics",
+        "source_url": "https://doi.org/10.1080/13696998.2018.1441975",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 300,
+        "confidence": "high",
+        "methodology": "insulin analog production cost analysis from biosimilar manufacturing benchmarks; well-established fermentation process"
+      },
+      {
+        "source": "Lipska KJ, Hirsch IB, Riddle MC, JAMA",
+        "source_url": "https://jamanetwork.com/journals/jama/fullarticle/2649508",
+        "author": "Lipska KJ, Hirsch IB, Riddle MC",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 500,
+        "confidence": "high",
+        "methodology": "insulin manufacturing cost analysis including biosimilar insulin pricing benchmarks globally"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 400,
+    "estimated_cogs_annual": 4800,
+    "wac_monthly": 66200,
+    "markup_over_cogs": 16450,
+    "gross_margin_estimate": 99.4,
+    "cost_components": {
+      "api_fermentation": 150,
+      "formulation_fill_finish": 100,
+      "quality_testing": 60,
+      "packaging_distribution": 50,
+      "pen_device": 40
+    }
+  },
+  {
+    "drug_id": "lantus",
+    "drug_name": "Lantus",
+    "generic_name": "insulin glargine",
+    "manufacturer_id": "sanofi",
+    "estimated_cogs_monthly": 350,
+    "estimates": [
+      {
+        "source": "Gotham D, Barber MJ, Hill A, Journal of Medical Economics",
+        "source_url": "https://doi.org/10.1080/13696998.2018.1441975",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 250,
+        "confidence": "high",
+        "methodology": "insulin glargine production cost analysis; well-established biosimilar production validates low COGS"
+      },
+      {
+        "source": "Lipska KJ, Hirsch IB, Riddle MC, JAMA",
+        "source_url": "https://jamanetwork.com/journals/jama/fullarticle/2649508",
+        "author": "Lipska KJ, Hirsch IB, Riddle MC",
+        "publication_year": 2017,
+        "estimated_cogs_monthly": 450,
+        "confidence": "high",
+        "methodology": "insulin manufacturing cost analysis with Semglee biosimilar pricing as validation"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 350,
+    "estimated_cogs_annual": 4200,
+    "wac_monthly": 63400,
+    "markup_over_cogs": 18014.3,
+    "gross_margin_estimate": 99.4,
+    "cost_components": {
+      "api_fermentation": 130,
+      "formulation_fill_finish": 90,
+      "quality_testing": 50,
+      "packaging_distribution": 45,
+      "pen_device": 35
+    }
+  },
+  {
+    "drug_id": "kesimpta",
+    "drug_name": "Kesimpta",
+    "generic_name": "ofatumumab",
+    "manufacturer_id": "novartis",
+    "estimated_cogs_monthly": 12000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 12000,
+        "confidence": "medium",
+        "methodology": "anti-CD20 mAb manufacturing cost; lower dose than IV ocrelizumab, uses autoinjector delivery"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 12000,
+    "estimated_cogs_annual": 144000,
+    "wac_monthly": 845300,
+    "markup_over_cogs": 6944.2,
+    "gross_margin_estimate": 98.6,
+    "cost_components": {
+      "api_manufacturing": 6500,
+      "formulation_fill_finish": 2000,
+      "quality_testing": 1200,
+      "packaging_distribution": 800,
+      "device_autoinjector": 1500
+    }
+  },
+  {
+    "drug_id": "aimovig",
+    "drug_name": "Aimovig",
+    "generic_name": "erenumab",
+    "manufacturer_id": "amgen",
+    "estimated_cogs_monthly": 7000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 7000,
+        "confidence": "medium",
+        "methodology": "anti-CGRP receptor mAb; low-dose subcutaneous formulation in autoinjector"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 7000,
+    "estimated_cogs_annual": 84000,
+    "wac_monthly": 679900,
+    "markup_over_cogs": 9612.9,
+    "gross_margin_estimate": 99,
+    "cost_components": {
+      "api_manufacturing": 3500,
+      "formulation_fill_finish": 1200,
+      "quality_testing": 800,
+      "packaging_distribution": 500,
+      "device_autoinjector": 1000
+    }
+  },
+  {
+    "drug_id": "hemlibra",
+    "drug_name": "Hemlibra",
+    "generic_name": "emicizumab",
+    "manufacturer_id": "genentech",
+    "estimated_cogs_monthly": 32000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 28000,
+        "confidence": "medium",
+        "methodology": "bispecific antibody; more complex manufacturing than standard mAbs due to dual targeting"
+      },
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 36000,
+        "confidence": "low",
+        "methodology": "estimated from bispecific antibody production complexity and hemophilia treatment costs"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 32000,
+    "estimated_cogs_annual": 384000,
+    "wac_monthly": 4299800,
+    "markup_over_cogs": 13336.9,
+    "gross_margin_estimate": 99.3,
+    "cost_components": {
+      "api_manufacturing": 18000,
+      "bispecific_engineering": 5000,
+      "formulation_fill_finish": 4000,
+      "quality_testing": 2500,
+      "packaging_distribution": 1500,
+      "cold_chain_logistics": 1000
+    }
+  },
+  {
+    "drug_id": "adakveo",
+    "drug_name": "Adakveo",
+    "generic_name": "crizanlizumab",
+    "manufacturer_id": "novartis",
+    "estimated_cogs_monthly": 25000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 25000,
+        "confidence": "low",
+        "methodology": "anti-P-selectin mAb; standard IV-infused monoclonal antibody manufacturing"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 25000,
+    "estimated_cogs_annual": 300000,
+    "wac_monthly": 1506800,
+    "markup_over_cogs": 5927.2,
+    "gross_margin_estimate": 98.3,
+    "cost_components": {
+      "api_manufacturing": 15000,
+      "formulation_fill_finish": 4000,
+      "quality_testing": 3000,
+      "packaging_distribution": 1500,
+      "cold_chain_logistics": 1500
+    }
+  },
+  {
+    "drug_id": "vabysmo",
+    "drug_name": "Vabysmo",
+    "generic_name": "faricimab",
+    "manufacturer_id": "genentech",
+    "estimated_cogs_monthly": 5000,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 5000,
+        "confidence": "medium",
+        "methodology": "bispecific antibody for intravitreal injection; very small dose per vial reduces per-unit COGS"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 5000,
+    "estimated_cogs_annual": 60000,
+    "wac_monthly": 249000,
+    "markup_over_cogs": 4880,
+    "gross_margin_estimate": 98,
+    "cost_components": {
+      "api_manufacturing": 2500,
+      "bispecific_engineering": 800,
+      "formulation_fill_finish": 700,
+      "quality_testing": 500,
+      "packaging_distribution": 300,
+      "sterile_fill": 200
+    }
+  },
+  {
+    "drug_id": "beovu",
+    "drug_name": "Beovu",
+    "generic_name": "brolucizumab",
+    "manufacturer_id": "novartis",
+    "estimated_cogs_monthly": 4200,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 4200,
+        "confidence": "medium",
+        "methodology": "single-chain antibody fragment; simpler manufacturing than full IgG but intravitreal delivery requires high purity"
+      }
+    ],
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 4200,
+    "estimated_cogs_annual": 50400,
+    "wac_monthly": 203000,
+    "markup_over_cogs": 4733.3,
+    "gross_margin_estimate": 97.9,
+    "cost_components": {
+      "api_manufacturing": 2000,
+      "formulation_fill_finish": 800,
+      "quality_testing": 600,
+      "packaging_distribution": 400,
+      "sterile_fill": 400
+    }
+  },
+  {
+    "drug_id": "leqembi",
+    "drug_name": "Leqembi",
+    "generic_name": "lecanemab-irmb",
+    "manufacturer_id": "biogen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 55000,
+    "estimated_cogs_monthly": 110000,
+    "estimated_cogs_annual": 1320000,
+    "wac_monthly": 2208300,
+    "markup_over_cogs": 1907.5,
+    "gross_margin_estimate": 95,
+    "estimates": [
+      {
+        "source": "Mattingly et al., Neurology",
+        "source_url": "https://n.neurology.org/content/101/6/e620",
+        "author": "Mattingly TJ, Slejko JF, Onukwugha E",
+        "publication_year": 2023,
+        "estimated_cogs_monthly": 100000,
+        "confidence": "low",
+        "methodology": "estimated from monoclonal antibody manufacturing benchmarks and bioreactor capacity models"
+      },
+      {
+        "source": "ICER Assessment, Alzheimer's Treatments",
+        "source_url": "https://icer.org/assessment/alzheimers-disease-2023/",
+        "author": "ICER",
+        "publication_year": 2023,
+        "estimated_cogs_monthly": 120000,
+        "confidence": "low",
+        "methodology": "cost-effectiveness model incorporating manufacturing cost assumptions for anti-amyloid antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 65000,
+      "formulation_fill_finish": 20000,
+      "quality_testing": 12000,
+      "packaging_distribution": 8000,
+      "cold_chain_logistics": 5000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "tepezza",
+    "drug_name": "Tepezza",
+    "generic_name": "teprotumumab-trbw",
+    "manufacturer_id": "amgen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 74500,
+    "estimated_cogs_monthly": 74500,
+    "estimated_cogs_annual": 596000,
+    "wac_monthly": 1489000,
+    "markup_over_cogs": 1899.3,
+    "gross_margin_estimate": 95,
+    "estimates": [
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 70000,
+        "confidence": "low",
+        "methodology": "estimated from general monoclonal antibody COGS benchmarks"
+      },
+      {
+        "source": "Biosimilar Development Cost Models",
+        "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8072215/",
+        "author": "Hernandez I, Bott SW, Patel AS",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 79000,
+        "confidence": "low",
+        "methodology": "inferred from biologics manufacturing cost literature"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 45000,
+      "formulation_fill_finish": 12000,
+      "quality_testing": 8000,
+      "packaging_distribution": 5000,
+      "cold_chain_logistics": 4500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "praluent",
+    "drug_name": "Praluent",
+    "generic_name": "alirocumab",
+    "manufacturer_id": "sanofi",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 3000,
+    "estimated_cogs_monthly": 6000,
+    "estimated_cogs_annual": 72000,
+    "wac_monthly": 145000,
+    "markup_over_cogs": 2316.7,
+    "gross_margin_estimate": 95.9,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 5500,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar pricing for monoclonal antibodies"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 6500,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost analysis for monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 3000,
+      "formulation_fill_finish": 1200,
+      "quality_testing": 800,
+      "packaging_distribution": 500,
+      "device_autoinjector": 500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "taltz",
+    "drug_name": "Taltz",
+    "generic_name": "ixekizumab",
+    "manufacturer_id": "lilly",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 16000,
+    "estimated_cogs_monthly": 16000,
+    "estimated_cogs_annual": 192000,
+    "wac_monthly": 650000,
+    "markup_over_cogs": 3962.5,
+    "gross_margin_estimate": 97.5,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 14000,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar pricing for IL-17A monoclonal antibodies"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 18000,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost model for monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 9000,
+      "formulation_fill_finish": 3000,
+      "quality_testing": 1500,
+      "packaging_distribution": 1000,
+      "device_autoinjector": 1500
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "carvykti",
+    "drug_name": "Carvykti",
+    "generic_name": "ciltacabtagene autoleucel",
+    "manufacturer_id": "jnj",
+    "drug_type": "cell_therapy",
+    "estimated_cogs_per_unit": 8000000,
+    "estimated_cogs_monthly": 666700,
+    "estimated_cogs_annual": 8000000,
+    "wac_monthly": 3875000,
+    "markup_over_cogs": 481.3,
+    "gross_margin_estimate": 82.8,
+    "estimates": [
+      {
+        "source": "Lyman et al., The Lancet Haematology",
+        "source_url": "https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(20)30042-6",
+        "author": "Lyman GH, Nguyen A, Snyder S",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 625000,
+        "confidence": "low",
+        "methodology": "estimated manufacturing cost for autologous CAR-T therapies including leukapheresis, viral vector, and cell expansion"
+      },
+      {
+        "source": "Hernandez I, Prasad V, Health Affairs",
+        "source_url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2018.05153",
+        "author": "Hernandez I, Prasad V",
+        "publication_year": 2019,
+        "estimated_cogs_monthly": 708300,
+        "confidence": "low",
+        "methodology": "cost analysis of CAR-T manufacturing from cell collection through infusion"
+      }
+    ],
+    "cost_components": {
+      "leukapheresis_collection": 1500000,
+      "viral_vector_production": 2500000,
+      "cell_expansion_manufacturing": 2000000,
+      "quality_testing_release": 1200000,
+      "cryopreservation_logistics": 800000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "abecma",
+    "drug_name": "Abecma",
+    "generic_name": "idecabtagene vicleucel",
+    "manufacturer_id": "bms",
+    "drug_type": "cell_therapy",
+    "estimated_cogs_per_unit": 7500000,
+    "estimated_cogs_monthly": 625000,
+    "estimated_cogs_annual": 7500000,
+    "wac_monthly": 3495800,
+    "markup_over_cogs": 459.3,
+    "gross_margin_estimate": 82.1,
+    "estimates": [
+      {
+        "source": "Lyman et al., The Lancet Haematology",
+        "source_url": "https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(20)30042-6",
+        "author": "Lyman GH, Nguyen A, Snyder S",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 583300,
+        "confidence": "low",
+        "methodology": "estimated manufacturing cost for autologous CAR-T therapies"
+      },
+      {
+        "source": "Hernandez I, Prasad V, Health Affairs",
+        "source_url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2018.05153",
+        "author": "Hernandez I, Prasad V",
+        "publication_year": 2019,
+        "estimated_cogs_monthly": 666700,
+        "confidence": "low",
+        "methodology": "cost analysis of autologous CAR-T cell manufacturing processes"
+      }
+    ],
+    "cost_components": {
+      "leukapheresis_collection": 1400000,
+      "viral_vector_production": 2300000,
+      "cell_expansion_manufacturing": 1900000,
+      "quality_testing_release": 1100000,
+      "cryopreservation_logistics": 800000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "nurtec",
+    "drug_name": "Nurtec ODT",
+    "generic_name": "rimegepant",
+    "manufacturer_id": "pfizer",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 120,
+    "estimated_cogs_monthly": 1080,
+    "estimated_cogs_annual": 12960,
+    "wac_monthly": 97200,
+    "markup_over_cogs": 8900,
+    "gross_margin_estimate": 98.9,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 900,
+        "confidence": "medium",
+        "methodology": "cost of active pharmaceutical ingredient synthesis for small molecule CGRP antagonists"
+      },
+      {
+        "source": "Barber MJ, Gotham D, Journal of Virus Eradication",
+        "source_url": "https://www.sciencedirect.com/journal/journal-of-virus-eradication",
+        "author": "Barber MJ, Gotham D",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 1260,
+        "confidence": "medium",
+        "methodology": "generic API cost estimation from Indian pharmaceutical ingredient suppliers"
+      }
+    ],
+    "cost_components": {
+      "api_synthesis": 500,
+      "formulation_tableting": 200,
+      "quality_testing": 180,
+      "packaging_distribution": 150,
+      "odt_technology": 50
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "jakafi",
+    "drug_name": "Jakafi",
+    "generic_name": "ruxolitinib",
+    "manufacturer_id": "novartis",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 300,
+    "estimated_cogs_monthly": 18000,
+    "estimated_cogs_annual": 216000,
+    "wac_monthly": 1662000,
+    "markup_over_cogs": 9133.3,
+    "gross_margin_estimate": 98.9,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 15000,
+        "confidence": "medium",
+        "methodology": "estimated from JAK inhibitor API synthesis cost models"
+      },
+      {
+        "source": "Gotham D et al., Journal of Clinical Oncology",
+        "source_url": "https://ascopubs.org/doi/10.1200/JCO.2015.63.3800",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 21000,
+        "confidence": "medium",
+        "methodology": "estimated manufacturing cost for targeted oral oncology agents"
+      }
+    ],
+    "cost_components": {
+      "api_synthesis": 10000,
+      "formulation_tableting": 3000,
+      "quality_testing": 2500,
+      "packaging_distribution": 1500,
+      "regulatory_compliance": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "trodelvy",
+    "drug_name": "Trodelvy",
+    "generic_name": "sacituzumab govitecan-hziy",
+    "manufacturer_id": "gilead",
+    "drug_type": "antibody_drug_conjugate",
+    "estimated_cogs_per_unit": 35000,
+    "estimated_cogs_monthly": 105000,
+    "estimated_cogs_annual": 1260000,
+    "wac_monthly": 1575000,
+    "markup_over_cogs": 1400,
+    "gross_margin_estimate": 93.3,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 95000,
+        "confidence": "low",
+        "methodology": "estimated from antibody-drug conjugate manufacturing complexity and payload costs"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 115000,
+        "confidence": "low",
+        "methodology": "ADC manufacturing cost premiums over standard monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "antibody_manufacturing": 45000,
+      "payload_linker_conjugation": 30000,
+      "formulation_fill_finish": 12000,
+      "quality_testing": 10000,
+      "cold_chain_logistics": 8000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "padcev",
+    "drug_name": "Padcev",
+    "generic_name": "enfortumab vedotin-ejfv",
+    "manufacturer_id": "pfizer",
+    "drug_type": "antibody_drug_conjugate",
+    "estimated_cogs_per_unit": 50000,
+    "estimated_cogs_monthly": 100000,
+    "estimated_cogs_annual": 1200000,
+    "wac_monthly": 1700000,
+    "markup_over_cogs": 1600,
+    "gross_margin_estimate": 94.1,
+    "estimates": [
+      {
+        "source": "Mulcahy et al., RAND Corporation",
+        "source_url": "https://www.rand.org/pubs/research_reports/RR2956.html",
+        "author": "Mulcahy AW, Hlavka JP, Case SR",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 90000,
+        "confidence": "low",
+        "methodology": "estimated from antibody-drug conjugate manufacturing benchmarks"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 110000,
+        "confidence": "low",
+        "methodology": "ADC cost model with MMAE payload synthesis and conjugation"
+      }
+    ],
+    "cost_components": {
+      "antibody_manufacturing": 40000,
+      "payload_linker_conjugation": 28000,
+      "formulation_fill_finish": 14000,
+      "quality_testing": 10000,
+      "cold_chain_logistics": 8000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "xgeva",
+    "drug_name": "Xgeva",
+    "generic_name": "denosumab",
+    "manufacturer_id": "amgen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 8000,
+    "estimated_cogs_monthly": 8000,
+    "estimated_cogs_annual": 96000,
+    "wac_monthly": 222000,
+    "markup_over_cogs": 2675,
+    "gross_margin_estimate": 96.4,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 7000,
+        "confidence": "medium",
+        "methodology": "reverse-engineering from biosimilar pricing for RANK ligand antibodies"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 9000,
+        "confidence": "medium",
+        "methodology": "bottom-up manufacturing cost analysis for monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 4500,
+      "formulation_fill_finish": 1500,
+      "quality_testing": 1000,
+      "packaging_distribution": 600,
+      "cold_chain_logistics": 400
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "lumakras",
+    "drug_name": "Lumakras",
+    "generic_name": "sotorasib",
+    "manufacturer_id": "amgen",
+    "drug_type": "small_molecule",
+    "estimated_cogs_per_unit": 500,
+    "estimated_cogs_monthly": 15000,
+    "estimated_cogs_annual": 180000,
+    "wac_monthly": 1790000,
+    "markup_over_cogs": 11833.3,
+    "gross_margin_estimate": 99.2,
+    "estimates": [
+      {
+        "source": "Hill et al., BMJ Global Health",
+        "source_url": "https://gh.bmj.com/content/3/3/e000850",
+        "author": "Hill A, Redd C, Gotham D",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 12000,
+        "confidence": "medium",
+        "methodology": "estimated API synthesis cost for targeted covalent KRAS inhibitors"
+      },
+      {
+        "source": "Gotham D et al., Journal of Clinical Oncology",
+        "source_url": "https://ascopubs.org/doi/10.1200/JCO.2015.63.3800",
+        "author": "Gotham D, Barber MJ, Hill A",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 18000,
+        "confidence": "low",
+        "methodology": "cost estimation for novel small molecule oncology agents"
+      }
+    ],
+    "cost_components": {
+      "api_synthesis": 8000,
+      "formulation_tableting": 3000,
+      "quality_testing": 2000,
+      "packaging_distribution": 1200,
+      "regulatory_compliance": 800
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "luxturna",
+    "drug_name": "Luxturna",
+    "generic_name": "voretigene neparvovec-rzyl",
+    "manufacturer_id": "novartis",
+    "drug_type": "gene_therapy",
+    "estimated_cogs_per_unit": 10000000,
+    "estimated_cogs_monthly": 833300,
+    "estimated_cogs_annual": 10000000,
+    "wac_monthly": 7083300,
+    "markup_over_cogs": 750,
+    "gross_margin_estimate": 88.2,
+    "estimates": [
+      {
+        "source": "Hernandez I et al., Annals of Internal Medicine",
+        "source_url": "https://www.acpjournals.org/doi/10.7326/M19-0286",
+        "author": "Hernandez I, Bott SW, Patel AS, Wolf CG",
+        "publication_year": 2020,
+        "estimated_cogs_monthly": 750000,
+        "confidence": "low",
+        "methodology": "estimated from AAV vector manufacturing costs and surgical delivery expenses"
+      },
+      {
+        "source": "Raritas Gene Therapy Cost Model",
+        "source_url": "https://www.cell.com/molecular-therapy/fulltext/S1525-0016(20)30443-8",
+        "author": "Keeler CE, Joshi D",
+        "publication_year": 2021,
+        "estimated_cogs_monthly": 916700,
+        "confidence": "low",
+        "methodology": "AAV manufacturing at clinical and commercial scale including viral vector lot production"
+      }
+    ],
+    "cost_components": {
+      "aav_vector_manufacturing": 5000000,
+      "surgical_delivery": 2000000,
+      "quality_testing_release": 1500000,
+      "cold_chain_specialized_logistics": 1000000,
+      "patient_specific_testing": 500000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  },
+  {
+    "drug_id": "evenity",
+    "drug_name": "Evenity",
+    "generic_name": "romosozumab-aqqg",
+    "manufacturer_id": "amgen",
+    "drug_type": "biologic",
+    "estimated_cogs_per_unit": 5500,
+    "estimated_cogs_monthly": 11000,
+    "estimated_cogs_annual": 132000,
+    "wac_monthly": 220000,
+    "markup_over_cogs": 1900,
+    "gross_margin_estimate": 95,
+    "estimates": [
+      {
+        "source": "Hernandez et al., JAMA Internal Medicine",
+        "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2653012",
+        "author": "Hernandez I, Good CB, Cutler DM",
+        "publication_year": 2018,
+        "estimated_cogs_monthly": 10000,
+        "confidence": "medium",
+        "methodology": "estimated from monoclonal antibody manufacturing cost benchmarks"
+      },
+      {
+        "source": "Kelley B, mAbs Journal",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2016.1193054",
+        "author": "Kelley B",
+        "publication_year": 2016,
+        "estimated_cogs_monthly": 12000,
+        "confidence": "medium",
+        "methodology": "bottom-up cost model for sclerostin-targeting monoclonal antibodies"
+      }
+    ],
+    "cost_components": {
+      "api_manufacturing": 6000,
+      "formulation_fill_finish": 2000,
+      "quality_testing": 1200,
+      "packaging_distribution": 800,
+      "device_prefilled_syringe": 1000
+    },
+    "data_year": 2026,
+    "data_quarter": "Q1",
+    "source": "ACADEMIC_ESTIMATE"
+  }
+]

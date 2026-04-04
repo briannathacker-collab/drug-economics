@@ -1,0 +1,17 @@
+[
+  { "year": 2010, "avg_family_premium": 1398000, "avg_family_deductible": 116900, "avg_individual_premium": 505000, "avg_individual_deductible": 91700, "source": "KFF Employer Health Benefits Survey 2010" },
+  { "year": 2011, "avg_family_premium": 1548000, "avg_family_deductible": 130500, "avg_individual_premium": 545000, "avg_individual_deductible": 99100, "source": "KFF Employer Health Benefits Survey 2011" },
+  { "year": 2012, "avg_family_premium": 1574500, "avg_family_deductible": 139900, "avg_individual_premium": 567200, "avg_individual_deductible": 107500, "source": "KFF Employer Health Benefits Survey 2012" },
+  { "year": 2013, "avg_family_premium": 1635100, "avg_family_deductible": 153200, "avg_individual_premium": 583200, "avg_individual_deductible": 113200, "source": "KFF Employer Health Benefits Survey 2013" },
+  { "year": 2014, "avg_family_premium": 1682500, "avg_family_deductible": 166700, "avg_individual_premium": 612100, "avg_individual_deductible": 122700, "source": "KFF Employer Health Benefits Survey 2014" },
+  { "year": 2015, "avg_family_premium": 1771000, "avg_family_deductible": 175800, "avg_individual_premium": 634800, "avg_individual_deductible": 130300, "source": "KFF Employer Health Benefits Survey 2015" },
+  { "year": 2016, "avg_family_premium": 1814200, "avg_family_deductible": 186900, "avg_individual_premium": 650900, "avg_individual_deductible": 139500, "source": "KFF Employer Health Benefits Survey 2016" },
+  { "year": 2017, "avg_family_premium": 1876400, "avg_family_deductible": 195600, "avg_individual_premium": 669300, "avg_individual_deductible": 150500, "source": "KFF Employer Health Benefits Survey 2017" },
+  { "year": 2018, "avg_family_premium": 1975200, "avg_family_deductible": 209800, "avg_individual_premium": 687200, "avg_individual_deductible": 159700, "source": "KFF Employer Health Benefits Survey 2018" },
+  { "year": 2019, "avg_family_premium": 2094700, "avg_family_deductible": 218600, "avg_individual_premium": 714800, "avg_individual_deductible": 165500, "source": "KFF Employer Health Benefits Survey 2019" },
+  { "year": 2020, "avg_family_premium": 2144300, "avg_family_deductible": 226100, "avg_individual_premium": 739200, "avg_individual_deductible": 169200, "source": "KFF Employer Health Benefits Survey 2020" },
+  { "year": 2021, "avg_family_premium": 2222100, "avg_family_deductible": 232300, "avg_individual_premium": 767400, "avg_individual_deductible": 173500, "source": "KFF Employer Health Benefits Survey 2021" },
+  { "year": 2022, "avg_family_premium": 2294100, "avg_family_deductible": 244800, "avg_individual_premium": 791700, "avg_individual_deductible": 181800, "source": "KFF Employer Health Benefits Survey 2022" },
+  { "year": 2023, "avg_family_premium": 2394100, "avg_family_deductible": 256200, "avg_individual_premium": 828200, "avg_individual_deductible": 189400, "source": "KFF Employer Health Benefits Survey 2023" },
+  { "year": 2024, "avg_family_premium": 2508400, "avg_family_deductible": 268500, "avg_individual_premium": 868300, "avg_individual_deductible": 196100, "source": "KFF Employer Health Benefits Survey 2024" }
+]

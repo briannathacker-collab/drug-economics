@@ -1,0 +1,5759 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "generic_name": "adalimumab",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2003-01-01",
+    "launch_price": 134800,
+    "price_history": [
+      {
+        "date": "2003-01-01",
+        "wac_monthly": 134800,
+        "change_percent": 0
+      },
+      {
+        "date": "2006-01-01",
+        "wac_monthly": 160200,
+        "change_percent": 18.8
+      },
+      {
+        "date": "2009-01-01",
+        "wac_monthly": 215000,
+        "change_percent": 34.2
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 290000,
+        "change_percent": 34.9
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 356000,
+        "change_percent": 22.8
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 453000,
+        "change_percent": 27.2
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 538000,
+        "change_percent": 18.8
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 610000,
+        "change_percent": 13.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 666000,
+        "change_percent": 9.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 699900,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 713900,
+        "change_percent": 2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 728200,
+        "change_percent": 2
+      }
+    ],
+    "total_increase_percent": 440.2,
+    "num_increases": 11,
+    "cagr": 7.6,
+    "inflation_adjusted_increase_percent": 268.5
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "generic_name": "pembrolizumab",
+    "manufacturer_id": "merck",
+    "launch_date": "2014-09-01",
+    "launch_price": 700000,
+    "price_history": [
+      {
+        "date": "2014-09-01",
+        "wac_monthly": 700000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 730000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 770000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 820000,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 870000,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 920000,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 960000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 1010000,
+        "change_percent": 5.2
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1050000,
+        "change_percent": 4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1102800,
+        "change_percent": 5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1157900,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1215800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 73.7,
+    "num_increases": 11,
+    "cagr": 4.7,
+    "inflation_adjusted_increase_percent": 27.3
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "generic_name": "apixaban",
+    "manufacturer_id": "bms",
+    "launch_date": "2012-12-01",
+    "launch_price": 27000,
+    "price_history": [
+      {
+        "date": "2012-12-01",
+        "wac_monthly": 27000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 29500,
+        "change_percent": 9.3
+      },
+      {
+        "date": "2015-06-01",
+        "wac_monthly": 32500,
+        "change_percent": 10.2
+      },
+      {
+        "date": "2016-06-01",
+        "wac_monthly": 36000,
+        "change_percent": 10.8
+      },
+      {
+        "date": "2017-06-01",
+        "wac_monthly": 39500,
+        "change_percent": 9.7
+      },
+      {
+        "date": "2018-06-01",
+        "wac_monthly": 43500,
+        "change_percent": 10.1
+      },
+      {
+        "date": "2019-06-01",
+        "wac_monthly": 47500,
+        "change_percent": 9.2
+      },
+      {
+        "date": "2020-06-01",
+        "wac_monthly": 51000,
+        "change_percent": 7.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 56000,
+        "change_percent": 9.8
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 60000,
+        "change_percent": 7.1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 63900,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 68100,
+        "change_percent": 6.6
+      }
+    ],
+    "total_increase_percent": 152.2,
+    "num_increases": 11,
+    "cagr": 6.8,
+    "inflation_adjusted_increase_percent": 78.4
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "generic_name": "ustekinumab",
+    "manufacturer_id": "jnj",
+    "launch_date": "2009-09-01",
+    "launch_price": 850000,
+    "price_history": [
+      {
+        "date": "2009-09-01",
+        "wac_monthly": 850000,
+        "change_percent": 0
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 950000,
+        "change_percent": 11.8
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 1100000,
+        "change_percent": 15.8
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 1320000,
+        "change_percent": 20
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 1480000,
+        "change_percent": 12.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1650000,
+        "change_percent": 11.5
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 1820000,
+        "change_percent": 10.3
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1980000,
+        "change_percent": 8.8
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 2090000,
+        "change_percent": 5.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2197500,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2241400,
+        "change_percent": 2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2286300,
+        "change_percent": 2
+      }
+    ],
+    "total_increase_percent": 169,
+    "num_increases": 11,
+    "cagr": 6,
+    "inflation_adjusted_increase_percent": 102.1
+  },
+  {
+    "drug_id": "ibrance",
+    "drug_name": "Ibrance",
+    "generic_name": "palbociclib",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2015-02-01",
+    "launch_price": 983000,
+    "price_history": [
+      {
+        "date": "2015-02-01",
+        "wac_monthly": 983000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 1035000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1095000,
+        "change_percent": 5.8
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1155000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1210000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1270000,
+        "change_percent": 5
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1310000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1345000,
+        "change_percent": 2.7
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1375000,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1400000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1477000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1558200,
+        "change_percent": 5.5
+      }
+    ],
+    "total_increase_percent": 58.5,
+    "num_increases": 11,
+    "cagr": 4.3,
+    "inflation_adjusted_increase_percent": 14.8
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "generic_name": "lenalidomide",
+    "manufacturer_id": "bms",
+    "launch_date": "2005-12-01",
+    "launch_price": 502000,
+    "price_history": [
+      {
+        "date": "2005-12-01",
+        "wac_monthly": 502000,
+        "change_percent": 0
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 620000,
+        "change_percent": 23.5
+      },
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 760000,
+        "change_percent": 22.6
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 920000,
+        "change_percent": 21.1
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 1100000,
+        "change_percent": 19.6
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 1310000,
+        "change_percent": 19.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1480000,
+        "change_percent": 13
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1620000,
+        "change_percent": 9.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1720000,
+        "change_percent": 6.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1800000,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1818000,
+        "change_percent": 1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1836200,
+        "change_percent": 1
+      }
+    ],
+    "total_increase_percent": 265.8,
+    "num_increases": 11,
+    "cagr": 6.4,
+    "inflation_adjusted_increase_percent": 163.2
+  },
+  {
+    "drug_id": "ozempic",
+    "drug_name": "Ozempic",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "launch_date": "2018-01-01",
+    "launch_price": 82000,
+    "price_history": [
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 82000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 84500,
+        "change_percent": 3
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 87000,
+        "change_percent": 3
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 89000,
+        "change_percent": 2.3
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 91500,
+        "change_percent": 2.8
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 93500,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 95000,
+        "change_percent": 1.6
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 96800,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 98000,
+        "change_percent": 1.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 99100,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 103100,
+        "change_percent": 4
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 107200,
+        "change_percent": 4
+      }
+    ],
+    "total_increase_percent": 30.7,
+    "num_increases": 11,
+    "cagr": 3.4,
+    "inflation_adjusted_increase_percent": -1.5
+  },
+  {
+    "drug_id": "xarelto",
+    "drug_name": "Xarelto",
+    "generic_name": "rivaroxaban",
+    "manufacturer_id": "jnj",
+    "launch_date": "2011-07-01",
+    "launch_price": 27500,
+    "price_history": [
+      {
+        "date": "2011-07-01",
+        "wac_monthly": 27500,
+        "change_percent": 0
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 30500,
+        "change_percent": 10.9
+      },
+      {
+        "date": "2014-07-01",
+        "wac_monthly": 33500,
+        "change_percent": 9.8
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 37000,
+        "change_percent": 10.4
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 40500,
+        "change_percent": 9.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 44000,
+        "change_percent": 8.6
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 47500,
+        "change_percent": 8
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 50000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 53000,
+        "change_percent": 6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 55000,
+        "change_percent": 3.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 58000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 61200,
+        "change_percent": 5.5
+      }
+    ],
+    "total_increase_percent": 122.5,
+    "num_increases": 11,
+    "cagr": 5.5,
+    "inflation_adjusted_increase_percent": 57.1
+  },
+  {
+    "drug_id": "jardiance",
+    "drug_name": "Jardiance",
+    "generic_name": "empagliflozin",
+    "manufacturer_id": "lilly",
+    "launch_date": "2014-08-01",
+    "launch_price": 28500,
+    "price_history": [
+      {
+        "date": "2014-08-01",
+        "wac_monthly": 28500,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 31000,
+        "change_percent": 8.8
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 34000,
+        "change_percent": 9.7
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 37500,
+        "change_percent": 10.3
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 41000,
+        "change_percent": 9.3
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 44500,
+        "change_percent": 8.5
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 48000,
+        "change_percent": 7.9
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 51500,
+        "change_percent": 7.3
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 54500,
+        "change_percent": 5.8
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 58000,
+        "change_percent": 6.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 60900,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 63900,
+        "change_percent": 4.9
+      }
+    ],
+    "total_increase_percent": 124.2,
+    "num_increases": 11,
+    "cagr": 7,
+    "inflation_adjusted_increase_percent": 62.3
+  },
+  {
+    "drug_id": "trulicity",
+    "drug_name": "Trulicity",
+    "generic_name": "dulaglutide",
+    "manufacturer_id": "lilly",
+    "launch_date": "2014-09-01",
+    "launch_price": 72000,
+    "price_history": [
+      {
+        "date": "2014-09-01",
+        "wac_monthly": 72000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 75000,
+        "change_percent": 4.2
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 79000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 83000,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 87000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 91000,
+        "change_percent": 4.6
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 93500,
+        "change_percent": 2.7
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 95500,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 97000,
+        "change_percent": 1.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 99400,
+        "change_percent": 2.5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 101400,
+        "change_percent": 2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 103400,
+        "change_percent": 2
+      }
+    ],
+    "total_increase_percent": 43.6,
+    "num_increases": 11,
+    "cagr": 3.1,
+    "inflation_adjusted_increase_percent": 8.5
+  },
+  {
+    "drug_id": "opdivo",
+    "drug_name": "Opdivo",
+    "generic_name": "nivolumab",
+    "manufacturer_id": "bms",
+    "launch_date": "2014-12-01",
+    "launch_price": 950000,
+    "price_history": [
+      {
+        "date": "2014-12-01",
+        "wac_monthly": 950000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-10-01",
+        "wac_monthly": 1000000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2016-10-01",
+        "wac_monthly": 1060000,
+        "change_percent": 6
+      },
+      {
+        "date": "2017-10-01",
+        "wac_monthly": 1120000,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2018-10-01",
+        "wac_monthly": 1190000,
+        "change_percent": 6.3
+      },
+      {
+        "date": "2019-10-01",
+        "wac_monthly": 1260000,
+        "change_percent": 5.9
+      },
+      {
+        "date": "2020-10-01",
+        "wac_monthly": 1320000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2021-10-01",
+        "wac_monthly": 1380000,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2022-10-01",
+        "wac_monthly": 1450000,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1520000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1596000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1675800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 76.4,
+    "num_increases": 11,
+    "cagr": 4.8,
+    "inflation_adjusted_increase_percent": 28.7
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "generic_name": "ibrutinib",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2013-11-01",
+    "launch_price": 820000,
+    "price_history": [
+      {
+        "date": "2013-11-01",
+        "wac_monthly": 820000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 880000,
+        "change_percent": 7.3
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 950000,
+        "change_percent": 8
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1040000,
+        "change_percent": 9.5
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1130000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1230000,
+        "change_percent": 8.8
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1340000,
+        "change_percent": 8.9
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1430000,
+        "change_percent": 6.7
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1510000,
+        "change_percent": 5.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1600000,
+        "change_percent": 6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1664000,
+        "change_percent": 4
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1730600,
+        "change_percent": 4
+      }
+    ],
+    "total_increase_percent": 111,
+    "num_increases": 11,
+    "cagr": 5.9,
+    "inflation_adjusted_increase_percent": 57.3
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "generic_name": "etanercept",
+    "manufacturer_id": "pfizer",
+    "launch_date": "1998-11-01",
+    "launch_price": 110000,
+    "price_history": [
+      {
+        "date": "1998-11-01",
+        "wac_monthly": 110000,
+        "change_percent": 0
+      },
+      {
+        "date": "2002-01-01",
+        "wac_monthly": 140000,
+        "change_percent": 27.3
+      },
+      {
+        "date": "2005-01-01",
+        "wac_monthly": 175000,
+        "change_percent": 25
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 225000,
+        "change_percent": 28.6
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 310000,
+        "change_percent": 37.8
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 400000,
+        "change_percent": 29
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 470000,
+        "change_percent": 17.5
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 540000,
+        "change_percent": 14.9
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 610000,
+        "change_percent": 13
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 650000,
+        "change_percent": 6.6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 669500,
+        "change_percent": 3
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 689600,
+        "change_percent": 3
+      }
+    ],
+    "total_increase_percent": 526.9,
+    "num_increases": 11,
+    "cagr": 6.8,
+    "inflation_adjusted_increase_percent": 254.2
+  },
+  {
+    "drug_id": "rinvoq",
+    "drug_name": "Rinvoq",
+    "generic_name": "upadacitinib",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2019-08-01",
+    "launch_price": 490000,
+    "price_history": [
+      {
+        "date": "2019-08-01",
+        "wac_monthly": 490000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 502000,
+        "change_percent": 2.4
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 510000,
+        "change_percent": 1.6
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 525000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 536000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 548000,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 558000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 568000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 574000,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 580000,
+        "change_percent": 1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 614800,
+        "change_percent": 6
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 651700,
+        "change_percent": 6
+      }
+    ],
+    "total_increase_percent": 33,
+    "num_increases": 11,
+    "cagr": 4.2,
+    "inflation_adjusted_increase_percent": -3.8
+  },
+  {
+    "drug_id": "skyrizi",
+    "drug_name": "Skyrizi",
+    "generic_name": "risankizumab",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2019-04-01",
+    "launch_price": 460000,
+    "price_history": [
+      {
+        "date": "2019-04-01",
+        "wac_monthly": 460000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-10-01",
+        "wac_monthly": 470000,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2020-04-01",
+        "wac_monthly": 480000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2020-10-01",
+        "wac_monthly": 490000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2021-04-01",
+        "wac_monthly": 500000,
+        "change_percent": 2
+      },
+      {
+        "date": "2021-10-01",
+        "wac_monthly": 510000,
+        "change_percent": 2
+      },
+      {
+        "date": "2022-04-01",
+        "wac_monthly": 520000,
+        "change_percent": 2
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 530000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 540000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 550000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 583000,
+        "change_percent": 6
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 618000,
+        "change_percent": 6
+      }
+    ],
+    "total_increase_percent": 34.3,
+    "num_increases": 11,
+    "cagr": 4.3,
+    "inflation_adjusted_increase_percent": -2.7
+  },
+  {
+    "drug_id": "gleevec",
+    "drug_name": "Gleevec",
+    "generic_name": "imatinib mesylate",
+    "manufacturer_id": "novartis",
+    "launch_date": "2001-05-01",
+    "launch_price": 217000,
+    "price_history": [
+      {
+        "date": "2001-05-01",
+        "wac_monthly": 217000,
+        "change_percent": 0
+      },
+      {
+        "date": "2003-01-01",
+        "wac_monthly": 260000,
+        "change_percent": 19.8
+      },
+      {
+        "date": "2005-01-01",
+        "wac_monthly": 310000,
+        "change_percent": 19.2
+      },
+      {
+        "date": "2007-01-01",
+        "wac_monthly": 380000,
+        "change_percent": 22.6
+      },
+      {
+        "date": "2009-01-01",
+        "wac_monthly": 460000,
+        "change_percent": 21.1
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 580000,
+        "change_percent": 26.1
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 750000,
+        "change_percent": 29.3
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 960000,
+        "change_percent": 28
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1180000,
+        "change_percent": 22.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1460000,
+        "change_percent": 23.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1460000,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1460000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 572.8,
+    "num_increases": 9,
+    "cagr": 7.9,
+    "inflation_adjusted_increase_percent": 340.2
+  },
+  {
+    "drug_id": "sovaldi",
+    "drug_name": "Sovaldi",
+    "generic_name": "sofosbuvir",
+    "manufacturer_id": "gilead",
+    "launch_date": "2013-12-01",
+    "launch_price": 2800000,
+    "price_history": [
+      {
+        "date": "2013-12-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-07-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2800000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -25.8
+  },
+  {
+    "drug_id": "tecfidera",
+    "drug_name": "Tecfidera",
+    "generic_name": "dimethyl fumarate",
+    "manufacturer_id": "biogen",
+    "launch_date": "2013-03-01",
+    "launch_price": 438000,
+    "price_history": [
+      {
+        "date": "2013-03-01",
+        "wac_monthly": 438000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 470000,
+        "change_percent": 7.3
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 510000,
+        "change_percent": 8.5
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 560000,
+        "change_percent": 9.8
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 615000,
+        "change_percent": 9.8
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 670000,
+        "change_percent": 8.9
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 730000,
+        "change_percent": 9
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 790000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 840000,
+        "change_percent": 6.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 880000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 888800,
+        "change_percent": 1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 897700,
+        "change_percent": 1
+      }
+    ],
+    "total_increase_percent": 105,
+    "num_increases": 11,
+    "cagr": 5.7,
+    "inflation_adjusted_increase_percent": 58.3
+  },
+  {
+    "drug_id": "tagrisso",
+    "drug_name": "Tagrisso",
+    "generic_name": "osimertinib mesylate",
+    "manufacturer_id": "astrazeneca",
+    "launch_date": "2015-11-01",
+    "launch_price": 1258000,
+    "price_history": [
+      {
+        "date": "2015-11-01",
+        "wac_monthly": 1258000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 1290000,
+        "change_percent": 2.5
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 1330000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 1380000,
+        "change_percent": 3.8
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 1430000,
+        "change_percent": 3.6
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 1485000,
+        "change_percent": 3.8
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 1540000,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1600000,
+        "change_percent": 3.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 1650000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1700000,
+        "change_percent": 3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1802000,
+        "change_percent": 6
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1910100,
+        "change_percent": 6
+      }
+    ],
+    "total_increase_percent": 51.8,
+    "num_increases": 11,
+    "cagr": 3.9,
+    "inflation_adjusted_increase_percent": 7.5
+  },
+  {
+    "drug_id": "trikafta",
+    "drug_name": "Trikafta",
+    "generic_name": "elexacaftor/tezacaftor/ivacaftor",
+    "manufacturer_id": "vertex",
+    "launch_date": "2019-10-01",
+    "launch_price": 2090000,
+    "price_history": [
+      {
+        "date": "2019-10-01",
+        "wac_monthly": 2090000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 2120000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 2150000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 2190000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 2220000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 2260000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 2300000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 2340000,
+        "change_percent": 1.7
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 2370000,
+        "change_percent": 1.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2400000,
+        "change_percent": 1.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2532000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2671300,
+        "change_percent": 5.5
+      }
+    ],
+    "total_increase_percent": 27.8,
+    "num_increases": 11,
+    "cagr": 3.6,
+    "inflation_adjusted_increase_percent": -7.4
+  },
+  {
+    "drug_id": "dupixent",
+    "drug_name": "Dupixent",
+    "generic_name": "dupilumab",
+    "manufacturer_id": "regeneron",
+    "launch_date": "2017-03-01",
+    "launch_price": 300000,
+    "price_history": [
+      {
+        "date": "2017-03-01",
+        "wac_monthly": 300000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 310000,
+        "change_percent": 3.3
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 320000,
+        "change_percent": 3.2
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 330000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 335000,
+        "change_percent": 1.5
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 340000,
+        "change_percent": 1.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 350000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 358000,
+        "change_percent": 2.3
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 364000,
+        "change_percent": 1.7
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 370000,
+        "change_percent": 1.6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 394000,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 419700,
+        "change_percent": 6.5
+      }
+    ],
+    "total_increase_percent": 39.9,
+    "num_increases": 11,
+    "cagr": 3.8,
+    "inflation_adjusted_increase_percent": -0.5
+  },
+  {
+    "drug_id": "pomalyst",
+    "drug_name": "Pomalyst",
+    "generic_name": "pomalidomide",
+    "manufacturer_id": "bms",
+    "launch_date": "2013-02-01",
+    "launch_price": 830000,
+    "price_history": [
+      {
+        "date": "2013-02-01",
+        "wac_monthly": 830000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 910000,
+        "change_percent": 9.6
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 1000000,
+        "change_percent": 9.9
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 1100000,
+        "change_percent": 10
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1210000,
+        "change_percent": 10
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1330000,
+        "change_percent": 9.9
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1450000,
+        "change_percent": 9
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1560000,
+        "change_percent": 7.6
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1710000,
+        "change_percent": 9.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1850000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1942500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2039600,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 145.7,
+    "num_increases": 11,
+    "cagr": 7.2,
+    "inflation_adjusted_increase_percent": 79.1
+  },
+  {
+    "drug_id": "harvoni",
+    "drug_name": "Harvoni",
+    "generic_name": "ledipasvir/sofosbuvir",
+    "manufacturer_id": "gilead",
+    "launch_date": "2014-10-01",
+    "launch_price": 3150000,
+    "price_history": [
+      {
+        "date": "2014-10-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 3150000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -24.2
+  },
+  {
+    "drug_id": "sprycel",
+    "drug_name": "Sprycel",
+    "generic_name": "dasatinib",
+    "manufacturer_id": "bms",
+    "launch_date": "2006-06-01",
+    "launch_price": 510000,
+    "price_history": [
+      {
+        "date": "2006-06-01",
+        "wac_monthly": 510000,
+        "change_percent": 0
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 600000,
+        "change_percent": 17.6
+      },
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 720000,
+        "change_percent": 20
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 860000,
+        "change_percent": 19.4
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 1020000,
+        "change_percent": 18.6
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 1180000,
+        "change_percent": 15.7
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1340000,
+        "change_percent": 13.6
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1460000,
+        "change_percent": 9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1560000,
+        "change_percent": 6.8
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1650000,
+        "change_percent": 5.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1683000,
+        "change_percent": 2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1716700,
+        "change_percent": 2
+      }
+    ],
+    "total_increase_percent": 236.6,
+    "num_increases": 11,
+    "cagr": 6.3,
+    "inflation_adjusted_increase_percent": 138.9
+  },
+  {
+    "drug_id": "afinitor",
+    "drug_name": "Afinitor",
+    "generic_name": "everolimus",
+    "manufacturer_id": "novartis",
+    "launch_date": "2009-03-01",
+    "launch_price": 680000,
+    "price_history": [
+      {
+        "date": "2009-03-01",
+        "wac_monthly": 680000,
+        "change_percent": 0
+      },
+      {
+        "date": "2010-07-01",
+        "wac_monthly": 750000,
+        "change_percent": 10.3
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 850000,
+        "change_percent": 13.3
+      },
+      {
+        "date": "2013-07-01",
+        "wac_monthly": 960000,
+        "change_percent": 12.9
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 1080000,
+        "change_percent": 12.5
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 1200000,
+        "change_percent": 11.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1350000,
+        "change_percent": 12.5
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1500000,
+        "change_percent": 11.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1660000,
+        "change_percent": 10.7
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1800000,
+        "change_percent": 8.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1818000,
+        "change_percent": 1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1836200,
+        "change_percent": 1
+      }
+    ],
+    "total_increase_percent": 170,
+    "num_increases": 11,
+    "cagr": 6,
+    "inflation_adjusted_increase_percent": 106.3
+  },
+  {
+    "drug_id": "xeljanz",
+    "drug_name": "Xeljanz",
+    "generic_name": "tofacitinib citrate",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2012-11-01",
+    "launch_price": 290000,
+    "price_history": [
+      {
+        "date": "2012-11-01",
+        "wac_monthly": 290000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 310000,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 340000,
+        "change_percent": 9.7
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 370000,
+        "change_percent": 8.8
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 400000,
+        "change_percent": 8.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 430000,
+        "change_percent": 7.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 460000,
+        "change_percent": 7
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 490000,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 520000,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 550000,
+        "change_percent": 5.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 566500,
+        "change_percent": 3
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 583500,
+        "change_percent": 3
+      }
+    ],
+    "total_increase_percent": 101.2,
+    "num_increases": 11,
+    "cagr": 5.1,
+    "inflation_adjusted_increase_percent": 50.3
+  },
+  {
+    "drug_id": "venclexta",
+    "drug_name": "Venclexta",
+    "generic_name": "venetoclax",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2016-04-01",
+    "launch_price": 940000,
+    "price_history": [
+      {
+        "date": "2016-04-01",
+        "wac_monthly": 940000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 980000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 1010000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 1060000,
+        "change_percent": 5
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 1110000,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 1160000,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 1220000,
+        "change_percent": 5.2
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1290000,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 1350000,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1400000,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1484000,
+        "change_percent": 6
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1573000,
+        "change_percent": 6
+      }
+    ],
+    "total_increase_percent": 67.3,
+    "num_increases": 11,
+    "cagr": 5.3,
+    "inflation_adjusted_increase_percent": 19.3
+  },
+  {
+    "drug_id": "wegovy",
+    "drug_name": "Wegovy",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "launch_date": "2021-06-01",
+    "launch_price": 130700,
+    "price_history": [
+      {
+        "date": "2021-06-01",
+        "wac_monthly": 130700,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 131800,
+        "change_percent": 0.8
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 133600,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 134902,
+        "change_percent": 1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 140300,
+        "change_percent": 4
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 145900,
+        "change_percent": 4
+      }
+    ],
+    "total_increase_percent": 11.6,
+    "num_increases": 5,
+    "cagr": 2.2,
+    "inflation_adjusted_increase_percent": -15.2
+  },
+  {
+    "drug_id": "mounjaro",
+    "drug_name": "Mounjaro",
+    "generic_name": "tirzepatide",
+    "manufacturer_id": "lilly",
+    "launch_date": "2022-05-01",
+    "launch_price": 97491,
+    "price_history": [
+      {
+        "date": "2022-05-01",
+        "wac_monthly": 97491,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 101300,
+        "change_percent": 3.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 104600,
+        "change_percent": 3.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 107977,
+        "change_percent": 3.2
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 111800,
+        "change_percent": 3.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 115700,
+        "change_percent": 3.5
+      }
+    ],
+    "total_increase_percent": 18.7,
+    "num_increases": 5,
+    "cagr": 4.4,
+    "inflation_adjusted_increase_percent": -1.5
+  },
+  {
+    "drug_id": "zepbound",
+    "drug_name": "Zepbound",
+    "generic_name": "tirzepatide",
+    "manufacturer_id": "lilly",
+    "launch_date": "2023-11-01",
+    "launch_price": 106042,
+    "price_history": [
+      {
+        "date": "2023-11-01",
+        "wac_monthly": 106042,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 108637,
+        "change_percent": 2.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 112400,
+        "change_percent": 3.5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 116400,
+        "change_percent": 3.6
+      }
+    ],
+    "total_increase_percent": 9.8,
+    "num_increases": 3,
+    "cagr": 3.2,
+    "inflation_adjusted_increase_percent": -0.5
+  },
+  {
+    "drug_id": "saxenda",
+    "drug_name": "Saxenda",
+    "generic_name": "liraglutide",
+    "manufacturer_id": "novo",
+    "launch_date": "2014-12-01",
+    "launch_price": 96000,
+    "price_history": [
+      {
+        "date": "2014-12-01",
+        "wac_monthly": 96000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 100800,
+        "change_percent": 5
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 106400,
+        "change_percent": 5.6
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 112500,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 118200,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 122500,
+        "change_percent": 3.6
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 126000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 129500,
+        "change_percent": 2.8
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 132200,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 134902,
+        "change_percent": 2
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 136300,
+        "change_percent": 1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 137600,
+        "change_percent": 1
+      }
+    ],
+    "total_increase_percent": 43.3,
+    "num_increases": 11,
+    "cagr": 3,
+    "inflation_adjusted_increase_percent": 12.1
+  },
+  {
+    "drug_id": "rybelsus",
+    "drug_name": "Rybelsus",
+    "generic_name": "semaglutide",
+    "manufacturer_id": "novo",
+    "launch_date": "2019-09-01",
+    "launch_price": 87300,
+    "price_history": [
+      {
+        "date": "2019-09-01",
+        "wac_monthly": 87300,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 89200,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 92000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 95400,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 98800,
+        "change_percent": 3.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 102751,
+        "change_percent": 4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 106900,
+        "change_percent": 4
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 111100,
+        "change_percent": 3.9
+      }
+    ],
+    "total_increase_percent": 27.3,
+    "num_increases": 7,
+    "cagr": 3.5,
+    "inflation_adjusted_increase_percent": -3.8
+  },
+  {
+    "drug_id": "victoza",
+    "drug_name": "Victoza",
+    "generic_name": "liraglutide",
+    "manufacturer_id": "novo",
+    "launch_date": "2010-01-01",
+    "launch_price": 37600,
+    "price_history": [
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 37600,
+        "change_percent": 0
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 42800,
+        "change_percent": 13.8
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 49300,
+        "change_percent": 15.2
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 54500,
+        "change_percent": 10.5
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 60800,
+        "change_percent": 11.6
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 65200,
+        "change_percent": 7.2
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 69800,
+        "change_percent": 7.1
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 73500,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 77800,
+        "change_percent": 5.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 81527,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 81500,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 81500,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 116.8,
+    "num_increases": 9,
+    "cagr": 5,
+    "inflation_adjusted_increase_percent": 68.4
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "generic_name": "aflibercept",
+    "manufacturer_id": "regeneron",
+    "launch_date": "2011-11-01",
+    "launch_price": 140000,
+    "price_history": [
+      {
+        "date": "2011-11-01",
+        "wac_monthly": 140000,
+        "change_percent": 0
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 145000,
+        "change_percent": 3.6
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 155000,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 165000,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 175000,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 180000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 185000,
+        "change_percent": 2.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 190600,
+        "change_percent": 3
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 196300,
+        "change_percent": 3
+      }
+    ],
+    "total_increase_percent": 40.2,
+    "num_increases": 8,
+    "cagr": 2.3,
+    "inflation_adjusted_increase_percent": -2.5
+  },
+  {
+    "drug_id": "entresto",
+    "drug_name": "Entresto",
+    "generic_name": "sacubitril/valsartan",
+    "manufacturer_id": "novartis",
+    "launch_date": "2015-07-01",
+    "launch_price": 37500,
+    "price_history": [
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 37500,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-07-01",
+        "wac_monthly": 40000,
+        "change_percent": 6.7
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 43000,
+        "change_percent": 7.5
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 46500,
+        "change_percent": 8.1
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 49500,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 52500,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 55000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 57500,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 60000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 63600,
+        "change_percent": 6
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 67400,
+        "change_percent": 6
+      }
+    ],
+    "total_increase_percent": 79.7,
+    "num_increases": 10,
+    "cagr": 5.5,
+    "inflation_adjusted_increase_percent": 28.4
+  },
+  {
+    "drug_id": "darzalex",
+    "drug_name": "Darzalex",
+    "generic_name": "daratumumab",
+    "manufacturer_id": "jnj",
+    "launch_date": "2015-11-01",
+    "launch_price": 550000,
+    "price_history": [
+      {
+        "date": "2015-11-01",
+        "wac_monthly": 550000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 580000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 615000,
+        "change_percent": 6
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 650000,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 680000,
+        "change_percent": 4.6
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 705000,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 725000,
+        "change_percent": 2.8
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 740000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 750000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 802500,
+        "change_percent": 7
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 858700,
+        "change_percent": 7
+      }
+    ],
+    "total_increase_percent": 56.1,
+    "num_increases": 10,
+    "cagr": 4.1,
+    "inflation_adjusted_increase_percent": 7.8
+  },
+  {
+    "drug_id": "ocrevus",
+    "drug_name": "Ocrevus",
+    "generic_name": "ocrelizumab",
+    "manufacturer_id": "genentech",
+    "launch_date": "2017-03-01",
+    "launch_price": 540000,
+    "price_history": [
+      {
+        "date": "2017-03-01",
+        "wac_monthly": 540000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 548000,
+        "change_percent": 1.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 556000,
+        "change_percent": 1.5
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 562000,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 568000,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 572000,
+        "change_percent": 0.7
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 576000,
+        "change_percent": 0.7
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 580000,
+        "change_percent": 0.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 609000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 639400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 18.4,
+    "num_increases": 9,
+    "cagr": 1.9,
+    "inflation_adjusted_increase_percent": -16.2
+  },
+  {
+    "drug_id": "biktarvy",
+    "drug_name": "Biktarvy",
+    "generic_name": "bictegravir/emtricitabine/tenofovir alafenamide",
+    "manufacturer_id": "gilead",
+    "launch_date": "2018-02-01",
+    "launch_price": 310000,
+    "price_history": [
+      {
+        "date": "2018-02-01",
+        "wac_monthly": 310000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 320000,
+        "change_percent": 3.2
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 330000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 340000,
+        "change_percent": 3
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 350000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 360000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 370000,
+        "change_percent": 2.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 388500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 407900,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 31.6,
+    "num_increases": 8,
+    "cagr": 3.5,
+    "inflation_adjusted_increase_percent": -3.2
+  },
+  {
+    "drug_id": "cosentyx",
+    "drug_name": "Cosentyx",
+    "generic_name": "secukinumab",
+    "manufacturer_id": "novartis",
+    "launch_date": "2015-01-01",
+    "launch_price": 380000,
+    "price_history": [
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 380000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 410000,
+        "change_percent": 7.9
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 440000,
+        "change_percent": 7.3
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 475000,
+        "change_percent": 8
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 510000,
+        "change_percent": 7.4
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 545000,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 570000,
+        "change_percent": 4.6
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 595000,
+        "change_percent": 4.4
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 615000,
+        "change_percent": 3.4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 630000,
+        "change_percent": 2.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 661500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 694600,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 82.8,
+    "num_increases": 11,
+    "cagr": 5.6,
+    "inflation_adjusted_increase_percent": 33.1
+  },
+  {
+    "drug_id": "repatha",
+    "drug_name": "Repatha",
+    "generic_name": "evolocumab",
+    "manufacturer_id": "amgen",
+    "launch_date": "2015-08-01",
+    "launch_price": 117500,
+    "price_history": [
+      {
+        "date": "2015-08-01",
+        "wac_monthly": 117500,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 117500,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 117500,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-10-01",
+        "wac_monthly": 48800,
+        "change_percent": -58.5
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 48800,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 48800,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 48800,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 51200,
+        "change_percent": 4.9
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 53800,
+        "change_percent": 5.1
+      }
+    ],
+    "total_increase_percent": -54.2,
+    "num_increases": 2,
+    "cagr": -6.9,
+    "inflation_adjusted_increase_percent": -68.2
+  },
+  {
+    "drug_id": "tremfya",
+    "drug_name": "Tremfya",
+    "generic_name": "guselkumab",
+    "manufacturer_id": "jnj",
+    "launch_date": "2017-07-01",
+    "launch_price": 430000,
+    "price_history": [
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 430000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 450000,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 470000,
+        "change_percent": 4.4
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 490000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 510000,
+        "change_percent": 4.1
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 525000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 540000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 550000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 577500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 606400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 41,
+    "num_increases": 9,
+    "cagr": 3.9,
+    "inflation_adjusted_increase_percent": 2.1
+  },
+  {
+    "drug_id": "kisqali",
+    "drug_name": "Kisqali",
+    "generic_name": "ribociclib",
+    "manufacturer_id": "novartis",
+    "launch_date": "2017-03-01",
+    "launch_price": 950000,
+    "price_history": [
+      {
+        "date": "2017-03-01",
+        "wac_monthly": 950000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1000000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1050000,
+        "change_percent": 5
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1100000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1150000,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1200000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1250000,
+        "change_percent": 4.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1300000,
+        "change_percent": 4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1365000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1433200,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 50.9,
+    "num_increases": 9,
+    "cagr": 4.7,
+    "inflation_adjusted_increase_percent": 9.8
+  },
+  {
+    "drug_id": "verzenio",
+    "drug_name": "Verzenio",
+    "generic_name": "abemaciclib",
+    "manufacturer_id": "lilly",
+    "launch_date": "2017-09-01",
+    "launch_price": 1050000,
+    "price_history": [
+      {
+        "date": "2017-09-01",
+        "wac_monthly": 1050000,
+        "change_percent": 0
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 1100000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 1150000,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 1200000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 1260000,
+        "change_percent": 5
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1320000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 1360000,
+        "change_percent": 3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1400000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1470000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1543500,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 47,
+    "num_increases": 9,
+    "cagr": 4.4,
+    "inflation_adjusted_increase_percent": 7.9
+  },
+  {
+    "drug_id": "lynparza",
+    "drug_name": "Lynparza",
+    "generic_name": "olaparib",
+    "manufacturer_id": "astrazeneca",
+    "launch_date": "2014-12-01",
+    "launch_price": 1080000,
+    "price_history": [
+      {
+        "date": "2014-12-01",
+        "wac_monthly": 1080000,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 1120000,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1160000,
+        "change_percent": 3.6
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 1210000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1260000,
+        "change_percent": 4.1
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1310000,
+        "change_percent": 4
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1350000,
+        "change_percent": 3.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1390000,
+        "change_percent": 3
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1420000,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1450000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1522500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1598600,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 48,
+    "num_increases": 11,
+    "cagr": 3.3,
+    "inflation_adjusted_increase_percent": 5.7
+  },
+  {
+    "drug_id": "farxiga",
+    "drug_name": "Farxiga",
+    "generic_name": "dapagliflozin",
+    "manufacturer_id": "astrazeneca",
+    "launch_date": "2014-01-01",
+    "launch_price": 28000,
+    "price_history": [
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 28000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 30000,
+        "change_percent": 7.1
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 33000,
+        "change_percent": 10
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 36000,
+        "change_percent": 9.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 39000,
+        "change_percent": 8.3
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 42000,
+        "change_percent": 7.7
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 45000,
+        "change_percent": 7.1
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 48000,
+        "change_percent": 6.7
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 51000,
+        "change_percent": 6.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 55000,
+        "change_percent": 7.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 57800,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 60600,
+        "change_percent": 4.8
+      }
+    ],
+    "total_increase_percent": 116.4,
+    "num_increases": 11,
+    "cagr": 6.6,
+    "inflation_adjusted_increase_percent": 55.8
+  },
+  {
+    "drug_id": "otezla",
+    "drug_name": "Otezla",
+    "generic_name": "apremilast",
+    "manufacturer_id": "amgen",
+    "launch_date": "2014-03-01",
+    "launch_price": 220000,
+    "price_history": [
+      {
+        "date": "2014-03-01",
+        "wac_monthly": 220000,
+        "change_percent": 0
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 240000,
+        "change_percent": 9.1
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 265000,
+        "change_percent": 10.4
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 290000,
+        "change_percent": 9.4
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 315000,
+        "change_percent": 8.6
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 340000,
+        "change_percent": 7.9
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 360000,
+        "change_percent": 5.9
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 380000,
+        "change_percent": 5.6
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 400000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 420000,
+        "change_percent": 5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 441000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 463000,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 110.5,
+    "num_increases": 11,
+    "cagr": 6.4,
+    "inflation_adjusted_increase_percent": 52.3
+  },
+  {
+    "drug_id": "vyvanse",
+    "drug_name": "Vyvanse",
+    "generic_name": "lisdexamfetamine dimesylate",
+    "manufacturer_id": "takeda",
+    "launch_date": "2007-02-01",
+    "launch_price": 15000,
+    "price_history": [
+      {
+        "date": "2007-02-01",
+        "wac_monthly": 15000,
+        "change_percent": 0
+      },
+      {
+        "date": "2009-01-01",
+        "wac_monthly": 17500,
+        "change_percent": 16.7
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 21000,
+        "change_percent": 20
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 25000,
+        "change_percent": 19
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 28500,
+        "change_percent": 14
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 32000,
+        "change_percent": 12.3
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 35500,
+        "change_percent": 10.9
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 38000,
+        "change_percent": 7
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 39500,
+        "change_percent": 3.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 40000,
+        "change_percent": 1.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 42000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 44100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 194,
+    "num_increases": 11,
+    "cagr": 5.8,
+    "inflation_adjusted_increase_percent": 96.2
+  },
+  {
+    "drug_id": "xtandi",
+    "drug_name": "Xtandi",
+    "generic_name": "enzalutamide",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2012-08-01",
+    "launch_price": 750000,
+    "price_history": [
+      {
+        "date": "2012-08-01",
+        "wac_monthly": 750000,
+        "change_percent": 0
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 810000,
+        "change_percent": 8
+      },
+      {
+        "date": "2015-07-01",
+        "wac_monthly": 870000,
+        "change_percent": 7.4
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 940000,
+        "change_percent": 8
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 1010000,
+        "change_percent": 7.4
+      },
+      {
+        "date": "2019-07-01",
+        "wac_monthly": 1070000,
+        "change_percent": 5.9
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 1130000,
+        "change_percent": 5.6
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 1180000,
+        "change_percent": 4.4
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1240000,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1300000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1365000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1433200,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 91.1,
+    "num_increases": 11,
+    "cagr": 4.7,
+    "inflation_adjusted_increase_percent": 35.1
+  },
+  {
+    "drug_id": "januvia",
+    "drug_name": "Januvia",
+    "generic_name": "sitagliptin",
+    "manufacturer_id": "merck",
+    "launch_date": "2006-10-16",
+    "launch_price": 16200,
+    "price_history": [
+      {
+        "date": "2006-10-16",
+        "wac_monthly": 16200,
+        "change_percent": 0
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 18500,
+        "change_percent": 14.2
+      },
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 22100,
+        "change_percent": 19.5
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 27500,
+        "change_percent": 24.4
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 33200,
+        "change_percent": 20.7
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 38500,
+        "change_percent": 16
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 43800,
+        "change_percent": 13.8
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 47500,
+        "change_percent": 8.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 50800,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 53100,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 55800,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 58500,
+        "change_percent": 4.8
+      }
+    ],
+    "total_increase_percent": 261.1,
+    "num_increases": 11,
+    "cagr": 6.6,
+    "inflation_adjusted_increase_percent": 141.3
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "generic_name": "human papillomavirus 9-valent vaccine, recombinant",
+    "manufacturer_id": "merck",
+    "launch_date": "2014-12-10",
+    "launch_price": 20500,
+    "price_history": [
+      {
+        "date": "2014-12-10",
+        "wac_monthly": 20500,
+        "change_percent": 0
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 21500,
+        "change_percent": 4.9
+      },
+      {
+        "date": "2017-07-01",
+        "wac_monthly": 22800,
+        "change_percent": 6
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 24500,
+        "change_percent": 7.5
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 26200,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 28000,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 29500,
+        "change_percent": 5.4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 30600,
+        "change_percent": 3.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 32100,
+        "change_percent": 4.9
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 33700,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 64.4,
+    "num_increases": 9,
+    "cagr": 4.2,
+    "inflation_adjusted_increase_percent": 17.2
+  },
+  {
+    "drug_id": "bridion",
+    "drug_name": "Bridion",
+    "generic_name": "sugammadex",
+    "manufacturer_id": "merck",
+    "launch_date": "2015-12-16",
+    "launch_price": 9500,
+    "price_history": [
+      {
+        "date": "2015-12-16",
+        "wac_monthly": 9500,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 10800,
+        "change_percent": 13.7
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 11900,
+        "change_percent": 10.2
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 12800,
+        "change_percent": 7.6
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 13500,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 14200,
+        "change_percent": 5.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 14800,
+        "change_percent": 4.2
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 15500,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 16300,
+        "change_percent": 5.2
+      }
+    ],
+    "total_increase_percent": 71.6,
+    "num_increases": 8,
+    "cagr": 5,
+    "inflation_adjusted_increase_percent": 22.3
+  },
+  {
+    "drug_id": "welireg",
+    "drug_name": "Welireg",
+    "generic_name": "belzutifan",
+    "manufacturer_id": "merck",
+    "launch_date": "2021-08-13",
+    "launch_price": 1780000,
+    "price_history": [
+      {
+        "date": "2021-08-13",
+        "wac_monthly": 1780000,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 1850000,
+        "change_percent": 3.9
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 1910000,
+        "change_percent": 3.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1962000,
+        "change_percent": 2.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2060100,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2163100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 21.5,
+    "num_increases": 5,
+    "cagr": 4,
+    "inflation_adjusted_increase_percent": -5.8
+  },
+  {
+    "drug_id": "lagevrio",
+    "drug_name": "Lagevrio",
+    "generic_name": "molnupiravir",
+    "manufacturer_id": "merck",
+    "launch_date": "2021-12-23",
+    "launch_price": 70000,
+    "price_history": [
+      {
+        "date": "2021-12-23",
+        "wac_monthly": 70000,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 70000,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 73500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 77200,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 10.3,
+    "num_increases": 2,
+    "cagr": 2,
+    "inflation_adjusted_increase_percent": -14.2
+  },
+  {
+    "drug_id": "vyndaqel",
+    "drug_name": "Vyndaqel",
+    "generic_name": "tafamidis meglumine",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2019-05-03",
+    "launch_price": 2000000,
+    "price_history": [
+      {
+        "date": "2019-05-03",
+        "wac_monthly": 2000000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 2060000,
+        "change_percent": 3
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 2120000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 2170000,
+        "change_percent": 2.4
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 2200000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2232000,
+        "change_percent": 1.5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2343600,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2460800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 23,
+    "num_increases": 7,
+    "cagr": 3,
+    "inflation_adjusted_increase_percent": -8.4
+  },
+  {
+    "drug_id": "prolia",
+    "drug_name": "Prolia",
+    "generic_name": "denosumab",
+    "manufacturer_id": "amgen",
+    "launch_date": "2010-06-01",
+    "launch_price": 82500,
+    "price_history": [
+      {
+        "date": "2010-06-01",
+        "wac_monthly": 82500,
+        "change_percent": 0
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 95000,
+        "change_percent": 15.2
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 110000,
+        "change_percent": 15.8
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 128000,
+        "change_percent": 16.4
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 148000,
+        "change_percent": 15.6
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 162000,
+        "change_percent": 9.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 172000,
+        "change_percent": 6.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 180000,
+        "change_percent": 4.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 189000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 33100,
+        "change_percent": -82.5
+      }
+    ],
+    "total_increase_percent": -59.9,
+    "num_increases": 8,
+    "cagr": -5.5,
+    "inflation_adjusted_increase_percent": 62.5
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "generic_name": "infliximab",
+    "manufacturer_id": "jnj",
+    "launch_date": "1998-08-24",
+    "launch_price": 60000,
+    "price_history": [
+      {
+        "date": "1998-08-24",
+        "wac_monthly": 60000,
+        "change_percent": 0
+      },
+      {
+        "date": "2002-01-01",
+        "wac_monthly": 80000,
+        "change_percent": 33.3
+      },
+      {
+        "date": "2005-01-01",
+        "wac_monthly": 105000,
+        "change_percent": 31.3
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 140000,
+        "change_percent": 33.3
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 175000,
+        "change_percent": 25
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 215000,
+        "change_percent": 22.9
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 240000,
+        "change_percent": 11.6
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 255000,
+        "change_percent": 6.3
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 260000,
+        "change_percent": 2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 260000,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 273000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 286600,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 377.7,
+    "num_increases": 10,
+    "cagr": 5.7,
+    "inflation_adjusted_increase_percent": 148.2
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "generic_name": "rituximab",
+    "manufacturer_id": "genentech",
+    "launch_date": "1997-11-26",
+    "launch_price": 180000,
+    "price_history": [
+      {
+        "date": "1997-11-26",
+        "wac_monthly": 180000,
+        "change_percent": 0
+      },
+      {
+        "date": "2001-01-01",
+        "wac_monthly": 220000,
+        "change_percent": 22.2
+      },
+      {
+        "date": "2004-01-01",
+        "wac_monthly": 260000,
+        "change_percent": 18.2
+      },
+      {
+        "date": "2007-01-01",
+        "wac_monthly": 300000,
+        "change_percent": 15.4
+      },
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 340000,
+        "change_percent": 13.3
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 380000,
+        "change_percent": 11.8
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 415000,
+        "change_percent": 9.2
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 440000,
+        "change_percent": 6
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 448000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 450000,
+        "change_percent": 0.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 472500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 496100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 175.6,
+    "num_increases": 11,
+    "cagr": 3.6,
+    "inflation_adjusted_increase_percent": 38.2
+  },
+  {
+    "drug_id": "herceptin",
+    "drug_name": "Herceptin",
+    "generic_name": "trastuzumab",
+    "manufacturer_id": "genentech",
+    "launch_date": "1998-09-25",
+    "launch_price": 280000,
+    "price_history": [
+      {
+        "date": "1998-09-25",
+        "wac_monthly": 280000,
+        "change_percent": 0
+      },
+      {
+        "date": "2002-01-01",
+        "wac_monthly": 320000,
+        "change_percent": 14.3
+      },
+      {
+        "date": "2005-01-01",
+        "wac_monthly": 370000,
+        "change_percent": 15.6
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 420000,
+        "change_percent": 13.5
+      },
+      {
+        "date": "2011-01-01",
+        "wac_monthly": 470000,
+        "change_percent": 11.9
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 520000,
+        "change_percent": 10.6
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 570000,
+        "change_percent": 9.6
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 610000,
+        "change_percent": 7
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 630000,
+        "change_percent": 3.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 640000,
+        "change_percent": 1.6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 672000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 705600,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 152,
+    "num_increases": 11,
+    "cagr": 3.4,
+    "inflation_adjusted_increase_percent": 31.5
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "generic_name": "onabotulinumtoxinA",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2002-04-12",
+    "launch_price": 42000,
+    "price_history": [
+      {
+        "date": "2002-04-12",
+        "wac_monthly": 42000,
+        "change_percent": 0
+      },
+      {
+        "date": "2005-01-01",
+        "wac_monthly": 48000,
+        "change_percent": 14.3
+      },
+      {
+        "date": "2008-01-01",
+        "wac_monthly": 55000,
+        "change_percent": 14.6
+      },
+      {
+        "date": "2010-01-01",
+        "wac_monthly": 58000,
+        "change_percent": 5.5
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 62000,
+        "change_percent": 6.9
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 66000,
+        "change_percent": 6.5
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 70000,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 74000,
+        "change_percent": 5.7
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 78000,
+        "change_percent": 5.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 83000,
+        "change_percent": 6.4
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 86700,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 91000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 95600,
+        "change_percent": 5.1
+      }
+    ],
+    "total_increase_percent": 127.6,
+    "num_increases": 12,
+    "cagr": 3.5,
+    "inflation_adjusted_increase_percent": 34.8
+  },
+  {
+    "drug_id": "prevnar",
+    "drug_name": "Prevnar 20",
+    "generic_name": "pneumococcal 20-valent conjugate vaccine",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2021-06-08",
+    "launch_price": 24200,
+    "price_history": [
+      {
+        "date": "2021-06-08",
+        "wac_monthly": 24200,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-07-01",
+        "wac_monthly": 25500,
+        "change_percent": 5.4
+      },
+      {
+        "date": "2023-07-01",
+        "wac_monthly": 26800,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 27500,
+        "change_percent": 2.6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 28900,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 30300,
+        "change_percent": 4.8
+      }
+    ],
+    "total_increase_percent": 25.2,
+    "num_increases": 5,
+    "cagr": 4.6,
+    "inflation_adjusted_increase_percent": -2.4
+  },
+  {
+    "drug_id": "paxlovid",
+    "drug_name": "Paxlovid",
+    "generic_name": "nirmatrelvir/ritonavir",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2021-12-22",
+    "launch_price": 53000,
+    "price_history": [
+      {
+        "date": "2021-12-22",
+        "wac_monthly": 53000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-11-01",
+        "wac_monthly": 139000,
+        "change_percent": 162.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 146000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 153200,
+        "change_percent": 4.9
+      }
+    ],
+    "total_increase_percent": 189.1,
+    "num_increases": 3,
+    "cagr": 23.7,
+    "inflation_adjusted_increase_percent": 138.5,
+    "note": "USG price was $530/course; commercial WAC increased to $1,390/course when transitioning to commercial market in late 2023"
+  },
+  {
+    "drug_id": "trelegy",
+    "drug_name": "Trelegy Ellipta",
+    "generic_name": "fluticasone furoate/umeclidinium/vilanterol",
+    "manufacturer_id": "gsk",
+    "launch_date": "2017-09-18",
+    "launch_price": 48000,
+    "price_history": [
+      {
+        "date": "2017-09-18",
+        "wac_monthly": 48000,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 52000,
+        "change_percent": 8.3
+      },
+      {
+        "date": "2020-07-01",
+        "wac_monthly": 55000,
+        "change_percent": 5.8
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 59000,
+        "change_percent": 7.3
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 62000,
+        "change_percent": 5.1
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 65000,
+        "change_percent": 4.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 68200,
+        "change_percent": 4.9
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 71700,
+        "change_percent": 5.1
+      }
+    ],
+    "total_increase_percent": 49.4,
+    "num_increases": 7,
+    "cagr": 4.6,
+    "inflation_adjusted_increase_percent": 8.2
+  },
+  {
+    "drug_id": "vraylar",
+    "drug_name": "Vraylar",
+    "generic_name": "cariprazine",
+    "manufacturer_id": "abbvie",
+    "launch_date": "2015-09-17",
+    "launch_price": 95000,
+    "price_history": [
+      {
+        "date": "2015-09-17",
+        "wac_monthly": 95000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 108000,
+        "change_percent": 13.7
+      },
+      {
+        "date": "2018-07-01",
+        "wac_monthly": 118000,
+        "change_percent": 9.3
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 130000,
+        "change_percent": 10.2
+      },
+      {
+        "date": "2021-07-01",
+        "wac_monthly": 140000,
+        "change_percent": 7.7
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 152000,
+        "change_percent": 8.6
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 160000,
+        "change_percent": 5.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 168000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 176400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 85.7,
+    "num_increases": 8,
+    "cagr": 5.8,
+    "inflation_adjusted_increase_percent": 30.5
+  },
+  {
+    "drug_id": "yervoy",
+    "drug_name": "Yervoy",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1289167,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1395334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1516667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1592500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1672100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 1289167,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "tecentriq",
+    "drug_name": "Tecentriq",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1211250,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1311000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1425000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1496200,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1571100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 1211250,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "avastin",
+    "drug_name": "Avastin",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 623333,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 674666,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 733333,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 770000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 808500,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 623333,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "imfinzi",
+    "drug_name": "Imfinzi",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1168750,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1265000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1375000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1443800,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1515900,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 1168750,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "enhertu",
+    "drug_name": "Enhertu",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1714167,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1855334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2016667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2117500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2223400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 1714167,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "kymriah",
+    "drug_name": "Kymriah",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3364583,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3641666,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3958333,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 4156200,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 4364100,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 3364583,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "yescarta",
+    "drug_name": "Yescarta",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3315000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3588000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3900000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 4095000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 4299800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 3315000,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "spinraza",
+    "drug_name": "Spinraza",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 2868750,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3105000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3375000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 3543800,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 3720900,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 2868750,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "zolgensma",
+    "drug_name": "Zolgensma",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 15052083,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 16291666,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 17708333,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 18593700,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 19523400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 15052083,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "soliris",
+    "drug_name": "Soliris",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 4533333,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 4906666,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 5333333,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 5600000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 5880000,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 4533333,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "ultomiris",
+    "drug_name": "Ultomiris",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 4845000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 5244000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 5700000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 5985000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 6284200,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 4845000,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "hemgenix",
+    "drug_name": "Hemgenix",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 24791667,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 26833334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 29166667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 30625000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 32156300,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 24791667,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "vimizim",
+    "drug_name": "Vimizim",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3485000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3772000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 4100000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 4305000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 4520200,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 3485000,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "naglazyme",
+    "drug_name": "Naglazyme",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3371667,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3649334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3966667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 4165000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 4373300,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 3371667,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "voxzogo",
+    "drug_name": "Voxzogo",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 2280833,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 2468666,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2683333,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2817500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2958400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 2280833,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "novolog",
+    "drug_name": "NovoLog",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 51000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 55200,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 60000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 63000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 66200,
+        "change_percent": 5.1
+      }
+    ],
+    "total_increase_percent": 29.8,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 51000,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "lantus",
+    "drug_name": "Lantus",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 48875,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 52900,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 57500,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 60400,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 63400,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 48875,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "kesimpta",
+    "drug_name": "Kesimpta",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 651667,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 705334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 766667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 805000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 845300,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 651667,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "aimovig",
+    "drug_name": "Aimovig",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 524167,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 567334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 616667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 647500,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 679900,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 524167,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "hemlibra",
+    "drug_name": "Hemlibra",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3315000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3588000,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3900000,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 4095000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 4299800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 3315000,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "adakveo",
+    "drug_name": "Adakveo",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1161667,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1257334,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1366667,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1435000,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1506800,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 1161667,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "vabysmo",
+    "drug_name": "Vabysmo",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 191958,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 207766,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 225833,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 237100,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 249000,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 191958,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "beovu",
+    "drug_name": "Beovu",
+    "price_history": [
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 156542,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 169434,
+        "change_percent": 8.2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 184167,
+        "change_percent": 8.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 193400,
+        "change_percent": 5
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 203000,
+        "change_percent": 5
+      }
+    ],
+    "total_increase_percent": 29.7,
+    "num_increases": 4,
+    "cagr": 6.7,
+    "launch_price": 156542,
+    "launch_date": "2022-01-01"
+  },
+  {
+    "drug_id": "leqembi",
+    "drug_name": "Leqembi",
+    "generic_name": "lecanemab-irmb",
+    "manufacturer_id": "biogen",
+    "launch_date": "2023-07-06",
+    "launch_price": 2208300,
+    "price_history": [
+      {
+        "date": "2023-07-06",
+        "wac_monthly": 2208300,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 2208300,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 2208300,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 2208300,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -7.2
+  },
+  {
+    "drug_id": "tepezza",
+    "drug_name": "Tepezza",
+    "generic_name": "teprotumumab-trbw",
+    "manufacturer_id": "amgen",
+    "launch_date": "2020-01-21",
+    "launch_price": 1420000,
+    "price_history": [
+      {
+        "date": "2020-01-21",
+        "wac_monthly": 1420000,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1435000,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1452000,
+        "change_percent": 1.2
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1465000,
+        "change_percent": 0.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1478000,
+        "change_percent": 0.9
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1489000,
+        "change_percent": 0.7
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1489000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 4.9,
+    "num_increases": 5,
+    "cagr": 0.8,
+    "inflation_adjusted_increase_percent": -10.5
+  },
+  {
+    "drug_id": "praluent",
+    "drug_name": "Praluent",
+    "generic_name": "alirocumab",
+    "manufacturer_id": "sanofi",
+    "launch_date": "2015-07-24",
+    "launch_price": 467500,
+    "price_history": [
+      {
+        "date": "2015-07-24",
+        "wac_monthly": 467500,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 467500,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 467500,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-02-01",
+        "wac_monthly": 145000,
+        "change_percent": -69
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 145000,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 145000,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 145000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": -69,
+    "num_increases": 0,
+    "cagr": -10.6,
+    "inflation_adjusted_increase_percent": -76.2
+  },
+  {
+    "drug_id": "taltz",
+    "drug_name": "Taltz",
+    "generic_name": "ixekizumab",
+    "manufacturer_id": "lilly",
+    "launch_date": "2016-03-22",
+    "launch_price": 470000,
+    "price_history": [
+      {
+        "date": "2016-03-22",
+        "wac_monthly": 470000,
+        "change_percent": 0
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 490000,
+        "change_percent": 4.3
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 520000,
+        "change_percent": 6.1
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 555000,
+        "change_percent": 6.7
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 580000,
+        "change_percent": 4.5
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 600000,
+        "change_percent": 3.4
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 618000,
+        "change_percent": 3
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 632000,
+        "change_percent": 2.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 641000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 650000,
+        "change_percent": 1.4
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 650000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 38.3,
+    "num_increases": 9,
+    "cagr": 3.3,
+    "inflation_adjusted_increase_percent": 11.6
+  },
+  {
+    "drug_id": "carvykti",
+    "drug_name": "Carvykti",
+    "generic_name": "ciltacabtagene autoleucel",
+    "manufacturer_id": "jnj",
+    "launch_date": "2022-02-28",
+    "launch_price": 3875000,
+    "price_history": [
+      {
+        "date": "2022-02-28",
+        "wac_monthly": 3875000,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3875000,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3875000,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 3875000,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 3875000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -10.1
+  },
+  {
+    "drug_id": "abecma",
+    "drug_name": "Abecma",
+    "generic_name": "idecabtagene vicleucel",
+    "manufacturer_id": "bms",
+    "launch_date": "2021-03-26",
+    "launch_price": 3495800,
+    "price_history": [
+      {
+        "date": "2021-03-26",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 3495800,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -12.8
+  },
+  {
+    "drug_id": "nurtec",
+    "drug_name": "Nurtec ODT",
+    "generic_name": "rimegepant",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2020-02-27",
+    "launch_price": 85000,
+    "price_history": [
+      {
+        "date": "2020-02-27",
+        "wac_monthly": 85000,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 87500,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 90000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 93000,
+        "change_percent": 3.3
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 95500,
+        "change_percent": 2.7
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 97200,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 97200,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 14.4,
+    "num_increases": 5,
+    "cagr": 2.3,
+    "inflation_adjusted_increase_percent": -1.2
+  },
+  {
+    "drug_id": "jakafi",
+    "drug_name": "Jakafi",
+    "generic_name": "ruxolitinib",
+    "manufacturer_id": "novartis",
+    "launch_date": "2011-11-16",
+    "launch_price": 792000,
+    "price_history": [
+      {
+        "date": "2011-11-16",
+        "wac_monthly": 792000,
+        "change_percent": 0
+      },
+      {
+        "date": "2013-01-01",
+        "wac_monthly": 862000,
+        "change_percent": 8.8
+      },
+      {
+        "date": "2015-01-01",
+        "wac_monthly": 1010000,
+        "change_percent": 17.2
+      },
+      {
+        "date": "2017-01-01",
+        "wac_monthly": 1180000,
+        "change_percent": 16.8
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 1350000,
+        "change_percent": 14.4
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 1420000,
+        "change_percent": 5.2
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1490000,
+        "change_percent": 4.9
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1550000,
+        "change_percent": 4
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1595000,
+        "change_percent": 2.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1630000,
+        "change_percent": 2.2
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1662000,
+        "change_percent": 2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1662000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 109.8,
+    "num_increases": 10,
+    "cagr": 5.4,
+    "inflation_adjusted_increase_percent": 65.3
+  },
+  {
+    "drug_id": "trodelvy",
+    "drug_name": "Trodelvy",
+    "generic_name": "sacituzumab govitecan-hziy",
+    "manufacturer_id": "gilead",
+    "launch_date": "2020-04-22",
+    "launch_price": 1450000,
+    "price_history": [
+      {
+        "date": "2020-04-22",
+        "wac_monthly": 1450000,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1480000,
+        "change_percent": 2.1
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1510000,
+        "change_percent": 2
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1540000,
+        "change_percent": 2
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1560000,
+        "change_percent": 1.3
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1575000,
+        "change_percent": 1
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1575000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 8.6,
+    "num_increases": 5,
+    "cagr": 1.4,
+    "inflation_adjusted_increase_percent": -6.8
+  },
+  {
+    "drug_id": "padcev",
+    "drug_name": "Padcev",
+    "generic_name": "enfortumab vedotin-ejfv",
+    "manufacturer_id": "pfizer",
+    "launch_date": "2019-12-18",
+    "launch_price": 1520000,
+    "price_history": [
+      {
+        "date": "2019-12-18",
+        "wac_monthly": 1520000,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 1560000,
+        "change_percent": 2.6
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1610000,
+        "change_percent": 3.2
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1650000,
+        "change_percent": 2.5
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1680000,
+        "change_percent": 1.8
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1700000,
+        "change_percent": 1.2
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1700000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 11.8,
+    "num_increases": 5,
+    "cagr": 1.9,
+    "inflation_adjusted_increase_percent": -3.8
+  },
+  {
+    "drug_id": "xgeva",
+    "drug_name": "Xgeva",
+    "generic_name": "denosumab",
+    "manufacturer_id": "amgen",
+    "launch_date": "2010-11-18",
+    "launch_price": 132000,
+    "price_history": [
+      {
+        "date": "2010-11-18",
+        "wac_monthly": 132000,
+        "change_percent": 0
+      },
+      {
+        "date": "2012-01-01",
+        "wac_monthly": 142000,
+        "change_percent": 7.6
+      },
+      {
+        "date": "2014-01-01",
+        "wac_monthly": 158000,
+        "change_percent": 11.3
+      },
+      {
+        "date": "2016-01-01",
+        "wac_monthly": 175000,
+        "change_percent": 10.8
+      },
+      {
+        "date": "2018-01-01",
+        "wac_monthly": 190000,
+        "change_percent": 8.6
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 202000,
+        "change_percent": 6.3
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 212000,
+        "change_percent": 5
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 220000,
+        "change_percent": 3.8
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 222000,
+        "change_percent": 0.9
+      }
+    ],
+    "total_increase_percent": 68.2,
+    "num_increases": 8,
+    "cagr": 3.5,
+    "inflation_adjusted_increase_percent": 21.4
+  },
+  {
+    "drug_id": "lumakras",
+    "drug_name": "Lumakras",
+    "generic_name": "sotorasib",
+    "manufacturer_id": "amgen",
+    "launch_date": "2021-05-28",
+    "launch_price": 1740000,
+    "price_history": [
+      {
+        "date": "2021-05-28",
+        "wac_monthly": 1740000,
+        "change_percent": 0
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 1760000,
+        "change_percent": 1.1
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 1775000,
+        "change_percent": 0.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 1785000,
+        "change_percent": 0.6
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 1790000,
+        "change_percent": 0.3
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 1790000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 2.9,
+    "num_increases": 4,
+    "cagr": 0.6,
+    "inflation_adjusted_increase_percent": -9.7
+  },
+  {
+    "drug_id": "luxturna",
+    "drug_name": "Luxturna",
+    "generic_name": "voretigene neparvovec-rzyl",
+    "manufacturer_id": "novartis",
+    "launch_date": "2017-12-19",
+    "launch_price": 7083300,
+    "price_history": [
+      {
+        "date": "2017-12-19",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      },
+      {
+        "date": "2019-01-01",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 7083300,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 0,
+    "num_increases": 0,
+    "cagr": 0,
+    "inflation_adjusted_increase_percent": -18.5
+  },
+  {
+    "drug_id": "evenity",
+    "drug_name": "Evenity",
+    "generic_name": "romosozumab-aqqg",
+    "manufacturer_id": "amgen",
+    "launch_date": "2019-04-28",
+    "launch_price": 195000,
+    "price_history": [
+      {
+        "date": "2019-04-28",
+        "wac_monthly": 195000,
+        "change_percent": 0
+      },
+      {
+        "date": "2020-01-01",
+        "wac_monthly": 200000,
+        "change_percent": 2.6
+      },
+      {
+        "date": "2021-01-01",
+        "wac_monthly": 205000,
+        "change_percent": 2.5
+      },
+      {
+        "date": "2022-01-01",
+        "wac_monthly": 210000,
+        "change_percent": 2.4
+      },
+      {
+        "date": "2023-01-01",
+        "wac_monthly": 214000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2024-01-01",
+        "wac_monthly": 218000,
+        "change_percent": 1.9
+      },
+      {
+        "date": "2025-01-01",
+        "wac_monthly": 220000,
+        "change_percent": 0.9
+      },
+      {
+        "date": "2026-01-01",
+        "wac_monthly": 220000,
+        "change_percent": 0
+      }
+    ],
+    "total_increase_percent": 12.8,
+    "num_increases": 6,
+    "cagr": 1.8,
+    "inflation_adjusted_increase_percent": -3
+  }
+]

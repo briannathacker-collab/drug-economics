@@ -1,0 +1,585 @@
+[
+  {
+    "reference_drug_id": "humira",
+    "reference_drug_name": "Humira",
+    "reference_generic_name": "adalimumab",
+    "reference_manufacturer_id": "abbvie",
+    "biosimilars": [
+      {
+        "biosimilar_id": "hadlima",
+        "brand_name": "Hadlima",
+        "manufacturer": "Samsung Bioepis / Organon",
+        "fda_approval_date": "2019-07-23",
+        "us_launch_date": "2023-07-01",
+        "interchangeable": false,
+        "wac_monthly": 385000,
+        "discount_to_reference": 45.0,
+        "market_share_percent": 9.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "hyrimoz",
+        "brand_name": "Hyrimoz",
+        "manufacturer": "Sandoz",
+        "fda_approval_date": "2018-10-30",
+        "us_launch_date": "2023-07-01",
+        "interchangeable": false,
+        "wac_monthly": 363000,
+        "discount_to_reference": 48.0,
+        "market_share_percent": 11.5,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "amjevita",
+        "brand_name": "Amjevita",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2016-09-23",
+        "us_launch_date": "2023-01-31",
+        "interchangeable": true,
+        "wac_monthly": 315000,
+        "discount_to_reference": 55.0,
+        "market_share_percent": 18.5,
+        "status": "marketed",
+        "notes": "First Humira biosimilar to launch in US; interchangeable designation"
+      },
+      {
+        "biosimilar_id": "cyltezo",
+        "brand_name": "Cyltezo",
+        "manufacturer": "Boehringer Ingelheim",
+        "fda_approval_date": "2017-08-25",
+        "us_launch_date": "2023-07-01",
+        "interchangeable": true,
+        "wac_monthly": 370000,
+        "discount_to_reference": 47.0,
+        "market_share_percent": 6.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "yusimry",
+        "brand_name": "Yusimry",
+        "manufacturer": "Coherus BioSciences",
+        "fda_approval_date": "2021-12-17",
+        "us_launch_date": "2023-07-01",
+        "interchangeable": false,
+        "wac_monthly": 350000,
+        "discount_to_reference": 50.0,
+        "market_share_percent": 4.5,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "simlandi",
+        "brand_name": "Simlandi",
+        "manufacturer": "Teva",
+        "fda_approval_date": "2024-03-14",
+        "us_launch_date": "2024-05-15",
+        "interchangeable": true,
+        "wac_monthly": 294000,
+        "discount_to_reference": 58.0,
+        "market_share_percent": 5.5,
+        "status": "marketed",
+        "notes": "Citrate-free, high-concentration formulation"
+      }
+    ],
+    "total_biosimilar_market_share": 55.0,
+    "reference_product_market_share": 45.0,
+    "notes": "After 3 years of biosimilar competition (2023-2026), Humira has lost majority share. Interchangeable biosimilars and payer formulary shifts accelerated adoption."
+  },
+  {
+    "reference_drug_id": "enbrel",
+    "reference_drug_name": "Enbrel",
+    "reference_generic_name": "etanercept",
+    "reference_manufacturer_id": "pfizer",
+    "biosimilars": [
+      {
+        "biosimilar_id": "erelzi",
+        "brand_name": "Erelzi",
+        "manufacturer": "Sandoz",
+        "fda_approval_date": "2016-08-30",
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "approved_not_launched",
+        "notes": "Approved but not launched due to ongoing patent litigation"
+      },
+      {
+        "biosimilar_id": "eticovo",
+        "brand_name": "Eticovo",
+        "manufacturer": "Samsung Bioepis",
+        "fda_approval_date": "2019-04-25",
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "approved_not_launched",
+        "notes": "Approved but not launched; patent barriers"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Despite FDA-approved biosimilars, none have launched in US due to formulation and manufacturing patents extending to 2029. Biosimilars are available in EU/ROW."
+  },
+  {
+    "reference_drug_id": "stelara",
+    "reference_drug_name": "Stelara",
+    "reference_generic_name": "ustekinumab",
+    "reference_manufacturer_id": "jnj",
+    "biosimilars": [
+      {
+        "biosimilar_id": "wezlana",
+        "brand_name": "Wezlana",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2023-12-21",
+        "us_launch_date": "2025-02-21",
+        "interchangeable": true,
+        "wac_monthly": 1320000,
+        "discount_to_reference": 40.0,
+        "market_share_percent": 15.0,
+        "status": "marketed",
+        "notes": "First interchangeable ustekinumab biosimilar"
+      },
+      {
+        "biosimilar_id": "selarsdi",
+        "brand_name": "Selarsdi",
+        "manufacturer": "Samsung Bioepis",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "bla_filed",
+        "notes": "BLA submitted; expected approval 2025"
+      },
+      {
+        "biosimilar_id": "ustekinumab_teva",
+        "brand_name": "TBD",
+        "manufacturer": "Teva / Alvotech",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_3",
+        "notes": "Phase 3 complete; BLA submission expected 2025"
+      }
+    ],
+    "total_biosimilar_market_share": 15.0,
+    "reference_product_market_share": 85.0,
+    "notes": "Stelara biosimilar competition began Feb 2025 with Wezlana launch. Rapid early uptake due to interchangeable designation and high reference price. More biosimilars expected 2026."
+  },
+  {
+    "reference_drug_id": "keytruda",
+    "reference_drug_name": "Keytruda",
+    "reference_generic_name": "pembrolizumab",
+    "reference_manufacturer_id": "merck",
+    "biosimilars": [
+      {
+        "biosimilar_id": "pembrolizumab_biocon",
+        "brand_name": "TBD",
+        "manufacturer": "Biocon / Viatris",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_3",
+        "notes": "Phase 3 clinical trial ongoing; expected completion 2026"
+      },
+      {
+        "biosimilar_id": "pembrolizumab_sandoz",
+        "brand_name": "TBD",
+        "manufacturer": "Sandoz",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_1",
+        "notes": "Early development; clinical trial enrollment initiated"
+      },
+      {
+        "biosimilar_id": "pembrolizumab_coherus",
+        "brand_name": "TBD",
+        "manufacturer": "Coherus BioSciences",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "preclinical",
+        "notes": "Preclinical development; targeting 2029+ launch"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Given Keytruda's massive revenue ($25B+ globally), multiple companies racing to develop biosimilars for post-2028 launch. Merck pursuing subcutaneous formulation switch as defensive strategy."
+  },
+  {
+    "reference_drug_id": "opdivo",
+    "reference_drug_name": "Opdivo",
+    "reference_generic_name": "nivolumab",
+    "reference_manufacturer_id": "bms",
+    "biosimilars": [
+      {
+        "biosimilar_id": "nivolumab_biocon",
+        "brand_name": "TBD",
+        "manufacturer": "Biocon / Viatris",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_3",
+        "notes": "Phase 3 biosimilar trial for nivolumab; ClinicalTrials.gov NCT05963425"
+      },
+      {
+        "biosimilar_id": "nivolumab_polpharma",
+        "brand_name": "TBD",
+        "manufacturer": "Polpharma Biologics",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_1",
+        "notes": "Early-stage development; EU-focused initially"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Opdivo patents expected to expire 2028-2030. Multiple biosimilar developers targeting post-patent entry."
+  },
+  {
+    "reference_drug_id": "eylea",
+    "reference_drug_name": "Eylea",
+    "reference_generic_name": "aflibercept",
+    "reference_manufacturer_id": "regeneron",
+    "biosimilars": [
+      {
+        "biosimilar_id": "yesafili",
+        "brand_name": "Yesafili",
+        "manufacturer": "Biocon / Viatris",
+        "fda_approval_date": "2025-06-15",
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": 150000,
+        "discount_to_reference": 30.0,
+        "market_share_percent": 0,
+        "status": "approved",
+        "notes": "FDA approved June 2025; launch pending settlement agreement"
+      },
+      {
+        "biosimilar_id": "aflibercept_samsung",
+        "brand_name": "TBD",
+        "manufacturer": "Samsung Bioepis",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "bla_filed",
+        "notes": "BLA accepted by FDA; PDUFA date 2026"
+      },
+      {
+        "biosimilar_id": "aflibercept_sandoz",
+        "brand_name": "TBD",
+        "manufacturer": "Sandoz",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_3",
+        "notes": "Phase 3 trial completed; BLA submission expected 2026"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Eylea ($6B+ US revenue) faces major biosimilar competition 2025-2027. Regeneron launched Eylea HD (8mg) to retain market share."
+  },
+  {
+    "reference_drug_id": "remicade",
+    "reference_drug_name": "Remicade",
+    "reference_generic_name": "infliximab",
+    "reference_manufacturer_id": "jnj",
+    "biosimilars": [
+      {
+        "biosimilar_id": "inflectra",
+        "brand_name": "Inflectra",
+        "manufacturer": "Pfizer / Celltrion",
+        "fda_approval_date": "2016-04-05",
+        "us_launch_date": "2016-11-15",
+        "interchangeable": false,
+        "wac_monthly": 237000,
+        "discount_to_reference": 45.0,
+        "market_share_percent": 28.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "renflexis",
+        "brand_name": "Renflexis",
+        "manufacturer": "Samsung Bioepis / Organon",
+        "fda_approval_date": "2017-04-21",
+        "us_launch_date": "2017-07-24",
+        "interchangeable": false,
+        "wac_monthly": 250000,
+        "discount_to_reference": 42.0,
+        "market_share_percent": 22.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "ixifi",
+        "brand_name": "Ixifi",
+        "manufacturer": "Pfizer",
+        "fda_approval_date": "2017-12-13",
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "approved_not_launched",
+        "notes": "Approved but not launched; Pfizer chose to focus on Inflectra"
+      },
+      {
+        "biosimilar_id": "avsola",
+        "brand_name": "Avsola",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2019-12-06",
+        "us_launch_date": "2020-07-01",
+        "interchangeable": false,
+        "wac_monthly": 215000,
+        "discount_to_reference": 50.0,
+        "market_share_percent": 22.0,
+        "status": "marketed"
+      }
+    ],
+    "total_biosimilar_market_share": 72.0,
+    "reference_product_market_share": 28.0,
+    "notes": "Remicade is the most mature US biosimilar market (competition since 2016). Biosimilars now hold supermajority share, though Remicade retains some share through long-term contracts."
+  },
+  {
+    "reference_drug_id": "herceptin",
+    "reference_drug_name": "Herceptin",
+    "reference_generic_name": "trastuzumab",
+    "reference_manufacturer_id": "genentech",
+    "biosimilars": [
+      {
+        "biosimilar_id": "ogivri",
+        "brand_name": "Ogivri",
+        "manufacturer": "Mylan / Biocon",
+        "fda_approval_date": "2017-12-01",
+        "us_launch_date": "2019-12-02",
+        "interchangeable": false,
+        "wac_monthly": 183000,
+        "discount_to_reference": 42.0,
+        "market_share_percent": 22.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "herzuma",
+        "brand_name": "Herzuma",
+        "manufacturer": "Celltrion / Teva",
+        "fda_approval_date": "2018-12-14",
+        "us_launch_date": "2020-03-16",
+        "interchangeable": false,
+        "wac_monthly": 189000,
+        "discount_to_reference": 40.0,
+        "market_share_percent": 16.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "kanjinti",
+        "brand_name": "Kanjinti",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2019-06-13",
+        "us_launch_date": "2020-07-20",
+        "interchangeable": false,
+        "wac_monthly": 177000,
+        "discount_to_reference": 44.0,
+        "market_share_percent": 18.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "trazimera",
+        "brand_name": "Trazimera",
+        "manufacturer": "Pfizer",
+        "fda_approval_date": "2019-03-11",
+        "us_launch_date": "2020-02-01",
+        "interchangeable": false,
+        "wac_monthly": 180000,
+        "discount_to_reference": 43.0,
+        "market_share_percent": 12.0,
+        "status": "marketed"
+      }
+    ],
+    "total_biosimilar_market_share": 68.0,
+    "reference_product_market_share": 32.0,
+    "notes": "After 6+ years of biosimilar competition, trastuzumab biosimilars hold majority share. Oncology adoption accelerated 2023-2025 through buy-and-bill economics favoring lower-cost biosimilars."
+  },
+  {
+    "reference_drug_id": "rituxan",
+    "reference_drug_name": "Rituxan",
+    "reference_generic_name": "rituximab",
+    "reference_manufacturer_id": "genentech",
+    "biosimilars": [
+      {
+        "biosimilar_id": "truxima",
+        "brand_name": "Truxima",
+        "manufacturer": "Celltrion / Teva",
+        "fda_approval_date": "2018-11-28",
+        "us_launch_date": "2019-11-15",
+        "interchangeable": false,
+        "wac_monthly": 228000,
+        "discount_to_reference": 35.0,
+        "market_share_percent": 18.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "ruxience",
+        "brand_name": "Ruxience",
+        "manufacturer": "Pfizer",
+        "fda_approval_date": "2019-07-23",
+        "us_launch_date": "2020-01-06",
+        "interchangeable": false,
+        "wac_monthly": 211000,
+        "discount_to_reference": 40.0,
+        "market_share_percent": 24.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "riabni",
+        "brand_name": "Riabni",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2020-12-17",
+        "us_launch_date": "2021-06-01",
+        "interchangeable": false,
+        "wac_monthly": 204000,
+        "discount_to_reference": 42.0,
+        "market_share_percent": 16.0,
+        "status": "marketed"
+      }
+    ],
+    "total_biosimilar_market_share": 58.0,
+    "reference_product_market_share": 42.0,
+    "notes": "Rituximab biosimilars have gained strong share in rheumatology; oncology adoption has been slower but growing. By 2026, biosimilars hold clear majority."
+  },
+  {
+    "reference_drug_id": "avastin",
+    "reference_drug_name": "Avastin",
+    "reference_generic_name": "bevacizumab",
+    "reference_manufacturer_id": "genentech",
+    "biosimilars": [
+      {
+        "biosimilar_id": "mvasi",
+        "brand_name": "Mvasi",
+        "manufacturer": "Amgen",
+        "fda_approval_date": "2017-09-14",
+        "us_launch_date": "2019-07-18",
+        "interchangeable": false,
+        "wac_monthly": 229000,
+        "discount_to_reference": 25.0,
+        "market_share_percent": 26.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "zirabev",
+        "brand_name": "Zirabev",
+        "manufacturer": "Pfizer",
+        "fda_approval_date": "2019-06-27",
+        "us_launch_date": "2019-12-02",
+        "interchangeable": false,
+        "wac_monthly": 223000,
+        "discount_to_reference": 27.0,
+        "market_share_percent": 22.0,
+        "status": "marketed"
+      },
+      {
+        "biosimilar_id": "alymsys",
+        "brand_name": "Alymsys",
+        "manufacturer": "Amneal / Mabxience",
+        "fda_approval_date": "2022-03-31",
+        "us_launch_date": "2022-08-01",
+        "interchangeable": false,
+        "wac_monthly": 214000,
+        "discount_to_reference": 30.0,
+        "market_share_percent": 14.0,
+        "status": "marketed"
+      }
+    ],
+    "total_biosimilar_market_share": 62.0,
+    "reference_product_market_share": 38.0,
+    "notes": "Bevacizumab biosimilars benefit from buy-and-bill economics in oncology, where providers prefer lower-cost alternatives. Market share erosion accelerated 2024-2026."
+  },
+  {
+    "reference_drug_id": "darzalex",
+    "reference_drug_name": "Darzalex",
+    "reference_generic_name": "daratumumab",
+    "reference_manufacturer_id": "jnj",
+    "biosimilars": [
+      {
+        "biosimilar_id": "daratumumab_teva",
+        "brand_name": "TBD",
+        "manufacturer": "Teva / Alvotech",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_3",
+        "notes": "Phase 3 biosimilar trial initiated 2024; estimated completion 2027"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Darzalex ($10B+ revenue) has patent protection until ~2031. Early biosimilar development beginning."
+  },
+  {
+    "reference_drug_id": "dupixent",
+    "reference_drug_name": "Dupixent",
+    "reference_generic_name": "dupilumab",
+    "reference_manufacturer_id": "sanofi",
+    "biosimilars": [
+      {
+        "biosimilar_id": "dupilumab_biocon",
+        "brand_name": "TBD",
+        "manufacturer": "Biocon",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "phase_1",
+        "notes": "Early-stage biosimilar development"
+      },
+      {
+        "biosimilar_id": "dupilumab_celltrion",
+        "brand_name": "TBD",
+        "manufacturer": "Celltrion",
+        "fda_approval_date": null,
+        "us_launch_date": null,
+        "interchangeable": false,
+        "wac_monthly": null,
+        "discount_to_reference": null,
+        "market_share_percent": 0,
+        "status": "preclinical",
+        "notes": "Preclinical biosimilar candidate announced 2024"
+      }
+    ],
+    "total_biosimilar_market_share": 0,
+    "reference_product_market_share": 100.0,
+    "notes": "Dupixent ($13B+ revenue) faces distant biosimilar threat. Core patents extend to 2031, with additional protection through 2037."
+  }
+]

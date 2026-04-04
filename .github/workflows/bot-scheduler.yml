@@ -1,0 +1,134 @@
+name: Bot Scheduler
+
+on:
+  # Cron schedules (UTC — adjust from ET in scheduler.py)
+  schedule:
+    # Daily integrity check — 5am ET = 10:00 UTC
+    - cron: "0 10 * * *"
+    # WAC monitor — Monday 7am ET = 12:00 UTC Monday
+    - cron: "0 12 * * 1"
+    # FDA approvals — Tuesday 7am ET = 12:00 UTC Tuesday
+    - cron: "0 12 * * 2"
+    # Clinical trials — Wednesday 7am ET = 12:00 UTC Wednesday
+    - cron: "0 12 * * 3"
+    # Biosimilar monitor — Thursday 7am ET = 12:00 UTC Thursday
+    - cron: "0 12 * * 4"
+    # IRA prices — 1st of month 8am ET = 13:00 UTC
+    - cron: "0 13 1 * *"
+    # International prices — 5th of month 8am ET = 13:00 UTC
+    - cron: "0 13 5 * *"
+    # CMS ASP quarterly — 15th of Jan/Apr/Jul/Oct 6am ET = 11:00 UTC
+    - cron: "0 11 15 1,4,7,10 *"
+    # SEC earnings quarterly — 15th of Feb/May/Aug/Nov 7am ET = 12:00 UTC
+    - cron: "0 12 15 2,5,8,11 *"
+
+  # Allow manual trigger with bot selection
+  workflow_dispatch:
+    inputs:
+      bot:
+        description: "Which bot to run (or 'all' to run everything)"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - bot_integrity
+          - bot_wac_monitor
+          - bot_fda_approvals
+          - bot_trials
+          - bot_biosimilar
+          - bot_ira_prices
+          - bot_international
+          - bot_cms_asp
+          - bot_sec_earnings
+
+jobs:
+  run-bots:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: bots/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r bots/requirements.txt
+
+      - name: Determine which bots to run
+        id: pick
+        run: |
+          # Map cron schedule to bot name based on current UTC time
+          HOUR=$(date -u +%H)
+          DOW=$(date -u +%u)   # 1=Mon 7=Sun
+          DAY=$(date -u +%d)
+          MONTH=$(date -u +%m)
+
+          BOT="${{ github.event.inputs.bot }}"
+
+          if [ -z "$BOT" ]; then
+            # Triggered by schedule — figure out which bot
+            if [ "$HOUR" = "10" ]; then
+              BOT="bot_integrity"
+            elif [ "$HOUR" = "12" ] && [ "$DOW" = "1" ]; then
+              BOT="bot_wac_monitor"
+            elif [ "$HOUR" = "12" ] && [ "$DOW" = "2" ]; then
+              BOT="bot_fda_approvals"
+            elif [ "$HOUR" = "12" ] && [ "$DOW" = "3" ]; then
+              BOT="bot_trials"
+            elif [ "$HOUR" = "12" ] && [ "$DOW" = "4" ]; then
+              BOT="bot_biosimilar"
+            elif [ "$HOUR" = "13" ] && [ "$DAY" = "01" ]; then
+              BOT="bot_ira_prices"
+            elif [ "$HOUR" = "13" ] && [ "$DAY" = "05" ]; then
+              BOT="bot_international"
+            elif [ "$HOUR" = "11" ] && [ "$DAY" = "15" ]; then
+              BOT="bot_cms_asp"
+            elif [ "$HOUR" = "12" ] && [ "$DAY" = "15" ] && echo "2,5,8,11" | grep -q "$MONTH"; then
+              BOT="bot_sec_earnings"
+            else
+              BOT="bot_integrity"
+            fi
+          fi
+
+          echo "bot=$BOT" >> "$GITHUB_OUTPUT"
+          echo "Selected bot: $BOT"
+
+      - name: Run selected bot(s)
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+        working-directory: bots
+        run: |
+          BOT="${{ steps.pick.outputs.bot }}"
+
+          if [ "$BOT" = "all" ]; then
+            echo "=== Running ALL bots ==="
+            for bot in bot_integrity bot_wac_monitor bot_fda_approvals bot_trials bot_biosimilar bot_ira_prices bot_international bot_cms_asp bot_sec_earnings; do
+              echo ""
+              echo "--- Running $bot ---"
+              python -c "import ${bot}; ${bot}.run()" || echo "WARNING: ${bot} failed, continuing..."
+            done
+          else
+            echo "=== Running $BOT ==="
+            python -c "import ${BOT}; ${BOT}.run()"
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name "drug-economics-bot"
+          git config user.email "bot@drugeconomics.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            BOT="${{ steps.pick.outputs.bot }}"
+            git commit -m "data: ${BOT} auto-update ${TIMESTAMP}"
+            git push
+          fi

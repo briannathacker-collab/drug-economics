@@ -1,0 +1,3492 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 1464000000000,
+        "global_revenue": 1942000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 1620000000000,
+        "global_revenue": 1985000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 1730000000000,
+        "global_revenue": 2068000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 1820000000000,
+        "global_revenue": 2127000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 1406000000000,
+        "global_revenue": 1441600000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 2127000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Biosimilar competition began Jan 2023; US revenue declining sharply",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 780000000000,
+        "global_revenue": 1110000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 980000000000,
+        "global_revenue": 1438000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 1110000000000,
+        "global_revenue": 1718000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 1360000000000,
+        "global_revenue": 2091000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 1680000000000,
+        "global_revenue": 2502000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 2502000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "World's top-selling drug; expanding indications; patent cliff ~2028",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 790000000000,
+        "global_revenue": 980000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 930000000000,
+        "global_revenue": 1144000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 1040000000000,
+        "global_revenue": 1350000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 1130000000000,
+        "global_revenue": 1470000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 1190000000000,
+        "global_revenue": 1560000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 1560000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "Largest oral anticoagulant globally; generic entry expected 2026-2028",
+    "therapeutic_area": "cardiovascular"
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "manufacturer_id": "jnj",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 520000000000,
+        "global_revenue": 642000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 610000000000,
+        "global_revenue": 762000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 680000000000,
+        "global_revenue": 918000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 730000000000,
+        "global_revenue": 1010000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 760000000000,
+        "global_revenue": 1069000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 1069000000000,
+    "trajectory": "peak_then_decline",
+    "trajectory_notes": "Biosimilar competition beginning 2025; EU biosimilar entry 2024",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "ibrance",
+    "drug_name": "Ibrance",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 430000000000,
+        "global_revenue": 537000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 425000000000,
+        "global_revenue": 540000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 418000000000,
+        "global_revenue": 533000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 412000000000,
+        "global_revenue": 520000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 398000000000,
+        "global_revenue": 488000000000
+      }
+    ],
+    "peak_revenue_year": 2020,
+    "peak_revenue": 540000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "CDK4/6 inhibitor competition from Verzenio; patent lost in some markets",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 810000000000,
+        "global_revenue": 1101300000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 870000000000,
+        "global_revenue": 1213100000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 920000000000,
+        "global_revenue": 1282200000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 750000000000,
+        "global_revenue": 1012000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 510000000000,
+        "global_revenue": 603500000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 1282200000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Generic entry began 2022 via settlement agreements; revenues declining rapidly",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "ozempic",
+    "drug_name": "Ozempic",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 170000000000,
+        "global_revenue": 255000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 250000000000,
+        "global_revenue": 375000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 410000000000,
+        "global_revenue": 600000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 730000000000,
+        "global_revenue": 1080000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 1100000000000,
+        "global_revenue": 1800000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 1800000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "GLP-1 blockbuster; demand outstripping supply; off-label weight loss driving growth",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "xarelto",
+    "drug_name": "Xarelto",
+    "manufacturer_id": "jnj",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 280000000000,
+        "global_revenue": 640000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 290000000000,
+        "global_revenue": 650000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 285000000000,
+        "global_revenue": 660000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 270000000000,
+        "global_revenue": 610000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 250000000000,
+        "global_revenue": 530000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 660000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Losing share to Eliquis; patent expiry approaching",
+    "therapeutic_area": "cardiovascular"
+  },
+  {
+    "drug_id": "jardiance",
+    "drug_name": "Jardiance",
+    "manufacturer_id": "lilly",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 215000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 260000000000,
+        "global_revenue": 420000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 320000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 410000000000,
+        "global_revenue": 680000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 490000000000,
+        "global_revenue": 810000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 810000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Heart failure and CKD indications expanding market; SGLT2 class growth",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "trulicity",
+    "drug_name": "Trulicity",
+    "manufacturer_id": "lilly",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 370000000000,
+        "global_revenue": 430000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 440000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 540000000000,
+        "global_revenue": 650000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 580000000000,
+        "global_revenue": 710000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 490000000000,
+        "global_revenue": 610000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 710000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Losing share to Ozempic and Mounjaro (tirzepatide); Lilly shifting focus to Mounjaro",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "opdivo",
+    "drug_name": "Opdivo",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 480000000000,
+        "global_revenue": 720000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 500000000000,
+        "global_revenue": 770000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 530000000000,
+        "global_revenue": 830000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 570000000000,
+        "global_revenue": 880000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 600000000000,
+        "global_revenue": 920000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 920000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Steady growth from combination regimens and new indications",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 380000000000,
+        "global_revenue": 490000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 420000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 430000000000,
+        "global_revenue": 550000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 410000000000,
+        "global_revenue": 500000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 350000000000,
+        "global_revenue": 420000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 550000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Losing share to next-gen BTK inhibitors (Calquence, Brukinsa)",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 490000000000,
+        "global_revenue": 520000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 440000000000,
+        "global_revenue": 460000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 410000000000,
+        "global_revenue": 430000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 380000000000,
+        "global_revenue": 400000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 340000000000,
+        "global_revenue": 355000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 520000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Erosion from newer biologics and JAK inhibitors; biosimilars available outside US",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "rinvoq",
+    "drug_name": "Rinvoq",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 13000000000,
+        "global_revenue": 13000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 77000000000,
+        "global_revenue": 89000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 150000000000,
+        "global_revenue": 185000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 255000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 340000000000,
+        "global_revenue": 480000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 480000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Key AbbVie growth driver post-Humira; multiple indications expanding",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "skyrizi",
+    "drug_name": "Skyrizi",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 20000000000,
+        "global_revenue": 22000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 126000000000,
+        "global_revenue": 144000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 270000000000,
+        "global_revenue": 320000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 440000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 590000000000,
+        "global_revenue": 750000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 750000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "IL-23 blocker; strong efficacy positioning it as successor to Humira in psoriasis/IBD",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "gleevec",
+    "drug_name": "Gleevec",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 150000000000,
+        "global_revenue": 420000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 120000000000,
+        "global_revenue": 350000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 95000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 75000000000,
+        "global_revenue": 220000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 60000000000,
+        "global_revenue": 180000000000
+      }
+    ],
+    "peak_revenue_year": 2015,
+    "peak_revenue": 470000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Generic imatinib widely available since 2016; brand revenue declining sharply but still sold at premium in US",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "sovaldi",
+    "drug_name": "Sovaldi",
+    "manufacturer_id": "gilead",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 50000000000,
+        "global_revenue": 90000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 35000000000,
+        "global_revenue": 70000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 25000000000,
+        "global_revenue": 55000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 18000000000,
+        "global_revenue": 40000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 12000000000,
+        "global_revenue": 28000000000
+      }
+    ],
+    "peak_revenue_year": 2014,
+    "peak_revenue": 1036000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Curative therapy reduces patient pool each year; largely replaced by Harvoni (sofosbuvir/ledipasvir) and Epclusa; peak was $10.3B in 2014",
+    "therapeutic_area": "hepatitis"
+  },
+  {
+    "drug_id": "tecfidera",
+    "drug_name": "Tecfidera",
+    "manufacturer_id": "biogen",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 330000000000,
+        "global_revenue": 440000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 280000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 150000000000,
+        "global_revenue": 210000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 80000000000,
+        "global_revenue": 120000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 50000000000,
+        "global_revenue": 75000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 440000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Generic dimethyl fumarate launched 2020 after patent invalidated; Vumerity (diroximel fumarate) positioned as successor",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "tagrisso",
+    "drug_name": "Tagrisso",
+    "manufacturer_id": "astrazeneca",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 190000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 250000000000,
+        "global_revenue": 430000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 310000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 360000000000,
+        "global_revenue": 580000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 400000000000,
+        "global_revenue": 650000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 650000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "First-line EGFR-mutant NSCLC standard of care; adjuvant indication expanding market; AstraZeneca's top oncology asset",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "trikafta",
+    "drug_name": "Trikafta",
+    "manufacturer_id": "vertex",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 42000000000,
+        "global_revenue": 42000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 320000000000,
+        "global_revenue": 390000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 540000000000,
+        "global_revenue": 680000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 680000000000,
+        "global_revenue": 870000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 750000000000,
+        "global_revenue": 960000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 960000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Dominant CF therapy; eligible for ~90% of CF patients; Vertex has no meaningful competition in CFTR modulators",
+    "therapeutic_area": "pulmonary"
+  },
+  {
+    "drug_id": "dupixent",
+    "drug_name": "Dupixent",
+    "manufacturer_id": "regeneron",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 220000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 330000000000,
+        "global_revenue": 420000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 450000000000,
+        "global_revenue": 620000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 590000000000,
+        "global_revenue": 870000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 720000000000,
+        "global_revenue": 1150000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 1150000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Blockbuster IL-4/IL-13 inhibitor; expanding indications (eczema, asthma, COPD, prurigo nodularis); on track to be world's top-selling drug",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "pomalyst",
+    "drug_name": "Pomalyst",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 240000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 260000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 280000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 290000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 300000000000,
+        "global_revenue": 390000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 390000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "Steady myeloma revenue; positioned as later-line therapy after Revlimid; faces competition from newer agents like teclistamab",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "harvoni",
+    "drug_name": "Harvoni",
+    "manufacturer_id": "gilead",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 120000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 85000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 60000000000,
+        "global_revenue": 95000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 45000000000,
+        "global_revenue": 70000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 35000000000,
+        "global_revenue": 55000000000
+      }
+    ],
+    "peak_revenue_year": 2015,
+    "peak_revenue": 1390000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Peak was $13.9B in 2015 — one of the fastest revenue ramps in pharma history. Curative nature shrinks patient pool; Epclusa now preferred pan-genotypic option",
+    "therapeutic_area": "hepatitis"
+  },
+  {
+    "drug_id": "sprycel",
+    "drug_name": "Sprycel",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 140000000000,
+        "global_revenue": 210000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 130000000000,
+        "global_revenue": 200000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 120000000000,
+        "global_revenue": 185000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 100000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 80000000000,
+        "global_revenue": 130000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 210000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Generic dasatinib launched 2024; declining ahead of patent expiry; newer-gen TKIs (ponatinib, asciminib) competing",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "afinitor",
+    "drug_name": "Afinitor",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 110000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 95000000000,
+        "global_revenue": 155000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 80000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 65000000000,
+        "global_revenue": 105000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 50000000000,
+        "global_revenue": 85000000000
+      }
+    ],
+    "peak_revenue_year": 2017,
+    "peak_revenue": 220000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Facing generic competition; CDK4/6 inhibitors displaced Afinitor in breast cancer; still used in RCC and neuroendocrine tumors",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "xeljanz",
+    "drug_name": "Xeljanz",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 150000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 160000000000,
+        "global_revenue": 250000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 145000000000,
+        "global_revenue": 230000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 120000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 100000000000,
+        "global_revenue": 160000000000
+      }
+    ],
+    "peak_revenue_year": 2020,
+    "peak_revenue": 250000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Post-marketing safety signal (cardiovascular risk) led to FDA boxed warning; losing share to newer JAK inhibitors (Rinvoq) and biologics",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "venclexta",
+    "drug_name": "Venclexta",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 80000000000,
+        "global_revenue": 110000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 110000000000,
+        "global_revenue": 150000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 140000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 170000000000,
+        "global_revenue": 230000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 200000000000,
+        "global_revenue": 270000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 270000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "First-in-class BCL-2 inhibitor becoming standard of care in CLL; AML indication expanding market; key AbbVie growth driver",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "wegovy",
+    "drug_name": "Wegovy",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 57000000000,
+        "global_revenue": 57000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 226000000000,
+        "global_revenue": 247000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 390000000000,
+        "global_revenue": 454000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 620000000000,
+        "global_revenue": 820000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 820000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Supply-constrained blockbuster; anti-obesity indication driving explosive demand; approved for cardiovascular risk reduction 2024",
+    "therapeutic_area": "obesity"
+  },
+  {
+    "drug_id": "mounjaro",
+    "drug_name": "Mounjaro",
+    "manufacturer_id": "lilly",
+    "annual_revenue": [
+      {
+        "year": 2022,
+        "us_revenue": 148300000000,
+        "global_revenue": 148300000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 490000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 1100000000000,
+        "global_revenue": 1200000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 1200000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Dual GIP/GLP-1 agonist; fastest drug ramp in Lilly history; off-label weight loss demand driving growth beyond diabetes",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "zepbound",
+    "drug_name": "Zepbound",
+    "manufacturer_id": "lilly",
+    "annual_revenue": [
+      {
+        "year": 2024,
+        "us_revenue": 500000000000,
+        "global_revenue": 500000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 500000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "FDA-approved Nov 2023 for obesity; same molecule as Mounjaro; early revenue reflects first full year on market",
+    "therapeutic_area": "obesity"
+  },
+  {
+    "drug_id": "saxenda",
+    "drug_name": "Saxenda",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 70000000000,
+        "global_revenue": 110000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 85000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 100000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 90000000000,
+        "global_revenue": 150000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 60000000000,
+        "global_revenue": 100000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 160000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Being cannibalized by Wegovy (higher-dose semaglutide); daily injection less convenient than weekly alternatives",
+    "therapeutic_area": "obesity"
+  },
+  {
+    "drug_id": "rybelsus",
+    "drug_name": "Rybelsus",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 35000000000,
+        "global_revenue": 50000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 65000000000,
+        "global_revenue": 110000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 100000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 140000000000,
+        "global_revenue": 280000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 280000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "First oral GLP-1; growing steadily as oral alternative to injectable Ozempic; convenience driving adoption",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "victoza",
+    "drug_name": "Victoza",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 180000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 140000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 100000000000,
+        "global_revenue": 200000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 65000000000,
+        "global_revenue": 140000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 40000000000,
+        "global_revenue": 90000000000
+      }
+    ],
+    "peak_revenue_year": 2018,
+    "peak_revenue": 400000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "First-gen daily GLP-1 being replaced by weekly Ozempic; cannibalized by Novo's own newer products",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "manufacturer_id": "regeneron",
+    "therapeutic_area": "ophthalmology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 470000000000,
+        "global_revenue": 740000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 490000000000,
+        "global_revenue": 760000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 580000000000,
+        "global_revenue": 940000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 580000000000,
+        "global_revenue": 920000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 520000000000,
+        "global_revenue": 830000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 940000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Biosimilar competition beginning 2023-2024; Eylea HD (8mg) launched as lifecycle extension"
+  },
+  {
+    "drug_id": "entresto",
+    "drug_name": "Entresto",
+    "manufacturer_id": "novartis",
+    "therapeutic_area": "cardiovascular",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 170000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 250000000000,
+        "global_revenue": 400000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 350000000000,
+        "global_revenue": 560000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 410000000000,
+        "global_revenue": 680000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 450000000000,
+        "global_revenue": 750000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 750000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Heart failure standard of care; expanding into HFpEF indication; Novartis top growth driver"
+  },
+  {
+    "drug_id": "darzalex",
+    "drug_name": "Darzalex",
+    "manufacturer_id": "jnj",
+    "therapeutic_area": "oncology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 290000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 380000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 460000000000,
+        "global_revenue": 680000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 530000000000,
+        "global_revenue": 820000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 590000000000,
+        "global_revenue": 980000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 980000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Dominant myeloma franchise; Darzalex Faspro (subQ) driving growth; first-line combinations expanding"
+  },
+  {
+    "drug_id": "ocrevus",
+    "drug_name": "Ocrevus",
+    "manufacturer_id": "genentech",
+    "therapeutic_area": "neurology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 310000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 370000000000,
+        "global_revenue": 450000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 420000000000,
+        "global_revenue": 560000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 460000000000,
+        "global_revenue": 640000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 480000000000,
+        "global_revenue": 680000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 680000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "Leading MS therapy; first approved for primary progressive MS; growth slowing as market saturates"
+  },
+  {
+    "drug_id": "biktarvy",
+    "drug_name": "Biktarvy",
+    "manufacturer_id": "gilead",
+    "therapeutic_area": "infectious_disease",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 380000000000,
+        "global_revenue": 470000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 500000000000,
+        "global_revenue": 630000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 620000000000,
+        "global_revenue": 820000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 720000000000,
+        "global_revenue": 990000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 790000000000,
+        "global_revenue": 1130000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 1130000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Dominant HIV STR; market share ~45% of new starts; Gilead's largest product"
+  },
+  {
+    "drug_id": "cosentyx",
+    "drug_name": "Cosentyx",
+    "manufacturer_id": "novartis",
+    "therapeutic_area": "immunology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 200000000000,
+        "global_revenue": 360000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 220000000000,
+        "global_revenue": 390000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 250000000000,
+        "global_revenue": 460000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 260000000000,
+        "global_revenue": 490000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 270000000000,
+        "global_revenue": 510000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 510000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "Facing IL-23 competition (Skyrizi, Tremfya); ankylosing spondylitis niche protects some share"
+  },
+  {
+    "drug_id": "repatha",
+    "drug_name": "Repatha",
+    "manufacturer_id": "amgen",
+    "therapeutic_area": "cardiovascular",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 60000000000,
+        "global_revenue": 85000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 75000000000,
+        "global_revenue": 100000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 95000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 120000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 150000000000,
+        "global_revenue": 200000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 200000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Growing after 60% WAC cut in 2018; volume increases offsetting lower price; PCSK9 class expanding"
+  },
+  {
+    "drug_id": "tremfya",
+    "drug_name": "Tremfya",
+    "manufacturer_id": "jnj",
+    "therapeutic_area": "immunology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 100000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 140000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 190000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 240000000000,
+        "global_revenue": 350000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 290000000000,
+        "global_revenue": 410000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 410000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "IL-23 blocker gaining share from older biologics; ulcerative colitis indication expanding market"
+  },
+  {
+    "drug_id": "kisqali",
+    "drug_name": "Kisqali",
+    "manufacturer_id": "novartis",
+    "therapeutic_area": "oncology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 55000000000,
+        "global_revenue": 95000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 75000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 110000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 170000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 270000000000,
+        "global_revenue": 420000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 420000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "NATALEE OS data showing survival benefit driving share gains from Ibrance; preferred CDK4/6 inhibitor"
+  },
+  {
+    "drug_id": "verzenio",
+    "drug_name": "Verzenio",
+    "manufacturer_id": "lilly",
+    "therapeutic_area": "oncology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 80000000000,
+        "global_revenue": 100000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 130000000000,
+        "global_revenue": 170000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 200000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 300000000000,
+        "global_revenue": 400000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 380000000000,
+        "global_revenue": 530000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 530000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "monarchE adjuvant data driving explosive growth; only CDK4/6 inhibitor with adjuvant approval"
+  },
+  {
+    "drug_id": "lynparza",
+    "drug_name": "Lynparza",
+    "manufacturer_id": "astrazeneca",
+    "therapeutic_area": "oncology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 100000000000,
+        "global_revenue": 170000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 140000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 180000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 200000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 200000000000,
+        "global_revenue": 340000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 340000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "First PARP inhibitor; competition from other PARPi (niraparib, rucaparib); co-promoted with Merck"
+  },
+  {
+    "drug_id": "farxiga",
+    "drug_name": "Farxiga",
+    "manufacturer_id": "astrazeneca",
+    "therapeutic_area": "diabetes",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 110000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 140000000000,
+        "global_revenue": 250000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 190000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 240000000000,
+        "global_revenue": 510000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 280000000000,
+        "global_revenue": 630000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 630000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "SGLT2 class growth from HF and CKD indications; global growth outpacing US due to DAPA-CKD and DAPA-HF trials"
+  },
+  {
+    "drug_id": "otezla",
+    "drug_name": "Otezla",
+    "manufacturer_id": "amgen",
+    "therapeutic_area": "immunology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 140000000000,
+        "global_revenue": 188000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 150000000000,
+        "global_revenue": 210000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 160000000000,
+        "global_revenue": 230000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 170000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 175000000000,
+        "global_revenue": 250000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 250000000000,
+    "trajectory": "plateau",
+    "trajectory_notes": "Oral PDE4 for psoriasis; Amgen acquired from Celgene for $13.4B in 2019; stable but facing biologic competition"
+  },
+  {
+    "drug_id": "vyvanse",
+    "drug_name": "Vyvanse",
+    "manufacturer_id": "takeda",
+    "therapeutic_area": "cns",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 310000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 330000000000,
+        "global_revenue": 360000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 340000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 360000000000,
+        "global_revenue": 400000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 200000000000,
+        "global_revenue": 220000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 400000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Generic lisdexamfetamine launched August 2023; rapid revenue erosion expected"
+  },
+  {
+    "drug_id": "xtandi",
+    "drug_name": "Xtandi",
+    "manufacturer_id": "pfizer",
+    "therapeutic_area": "oncology",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 280000000000,
+        "global_revenue": 440000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 300000000000,
+        "global_revenue": 470000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 340000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 370000000000,
+        "global_revenue": 580000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 390000000000,
+        "global_revenue": 610000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 610000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Standard of care in prostate cancer; earlier-line indications driving growth; co-promoted with Astellas"
+  },
+  {
+    "drug_id": "januvia",
+    "drug_name": "Januvia",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 250000000000,
+        "global_revenue": 350000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 230000000000,
+        "global_revenue": 320000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 220000000000,
+        "global_revenue": 300000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 200000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 130000000000,
+        "global_revenue": 180000000000
+      }
+    ],
+    "peak_revenue_year": 2015,
+    "peak_revenue": 450000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Revenue declining due to GLP-1 agonist competition and generic erosion; selected for IRA Medicare price negotiation with maximum fair price effective 2026",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 170000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 170000000000,
+        "global_revenue": 390000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 220000000000,
+        "global_revenue": 570000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 280000000000,
+        "global_revenue": 690000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 370000000000,
+        "global_revenue": 890000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 890000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Driven by expanded global vaccination programs, particularly in China; Merck's second-largest revenue product after Keytruda",
+    "therapeutic_area": "vaccines"
+  },
+  {
+    "drug_id": "bridion",
+    "drug_name": "Bridion",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 65000000000,
+        "global_revenue": 120000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 48000000000,
+        "global_revenue": 90000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 68000000000,
+        "global_revenue": 125000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 80000000000,
+        "global_revenue": 150000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 90000000000,
+        "global_revenue": 160000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 160000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Steady growth as standard of care for neuromuscular blockade reversal; revenue dipped in 2020 due to elective surgery cancellations during COVID-19",
+    "therapeutic_area": "anesthesiology"
+  },
+  {
+    "drug_id": "welireg",
+    "drug_name": "Welireg",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 5000000000,
+        "global_revenue": 7000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 15000000000,
+        "global_revenue": 20000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 40000000000,
+        "global_revenue": 50000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 50000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "First-in-class HIF-2α inhibitor with expanding indications; approved for VHL disease (2021) and advanced RCC (2023); significant growth expected",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "lagevrio",
+    "drug_name": "Lagevrio",
+    "manufacturer_id": "merck",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 5000000000,
+        "global_revenue": 10000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 300000000000,
+        "global_revenue": 570000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 60000000000,
+        "global_revenue": 150000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 570000000000,
+    "trajectory": "peak_then_decline",
+    "trajectory_notes": "Revenue peaked in 2022 during pandemic USG stockpiling; sharp decline as COVID treatment demand waned; developed with Ridgeback Biotherapeutics",
+    "therapeutic_area": "infectious_disease"
+  },
+  {
+    "drug_id": "vyndaqel",
+    "drug_name": "Vyndaqel",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 15000000000,
+        "global_revenue": 20000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 110000000000,
+        "global_revenue": 140000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 155000000000,
+        "global_revenue": 200000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 210000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 270000000000,
+        "global_revenue": 350000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 350000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Rapid uptake for ATTR-CM; one of Pfizer's key growth drivers post-COVID; limited competition in transthyretin stabilizer class",
+    "therapeutic_area": "cardiovascular"
+  },
+  {
+    "drug_id": "prolia",
+    "drug_name": "Prolia",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 160000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 150000000000,
+        "global_revenue": 230000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 175000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 190000000000,
+        "global_revenue": 300000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 205000000000,
+        "global_revenue": 320000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 320000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Steady growth driven by aging population and osteoporosis prevalence; patent expiry approaching but biosimilar development is complex",
+    "therapeutic_area": "bone_health"
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "manufacturer_id": "jnj",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 210000000000,
+        "global_revenue": 390000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 170000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 130000000000,
+        "global_revenue": 220000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 90000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 55000000000,
+        "global_revenue": 100000000000
+      }
+    ],
+    "peak_revenue_year": 2015,
+    "peak_revenue": 690000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Rapid erosion from biosimilar competition (Inflectra, Renflexis, Avsola); was once the world's top-selling drug; peak global revenue ~$6.9B in 2015",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 310000000000,
+        "global_revenue": 470000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 240000000000,
+        "global_revenue": 360000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 180000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 130000000000,
+        "global_revenue": 200000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 85000000000,
+        "global_revenue": 130000000000
+      }
+    ],
+    "peak_revenue_year": 2016,
+    "peak_revenue": 750000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Declining due to biosimilar competition (Truxima, Ruxience, Riabni); was Genentech/Roche's top product; peak ~$7.5B globally",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "herceptin",
+    "drug_name": "Herceptin",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 180000000000,
+        "global_revenue": 340000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 130000000000,
+        "global_revenue": 250000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 95000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 70000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 50000000000,
+        "global_revenue": 90000000000
+      }
+    ],
+    "peak_revenue_year": 2017,
+    "peak_revenue": 710000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Biosimilar erosion accelerating; multiple FDA-approved biosimilars (Ogivri, Herzuma, Ontruzant, Kanjinti, Trazimera); peak ~$7.1B globally",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 230000000000,
+        "global_revenue": 380000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 210000000000,
+        "global_revenue": 320000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 290000000000,
+        "global_revenue": 420000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 340000000000,
+        "global_revenue": 500000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 360000000000,
+        "global_revenue": 530000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 530000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Combined therapeutic + cosmetic revenue; therapeutic indications expanding (migraine, overactive bladder, spasticity); cosmetic market growing globally",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "prevnar",
+    "drug_name": "Prevnar 20",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 350000000000,
+        "global_revenue": 580000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 350000000000,
+        "global_revenue": 590000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 310000000000,
+        "global_revenue": 520000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 370000000000,
+        "global_revenue": 600000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 400000000000,
+        "global_revenue": 640000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 640000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Prevnar franchise (13 + 20); Prevnar 20 approved 2021 with expanded serotype coverage driving uptake; 2019-2020 figures represent Prevnar 13",
+    "therapeutic_area": "vaccines"
+  },
+  {
+    "drug_id": "paxlovid",
+    "drug_name": "Paxlovid",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 10000000000,
+        "global_revenue": 20000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 1100000000000,
+        "global_revenue": 1890000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 80000000000,
+        "global_revenue": 130000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 1890000000000,
+    "trajectory": "peak_then_decline",
+    "trajectory_notes": "Peaked at $18.9B in 2022 from USG stockpiling contracts; sharp decline as pandemic waned; transitioning to commercial market",
+    "therapeutic_area": "infectious_disease"
+  },
+  {
+    "drug_id": "trelegy",
+    "drug_name": "Trelegy Ellipta",
+    "manufacturer_id": "gsk",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 85000000000,
+        "global_revenue": 140000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 110000000000,
+        "global_revenue": 180000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 155000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 195000000000,
+        "global_revenue": 300000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 260000000000,
+        "global_revenue": 390000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 390000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Fastest-growing respiratory product; benefiting from shift to triple therapy as COPD standard of care; GSK's top growth driver",
+    "therapeutic_area": "respiratory"
+  },
+  {
+    "drug_id": "vraylar",
+    "drug_name": "Vraylar",
+    "manufacturer_id": "abbvie",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 85000000000,
+        "global_revenue": 100000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 105000000000,
+        "global_revenue": 120000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 140000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 190000000000,
+        "global_revenue": 220000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 240000000000,
+        "global_revenue": 280000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 280000000000,
+    "trajectory": "rapid_growth",
+    "trajectory_notes": "Strong growth from expanded indications including bipolar depression and MDD adjunct; key Allergan-acquired asset for AbbVie post-Humira",
+    "therapeutic_area": "psychiatry"
+  },
+  {
+    "drug_id": "yervoy",
+    "drug_name": "Yervoy",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 128000000000,
+        "global_revenue": 148000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 150000000000,
+        "global_revenue": 177000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 175000000000,
+        "global_revenue": 200000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 195000000000,
+        "global_revenue": 221000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 215000000000,
+        "global_revenue": 243000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 243000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Growing due to combination therapy with Opdivo; key in melanoma and renal cell carcinoma",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "tecentriq",
+    "drug_name": "Tecentriq",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 120000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 150000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 175000000000,
+        "global_revenue": 360000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 190000000000,
+        "global_revenue": 385000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 195000000000,
+        "global_revenue": 390000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 390000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "Steady growth in NSCLC and urothelial carcinoma; facing increased IO competition",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "avastin",
+    "drug_name": "Avastin",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 310000000000,
+        "global_revenue": 720000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 260000000000,
+        "global_revenue": 630000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 210000000000,
+        "global_revenue": 530000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 160000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 110000000000,
+        "global_revenue": 240000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 720000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Significant biosimilar erosion since 2019; multiple biosimilars now on market",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "imfinzi",
+    "drug_name": "Imfinzi",
+    "manufacturer_id": "astrazeneca",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 120000000000,
+        "global_revenue": 192000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 155000000000,
+        "global_revenue": 240000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 185000000000,
+        "global_revenue": 278000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 230000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 290000000000,
+        "global_revenue": 445000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 445000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Strong growth in Stage III unresectable NSCLC; expanding into biliary tract and liver cancer",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "enhertu",
+    "drug_name": "Enhertu",
+    "manufacturer_id": "astrazeneca",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 42000000000,
+        "global_revenue": 82000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 115000000000,
+        "global_revenue": 215000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 220000000000,
+        "global_revenue": 390000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 390000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Fastest-growing ADC; expanding from HER2+ to HER2-low breast cancer, transforming treatment paradigm",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "kymriah",
+    "drug_name": "Kymriah",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 23000000000,
+        "global_revenue": 27800000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 30000000000,
+        "global_revenue": 47400000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 35000000000,
+        "global_revenue": 58700000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 37000000000,
+        "global_revenue": 53100000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 32000000000,
+        "global_revenue": 49400000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 58700000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Facing competition from next-generation CAR-T therapies; limited to B-cell malignancies",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "yescarta",
+    "drug_name": "Yescarta",
+    "manufacturer_id": "gilead",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 40000000000,
+        "global_revenue": 45600000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 50000000000,
+        "global_revenue": 56300000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 62000000000,
+        "global_revenue": 69500000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 95000000000,
+        "global_revenue": 114200000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 120000000000,
+        "global_revenue": 148000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 148000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Growing with expanded 2nd-line DLBCL indication; leading CAR-T product by volume",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "spinraza",
+    "drug_name": "Spinraza",
+    "manufacturer_id": "biogen",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 110000000000,
+        "global_revenue": 207000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 100000000000,
+        "global_revenue": 187000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 85000000000,
+        "global_revenue": 174000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 70000000000,
+        "global_revenue": 155000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 60000000000,
+        "global_revenue": 135000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 207000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Declining due to Zolgensma gene therapy competition and oral risdiplam (Evrysdi)",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "zolgensma",
+    "drug_name": "Zolgensma",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 65000000000,
+        "global_revenue": 92000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 85000000000,
+        "global_revenue": 138600000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 80000000000,
+        "global_revenue": 132000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 75000000000,
+        "global_revenue": 128000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 138600000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Most patients are now treated early; limited patient pool for one-time gene therapy; competing with Spinraza and Evrysdi",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "soliris",
+    "drug_name": "Soliris",
+    "manufacturer_id": "alexion",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 225000000000,
+        "global_revenue": 398000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 205000000000,
+        "global_revenue": 392000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 165000000000,
+        "global_revenue": 350000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 130000000000,
+        "global_revenue": 280000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 100000000000,
+        "global_revenue": 210000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 398000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Declining as patients switch to Ultomiris (longer-acting successor); biosimilar competition expected",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "ultomiris",
+    "drug_name": "Ultomiris",
+    "manufacturer_id": "alexion",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 100000000000,
+        "global_revenue": 143000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 175000000000,
+        "global_revenue": 260000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 255000000000,
+        "global_revenue": 395000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 340000000000,
+        "global_revenue": 540000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 540000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Rapid growth as patients convert from Soliris; extended dosing interval drives preference",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "hemgenix",
+    "drug_name": "Hemgenix",
+    "manufacturer_id": "cslbehring",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "us_revenue": 6000000000,
+        "global_revenue": 8000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 8000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "World's most expensive single drug at $3.5M; limited patient pool (hemophilia B); very slow commercial uptake",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "vimizim",
+    "drug_name": "Vimizim",
+    "manufacturer_id": "biomarin",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 15000000000,
+        "global_revenue": 40000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 14000000000,
+        "global_revenue": 37000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 15000000000,
+        "global_revenue": 42000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 16000000000,
+        "global_revenue": 44000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 16500000000,
+        "global_revenue": 46000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 46000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "Orphan drug for Morquio A syndrome; small but stable patient population",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "naglazyme",
+    "drug_name": "Naglazyme",
+    "manufacturer_id": "biomarin",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 12000000000,
+        "global_revenue": 38000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 11000000000,
+        "global_revenue": 36000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 11500000000,
+        "global_revenue": 37000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 12000000000,
+        "global_revenue": 38000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 12500000000,
+        "global_revenue": 39000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 39000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "Orphan drug for MPS VI; ultra-small patient population with stable demand",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "voxzogo",
+    "drug_name": "Voxzogo",
+    "manufacturer_id": "biomarin",
+    "annual_revenue": [
+      {
+        "year": 2022,
+        "us_revenue": 20000000000,
+        "global_revenue": 35000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 40000000000,
+        "global_revenue": 75000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 75000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "First systemic treatment for achondroplasia; rapid uptake in pediatric population globally",
+    "therapeutic_area": "rare_disease"
+  },
+  {
+    "drug_id": "novolog",
+    "drug_name": "NovoLog",
+    "manufacturer_id": "novo",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 230000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 210000000000,
+        "global_revenue": 290000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 195000000000,
+        "global_revenue": 275000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 180000000000,
+        "global_revenue": 260000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 160000000000,
+        "global_revenue": 240000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 310000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Declining due to insulin biosimilar competition and Novo Nordisk focus shifting to GLP-1 products",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "lantus",
+    "drug_name": "Lantus",
+    "manufacturer_id": "sanofi",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 250000000000,
+        "global_revenue": 420000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 210000000000,
+        "global_revenue": 370000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 170000000000,
+        "global_revenue": 310000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 140000000000,
+        "global_revenue": 260000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 110000000000,
+        "global_revenue": 210000000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 420000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Steep decline due to Semglee and other insulin glargine biosimilars; Sanofi pivoting to specialty",
+    "therapeutic_area": "diabetes"
+  },
+  {
+    "drug_id": "kesimpta",
+    "drug_name": "Kesimpta",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 50000000000,
+        "global_revenue": 68000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 110000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 185000000000,
+        "global_revenue": 268000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 268000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Rapid uptake as first self-administered anti-CD20 for MS; taking share from Ocrevus",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "aimovig",
+    "drug_name": "Aimovig",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 35000000000,
+        "global_revenue": 40000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 42000000000,
+        "global_revenue": 49000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 45000000000,
+        "global_revenue": 52000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 43000000000,
+        "global_revenue": 50000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 40000000000,
+        "global_revenue": 46000000000
+      }
+    ],
+    "peak_revenue_year": 2021,
+    "peak_revenue": 52000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "CGRP class crowded with Ajovy, Emgality, Nurtec; first-mover advantage fading",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "hemlibra",
+    "drug_name": "Hemlibra",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 90000000000,
+        "global_revenue": 160000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 135000000000,
+        "global_revenue": 260000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 180000000000,
+        "global_revenue": 350000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 225000000000,
+        "global_revenue": 430000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 260000000000,
+        "global_revenue": 480000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 480000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Transforming hemophilia A treatment; subcutaneous dosing replacing IV factor replacement",
+    "therapeutic_area": "hematology"
+  },
+  {
+    "drug_id": "adakveo",
+    "drug_name": "Adakveo",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 8000000000,
+        "global_revenue": 11000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 14000000000,
+        "global_revenue": 21000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 18000000000,
+        "global_revenue": 28000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 12000000000,
+        "global_revenue": 18000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 28000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "EMA withdrawal in 2023 after STAND trial failed to meet primary endpoint; US market also declining",
+    "therapeutic_area": "hematology"
+  },
+  {
+    "drug_id": "vabysmo",
+    "drug_name": "Vabysmo",
+    "manufacturer_id": "genentech",
+    "annual_revenue": [
+      {
+        "year": 2022,
+        "us_revenue": 75000000000,
+        "global_revenue": 120000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 220000000000,
+        "global_revenue": 370000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 370000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Fastest-growing ophthalmology drug; taking share from Eylea in wet AMD and DME",
+    "therapeutic_area": "ophthalmology"
+  },
+  {
+    "drug_id": "beovu",
+    "drug_name": "Beovu",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 20000000000,
+        "global_revenue": 32000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 18000000000,
+        "global_revenue": 30000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 16000000000,
+        "global_revenue": 28000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 14000000000,
+        "global_revenue": 24000000000
+      }
+    ],
+    "peak_revenue_year": 2020,
+    "peak_revenue": 32000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Growth limited by safety concerns (retinal vasculitis); losing share to Vabysmo",
+    "therapeutic_area": "ophthalmology"
+  },
+  {
+    "drug_id": "leqembi",
+    "drug_name": "Leqembi",
+    "manufacturer_id": "biogen",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "us_revenue": 10000000000,
+        "global_revenue": 14000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 69000000000,
+        "global_revenue": 83000000000
+      },
+      {
+        "year": 2025,
+        "us_revenue": 180000000000,
+        "global_revenue": 230000000000
+      }
+    ],
+    "peak_revenue_year": 2025,
+    "peak_revenue": 230000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Slow uptake due to infusion requirements and amyloid PET eligibility; competing with Kisunla (donanemab)",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "tepezza",
+    "drug_name": "Tepezza",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 190000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 200000000000,
+        "global_revenue": 205000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 210000000000,
+        "global_revenue": 218000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 225000000000,
+        "global_revenue": 235000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 235000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "First and only FDA-approved treatment for thyroid eye disease; acquired via Horizon Therapeutics",
+    "therapeutic_area": "endocrinology"
+  },
+  {
+    "drug_id": "praluent",
+    "drug_name": "Praluent",
+    "manufacturer_id": "sanofi",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 23000000000,
+        "global_revenue": 40000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 30000000000,
+        "global_revenue": 48000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 34000000000,
+        "global_revenue": 54000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 35000000000,
+        "global_revenue": 56000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 36000000000,
+        "global_revenue": 58000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 58000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "Dramatically cut WAC from ~$14,100 to ~$5,850/year in 2020 to improve access; stable volume",
+    "therapeutic_area": "cardiology"
+  },
+  {
+    "drug_id": "taltz",
+    "drug_name": "Taltz",
+    "manufacturer_id": "lilly",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 130000000000,
+        "global_revenue": 190000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 144000000000,
+        "global_revenue": 212000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 160000000000,
+        "global_revenue": 244000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 175000000000,
+        "global_revenue": 270000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 185000000000,
+        "global_revenue": 290000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 290000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Competes with Cosentyx, Skyrizi in IL-17/IL-23 space; steady growth in psoriasis/psoriatic arthritis",
+    "therapeutic_area": "immunology"
+  },
+  {
+    "drug_id": "carvykti",
+    "drug_name": "Carvykti",
+    "manufacturer_id": "jnj",
+    "annual_revenue": [
+      {
+        "year": 2022,
+        "us_revenue": 13000000000,
+        "global_revenue": 13000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 50000000000,
+        "global_revenue": 58000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 120000000000,
+        "global_revenue": 150000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 150000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "CAR-T for multiple myeloma; expanded to earlier-line treatment in 2024; manufacturing capacity a bottleneck",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "abecma",
+    "drug_name": "Abecma",
+    "manufacturer_id": "bms",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 16400000000,
+        "global_revenue": 16400000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 38800000000,
+        "global_revenue": 41000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 45000000000,
+        "global_revenue": 52000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 40000000000,
+        "global_revenue": 46000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 52000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Facing competition from Carvykti; manufacturing challenges and safety concerns",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "nurtec",
+    "drug_name": "Nurtec ODT",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 46000000000,
+        "global_revenue": 46000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 88000000000,
+        "global_revenue": 90000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 110000000000,
+        "global_revenue": 115000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 130000000000,
+        "global_revenue": 135000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 135000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Dual-use for migraine prevention and acute treatment; acquired via Biohaven deal; strong DTC marketing",
+    "therapeutic_area": "neurology"
+  },
+  {
+    "drug_id": "jakafi",
+    "drug_name": "Jakafi",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 178000000000,
+        "global_revenue": 178000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 195000000000,
+        "global_revenue": 195000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 218000000000,
+        "global_revenue": 218000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 244000000000,
+        "global_revenue": 244000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 260000000000,
+        "global_revenue": 260000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 260000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "First JAK inhibitor; dominant in myelofibrosis; Incyte partnership (Novartis has ex-US rights)",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "trodelvy",
+    "drug_name": "Trodelvy",
+    "manufacturer_id": "gilead",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 38000000000,
+        "global_revenue": 38000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 58000000000,
+        "global_revenue": 65000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 100000000000,
+        "global_revenue": 120000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 135000000000,
+        "global_revenue": 160000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 160000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Expanding indications in HR+/HER2- breast cancer and urothelial carcinoma; acquired via Immunomedics",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "padcev",
+    "drug_name": "Padcev",
+    "manufacturer_id": "pfizer",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 44000000000,
+        "global_revenue": 44000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 66000000000,
+        "global_revenue": 72000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 130000000000,
+        "global_revenue": 145000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 260000000000,
+        "global_revenue": 310000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 310000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Blockbuster growth after EV-302 trial showed dramatic survival benefit in bladder cancer with Keytruda combo; acquired via Seagen",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "xgeva",
+    "drug_name": "Xgeva",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 140000000000,
+        "global_revenue": 196000000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 138000000000,
+        "global_revenue": 189000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 142000000000,
+        "global_revenue": 199000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 145000000000,
+        "global_revenue": 203000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 148000000000,
+        "global_revenue": 207000000000
+      }
+    ],
+    "peak_revenue_year": 2023,
+    "peak_revenue": 207000000000,
+    "trajectory": "stable",
+    "trajectory_notes": "Mature product for bone metastases; biosimilar competition expected in coming years",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "lumakras",
+    "drug_name": "Lumakras",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2021,
+        "us_revenue": 8600000000,
+        "global_revenue": 8600000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 53000000000,
+        "global_revenue": 59000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 46000000000,
+        "global_revenue": 53000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 42000000000,
+        "global_revenue": 48000000000
+      }
+    ],
+    "peak_revenue_year": 2022,
+    "peak_revenue": 59000000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Failed confirmatory trial (CodeBreaK 200) hurt adoption; competing KRAS inhibitors entering market",
+    "therapeutic_area": "oncology"
+  },
+  {
+    "drug_id": "luxturna",
+    "drug_name": "Luxturna",
+    "manufacturer_id": "novartis",
+    "annual_revenue": [
+      {
+        "year": 2019,
+        "us_revenue": 7500000000,
+        "global_revenue": 8500000000
+      },
+      {
+        "year": 2020,
+        "us_revenue": 6100000000,
+        "global_revenue": 7000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 6700000000,
+        "global_revenue": 7800000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 5500000000,
+        "global_revenue": 6300000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 4800000000,
+        "global_revenue": 5500000000
+      }
+    ],
+    "peak_revenue_year": 2019,
+    "peak_revenue": 8500000000,
+    "trajectory": "declining",
+    "trajectory_notes": "Very small patient population (RPE65 mutation); one-time treatment limits recurring revenue",
+    "therapeutic_area": "ophthalmology"
+  },
+  {
+    "drug_id": "evenity",
+    "drug_name": "Evenity",
+    "manufacturer_id": "amgen",
+    "annual_revenue": [
+      {
+        "year": 2020,
+        "us_revenue": 32000000000,
+        "global_revenue": 60000000000
+      },
+      {
+        "year": 2021,
+        "us_revenue": 42000000000,
+        "global_revenue": 80000000000
+      },
+      {
+        "year": 2022,
+        "us_revenue": 52000000000,
+        "global_revenue": 105000000000
+      },
+      {
+        "year": 2023,
+        "us_revenue": 60000000000,
+        "global_revenue": 130000000000
+      },
+      {
+        "year": 2024,
+        "us_revenue": 68000000000,
+        "global_revenue": 150000000000
+      }
+    ],
+    "peak_revenue_year": 2024,
+    "peak_revenue": 150000000000,
+    "trajectory": "growing",
+    "trajectory_notes": "Strong growth especially in Japan; 12-month treatment course for postmenopausal osteoporosis",
+    "therapeutic_area": "bone health"
+  }
+]

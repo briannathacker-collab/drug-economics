@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2026-03-09",
+    "source": "CMS ASP",
+    "update_type": "QUARTERLY_REFRESH",
+    "drug_name": "All Tracked Drugs",
+    "manufacturer": "Multiple",
+    "description": "CMS ASP data updated — Q4 2025 quarterly release. Updated average selling prices for all tracked drugs.",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-b-drug-average-sales-price"
+  },
+  {
+    "date": "2026-03-01",
+    "source": "WAC",
+    "update_type": "PRICE_INCREASE",
+    "drug_name": "Humira",
+    "manufacturer": "AbbVie",
+    "description": "Humira WAC increase logged — effective January 1, 2026. Annual price increase applied to wholesale acquisition cost.",
+    "previous_value_cents": 652200,
+    "new_value_cents": 699900,
+    "pct_change": 7.3,
+    "source_url": null
+  },
+  {
+    "date": "2026-02-15",
+    "source": "IRA",
+    "update_type": "IRA_UPDATE",
+    "drug_name": "Eliquis",
+    "manufacturer": "Bristol-Myers Squibb",
+    "description": "CMS published IRA negotiated price for Eliquis effective 2026. First batch of Medicare negotiated drug prices under the Inflation Reduction Act.",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://www.cms.gov/inflation-reduction-act-and-medicare/drug-price-negotiation"
+  },
+  {
+    "date": "2026-02-01",
+    "source": "WAC",
+    "update_type": "PRICE_INCREASE",
+    "drug_name": "Keytruda",
+    "manufacturer": "Merck",
+    "description": "Keytruda WAC increased 5.9% — effective January 1, 2026.",
+    "previous_value_cents": 1041200,
+    "new_value_cents": 1102800,
+    "pct_change": 5.9,
+    "source_url": null
+  },
+  {
+    "date": "2026-01-20",
+    "source": "FDA",
+    "update_type": "NEW_DRUG",
+    "drug_name": "Lecanemab",
+    "manufacturer": "Eisai / Biogen",
+    "description": "Lecanemab (Leqembi) added to drug tracking database following expanded CMS coverage determination for Alzheimer's treatment.",
+    "previous_value_cents": null,
+    "new_value_cents": 2217000,
+    "pct_change": null,
+    "source_url": "https://www.fda.gov/drugs/news-events-human-drugs"
+  },
+  {
+    "date": "2026-01-10",
+    "source": "SEC EDGAR",
+    "update_type": "QUARTERLY_REFRESH",
+    "drug_name": "All Tracked Manufacturers",
+    "manufacturer": "Multiple",
+    "description": "Updated manufacturer financials from FY2024 10-K filings. Revenue, net income, R&D spend, and CEO compensation data refreshed.",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany"
+  },
+  {
+    "date": "2025-12-15",
+    "source": "COGS Literature",
+    "update_type": "DATA_CORRECTION",
+    "drug_name": "Ozempic",
+    "manufacturer": "Novo Nordisk",
+    "description": "Corrected Ozempic COGS estimate based on updated Yale GHJP study. Previous estimate was based on preliminary data; revised downward.",
+    "previous_value_cents": 12000,
+    "new_value_cents": 8900,
+    "pct_change": -25.8,
+    "source_url": "https://globalizationandhealth.biomedcentral.com/"
+  },
+  {
+    "date": "2025-12-01",
+    "source": "WAC",
+    "update_type": "PRICE_INCREASE",
+    "drug_name": "Ozempic",
+    "manufacturer": "Novo Nordisk",
+    "description": "Ozempic WAC increased 3.5% — effective January 1, 2026.",
+    "previous_value_cents": 935800,
+    "new_value_cents": 968600,
+    "pct_change": 3.5,
+    "source_url": null
+  },
+  {
+    "date": "2025-11-15",
+    "source": "FTC",
+    "update_type": "QUARTERLY_REFRESH",
+    "drug_name": "PBM Data",
+    "manufacturer": "Multiple",
+    "description": "Updated PBM rebate retention and passthrough rates from FTC Interim Report on Pharmacy Benefit Managers (2024 update).",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://www.ftc.gov/reports/pharmacy-benefit-managers-report"
+  },
+  {
+    "date": "2025-10-01",
+    "source": "CMS ASP",
+    "update_type": "QUARTERLY_REFRESH",
+    "drug_name": "All Tracked Drugs",
+    "manufacturer": "Multiple",
+    "description": "CMS ASP data updated — Q3 2025 quarterly release.",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-b-drug-average-sales-price"
+  }
+]

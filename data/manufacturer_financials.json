@@ -1,0 +1,1740 @@
+[
+  {
+    "manufacturer_id": "pfizer",
+    "name": "Pfizer Inc.",
+    "ticker": "PFE",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 5840000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 10033000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 8122000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 4194000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 5174000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 214000000000
+      },
+      {
+        "year": 2022,
+        "income": 3132000000000
+      },
+      {
+        "year": 2021,
+        "income": 2200000000000
+      },
+      {
+        "year": 2020,
+        "income": 924000000000
+      },
+      {
+        "year": 2019,
+        "income": 1634000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 1183000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1140000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1360000000000
+      },
+      {
+        "year": 2020,
+        "spend": 961000000000
+      },
+      {
+        "year": 2019,
+        "spend": 868000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 1418000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1348000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1225000000000
+      },
+      {
+        "year": 2020,
+        "spend": 1143000000000
+      },
+      {
+        "year": 2019,
+        "spend": 1149000000000
+      }
+    ],
+    "gross_margin": 62.3,
+    "ceo_compensation": 3310000000,
+    "ceo_name": "Albert Bourla",
+    "headquarters": "New York, NY",
+    "employees": 88000
+  },
+  {
+    "manufacturer_id": "jnj",
+    "name": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 8544000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 9395000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 9386000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 8296000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 8216000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 3590000000000
+      },
+      {
+        "year": 2022,
+        "income": 1780000000000
+      },
+      {
+        "year": 2021,
+        "income": 2081000000000
+      },
+      {
+        "year": 2020,
+        "income": 1478000000000
+      },
+      {
+        "year": 2019,
+        "income": 1520000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 1530000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1490000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1471000000000
+      },
+      {
+        "year": 2020,
+        "spend": 1221000000000
+      },
+      {
+        "year": 2019,
+        "spend": 1143000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 2200000000000
+      },
+      {
+        "year": 2022,
+        "spend": 2150000000000
+      },
+      {
+        "year": 2021,
+        "spend": 2144000000000
+      },
+      {
+        "year": 2020,
+        "spend": 2200000000000
+      },
+      {
+        "year": 2019,
+        "spend": 2200000000000
+      }
+    ],
+    "gross_margin": 68.5,
+    "ceo_compensation": 2610000000,
+    "ceo_name": "Joaquin Duato",
+    "headquarters": "New Brunswick, NJ",
+    "employees": 131900
+  },
+  {
+    "manufacturer_id": "abbvie",
+    "name": "AbbVie Inc.",
+    "ticker": "ABBV",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 5435000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 5805000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 5639000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 4586000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 3362000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 488700000000
+      },
+      {
+        "year": 2022,
+        "income": 1189200000000
+      },
+      {
+        "year": 2021,
+        "income": 1170700000000
+      },
+      {
+        "year": 2020,
+        "income": 487800000000
+      },
+      {
+        "year": 2019,
+        "income": 783300000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 720000000000
+      },
+      {
+        "year": 2022,
+        "spend": 679000000000
+      },
+      {
+        "year": 2021,
+        "spend": 639000000000
+      },
+      {
+        "year": 2020,
+        "spend": 619000000000
+      },
+      {
+        "year": 2019,
+        "spend": 547000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 1240000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1180000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1020000000000
+      },
+      {
+        "year": 2020,
+        "spend": 970000000000
+      },
+      {
+        "year": 2019,
+        "spend": 680000000000
+      }
+    ],
+    "gross_margin": 70.1,
+    "ceo_compensation": 2460000000,
+    "ceo_name": "Richard Gonzalez",
+    "headquarters": "North Chicago, IL",
+    "employees": 50000
+  },
+  {
+    "manufacturer_id": "merck",
+    "name": "Merck & Co.",
+    "ticker": "MRK",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 6014000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 5921000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 4872000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 4795000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 4680000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 365000000000
+      },
+      {
+        "year": 2022,
+        "income": 1449000000000
+      },
+      {
+        "year": 2021,
+        "income": 1298000000000
+      },
+      {
+        "year": 2020,
+        "income": 716000000000
+      },
+      {
+        "year": 2019,
+        "income": 920000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 3050000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1380000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1230000000000
+      },
+      {
+        "year": 2020,
+        "spend": 1360000000000
+      },
+      {
+        "year": 2019,
+        "spend": 997000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 975000000000
+      },
+      {
+        "year": 2022,
+        "spend": 950000000000
+      },
+      {
+        "year": 2021,
+        "spend": 950000000000
+      },
+      {
+        "year": 2020,
+        "spend": 990000000000
+      },
+      {
+        "year": 2019,
+        "spend": 985000000000
+      }
+    ],
+    "gross_margin": 73.2,
+    "ceo_compensation": 2680000000,
+    "ceo_name": "Robert Davis",
+    "headquarters": "Rahway, NJ",
+    "employees": 69000
+  },
+  {
+    "manufacturer_id": "lilly",
+    "name": "Eli Lilly and Co.",
+    "ticker": "LLY",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 3415800000000
+      },
+      {
+        "year": 2022,
+        "revenue": 2838700000000
+      },
+      {
+        "year": 2021,
+        "revenue": 2832300000000
+      },
+      {
+        "year": 2020,
+        "revenue": 2450000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 2224200000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 527500000000
+      },
+      {
+        "year": 2022,
+        "income": 613600000000
+      },
+      {
+        "year": 2021,
+        "income": 583200000000
+      },
+      {
+        "year": 2020,
+        "income": 266200000000
+      },
+      {
+        "year": 2019,
+        "income": 826900000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 929000000000
+      },
+      {
+        "year": 2022,
+        "spend": 718600000000
+      },
+      {
+        "year": 2021,
+        "spend": 710200000000
+      },
+      {
+        "year": 2020,
+        "spend": 609400000000
+      },
+      {
+        "year": 2019,
+        "spend": 556700000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 705000000000
+      },
+      {
+        "year": 2022,
+        "spend": 640000000000
+      },
+      {
+        "year": 2021,
+        "spend": 595000000000
+      },
+      {
+        "year": 2020,
+        "spend": 560000000000
+      },
+      {
+        "year": 2019,
+        "spend": 530000000000
+      }
+    ],
+    "gross_margin": 80.5,
+    "ceo_compensation": 2600000000,
+    "ceo_name": "David Ricks",
+    "headquarters": "Indianapolis, IN",
+    "employees": 43000
+  },
+  {
+    "manufacturer_id": "bms",
+    "name": "Bristol-Myers Squibb",
+    "ticker": "BMY",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 4503000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 4618000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 4638000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 4222000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 2616000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 817000000000
+      },
+      {
+        "year": 2022,
+        "income": 633000000000
+      },
+      {
+        "year": 2021,
+        "income": 693000000000
+      },
+      {
+        "year": 2020,
+        "income": -916000000000
+      },
+      {
+        "year": 2019,
+        "income": 331000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 965000000000
+      },
+      {
+        "year": 2022,
+        "spend": 950000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1127000000000
+      },
+      {
+        "year": 2020,
+        "spend": 1110000000000
+      },
+      {
+        "year": 2019,
+        "spend": 612000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 700000000000
+      },
+      {
+        "year": 2022,
+        "spend": 710000000000
+      },
+      {
+        "year": 2021,
+        "spend": 705000000000
+      },
+      {
+        "year": 2020,
+        "spend": 690000000000
+      },
+      {
+        "year": 2019,
+        "spend": 510000000000
+      }
+    ],
+    "gross_margin": 76.8,
+    "ceo_compensation": 2150000000,
+    "ceo_name": "Christopher Boerner",
+    "headquarters": "New York, NY",
+    "employees": 34000
+  },
+  {
+    "manufacturer_id": "novartis",
+    "name": "Novartis AG",
+    "ticker": "NVS",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 4571000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 5063000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 5163000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 4866000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 4745000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 871000000000
+      },
+      {
+        "year": 2022,
+        "income": 680000000000
+      },
+      {
+        "year": 2021,
+        "income": 2404000000000
+      },
+      {
+        "year": 2020,
+        "income": 847000000000
+      },
+      {
+        "year": 2019,
+        "income": 1172000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 1102000000000
+      },
+      {
+        "year": 2022,
+        "spend": 992000000000
+      },
+      {
+        "year": 2021,
+        "spend": 936000000000
+      },
+      {
+        "year": 2020,
+        "spend": 887000000000
+      },
+      {
+        "year": 2019,
+        "spend": 948000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 1050000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1120000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1180000000000
+      },
+      {
+        "year": 2020,
+        "spend": 1150000000000
+      },
+      {
+        "year": 2019,
+        "spend": 1200000000000
+      }
+    ],
+    "gross_margin": 73.8,
+    "ceo_compensation": 1690000000,
+    "ceo_name": "Vasant Narasimhan",
+    "headquarters": "Basel, Switzerland",
+    "employees": 78000
+  },
+  {
+    "manufacturer_id": "gilead",
+    "name": "Gilead Sciences",
+    "ticker": "GILD",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 2712000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 2712000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 2732000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 2459000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 2244700000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 560000000000
+      },
+      {
+        "year": 2022,
+        "income": 480000000000
+      },
+      {
+        "year": 2021,
+        "income": 618000000000
+      },
+      {
+        "year": 2020,
+        "income": 12300000000
+      },
+      {
+        "year": 2019,
+        "income": 516400000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 572000000000
+      },
+      {
+        "year": 2022,
+        "spend": 500000000000
+      },
+      {
+        "year": 2021,
+        "spend": 556000000000
+      },
+      {
+        "year": 2020,
+        "spend": 575000000000
+      },
+      {
+        "year": 2019,
+        "spend": 387000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 425000000000
+      },
+      {
+        "year": 2022,
+        "spend": 410000000000
+      },
+      {
+        "year": 2021,
+        "spend": 390000000000
+      },
+      {
+        "year": 2020,
+        "spend": 370000000000
+      },
+      {
+        "year": 2019,
+        "spend": 350000000000
+      }
+    ],
+    "gross_margin": 78.5,
+    "ceo_compensation": 1930000000,
+    "ceo_name": "Daniel O'Day",
+    "headquarters": "Foster City, CA",
+    "employees": 17000
+  },
+  {
+    "manufacturer_id": "biogen",
+    "name": "Biogen Inc.",
+    "ticker": "BIIB",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 984600000000
+      },
+      {
+        "year": 2022,
+        "revenue": 1009200000000
+      },
+      {
+        "year": 2021,
+        "revenue": 1098200000000
+      },
+      {
+        "year": 2020,
+        "revenue": 1335300000000
+      },
+      {
+        "year": 2019,
+        "revenue": 1436200000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 177700000000
+      },
+      {
+        "year": 2022,
+        "income": 395200000000
+      },
+      {
+        "year": 2021,
+        "income": 177300000000
+      },
+      {
+        "year": 2020,
+        "income": 435400000000
+      },
+      {
+        "year": 2019,
+        "income": 531100000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 280200000000
+      },
+      {
+        "year": 2022,
+        "spend": 268800000000
+      },
+      {
+        "year": 2021,
+        "spend": 245800000000
+      },
+      {
+        "year": 2020,
+        "spend": 245100000000
+      },
+      {
+        "year": 2019,
+        "spend": 237400000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 270000000000
+      },
+      {
+        "year": 2022,
+        "spend": 260000000000
+      },
+      {
+        "year": 2021,
+        "spend": 265000000000
+      },
+      {
+        "year": 2020,
+        "spend": 255000000000
+      },
+      {
+        "year": 2019,
+        "spend": 250000000000
+      }
+    ],
+    "gross_margin": 83.5,
+    "ceo_compensation": 1870000000,
+    "ceo_name": "Christopher Viehbacher",
+    "headquarters": "Cambridge, MA",
+    "employees": 7500
+  },
+  {
+    "manufacturer_id": "astrazeneca",
+    "name": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 4583000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 4415600000000
+      },
+      {
+        "year": 2021,
+        "revenue": 3741400000000
+      },
+      {
+        "year": 2020,
+        "revenue": 2639000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 2435800000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 580800000000
+      },
+      {
+        "year": 2022,
+        "income": 372100000000
+      },
+      {
+        "year": 2021,
+        "income": 34100000000
+      },
+      {
+        "year": 2020,
+        "income": 325600000000
+      },
+      {
+        "year": 2019,
+        "income": 130500000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 1084500000000
+      },
+      {
+        "year": 2022,
+        "spend": 987000000000
+      },
+      {
+        "year": 2021,
+        "spend": 934000000000
+      },
+      {
+        "year": 2020,
+        "spend": 715000000000
+      },
+      {
+        "year": 2019,
+        "spend": 629000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 980000000000
+      },
+      {
+        "year": 2022,
+        "spend": 960000000000
+      },
+      {
+        "year": 2021,
+        "spend": 850000000000
+      },
+      {
+        "year": 2020,
+        "spend": 720000000000
+      },
+      {
+        "year": 2019,
+        "spend": 680000000000
+      }
+    ],
+    "gross_margin": 81.2,
+    "ceo_compensation": 2160000000,
+    "ceo_name": "Pascal Soriot",
+    "headquarters": "Cambridge, UK",
+    "employees": 89900
+  },
+  {
+    "manufacturer_id": "vertex",
+    "name": "Vertex Pharmaceuticals",
+    "ticker": "VRTX",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 988100000000
+      },
+      {
+        "year": 2022,
+        "revenue": 892100000000
+      },
+      {
+        "year": 2021,
+        "revenue": 768600000000
+      },
+      {
+        "year": 2020,
+        "revenue": 660200000000
+      },
+      {
+        "year": 2019,
+        "revenue": 422500000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 361500000000
+      },
+      {
+        "year": 2022,
+        "income": 337100000000
+      },
+      {
+        "year": 2021,
+        "income": 279700000000
+      },
+      {
+        "year": 2020,
+        "income": 245000000000
+      },
+      {
+        "year": 2019,
+        "income": 166200000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 309500000000
+      },
+      {
+        "year": 2022,
+        "spend": 285300000000
+      },
+      {
+        "year": 2021,
+        "spend": 259700000000
+      },
+      {
+        "year": 2020,
+        "spend": 224400000000
+      },
+      {
+        "year": 2019,
+        "spend": 189900000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 180000000000
+      },
+      {
+        "year": 2022,
+        "spend": 165000000000
+      },
+      {
+        "year": 2021,
+        "spend": 145000000000
+      },
+      {
+        "year": 2020,
+        "spend": 130000000000
+      },
+      {
+        "year": 2019,
+        "spend": 110000000000
+      }
+    ],
+    "gross_margin": 87.3,
+    "ceo_compensation": 2690000000,
+    "ceo_name": "Reshma Kewalramani",
+    "headquarters": "Boston, MA",
+    "employees": 5000
+  },
+  {
+    "manufacturer_id": "regeneron",
+    "name": "Regeneron Pharmaceuticals",
+    "ticker": "REGN",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 1309700000000
+      },
+      {
+        "year": 2022,
+        "revenue": 1214100000000
+      },
+      {
+        "year": 2021,
+        "revenue": 1609700000000
+      },
+      {
+        "year": 2020,
+        "revenue": 843400000000
+      },
+      {
+        "year": 2019,
+        "revenue": 751600000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 387400000000
+      },
+      {
+        "year": 2022,
+        "income": 456100000000
+      },
+      {
+        "year": 2021,
+        "income": 881400000000
+      },
+      {
+        "year": 2020,
+        "income": 342700000000
+      },
+      {
+        "year": 2019,
+        "income": 254900000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 438400000000
+      },
+      {
+        "year": 2022,
+        "spend": 387300000000
+      },
+      {
+        "year": 2021,
+        "spend": 330000000000
+      },
+      {
+        "year": 2020,
+        "spend": 285700000000
+      },
+      {
+        "year": 2019,
+        "spend": 253800000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 310000000000
+      },
+      {
+        "year": 2022,
+        "spend": 290000000000
+      },
+      {
+        "year": 2021,
+        "spend": 255000000000
+      },
+      {
+        "year": 2020,
+        "spend": 220000000000
+      },
+      {
+        "year": 2019,
+        "spend": 195000000000
+      }
+    ],
+    "gross_margin": 86.8,
+    "ceo_compensation": 2890000000,
+    "ceo_name": "Leonard Schleifer",
+    "headquarters": "Tarrytown, NY",
+    "employees": 12600
+  },
+  {
+    "manufacturer_id": "novo",
+    "name": "Novo Nordisk",
+    "ticker": "NVO",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 3254200000000
+      },
+      {
+        "year": 2022,
+        "revenue": 2637900000000
+      },
+      {
+        "year": 2021,
+        "revenue": 1962000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 1826400000000
+      },
+      {
+        "year": 2019,
+        "revenue": 1717300000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 1156400000000
+      },
+      {
+        "year": 2022,
+        "income": 887600000000
+      },
+      {
+        "year": 2021,
+        "income": 680400000000
+      },
+      {
+        "year": 2020,
+        "income": 618000000000
+      },
+      {
+        "year": 2019,
+        "income": 573800000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 450000000000
+      },
+      {
+        "year": 2022,
+        "spend": 380000000000
+      },
+      {
+        "year": 2021,
+        "spend": 320000000000
+      },
+      {
+        "year": 2020,
+        "spend": 290000000000
+      },
+      {
+        "year": 2019,
+        "spend": 260000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 580000000000
+      },
+      {
+        "year": 2022,
+        "spend": 490000000000
+      },
+      {
+        "year": 2021,
+        "spend": 420000000000
+      },
+      {
+        "year": 2020,
+        "spend": 390000000000
+      },
+      {
+        "year": 2019,
+        "spend": 370000000000
+      }
+    ],
+    "gross_margin": 84.5,
+    "ceo_compensation": 1100000000,
+    "ceo_name": "Lars Fruergaard Jørgensen",
+    "headquarters": "Bagsværd, Denmark",
+    "employees": 63400
+  },
+  {
+    "manufacturer_id": "amgen",
+    "name": "Amgen Inc.",
+    "ticker": "AMGN",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 2810000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 670000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 470000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 520000000000
+      }
+    ],
+    "gross_margin": 74.5,
+    "ceo_compensation": 2380000000,
+    "ceo_name": "Robert Bradway",
+    "headquarters": "Thousand Oaks, CA",
+    "employees": 26500
+  },
+  {
+    "manufacturer_id": "genentech",
+    "name": "Genentech (Roche)",
+    "ticker": "RHHBY",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 4220000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 1160000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 830000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 960000000000
+      }
+    ],
+    "gross_margin": 68.2,
+    "ceo_compensation": 1520000000,
+    "ceo_name": "Thomas Schinecker",
+    "headquarters": "South San Francisco, CA",
+    "employees": 100000
+  },
+  {
+    "manufacturer_id": "takeda",
+    "name": "Takeda Pharmaceutical",
+    "ticker": "TAK",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 3110000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 230000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 480000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 750000000000
+      }
+    ],
+    "gross_margin": 65.8,
+    "ceo_compensation": 1780000000,
+    "ceo_name": "Christophe Weber",
+    "headquarters": "Tokyo, Japan",
+    "employees": 49000
+  },
+  {
+    "manufacturer_id": "gsk",
+    "name": "GSK plc",
+    "ticker": "GSK",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 3060000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 2950000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 3430000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 3420000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 3380000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 460000000000
+      },
+      {
+        "year": 2022,
+        "income": 440000000000
+      },
+      {
+        "year": 2021,
+        "income": 410000000000
+      },
+      {
+        "year": 2020,
+        "income": 560000000000
+      },
+      {
+        "year": 2019,
+        "income": 480000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 550000000000
+      },
+      {
+        "year": 2022,
+        "spend": 530000000000
+      },
+      {
+        "year": 2021,
+        "spend": 510000000000
+      },
+      {
+        "year": 2020,
+        "spend": 490000000000
+      },
+      {
+        "year": 2019,
+        "spend": 480000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 850000000000
+      },
+      {
+        "year": 2022,
+        "spend": 830000000000
+      },
+      {
+        "year": 2021,
+        "spend": 800000000000
+      },
+      {
+        "year": 2020,
+        "spend": 780000000000
+      },
+      {
+        "year": 2019,
+        "spend": 790000000000
+      }
+    ],
+    "gross_margin": 72.5,
+    "ceo_compensation": 1120000000,
+    "ceo_name": "Emma Walmsley",
+    "headquarters": "London, UK",
+    "employees": 70000
+  },
+  {
+    "manufacturer_id": "alexion",
+    "name": "Alexion Pharmaceuticals (AstraZeneca)",
+    "ticker": "AZN",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 750000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 700000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 620000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 180000000000
+      },
+      {
+        "year": 2022,
+        "income": 165000000000
+      },
+      {
+        "year": 2021,
+        "income": 140000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 150000000000
+      },
+      {
+        "year": 2022,
+        "spend": 135000000000
+      },
+      {
+        "year": 2021,
+        "spend": 120000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 200000000000
+      },
+      {
+        "year": 2022,
+        "spend": 185000000000
+      },
+      {
+        "year": 2021,
+        "spend": 170000000000
+      }
+    ],
+    "gross_margin": 85.2,
+    "ceo_compensation": 850000000,
+    "ceo_name": "Marc Dunoyer",
+    "headquarters": "Boston, MA",
+    "employees": 11000
+  },
+  {
+    "manufacturer_id": "cslbehring",
+    "name": "CSL Behring (CSL Limited)",
+    "ticker": "CSLLY",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 1410000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 1190000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 1000000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 280000000000
+      },
+      {
+        "year": 2022,
+        "income": 230000000000
+      },
+      {
+        "year": 2021,
+        "income": 200000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 130000000000
+      },
+      {
+        "year": 2022,
+        "spend": 110000000000
+      },
+      {
+        "year": 2021,
+        "spend": 95000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 350000000000
+      },
+      {
+        "year": 2022,
+        "spend": 310000000000
+      },
+      {
+        "year": 2021,
+        "spend": 280000000000
+      }
+    ],
+    "gross_margin": 56.8,
+    "ceo_compensation": 680000000,
+    "ceo_name": "Paul McKenzie",
+    "headquarters": "King of Prussia, PA",
+    "employees": 32000
+  },
+  {
+    "manufacturer_id": "biomarin",
+    "name": "BioMarin Pharmaceutical Inc.",
+    "ticker": "BMRN",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 240000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 200000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 180000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 25000000000
+      },
+      {
+        "year": 2022,
+        "income": -5000000000
+      },
+      {
+        "year": 2021,
+        "income": -40000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 72000000000
+      },
+      {
+        "year": 2022,
+        "spend": 68000000000
+      },
+      {
+        "year": 2021,
+        "spend": 65000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 82000000000
+      },
+      {
+        "year": 2022,
+        "spend": 78000000000
+      },
+      {
+        "year": 2021,
+        "spend": 74000000000
+      }
+    ],
+    "gross_margin": 78.4,
+    "ceo_compensation": 1820000000,
+    "ceo_name": "Jean-Jacques Bienaime",
+    "headquarters": "San Rafael, CA",
+    "employees": 3700
+  },
+  {
+    "manufacturer_id": "sanofi",
+    "name": "Sanofi S.A.",
+    "ticker": "SNY",
+    "annual_revenue": [
+      {
+        "year": 2023,
+        "revenue": 4650000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 4600000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 4400000000000
+      }
+    ],
+    "net_income": [
+      {
+        "year": 2023,
+        "income": 520000000000
+      },
+      {
+        "year": 2022,
+        "income": 680000000000
+      },
+      {
+        "year": 2021,
+        "income": 700000000000
+      }
+    ],
+    "rd_spend": [
+      {
+        "year": 2023,
+        "spend": 720000000000
+      },
+      {
+        "year": 2022,
+        "spend": 690000000000
+      },
+      {
+        "year": 2021,
+        "spend": 650000000000
+      }
+    ],
+    "sga_spend": [
+      {
+        "year": 2023,
+        "spend": 1100000000000
+      },
+      {
+        "year": 2022,
+        "spend": 1050000000000
+      },
+      {
+        "year": 2021,
+        "spend": 1000000000000
+      }
+    ],
+    "gross_margin": 70.1,
+    "ceo_compensation": 1200000000,
+    "ceo_name": "Paul Hudson",
+    "headquarters": "Paris, France",
+    "employees": 91000
+  }
+]

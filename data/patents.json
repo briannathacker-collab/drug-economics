@@ -1,0 +1,1997 @@
+[
+  {
+    "drug_id": "humira",
+    "drug_name": "Humira",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US6090382",
+    "original_patent_expiry": "2016-12-31",
+    "effective_exclusivity_end": "2023-01-31",
+    "delay_years": 6.1,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 132,
+    "secondary_patents": [
+      {
+        "patent_number": "US8889135",
+        "expiry": "2022-12-31",
+        "type": "formulation",
+        "description": "High-concentration adalimumab formulations"
+      },
+      {
+        "patent_number": "US9090689",
+        "expiry": "2024-09-30",
+        "type": "method_of_treatment",
+        "description": "Methods of treating psoriatic arthritis"
+      },
+      {
+        "patent_number": "US9017680",
+        "expiry": "2025-04-15",
+        "type": "manufacturing",
+        "description": "Cell culture methods for adalimumab production"
+      },
+      {
+        "patent_number": "US10160808",
+        "expiry": "2034-06-28",
+        "type": "method_of_treatment",
+        "description": "Methods of treating hidradenitis suppurativa"
+      }
+    ],
+    "patent_cliff_date": "2023-01-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 132,
+    "notes": "Classic example of patent thicket strategy; AbbVie built 132-patent wall around Humira to delay biosimilar entry by ~6 years beyond original patent expiry"
+  },
+  {
+    "drug_id": "keytruda",
+    "drug_name": "Keytruda",
+    "manufacturer_id": "merck",
+    "original_patent_number": "US8168757",
+    "original_patent_expiry": "2028-07-15",
+    "effective_exclusivity_end": "2028-07-15",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 87,
+    "secondary_patents": [
+      {
+        "patent_number": "US8952136",
+        "expiry": "2030-09-30",
+        "type": "formulation",
+        "description": "Stable anti-PD-1 antibody formulations"
+      },
+      {
+        "patent_number": "US10766960",
+        "expiry": "2036-08-14",
+        "type": "method_of_treatment",
+        "description": "Combination therapy with chemotherapy"
+      },
+      {
+        "patent_number": "US11084880",
+        "expiry": "2037-03-22",
+        "type": "method_of_treatment",
+        "description": "Treatment of TNBC patients"
+      },
+      {
+        "patent_number": "US11472874",
+        "expiry": "2038-11-15",
+        "type": "method_of_treatment",
+        "description": "Subcutaneous pembrolizumab formulation"
+      }
+    ],
+    "patent_cliff_date": "2028-07-15",
+    "patent_thicket": true,
+    "patent_thicket_count": 87,
+    "notes": "Major patent cliff approaching; Merck pursuing subcutaneous formulation and combination patents to extend exclusivity"
+  },
+  {
+    "drug_id": "eliquis",
+    "drug_name": "Eliquis",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US6967208",
+    "original_patent_expiry": "2023-03-17",
+    "effective_exclusivity_end": "2026-11-01",
+    "delay_years": 3.6,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 45,
+    "secondary_patents": [
+      {
+        "patent_number": "US7396940",
+        "expiry": "2026-05-17",
+        "type": "composition",
+        "description": "Crystalline forms of apixaban"
+      },
+      {
+        "patent_number": "US9326976",
+        "expiry": "2026-11-01",
+        "type": "method_of_treatment",
+        "description": "Prevention of stroke in AF patients"
+      },
+      {
+        "patent_number": "US9402844",
+        "expiry": "2031-08-18",
+        "type": "formulation",
+        "description": "Oral dosage forms for apixaban"
+      }
+    ],
+    "patent_cliff_date": "2026-11-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 45,
+    "notes": "Key patents litigated; settlements with generic manufacturers allow limited entry before full patent expiry"
+  },
+  {
+    "drug_id": "stelara",
+    "drug_name": "Stelara",
+    "manufacturer_id": "jnj",
+    "original_patent_number": "US6902734",
+    "original_patent_expiry": "2023-09-22",
+    "effective_exclusivity_end": "2025-02-21",
+    "delay_years": 1.4,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 38,
+    "secondary_patents": [
+      {
+        "patent_number": "US8420081",
+        "expiry": "2024-04-15",
+        "type": "formulation",
+        "description": "Stable ustekinumab formulations"
+      },
+      {
+        "patent_number": "US9498530",
+        "expiry": "2025-02-21",
+        "type": "method_of_treatment",
+        "description": "Treatment of Crohn's disease with ustekinumab"
+      },
+      {
+        "patent_number": "US10227402",
+        "expiry": "2027-06-30",
+        "type": "manufacturing",
+        "description": "Methods of producing ustekinumab"
+      }
+    ],
+    "patent_cliff_date": "2025-02-21",
+    "patent_thicket": false,
+    "patent_thicket_count": 38,
+    "notes": "Biosimilar applications filed; first US biosimilar launch expected early 2025"
+  },
+  {
+    "drug_id": "ibrance",
+    "drug_name": "Ibrance",
+    "manufacturer_id": "pfizer",
+    "original_patent_number": "US6936612",
+    "original_patent_expiry": "2023-01-17",
+    "effective_exclusivity_end": "2027-03-31",
+    "delay_years": 4.2,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 28,
+    "secondary_patents": [
+      {
+        "patent_number": "US9130098",
+        "expiry": "2027-03-31",
+        "type": "composition",
+        "description": "Specific crystalline forms of palbociclib"
+      },
+      {
+        "patent_number": "US9504694",
+        "expiry": "2023-03-28",
+        "type": "method_of_treatment",
+        "description": "Combination with letrozole for breast cancer"
+      },
+      {
+        "patent_number": "US10413548",
+        "expiry": "2034-11-16",
+        "type": "formulation",
+        "description": "Bioequivalent tablet formulation"
+      }
+    ],
+    "patent_cliff_date": "2027-03-31",
+    "patent_thicket": false,
+    "patent_thicket_count": 28,
+    "notes": "Original compound patent expired; formulation patents sustaining exclusivity"
+  },
+  {
+    "drug_id": "revlimid",
+    "drug_name": "Revlimid",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US5635517",
+    "original_patent_expiry": "2019-07-18",
+    "effective_exclusivity_end": "2026-01-31",
+    "delay_years": 6.5,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 33,
+    "secondary_patents": [
+      {
+        "patent_number": "US7189740",
+        "expiry": "2024-12-27",
+        "type": "composition",
+        "description": "Polymorphic forms of lenalidomide"
+      },
+      {
+        "patent_number": "US7465800",
+        "expiry": "2024-05-07",
+        "type": "method_of_treatment",
+        "description": "Treatment of myelodysplastic syndromes"
+      },
+      {
+        "patent_number": "US7855217",
+        "expiry": "2027-07-13",
+        "type": "method_of_treatment",
+        "description": "Treatment of multiple myeloma"
+      }
+    ],
+    "patent_cliff_date": "2022-03-01",
+    "patent_thicket": true,
+    "patent_thicket_count": 33,
+    "notes": "Celgene used REMS program as additional barrier; FTC investigated; generic settlements allow limited volume entry starting 2022"
+  },
+  {
+    "drug_id": "ozempic",
+    "drug_name": "Ozempic",
+    "manufacturer_id": "novo",
+    "original_patent_number": "US8129343",
+    "original_patent_expiry": "2026-04-17",
+    "effective_exclusivity_end": "2032-06-30",
+    "delay_years": 6.2,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 74,
+    "secondary_patents": [
+      {
+        "patent_number": "US10159713",
+        "expiry": "2032-06-30",
+        "type": "formulation",
+        "description": "Semaglutide injection device formulation"
+      },
+      {
+        "patent_number": "US10646548",
+        "expiry": "2035-12-18",
+        "type": "method_of_treatment",
+        "description": "Weight management with semaglutide"
+      },
+      {
+        "patent_number": "US11040089",
+        "expiry": "2036-09-22",
+        "type": "composition",
+        "description": "Oral semaglutide formulations"
+      }
+    ],
+    "patent_cliff_date": "2032-06-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 74,
+    "notes": "Novo Nordisk aggressively building patent portfolio; obesity indication patents extend protection significantly"
+  },
+  {
+    "drug_id": "xarelto",
+    "drug_name": "Xarelto",
+    "manufacturer_id": "jnj",
+    "original_patent_number": "US7585860",
+    "original_patent_expiry": "2020-06-12",
+    "effective_exclusivity_end": "2025-12-15",
+    "delay_years": 5.5,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 22,
+    "secondary_patents": [
+      {
+        "patent_number": "US9012468",
+        "expiry": "2024-10-11",
+        "type": "formulation",
+        "description": "Modified release formulations"
+      },
+      {
+        "patent_number": "US9539218",
+        "expiry": "2025-12-15",
+        "type": "method_of_treatment",
+        "description": "Prevention of VTE following hip/knee replacement"
+      },
+      {
+        "patent_number": "US10076521",
+        "expiry": "2033-08-20",
+        "type": "composition",
+        "description": "Pediatric granule formulations"
+      }
+    ],
+    "patent_cliff_date": "2025-12-15",
+    "patent_thicket": false,
+    "patent_thicket_count": 22,
+    "notes": "Original patent expired; method-of-treatment patents have been key to maintaining exclusivity"
+  },
+  {
+    "drug_id": "jardiance",
+    "drug_name": "Jardiance",
+    "manufacturer_id": "lilly",
+    "original_patent_number": "US7943788",
+    "original_patent_expiry": "2025-05-24",
+    "effective_exclusivity_end": "2028-09-30",
+    "delay_years": 3.4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 36,
+    "secondary_patents": [
+      {
+        "patent_number": "US9555001",
+        "expiry": "2028-09-30",
+        "type": "composition",
+        "description": "Crystalline forms of empagliflozin"
+      },
+      {
+        "patent_number": "US10098890",
+        "expiry": "2032-05-15",
+        "type": "method_of_treatment",
+        "description": "Heart failure treatment with empagliflozin"
+      },
+      {
+        "patent_number": "US10792285",
+        "expiry": "2034-11-10",
+        "type": "method_of_treatment",
+        "description": "CKD treatment with empagliflozin"
+      }
+    ],
+    "patent_cliff_date": "2028-09-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 36,
+    "notes": "Heart failure and CKD method patents extend exclusivity beyond compound patent"
+  },
+  {
+    "drug_id": "trulicity",
+    "drug_name": "Trulicity",
+    "manufacturer_id": "lilly",
+    "original_patent_number": "US7521530",
+    "original_patent_expiry": "2024-09-16",
+    "effective_exclusivity_end": "2027-06-30",
+    "delay_years": 2.8,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 31,
+    "secondary_patents": [
+      {
+        "patent_number": "US8586024",
+        "expiry": "2025-12-31",
+        "type": "formulation",
+        "description": "Dulaglutide formulation stability"
+      },
+      {
+        "patent_number": "US9040022",
+        "expiry": "2027-06-30",
+        "type": "composition",
+        "description": "Fc-fusion protein variants"
+      },
+      {
+        "patent_number": "US9340602",
+        "expiry": "2029-04-15",
+        "type": "manufacturing",
+        "description": "Autoinjector device for dulaglutide"
+      }
+    ],
+    "patent_cliff_date": "2027-06-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 31,
+    "notes": "Biosimilar competition expected late 2020s; declining market share may reduce biosimilar interest"
+  },
+  {
+    "drug_id": "opdivo",
+    "drug_name": "Opdivo",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US8008449",
+    "original_patent_expiry": "2027-06-02",
+    "effective_exclusivity_end": "2030-04-01",
+    "delay_years": 2.8,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 52,
+    "secondary_patents": [
+      {
+        "patent_number": "US8728474",
+        "expiry": "2029-01-30",
+        "type": "composition",
+        "description": "Nivolumab antibody variants"
+      },
+      {
+        "patent_number": "US9073994",
+        "expiry": "2030-04-01",
+        "type": "method_of_treatment",
+        "description": "Combination with ipilimumab"
+      },
+      {
+        "patent_number": "US10266594",
+        "expiry": "2035-09-14",
+        "type": "method_of_treatment",
+        "description": "Treatment of hepatocellular carcinoma"
+      }
+    ],
+    "patent_cliff_date": "2030-04-01",
+    "patent_thicket": true,
+    "patent_thicket_count": 52,
+    "notes": "Strong patent portfolio; combination therapy patents key to extended exclusivity"
+  },
+  {
+    "drug_id": "imbruvica",
+    "drug_name": "Imbruvica",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US7514444",
+    "original_patent_expiry": "2026-07-05",
+    "effective_exclusivity_end": "2029-01-15",
+    "delay_years": 2.5,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 41,
+    "secondary_patents": [
+      {
+        "patent_number": "US9181257",
+        "expiry": "2028-04-22",
+        "type": "composition",
+        "description": "Ibrutinib crystalline forms"
+      },
+      {
+        "patent_number": "US9655857",
+        "expiry": "2029-01-15",
+        "type": "method_of_treatment",
+        "description": "Treatment of Waldenstrom's macroglobulinemia"
+      },
+      {
+        "patent_number": "US10130634",
+        "expiry": "2032-06-30",
+        "type": "method_of_treatment",
+        "description": "CLL combination therapy methods"
+      }
+    ],
+    "patent_cliff_date": "2029-01-15",
+    "patent_thicket": false,
+    "patent_thicket_count": 41,
+    "notes": "Generic competition expected late 2020s; next-gen BTK inhibitors already eroding market share"
+  },
+  {
+    "drug_id": "enbrel",
+    "drug_name": "Enbrel",
+    "manufacturer_id": "pfizer",
+    "original_patent_number": "US5605690",
+    "original_patent_expiry": "2012-10-23",
+    "effective_exclusivity_end": "2029-11-22",
+    "delay_years": 17.1,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 25,
+    "secondary_patents": [
+      {
+        "patent_number": "US7915225",
+        "expiry": "2028-11-22",
+        "type": "composition",
+        "description": "TNF receptor-Fc fusion protein variants"
+      },
+      {
+        "patent_number": "US8063182",
+        "expiry": "2029-11-22",
+        "type": "manufacturing",
+        "description": "CHO cell production methods"
+      },
+      {
+        "patent_number": "US8470317",
+        "expiry": "2029-02-15",
+        "type": "formulation",
+        "description": "Stable etanercept formulations"
+      }
+    ],
+    "patent_cliff_date": "2029-11-22",
+    "patent_thicket": true,
+    "patent_thicket_count": 25,
+    "notes": "Original patent expired in 2012; manufacturing and formulation patents extended exclusivity by 17 years. Biosimilars available in EU since 2016 but blocked in US."
+  },
+  {
+    "drug_id": "rinvoq",
+    "drug_name": "Rinvoq",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US9540380",
+    "original_patent_expiry": "2033-08-14",
+    "effective_exclusivity_end": "2036-12-31",
+    "delay_years": 3.4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 55,
+    "secondary_patents": [
+      {
+        "patent_number": "US10406160",
+        "expiry": "2035-01-20",
+        "type": "composition",
+        "description": "Extended-release upadacitinib formulation"
+      },
+      {
+        "patent_number": "US10772873",
+        "expiry": "2036-12-31",
+        "type": "method_of_treatment",
+        "description": "Treatment of atopic dermatitis"
+      },
+      {
+        "patent_number": "US11123337",
+        "expiry": "2038-07-15",
+        "type": "method_of_treatment",
+        "description": "Treatment of Crohn's disease"
+      }
+    ],
+    "patent_cliff_date": "2036-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 55,
+    "notes": "Strong patent estate; AbbVie applying Humira playbook to build comprehensive patent protection"
+  },
+  {
+    "drug_id": "skyrizi",
+    "drug_name": "Skyrizi",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US9062106",
+    "original_patent_expiry": "2030-05-18",
+    "effective_exclusivity_end": "2035-09-30",
+    "delay_years": 5.4,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 48,
+    "secondary_patents": [
+      {
+        "patent_number": "US10323094",
+        "expiry": "2033-04-22",
+        "type": "formulation",
+        "description": "Subcutaneous risankizumab formulations"
+      },
+      {
+        "patent_number": "US10689438",
+        "expiry": "2035-09-30",
+        "type": "method_of_treatment",
+        "description": "Treatment of Crohn's disease with risankizumab"
+      },
+      {
+        "patent_number": "US11167012",
+        "expiry": "2037-11-18",
+        "type": "manufacturing",
+        "description": "Cell line development for risankizumab"
+      }
+    ],
+    "patent_cliff_date": "2035-09-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 48,
+    "notes": "Long runway of patent protection; AbbVie proactively building patent thicket based on Humira experience"
+  },
+  {
+    "drug_id": "gleevec",
+    "drug_name": "Gleevec",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US5521184",
+    "original_patent_expiry": "2015-01-04",
+    "effective_exclusivity_end": "2016-02-01",
+    "delay_years": 1.1,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 46,
+    "secondary_patents": [
+      {
+        "patent_number": "US6894051",
+        "expiry": "2019-05-28",
+        "type": "composition",
+        "description": "Beta crystalline form of imatinib mesylate"
+      },
+      {
+        "patent_number": "US7544799",
+        "expiry": "2023-10-04",
+        "type": "formulation",
+        "description": "Oral dosage forms of imatinib"
+      },
+      {
+        "patent_number": "US8163904",
+        "expiry": "2026-04-12",
+        "type": "method_of_treatment",
+        "description": "Treatment of GIST tumors"
+      }
+    ],
+    "patent_cliff_date": "2016-02-01",
+    "patent_thicket": true,
+    "patent_thicket_count": 46,
+    "notes": "Generic imatinib became available February 2016 after Novartis lost crystalline form patent challenge. Despite generics, brand Gleevec still prescribed and priced at premium."
+  },
+  {
+    "drug_id": "sovaldi",
+    "drug_name": "Sovaldi",
+    "manufacturer_id": "gilead",
+    "original_patent_number": "US7964580",
+    "original_patent_expiry": "2029-09-28",
+    "effective_exclusivity_end": "2029-09-28",
+    "delay_years": 0,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 52,
+    "secondary_patents": [
+      {
+        "patent_number": "US8580765",
+        "expiry": "2030-06-15",
+        "type": "composition",
+        "description": "Nucleoside phosphoramidate prodrugs"
+      },
+      {
+        "patent_number": "US8951985",
+        "expiry": "2032-11-20",
+        "type": "method_of_treatment",
+        "description": "Combination therapy for HCV"
+      },
+      {
+        "patent_number": "US9045520",
+        "expiry": "2033-04-08",
+        "type": "formulation",
+        "description": "Fixed-dose combination formulations"
+      }
+    ],
+    "patent_cliff_date": "2029-09-28",
+    "patent_thicket": true,
+    "patent_thicket_count": 52,
+    "notes": "Gilead acquired sofosbuvir via Pharmasset acquisition for $11B. Senate investigation found Gilead priced for maximum revenue regardless of access concerns."
+  },
+  {
+    "drug_id": "tecfidera",
+    "drug_name": "Tecfidera",
+    "manufacturer_id": "biogen",
+    "original_patent_number": "US8399514",
+    "original_patent_expiry": "2028-06-07",
+    "effective_exclusivity_end": "2020-09-01",
+    "delay_years": -7.8,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 18,
+    "secondary_patents": [
+      {
+        "patent_number": "US8669281",
+        "expiry": "2028-06-07",
+        "type": "formulation",
+        "description": "Delayed-release dimethyl fumarate capsules"
+      },
+      {
+        "patent_number": "US9138432",
+        "expiry": "2028-06-07",
+        "type": "method_of_treatment",
+        "description": "Treatment of MS with dimethyl fumarate"
+      }
+    ],
+    "patent_cliff_date": "2020-09-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 18,
+    "notes": "Key patent invalidated by Mylan in 2020 IPR proceeding; generic dimethyl fumarate launched ahead of patent expiry. Biogen pivoted to Vumerity (diroximel fumarate) as successor."
+  },
+  {
+    "drug_id": "tagrisso",
+    "drug_name": "Tagrisso",
+    "manufacturer_id": "astrazeneca",
+    "original_patent_number": "US9290497",
+    "original_patent_expiry": "2032-04-15",
+    "effective_exclusivity_end": "2035-08-30",
+    "delay_years": 3.4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 38,
+    "secondary_patents": [
+      {
+        "patent_number": "US9586981",
+        "expiry": "2033-06-22",
+        "type": "composition",
+        "description": "Mesylate salt forms of osimertinib"
+      },
+      {
+        "patent_number": "US10314835",
+        "expiry": "2035-08-30",
+        "type": "method_of_treatment",
+        "description": "Adjuvant treatment of EGFR-mutant NSCLC"
+      },
+      {
+        "patent_number": "US10561659",
+        "expiry": "2037-02-14",
+        "type": "method_of_treatment",
+        "description": "First-line treatment of EGFR-mutant NSCLC"
+      }
+    ],
+    "patent_cliff_date": "2035-08-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 38,
+    "notes": "Strong patent position through mid-2030s; adjuvant indication patents extending exclusivity; AstraZeneca's most important oncology asset"
+  },
+  {
+    "drug_id": "trikafta",
+    "drug_name": "Trikafta",
+    "manufacturer_id": "vertex",
+    "original_patent_number": "US10206877",
+    "original_patent_expiry": "2037-10-22",
+    "effective_exclusivity_end": "2037-10-22",
+    "delay_years": 0,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 82,
+    "secondary_patents": [
+      {
+        "patent_number": "US10272046",
+        "expiry": "2034-07-15",
+        "type": "composition",
+        "description": "Elexacaftor compound patents"
+      },
+      {
+        "patent_number": "US10738028",
+        "expiry": "2037-10-22",
+        "type": "formulation",
+        "description": "Triple combination formulation"
+      },
+      {
+        "patent_number": "US11191756",
+        "expiry": "2038-12-05",
+        "type": "method_of_treatment",
+        "description": "Treatment methods for CF patients with specific mutations"
+      }
+    ],
+    "patent_cliff_date": "2037-10-22",
+    "patent_thicket": true,
+    "patent_thicket_count": 82,
+    "notes": "Vertex has built massive 82-patent fortress around Trikafta. With no meaningful competition in CFTR modulators and patents extending to 2037+, patients have no alternatives."
+  },
+  {
+    "drug_id": "dupixent",
+    "drug_name": "Dupixent",
+    "manufacturer_id": "regeneron",
+    "original_patent_number": "US7608693",
+    "original_patent_expiry": "2029-06-15",
+    "effective_exclusivity_end": "2031-03-31",
+    "delay_years": 1.8,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 64,
+    "secondary_patents": [
+      {
+        "patent_number": "US9574004",
+        "expiry": "2030-09-15",
+        "type": "composition",
+        "description": "Anti-IL-4R antibody compositions"
+      },
+      {
+        "patent_number": "US10017581",
+        "expiry": "2031-03-31",
+        "type": "method_of_treatment",
+        "description": "Treatment of atopic dermatitis"
+      },
+      {
+        "patent_number": "US10370446",
+        "expiry": "2034-08-22",
+        "type": "method_of_treatment",
+        "description": "Treatment of asthma with dupilumab"
+      },
+      {
+        "patent_number": "US10745476",
+        "expiry": "2036-11-18",
+        "type": "method_of_treatment",
+        "description": "Treatment of COPD with dupilumab"
+      }
+    ],
+    "patent_cliff_date": "2031-03-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 64,
+    "notes": "Regeneron/Sanofi building extensive patent portfolio; each new indication approval adds method-of-treatment patents extending exclusivity"
+  },
+  {
+    "drug_id": "pomalyst",
+    "drug_name": "Pomalyst",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US5635517",
+    "original_patent_expiry": "2019-07-18",
+    "effective_exclusivity_end": "2027-06-30",
+    "delay_years": 8,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 29,
+    "secondary_patents": [
+      {
+        "patent_number": "US8828427",
+        "expiry": "2025-10-14",
+        "type": "composition",
+        "description": "Pomalidomide crystalline forms"
+      },
+      {
+        "patent_number": "US9040555",
+        "expiry": "2027-06-30",
+        "type": "method_of_treatment",
+        "description": "Treatment of relapsed/refractory multiple myeloma"
+      },
+      {
+        "patent_number": "US10092567",
+        "expiry": "2030-03-18",
+        "type": "formulation",
+        "description": "Low-dose pomalidomide formulations"
+      }
+    ],
+    "patent_cliff_date": "2027-06-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 29,
+    "notes": "Like Revlimid, Celgene/BMS leveraged REMS restrictions and secondary patents to delay generic entry. Pomalidomide shares the same thalidomide analogue patent strategy."
+  },
+  {
+    "drug_id": "harvoni",
+    "drug_name": "Harvoni",
+    "manufacturer_id": "gilead",
+    "original_patent_number": "US8088368",
+    "original_patent_expiry": "2030-08-11",
+    "effective_exclusivity_end": "2030-08-11",
+    "delay_years": 0,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 58,
+    "secondary_patents": [
+      {
+        "patent_number": "US8765710",
+        "expiry": "2030-08-11",
+        "type": "composition",
+        "description": "Ledipasvir compound patents"
+      },
+      {
+        "patent_number": "US9056860",
+        "expiry": "2032-04-22",
+        "type": "formulation",
+        "description": "Fixed-dose combination of ledipasvir and sofosbuvir"
+      },
+      {
+        "patent_number": "US9422323",
+        "expiry": "2033-11-15",
+        "type": "method_of_treatment",
+        "description": "Treatment of HCV genotype 1"
+      }
+    ],
+    "patent_cliff_date": "2030-08-11",
+    "patent_thicket": true,
+    "patent_thicket_count": 58,
+    "notes": "Combined patent portfolio with Sovaldi; Gilead's HCV franchise protected by overlapping patents on both component molecules and the combination"
+  },
+  {
+    "drug_id": "sprycel",
+    "drug_name": "Sprycel",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US6596746",
+    "original_patent_expiry": "2020-10-28",
+    "effective_exclusivity_end": "2024-11-12",
+    "delay_years": 4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 24,
+    "secondary_patents": [
+      {
+        "patent_number": "US7491725",
+        "expiry": "2024-11-12",
+        "type": "composition",
+        "description": "Dasatinib monohydrate form"
+      },
+      {
+        "patent_number": "US8242270",
+        "expiry": "2026-06-30",
+        "type": "method_of_treatment",
+        "description": "Treatment of newly diagnosed CML"
+      },
+      {
+        "patent_number": "US8680103",
+        "expiry": "2028-04-15",
+        "type": "formulation",
+        "description": "Film-coated tablet formulations"
+      }
+    ],
+    "patent_cliff_date": "2024-11-12",
+    "patent_thicket": false,
+    "patent_thicket_count": 24,
+    "notes": "Key patents expired; generic dasatinib entering the market. BMS maintained exclusivity 4 years beyond original patent via crystalline form and method patents."
+  },
+  {
+    "drug_id": "afinitor",
+    "drug_name": "Afinitor",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US5665772",
+    "original_patent_expiry": "2019-09-09",
+    "effective_exclusivity_end": "2023-04-30",
+    "delay_years": 3.6,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 32,
+    "secondary_patents": [
+      {
+        "patent_number": "US7737157",
+        "expiry": "2022-03-15",
+        "type": "composition",
+        "description": "Stable everolimus formulations"
+      },
+      {
+        "patent_number": "US8410131",
+        "expiry": "2023-04-30",
+        "type": "method_of_treatment",
+        "description": "Treatment of HR+/HER2- breast cancer"
+      },
+      {
+        "patent_number": "US9006248",
+        "expiry": "2026-09-22",
+        "type": "formulation",
+        "description": "Dispersible tablet formulations"
+      }
+    ],
+    "patent_cliff_date": "2023-04-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 32,
+    "notes": "Generic everolimus now available; Novartis extended exclusivity through breast cancer indication patents beyond original compound expiry"
+  },
+  {
+    "drug_id": "xeljanz",
+    "drug_name": "Xeljanz",
+    "manufacturer_id": "pfizer",
+    "original_patent_number": "US6965027",
+    "original_patent_expiry": "2025-07-18",
+    "effective_exclusivity_end": "2028-12-31",
+    "delay_years": 3.4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 42,
+    "secondary_patents": [
+      {
+        "patent_number": "US8410109",
+        "expiry": "2027-06-22",
+        "type": "composition",
+        "description": "Tofacitinib citrate salt forms"
+      },
+      {
+        "patent_number": "US8846918",
+        "expiry": "2028-12-31",
+        "type": "formulation",
+        "description": "Extended-release tofacitinib formulations (Xeljanz XR)"
+      },
+      {
+        "patent_number": "US9238629",
+        "expiry": "2031-05-14",
+        "type": "method_of_treatment",
+        "description": "Treatment of ulcerative colitis"
+      }
+    ],
+    "patent_cliff_date": "2028-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 42,
+    "notes": "First oral JAK inhibitor; Pfizer extended protection via XR formulation and UC indication patents. Post-marketing cardiovascular safety signal has dampened commercial trajectory."
+  },
+  {
+    "drug_id": "venclexta",
+    "drug_name": "Venclexta",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US8546399",
+    "original_patent_expiry": "2030-03-30",
+    "effective_exclusivity_end": "2033-09-15",
+    "delay_years": 3.5,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 47,
+    "secondary_patents": [
+      {
+        "patent_number": "US9174982",
+        "expiry": "2032-01-20",
+        "type": "composition",
+        "description": "Venetoclax crystalline forms"
+      },
+      {
+        "patent_number": "US9539251",
+        "expiry": "2033-09-15",
+        "type": "method_of_treatment",
+        "description": "Combination with obinutuzumab for CLL"
+      },
+      {
+        "patent_number": "US10105369",
+        "expiry": "2035-07-22",
+        "type": "method_of_treatment",
+        "description": "Treatment of AML with venetoclax + azacitidine"
+      }
+    ],
+    "patent_cliff_date": "2033-09-15",
+    "patent_thicket": true,
+    "patent_thicket_count": 47,
+    "notes": "AbbVie applying its patent thicket expertise from Humira; combination therapy patents key to extended exclusivity in CLL and AML"
+  },
+  {
+    "drug_id": "eylea",
+    "drug_name": "Eylea",
+    "manufacturer_id": "regeneron",
+    "original_patent_number": "US7303746",
+    "original_patent_expiry": "2023-06-15",
+    "effective_exclusivity_end": "2027-05-01",
+    "delay_years": 3.9,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 37,
+    "secondary_patents": [
+      {
+        "patent_number": "US9254338",
+        "expiry": "2027-05-01",
+        "type": "formulation",
+        "description": "Micro-infusion delivery device formulations"
+      },
+      {
+        "patent_number": "US10406224",
+        "expiry": "2030-08-15",
+        "type": "method_of_treatment",
+        "description": "Treatment of diabetic macular edema"
+      }
+    ],
+    "patent_cliff_date": "2027-05-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 37,
+    "notes": "Biosimilar competition beginning; Eylea HD (8mg) launched as high-dose lifecycle extension to retain patients"
+  },
+  {
+    "drug_id": "entresto",
+    "drug_name": "Entresto",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US8101659",
+    "original_patent_expiry": "2026-11-11",
+    "effective_exclusivity_end": "2029-07-01",
+    "delay_years": 2.6,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 42,
+    "secondary_patents": [
+      {
+        "patent_number": "US9388134",
+        "expiry": "2029-07-01",
+        "type": "composition",
+        "description": "Sacubitril/valsartan co-crystal forms"
+      },
+      {
+        "patent_number": "US10561646",
+        "expiry": "2033-04-22",
+        "type": "method_of_treatment",
+        "description": "Treatment of HFpEF"
+      }
+    ],
+    "patent_cliff_date": "2029-07-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 42,
+    "notes": "First-in-class ARNI; co-crystal composition patents extending protection beyond compound expiry"
+  },
+  {
+    "drug_id": "darzalex",
+    "drug_name": "Darzalex",
+    "manufacturer_id": "jnj",
+    "original_patent_number": "US7829693",
+    "original_patent_expiry": "2029-03-08",
+    "effective_exclusivity_end": "2032-12-01",
+    "delay_years": 3.7,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 34,
+    "secondary_patents": [
+      {
+        "patent_number": "US9657102",
+        "expiry": "2031-06-15",
+        "type": "formulation",
+        "description": "Subcutaneous daratumumab + hyaluronidase (Faspro)"
+      },
+      {
+        "patent_number": "US10233258",
+        "expiry": "2032-12-01",
+        "type": "method_of_treatment",
+        "description": "First-line myeloma combination therapy"
+      }
+    ],
+    "patent_cliff_date": "2032-12-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 34,
+    "notes": "Darzalex Faspro (subcutaneous) formulation provides lifecycle extension and improved administration"
+  },
+  {
+    "drug_id": "ocrevus",
+    "drug_name": "Ocrevus",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US7682612",
+    "original_patent_expiry": "2028-07-22",
+    "effective_exclusivity_end": "2031-03-01",
+    "delay_years": 2.6,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 29,
+    "secondary_patents": [
+      {
+        "patent_number": "US9382327",
+        "expiry": "2031-03-01",
+        "type": "method_of_treatment",
+        "description": "Treatment of primary progressive MS"
+      },
+      {
+        "patent_number": "US10100118",
+        "expiry": "2033-06-30",
+        "type": "formulation",
+        "description": "Subcutaneous ocrelizumab formulation"
+      }
+    ],
+    "patent_cliff_date": "2031-03-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 29,
+    "notes": "First and only MS therapy approved for primary progressive MS; method patents key to extended exclusivity"
+  },
+  {
+    "drug_id": "biktarvy",
+    "drug_name": "Biktarvy",
+    "manufacturer_id": "gilead",
+    "original_patent_number": "US9717712",
+    "original_patent_expiry": "2033-02-28",
+    "effective_exclusivity_end": "2036-06-30",
+    "delay_years": 3.3,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 56,
+    "secondary_patents": [
+      {
+        "patent_number": "US10105369",
+        "expiry": "2034-09-15",
+        "type": "composition",
+        "description": "Bictegravir crystal forms"
+      },
+      {
+        "patent_number": "US10722498",
+        "expiry": "2036-06-30",
+        "type": "formulation",
+        "description": "Triple-combination fixed-dose formulation"
+      }
+    ],
+    "patent_cliff_date": "2036-06-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 56,
+    "notes": "Gilead building strong patent estate; triple-combo formulation patents extend well beyond individual API patents"
+  },
+  {
+    "drug_id": "cosentyx",
+    "drug_name": "Cosentyx",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US7807160",
+    "original_patent_expiry": "2026-12-22",
+    "effective_exclusivity_end": "2030-04-01",
+    "delay_years": 3.3,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 44,
+    "secondary_patents": [
+      {
+        "patent_number": "US9676845",
+        "expiry": "2028-08-15",
+        "type": "formulation",
+        "description": "Secukinumab autoinjector formulation"
+      },
+      {
+        "patent_number": "US10155816",
+        "expiry": "2030-04-01",
+        "type": "method_of_treatment",
+        "description": "Treatment of axial spondyloarthritis"
+      }
+    ],
+    "patent_cliff_date": "2030-04-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 44,
+    "notes": "First IL-17A inhibitor; biosimilar applications expected before 2030"
+  },
+  {
+    "drug_id": "xtandi",
+    "drug_name": "Xtandi",
+    "manufacturer_id": "pfizer",
+    "original_patent_number": "US7709517",
+    "original_patent_expiry": "2026-10-06",
+    "effective_exclusivity_end": "2029-08-01",
+    "delay_years": 2.8,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 31,
+    "secondary_patents": [
+      {
+        "patent_number": "US8470834",
+        "expiry": "2028-01-15",
+        "type": "composition",
+        "description": "Enzalutamide soft gelatin capsule formulations"
+      },
+      {
+        "patent_number": "US9956216",
+        "expiry": "2029-08-01",
+        "type": "method_of_treatment",
+        "description": "Non-metastatic castration-resistant prostate cancer"
+      }
+    ],
+    "patent_cliff_date": "2029-08-01",
+    "patent_thicket": false,
+    "patent_thicket_count": 31,
+    "notes": "Developed with NIH-funded research at UCLA; earlier-line indications extending commercial value; Astellas co-development agreement"
+  },
+  {
+    "drug_id": "januvia",
+    "drug_name": "Januvia",
+    "manufacturer_id": "merck",
+    "original_patent_number": "US6699871",
+    "original_patent_expiry": "2022-01-21",
+    "effective_exclusivity_end": "2026-01-01",
+    "delay_years": 4,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 45,
+    "secondary_patents": [
+      {
+        "patent_number": "US7326708",
+        "expiry": "2026-01-01",
+        "type": "crystalline_form",
+        "description": "Crystalline forms of sitagliptin phosphate monohydrate"
+      },
+      {
+        "patent_number": "US8084605",
+        "expiry": "2026-06-15",
+        "type": "combination",
+        "description": "Fixed-dose combination with metformin (Janumet)"
+      },
+      {
+        "patent_number": "US7468385",
+        "expiry": "2024-12-31",
+        "type": "method_of_treatment",
+        "description": "Methods of treating type 2 diabetes with DPP-4 inhibitors"
+      }
+    ],
+    "patent_cliff_date": "2026-01-01",
+    "patent_thicket": true,
+    "patent_thicket_count": 45,
+    "notes": "Original compound patent expired 2022 but secondary patents extend to 2026; Merck settled with multiple generic makers to delay entry; selected for IRA price negotiation"
+  },
+  {
+    "drug_id": "gardasil",
+    "drug_name": "Gardasil 9",
+    "manufacturer_id": "merck",
+    "original_patent_number": "US6245568",
+    "original_patent_expiry": "2018-11-19",
+    "effective_exclusivity_end": "2028-06-30",
+    "delay_years": 9.6,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 52,
+    "secondary_patents": [
+      {
+        "patent_number": "US8609402",
+        "expiry": "2028-06-30",
+        "type": "composition",
+        "description": "9-valent HPV VLP vaccine compositions"
+      },
+      {
+        "patent_number": "US9782473",
+        "expiry": "2030-05-15",
+        "type": "manufacturing",
+        "description": "Methods for purification of virus-like particles"
+      },
+      {
+        "patent_number": "US8092800",
+        "expiry": "2026-08-20",
+        "type": "adjuvant",
+        "description": "Amorphous aluminum hydroxyphosphate sulfate adjuvant formulations"
+      }
+    ],
+    "patent_cliff_date": "2028-06-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 52,
+    "notes": "No biosimilar or generic HPV vaccine approved in the US; manufacturing complexity of 9-antigen VLP vaccine creates additional barrier to entry beyond patents"
+  },
+  {
+    "drug_id": "welireg",
+    "drug_name": "Welireg",
+    "manufacturer_id": "merck",
+    "original_patent_number": "US10071990",
+    "original_patent_expiry": "2036-03-15",
+    "effective_exclusivity_end": "2036-03-15",
+    "delay_years": 0,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 12,
+    "secondary_patents": [
+      {
+        "patent_number": "US10640493",
+        "expiry": "2038-09-20",
+        "type": "method_of_treatment",
+        "description": "Methods of treating VHL disease-associated tumors with HIF-2\u03b1 inhibitors"
+      }
+    ],
+    "patent_cliff_date": "2036-03-15",
+    "patent_thicket": false,
+    "patent_thicket_count": 12,
+    "notes": "Relatively new drug with long remaining patent life; acquired through Merck's purchase of Peloton Therapeutics in 2019 for $1.05B"
+  },
+  {
+    "drug_id": "remicade",
+    "drug_name": "Remicade",
+    "manufacturer_id": "jnj",
+    "original_patent_number": "US5656272",
+    "original_patent_expiry": "2018-09-16",
+    "effective_exclusivity_end": "2018-09-16",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 28,
+    "secondary_patents": [
+      {
+        "patent_number": "US6015557",
+        "expiry": "2018-01-15",
+        "type": "method_of_treatment",
+        "description": "Methods of treating Crohn's disease with anti-TNF antibodies"
+      },
+      {
+        "patent_number": "US7070775",
+        "expiry": "2021-06-30",
+        "type": "formulation",
+        "description": "Stable lyophilized infliximab formulations"
+      }
+    ],
+    "patent_cliff_date": "2018-09-16",
+    "patent_thicket": true,
+    "patent_thicket_count": 28,
+    "notes": "Biosimilars entered starting 2016 (Inflectra); J&J used rebate strategies and contracting rather than patent litigation to maintain market share; revenue still declining significantly"
+  },
+  {
+    "drug_id": "rituxan",
+    "drug_name": "Rituxan",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US5736137",
+    "original_patent_expiry": "2015-09-02",
+    "effective_exclusivity_end": "2018-11-28",
+    "delay_years": 3.2,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 35,
+    "secondary_patents": [
+      {
+        "patent_number": "US7820161",
+        "expiry": "2020-02-15",
+        "type": "method_of_treatment",
+        "description": "Methods of treating B-cell lymphoma with anti-CD20 antibodies"
+      },
+      {
+        "patent_number": "US8329172",
+        "expiry": "2026-11-30",
+        "type": "method_of_treatment",
+        "description": "Methods of treating rheumatoid arthritis with rituximab"
+      }
+    ],
+    "patent_cliff_date": "2018-11-28",
+    "patent_thicket": true,
+    "patent_thicket_count": 35,
+    "notes": "First biosimilar (Truxima) approved Nov 2018; Genentech/Roche developed subcutaneous formulation (Rituxan Hycela) to retain patients; multiple biosimilars now available"
+  },
+  {
+    "drug_id": "herceptin",
+    "drug_name": "Herceptin",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US5821337",
+    "original_patent_expiry": "2019-06-18",
+    "effective_exclusivity_end": "2019-06-18",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 22,
+    "secondary_patents": [
+      {
+        "patent_number": "US6339142",
+        "expiry": "2019-12-31",
+        "type": "method_of_treatment",
+        "description": "Methods of treating HER2-overexpressing breast cancer"
+      },
+      {
+        "patent_number": "US7892549",
+        "expiry": "2024-08-15",
+        "type": "combination",
+        "description": "Combination therapy with trastuzumab and taxanes"
+      }
+    ],
+    "patent_cliff_date": "2019-06-18",
+    "patent_thicket": false,
+    "patent_thicket_count": 22,
+    "notes": "Multiple biosimilars approved: Ogivri (2017), Herzuma (2018), Ontruzant (2019), Kanjinti (2019), Trazimera (2019); fastest biosimilar uptake among oncology biologics"
+  },
+  {
+    "drug_id": "botox",
+    "drug_name": "Botox",
+    "manufacturer_id": "abbvie",
+    "original_patent_number": "US5721215",
+    "original_patent_expiry": "2014-07-21",
+    "effective_exclusivity_end": "2024-12-31",
+    "delay_years": 10.4,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 95,
+    "secondary_patents": [
+      {
+        "patent_number": "US8168206",
+        "expiry": "2024-12-31",
+        "type": "formulation",
+        "description": "Stabilized botulinum toxin formulations with excipients"
+      },
+      {
+        "patent_number": "US9480731",
+        "expiry": "2032-05-15",
+        "type": "method_of_treatment",
+        "description": "Methods of treating chronic migraine with onabotulinumtoxinA"
+      },
+      {
+        "patent_number": "US10029000",
+        "expiry": "2035-08-20",
+        "type": "manufacturing",
+        "description": "Modified Clostridium botulinum fermentation and purification processes"
+      }
+    ],
+    "patent_cliff_date": "2024-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 95,
+    "notes": "Massive patent estate protecting both therapeutic and cosmetic uses; manufacturing complexity of botulinum toxin creates additional biosimilar barriers; no FDA-approved biosimilar as of 2024"
+  },
+  {
+    "drug_id": "vyndaqel",
+    "drug_name": "Vyndaqel",
+    "manufacturer_id": "pfizer",
+    "original_patent_number": "US7214695",
+    "original_patent_expiry": "2026-09-15",
+    "effective_exclusivity_end": "2026-09-15",
+    "delay_years": 0,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 18,
+    "secondary_patents": [
+      {
+        "patent_number": "US9604965",
+        "expiry": "2033-12-31",
+        "type": "method_of_treatment",
+        "description": "Methods of treating ATTR cardiomyopathy with tafamidis"
+      },
+      {
+        "patent_number": "US10080737",
+        "expiry": "2034-06-15",
+        "type": "formulation",
+        "description": "Soft gelatin capsule formulations of tafamidis free acid"
+      }
+    ],
+    "patent_cliff_date": "2026-09-15",
+    "patent_thicket": false,
+    "patent_thicket_count": 18,
+    "notes": "Original tafamidis patent nearing expiry but secondary formulation and method patents extend to mid-2030s; Pfizer launched Vyndamax (free acid form) as potential product hop strategy"
+  },
+  {
+    "drug_id": "trelegy",
+    "drug_name": "Trelegy Ellipta",
+    "manufacturer_id": "gsk",
+    "original_patent_number": "US8163733",
+    "original_patent_expiry": "2025-10-15",
+    "effective_exclusivity_end": "2030-12-31",
+    "delay_years": 5.2,
+    "exclusivity_type": "new_chemical_entity",
+    "total_patents_filed": 40,
+    "secondary_patents": [
+      {
+        "patent_number": "US9463161",
+        "expiry": "2029-04-30",
+        "type": "formulation",
+        "description": "Triple-combination dry powder inhaler formulation"
+      },
+      {
+        "patent_number": "US10016413",
+        "expiry": "2030-12-31",
+        "type": "device",
+        "description": "Ellipta dry powder inhaler device design"
+      },
+      {
+        "patent_number": "US8933112",
+        "expiry": "2028-06-15",
+        "type": "combination",
+        "description": "Fixed-dose triple combination of ICS/LAMA/LABA"
+      }
+    ],
+    "patent_cliff_date": "2030-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 40,
+    "notes": "Patent protection covers both the drug combination and the Ellipta inhaler device; device patents extend exclusivity beyond API patents; generic inhalers face complex regulatory pathway"
+  },
+  {
+    "drug_id": "yervoy",
+    "drug_name": "Yervoy",
+    "manufacturer_id": "bms",
+    "original_patent_number": "US6984720",
+    "original_patent_expiry": "2026-02-28",
+    "effective_exclusivity_end": "2026-02-28",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 24,
+    "secondary_patents": [
+      {
+        "patent_number": "US7605238",
+        "expiry": "2027-06-15",
+        "type": "method_of_treatment",
+        "description": "Combination immunotherapy methods"
+      },
+      {
+        "patent_number": "US8119129",
+        "expiry": "2028-12-31",
+        "type": "method_of_treatment",
+        "description": "Melanoma treatment dosing regimens"
+      }
+    ],
+    "patent_cliff_date": "2026-02-28",
+    "patent_thicket": false,
+    "patent_thicket_count": 24,
+    "notes": "Core ipilimumab composition patent expiring 2026; BMS has limited secondary patent protection compared to other checkpoint inhibitors"
+  },
+  {
+    "drug_id": "tecentriq",
+    "drug_name": "Tecentriq",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US8217149",
+    "original_patent_expiry": "2031-07-15",
+    "effective_exclusivity_end": "2031-07-15",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 45,
+    "secondary_patents": [
+      {
+        "patent_number": "US10501545",
+        "expiry": "2033-03-22",
+        "type": "formulation",
+        "description": "Stable anti-PD-L1 antibody formulations"
+      },
+      {
+        "patent_number": "US10544224",
+        "expiry": "2035-09-10",
+        "type": "method_of_treatment",
+        "description": "Combination with bevacizumab in liver cancer"
+      }
+    ],
+    "patent_cliff_date": "2031-07-15",
+    "patent_thicket": true,
+    "patent_thicket_count": 45,
+    "notes": "Strong patent protection through 2031 with secondary patents extending to 2035; biosimilar competition unlikely before 2032"
+  },
+  {
+    "drug_id": "imfinzi",
+    "drug_name": "Imfinzi",
+    "manufacturer_id": "astrazeneca",
+    "original_patent_number": "US8779108",
+    "original_patent_expiry": "2030-12-31",
+    "effective_exclusivity_end": "2030-12-31",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 38,
+    "secondary_patents": [
+      {
+        "patent_number": "US10308712",
+        "expiry": "2032-06-15",
+        "type": "method_of_treatment",
+        "description": "Stage III NSCLC consolidation therapy"
+      },
+      {
+        "patent_number": "US11136383",
+        "expiry": "2034-11-30",
+        "type": "method_of_treatment",
+        "description": "Combination with tremelimumab"
+      }
+    ],
+    "patent_cliff_date": "2030-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 38,
+    "notes": "Protected through 2030 with combination therapy patents extending to 2034"
+  },
+  {
+    "drug_id": "enhertu",
+    "drug_name": "Enhertu",
+    "manufacturer_id": "astrazeneca",
+    "original_patent_number": "US10195288",
+    "original_patent_expiry": "2036-12-31",
+    "effective_exclusivity_end": "2036-12-31",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 52,
+    "secondary_patents": [
+      {
+        "patent_number": "US10556960",
+        "expiry": "2037-08-20",
+        "type": "formulation",
+        "description": "Antibody-drug conjugate linker technology"
+      },
+      {
+        "patent_number": "US11033632",
+        "expiry": "2039-04-15",
+        "type": "method_of_treatment",
+        "description": "HER2-low breast cancer treatment"
+      }
+    ],
+    "patent_cliff_date": "2036-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 52,
+    "notes": "ADC technology patents provide very long protection; linker-payload combination is difficult to replicate as biosimilar"
+  },
+  {
+    "drug_id": "kymriah",
+    "drug_name": "Kymriah",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US7446190",
+    "original_patent_expiry": "2028-03-15",
+    "effective_exclusivity_end": "2030-08-30",
+    "delay_years": 2.5,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 18,
+    "secondary_patents": [
+      {
+        "patent_number": "US10253086",
+        "expiry": "2030-08-30",
+        "type": "manufacturing",
+        "description": "CAR construct and T-cell manufacturing process"
+      }
+    ],
+    "patent_cliff_date": "2030-08-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 18,
+    "notes": "CAR-T therapies have limited biosimilar pathway due to patient-specific manufacturing; orphan drug exclusivity extends protection"
+  },
+  {
+    "drug_id": "yescarta",
+    "drug_name": "Yescarta",
+    "manufacturer_id": "gilead",
+    "original_patent_number": "US7446190",
+    "original_patent_expiry": "2028-03-15",
+    "effective_exclusivity_end": "2030-10-18",
+    "delay_years": 2.6,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 15,
+    "secondary_patents": [
+      {
+        "patent_number": "US10577407",
+        "expiry": "2031-12-15",
+        "type": "manufacturing",
+        "description": "Axicabtagene ciloleucel manufacturing process"
+      }
+    ],
+    "patent_cliff_date": "2030-10-18",
+    "patent_thicket": false,
+    "patent_thicket_count": 15,
+    "notes": "Similar CAR construct to Kymriah but with different manufacturing; orphan drug exclusivity provides extended protection"
+  },
+  {
+    "drug_id": "spinraza",
+    "drug_name": "Spinraza",
+    "manufacturer_id": "biogen",
+    "original_patent_number": "US8980853",
+    "original_patent_expiry": "2033-06-30",
+    "effective_exclusivity_end": "2033-06-30",
+    "delay_years": 0,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 28,
+    "secondary_patents": [
+      {
+        "patent_number": "US9217147",
+        "expiry": "2034-12-31",
+        "type": "formulation",
+        "description": "Modified antisense oligonucleotide formulation"
+      },
+      {
+        "patent_number": "US10407678",
+        "expiry": "2036-06-15",
+        "type": "method_of_treatment",
+        "description": "Intrathecal delivery methods for SMA treatment"
+      }
+    ],
+    "patent_cliff_date": "2033-06-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 28,
+    "notes": "Strong IP protection for antisense oligonucleotide chemistry; competition comes from different modalities (gene therapy, small molecules) rather than biosimilars"
+  },
+  {
+    "drug_id": "zolgensma",
+    "drug_name": "Zolgensma",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US9409953",
+    "original_patent_expiry": "2033-12-31",
+    "effective_exclusivity_end": "2033-12-31",
+    "delay_years": 0,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 35,
+    "secondary_patents": [
+      {
+        "patent_number": "US10105436",
+        "expiry": "2035-11-15",
+        "type": "manufacturing",
+        "description": "AAV9 vector production and purification"
+      },
+      {
+        "patent_number": "US10584341",
+        "expiry": "2037-03-22",
+        "type": "formulation",
+        "description": "Gene therapy delivery optimization"
+      }
+    ],
+    "patent_cliff_date": "2033-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 35,
+    "notes": "Gene therapy IP is inherently complex to replicate; no biosimilar pathway exists for gene therapies yet"
+  },
+  {
+    "drug_id": "soliris",
+    "drug_name": "Soliris",
+    "manufacturer_id": "alexion",
+    "original_patent_number": "US6355245",
+    "original_patent_expiry": "2021-03-15",
+    "effective_exclusivity_end": "2025-03-15",
+    "delay_years": 4.0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 42,
+    "secondary_patents": [
+      {
+        "patent_number": "US9352035",
+        "expiry": "2025-03-15",
+        "type": "method_of_treatment",
+        "description": "Treatment of PNH and aHUS"
+      },
+      {
+        "patent_number": "US9725519",
+        "expiry": "2027-08-30",
+        "type": "formulation",
+        "description": "High-concentration eculizumab formulations"
+      }
+    ],
+    "patent_cliff_date": "2025-03-15",
+    "patent_thicket": true,
+    "patent_thicket_count": 42,
+    "notes": "Core patent expired 2021 but Alexion used method-of-treatment patents to delay biosimilars until 2025; now converting patients to Ultomiris"
+  },
+  {
+    "drug_id": "ultomiris",
+    "drug_name": "Ultomiris",
+    "manufacturer_id": "alexion",
+    "original_patent_number": "US10633434",
+    "original_patent_expiry": "2035-12-31",
+    "effective_exclusivity_end": "2035-12-31",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 30,
+    "secondary_patents": [
+      {
+        "patent_number": "US10946089",
+        "expiry": "2037-06-15",
+        "type": "formulation",
+        "description": "pH-dependent binding antibody engineering"
+      },
+      {
+        "patent_number": "US11306149",
+        "expiry": "2038-12-31",
+        "type": "method_of_treatment",
+        "description": "Extended interval dosing regimens"
+      }
+    ],
+    "patent_cliff_date": "2035-12-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 30,
+    "notes": "Long-acting successor to Soliris; engineered Fc domain for recycling provides strong IP differentiation"
+  },
+  {
+    "drug_id": "hemgenix",
+    "drug_name": "Hemgenix",
+    "manufacturer_id": "cslbehring",
+    "original_patent_number": "US10383921",
+    "original_patent_expiry": "2037-06-30",
+    "effective_exclusivity_end": "2037-06-30",
+    "delay_years": 0,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 12,
+    "secondary_patents": [],
+    "patent_cliff_date": "2037-06-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 12,
+    "notes": "World's most expensive drug ($3.5M); gene therapy for hemophilia B with AAV5 vector; no biosimilar pathway for gene therapies"
+  },
+  {
+    "drug_id": "vimizim",
+    "drug_name": "Vimizim",
+    "manufacturer_id": "biomarin",
+    "original_patent_number": "US7855177",
+    "original_patent_expiry": "2027-08-15",
+    "effective_exclusivity_end": "2028-02-14",
+    "delay_years": 0.5,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 8,
+    "secondary_patents": [],
+    "patent_cliff_date": "2028-02-14",
+    "patent_thicket": false,
+    "patent_thicket_count": 8,
+    "notes": "Orphan drug for ultra-rare Morquio A syndrome; market too small to attract biosimilar developers"
+  },
+  {
+    "drug_id": "naglazyme",
+    "drug_name": "Naglazyme",
+    "manufacturer_id": "biomarin",
+    "original_patent_number": "US6866844",
+    "original_patent_expiry": "2023-05-30",
+    "effective_exclusivity_end": "2025-05-30",
+    "delay_years": 2.0,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 6,
+    "secondary_patents": [],
+    "patent_cliff_date": "2025-05-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 6,
+    "notes": "Patent expired but orphan exclusivity extends protection; ultra-rare MPS VI market has no biosimilar interest"
+  },
+  {
+    "drug_id": "voxzogo",
+    "drug_name": "Voxzogo",
+    "manufacturer_id": "biomarin",
+    "original_patent_number": "US9446132",
+    "original_patent_expiry": "2033-12-31",
+    "effective_exclusivity_end": "2034-11-19",
+    "delay_years": 0.9,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 14,
+    "secondary_patents": [
+      {
+        "patent_number": "US10471114",
+        "expiry": "2035-06-15",
+        "type": "method_of_treatment",
+        "description": "C-type natriuretic peptide for achondroplasia treatment"
+      }
+    ],
+    "patent_cliff_date": "2034-11-19",
+    "patent_thicket": false,
+    "patent_thicket_count": 14,
+    "notes": "First systemic treatment for achondroplasia; orphan exclusivity plus novel mechanism provides strong protection"
+  },
+  {
+    "drug_id": "novolog",
+    "drug_name": "NovoLog",
+    "manufacturer_id": "novo",
+    "original_patent_number": "US5618913",
+    "original_patent_expiry": "2014-10-15",
+    "effective_exclusivity_end": "2020-06-30",
+    "delay_years": 5.7,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 18,
+    "secondary_patents": [
+      {
+        "patent_number": "US8343914",
+        "expiry": "2020-06-30",
+        "type": "formulation",
+        "description": "Rapid-acting insulin aspart formulations"
+      },
+      {
+        "patent_number": "US9603904",
+        "expiry": "2024-09-15",
+        "type": "device",
+        "description": "Insulin delivery pen devices"
+      }
+    ],
+    "patent_cliff_date": "2020-06-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 18,
+    "notes": "Original patent long expired; biosimilars available but limited uptake due to insulin market complexities and rebate structures"
+  },
+  {
+    "drug_id": "lantus",
+    "drug_name": "Lantus",
+    "manufacturer_id": "sanofi",
+    "original_patent_number": "US5656722",
+    "original_patent_expiry": "2015-02-12",
+    "effective_exclusivity_end": "2020-11-30",
+    "delay_years": 5.8,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 74,
+    "secondary_patents": [
+      {
+        "patent_number": "US8710001",
+        "expiry": "2019-05-15",
+        "type": "formulation",
+        "description": "Insulin glargine compositions at pH 4"
+      },
+      {
+        "patent_number": "US9526844",
+        "expiry": "2020-11-30",
+        "type": "device",
+        "description": "SoloSTAR insulin pen device"
+      }
+    ],
+    "patent_cliff_date": "2020-11-30",
+    "patent_thicket": true,
+    "patent_thicket_count": 74,
+    "notes": "Sanofi built 74-patent fortress around Lantus; Semglee (first interchangeable insulin biosimilar) approved 2021 despite patents expiring years earlier"
+  },
+  {
+    "drug_id": "kesimpta",
+    "drug_name": "Kesimpta",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US7799900",
+    "original_patent_expiry": "2028-12-31",
+    "effective_exclusivity_end": "2028-12-31",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 20,
+    "secondary_patents": [
+      {
+        "patent_number": "US10174114",
+        "expiry": "2030-06-15",
+        "type": "formulation",
+        "description": "Subcutaneous anti-CD20 autoinjector formulation"
+      },
+      {
+        "patent_number": "US10772955",
+        "expiry": "2032-12-31",
+        "type": "method_of_treatment",
+        "description": "MS treatment with subcutaneous anti-CD20"
+      }
+    ],
+    "patent_cliff_date": "2028-12-31",
+    "patent_thicket": false,
+    "patent_thicket_count": 20,
+    "notes": "Subcutaneous delivery differentiation provides some IP protection beyond core antibody patents"
+  },
+  {
+    "drug_id": "aimovig",
+    "drug_name": "Aimovig",
+    "manufacturer_id": "amgen",
+    "original_patent_number": "US8110665",
+    "original_patent_expiry": "2029-06-30",
+    "effective_exclusivity_end": "2029-06-30",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 16,
+    "secondary_patents": [
+      {
+        "patent_number": "US10092645",
+        "expiry": "2031-03-15",
+        "type": "method_of_treatment",
+        "description": "CGRP receptor antibody for migraine prevention"
+      }
+    ],
+    "patent_cliff_date": "2029-06-30",
+    "patent_thicket": false,
+    "patent_thicket_count": 16,
+    "notes": "First-in-class CGRP receptor antagonist antibody; multiple competing mechanisms reduce biosimilar incentive"
+  },
+  {
+    "drug_id": "hemlibra",
+    "drug_name": "Hemlibra",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US9334331",
+    "original_patent_expiry": "2033-03-31",
+    "effective_exclusivity_end": "2033-03-31",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 40,
+    "secondary_patents": [
+      {
+        "patent_number": "US10759870",
+        "expiry": "2035-09-15",
+        "type": "formulation",
+        "description": "Bispecific antibody bridging factor IXa and factor X"
+      },
+      {
+        "patent_number": "US11180560",
+        "expiry": "2037-12-31",
+        "type": "method_of_treatment",
+        "description": "Prophylactic hemophilia treatment regimens"
+      }
+    ],
+    "patent_cliff_date": "2033-03-31",
+    "patent_thicket": true,
+    "patent_thicket_count": 40,
+    "notes": "Bispecific antibody with novel mechanism; complex manufacturing makes biosimilar development challenging"
+  },
+  {
+    "drug_id": "adakveo",
+    "drug_name": "Adakveo",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US9068002",
+    "original_patent_expiry": "2032-06-15",
+    "effective_exclusivity_end": "2032-11-19",
+    "delay_years": 0.4,
+    "exclusivity_type": "orphan_drug_exclusivity",
+    "total_patents_filed": 10,
+    "secondary_patents": [],
+    "patent_cliff_date": "2032-11-19",
+    "patent_thicket": false,
+    "patent_thicket_count": 10,
+    "notes": "Anti-P-selectin antibody for sickle cell disease; EMA marketing withdrawal in 2023 limits commercial potential"
+  },
+  {
+    "drug_id": "vabysmo",
+    "drug_name": "Vabysmo",
+    "manufacturer_id": "genentech",
+    "original_patent_number": "US10730954",
+    "original_patent_expiry": "2036-01-22",
+    "effective_exclusivity_end": "2036-01-22",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 35,
+    "secondary_patents": [
+      {
+        "patent_number": "US11021535",
+        "expiry": "2037-06-30",
+        "type": "formulation",
+        "description": "Bispecific antibody targeting VEGF and Ang-2"
+      },
+      {
+        "patent_number": "US11396546",
+        "expiry": "2039-12-31",
+        "type": "method_of_treatment",
+        "description": "Extended interval dosing for retinal diseases"
+      }
+    ],
+    "patent_cliff_date": "2036-01-22",
+    "patent_thicket": true,
+    "patent_thicket_count": 35,
+    "notes": "First bispecific antibody for ophthalmology; dual mechanism (VEGF + Ang-2) provides strong IP differentiation"
+  },
+  {
+    "drug_id": "beovu",
+    "drug_name": "Beovu",
+    "manufacturer_id": "novartis",
+    "original_patent_number": "US9879080",
+    "original_patent_expiry": "2033-10-15",
+    "effective_exclusivity_end": "2033-10-15",
+    "delay_years": 0,
+    "exclusivity_type": "biologic_reference_product",
+    "total_patents_filed": 12,
+    "secondary_patents": [
+      {
+        "patent_number": "US10421806",
+        "expiry": "2035-06-30",
+        "type": "formulation",
+        "description": "Single-chain antibody fragment formulations"
+      }
+    ],
+    "patent_cliff_date": "2033-10-15",
+    "patent_thicket": false,
+    "patent_thicket_count": 12,
+    "notes": "Humanized single-chain antibody fragment; safety concerns limit commercial value despite strong patent position"
+  }
+]

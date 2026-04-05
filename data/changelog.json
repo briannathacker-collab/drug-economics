@@ -2,7 +2,7 @@
   {
     "date": "2026-04-04",
     "source": "Platform Update",
-    "update_type": "DATA_REFRESH",
+    "update_type": "QUARTERLY_REFRESH",
     "drug_name": "All Tracked Data",
     "manufacturer": "Multiple",
     "description": "Major data refresh: manufacturer financials updated to FY 2024 actuals (Pfizer, Merck, JNJ, AbbVie, Novo Nordisk, Lilly, BMS, AstraZeneca, Novartis). UHG insurer financials updated. IRA Effect expanded to 25 drugs (Round 1 + Round 2). Generic Gap delay cost calculation corrected.",

@@ -27,7 +27,7 @@ export function TopNav() {
 
   // Close mobile menu on route change
   useEffect(() => {
-    setMobileMenuOpen(false);
+    setMobileMenuOpen(false); // eslint-disable-line react-hooks/set-state-in-effect
   }, [pathname]);
 
   // Prevent body scroll when menu is open

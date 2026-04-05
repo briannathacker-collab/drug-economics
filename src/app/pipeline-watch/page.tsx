@@ -5,7 +5,6 @@ import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { getPatents, getBiosimilarPipeline, getPipelineTrials, getDelayTactics, getWacPrices } from '@/lib/data';
 import { formatCurrency, formatDate } from '@/lib/formatters';
-import { EstBadge } from '@/components/ui/EstBadge';
 import { ExportButton } from '@/components/ui/ExportButton';
 import { Clock, FlaskConical, ShieldAlert, ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
 import Link from 'next/link';

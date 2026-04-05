@@ -24,8 +24,6 @@ export default function FollowTheMoneyPage() {
 
   const PBM_COLORS = ['#0B6B3A', '#0B6B3A', '#6BB899', '#6B7771'];
 
-  const totalPbmRevenue = pbmData.reduce((sum, p) => sum + p.estimated_rebate_revenue, 0);
-
   const views = [
     { id: 'overview' as const, label: 'Insurer Profiles' },
     { id: 'rebates' as const, label: 'Rebate Flow' },

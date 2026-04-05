@@ -1,12 +1,11 @@
 'use client';
 
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo } from 'react';
 import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { EstBadge } from '@/components/ui/EstBadge';
-import { JargonTooltip } from '@/components/ui/JargonTooltip';
-import { getDelayTactics, getPatents, getWacPrices, getBiosimilarPipeline } from '@/lib/data';
+import { getDelayTactics, getPatents, getWacPrices } from '@/lib/data';
 import { formatCurrency } from '@/lib/formatters';
 import { SourceIcon } from '@/components/ui/SourceIcon';
 import { METHODOLOGY_COMPLETE } from '@/components/ui/MethodologyModal';
@@ -49,29 +48,6 @@ const TACTIC_INFO: Record<string, { name: string; description: string }> = {
   },
 };
 
-function AnimatedCounter({ target, duration = 2000 }: { target: number; duration?: number }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const hasAnimated = useRef(false);
-
-  useEffect(() => {
-    if (hasAnimated.current) return;
-    hasAnimated.current = true;
-
-    const startTime = Date.now();
-    const animate = () => {
-      const elapsed = Date.now() - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
-      setCount(Math.floor(eased * target));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
-    requestAnimationFrame(animate);
-  }, [target, duration]);
-
-  return <span ref={ref}>{count.toLocaleString()}</span>;
-}
-
 export default function TheGenericGapPage() {
   const [activeView, setActiveView] = useState<'explainer' | 'encyclopedia' | 'lookup' | 'action'>('explainer');
   const [searchQuery, setSearchQuery] = useState('');
@@ -80,8 +56,6 @@ export default function TheGenericGapPage() {
   const delays = useMemo(() => getDelayTactics(), []);
   const patents = useMemo(() => getPatents(), []);
   const drugs = useMemo(() => getWacPrices(), []);
-  const biosimilars = useMemo(() => getBiosimilarPipeline(), []);
-
   // Total patient cost of documented delays
   const totalDelayCost = useMemo(
     () => delays.reduce((sum, d) => sum + d.estimated_patient_cost_of_delay, 0),

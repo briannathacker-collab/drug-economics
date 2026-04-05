@@ -6,7 +6,7 @@ import {
   getCogsForDrug,
   getManufacturerById,
 } from '@/lib/data';
-import { formatCurrency, computeMarkupPercent } from '@/lib/formatters';
+import { computeMarkupPercent } from '@/lib/formatters';
 import { EmbedCard } from './EmbedCard';
 
 interface Props {

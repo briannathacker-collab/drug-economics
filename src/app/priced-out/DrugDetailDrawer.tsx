@@ -198,9 +198,9 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
               <div className="mt-4 pt-3 border-t border-[#E5ECE8]">
                 <p className="text-[10px] text-[#6B7771] font-body mb-1">Pricing Data</p>
                 <FreshnessBadge
-                  dataYear={(drug as any).data_year}
-                  dataQuarter={(drug as any).data_quarter}
-                  source={(drug as any).source || 'WAC_MONITOR'}
+                  dataYear={(drug as Record<string, unknown>).data_year as number | undefined}
+                  dataQuarter={(drug as Record<string, unknown>).data_quarter as string | undefined}
+                  source={((drug as Record<string, unknown>).source as string) || 'WAC_MONITOR'}
                 />
               </div>
             </div>

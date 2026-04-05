@@ -1,12 +1,11 @@
 'use client';
 
-import { useState, useMemo, useEffect, useCallback, Suspense } from 'react';
+import { useState, useMemo, useCallback, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { EstBadge } from '@/components/ui/EstBadge';
-import { JargonTooltip } from '@/components/ui/JargonTooltip';
 import { getWacPrices, getCogsForDrug } from '@/lib/data';
 import { formatCurrency } from '@/lib/formatters';
 import { SourceIcon } from '@/components/ui/SourceIcon';
@@ -44,7 +43,7 @@ function WhatItCostsMe() {
   const [selectedDrug, setSelectedDrug] = useState(() => searchParams.get('drug') || '');
   const [insuranceType, setInsuranceType] = useState(() => searchParams.get('plan') || '');
   const [deductibleMet, setDeductibleMet] = useState(() => searchParams.get('deductible') === 'yes');
-  const [showResults, setShowResults] = useState(false);
+  const [showResults, setShowResults] = useState(() => !!(searchParams.get('drug') && searchParams.get('plan')));
   const [copied, setCopied] = useState(false);
 
   const drugs = useMemo(() => getWacPrices(), []);
@@ -52,13 +51,6 @@ function WhatItCostsMe() {
   const drug = useMemo(() => drugs.find(d => d.drug_id === selectedDrug), [drugs, selectedDrug]);
   const insurance = useMemo(() => INSURANCE_TYPES.find(i => i.id === insuranceType), [insuranceType]);
   const cogs = useMemo(() => drug ? getCogsForDrug(drug.drug_id) : undefined, [drug]);
-
-  // Auto-calculate if URL params present
-  useEffect(() => {
-    if (searchParams.get('drug') && searchParams.get('plan')) {
-      setShowResults(true);
-    }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Update URL when results are shown
   const updateUrl = useCallback((drugId: string, plan: string, deductible: boolean) => {

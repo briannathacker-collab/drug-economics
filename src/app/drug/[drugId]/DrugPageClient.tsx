@@ -3,8 +3,6 @@
 import { ProfitBar } from '@/components/ui/ProfitBar';
 import { PriceTimeline } from '@/components/ui/PriceTimeline';
 import { EstBadge } from '@/components/ui/EstBadge';
-import { SourceIcon } from '@/components/ui/SourceIcon';
-import { MarkupBadge } from '@/components/ui/MarkupBadge';
 import { ShareDrugCard } from '@/components/ui/ShareDrugCard';
 import { DataQualityScore } from '@/components/ui/DataQualityScore';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';

@@ -6,7 +6,6 @@ import { cn } from '@/lib/utils';
 import { formatCurrency } from '@/lib/formatters';
 import { EstBadge } from '@/components/ui/EstBadge';
 import { SourceIcon } from '@/components/ui/SourceIcon';
-import { FreshnessBadge } from '@/components/ui/FreshnessBadge';
 import type { DrugCardData } from '@/lib/types';
 
 const COLUMNS = [

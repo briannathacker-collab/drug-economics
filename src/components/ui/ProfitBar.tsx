@@ -22,7 +22,6 @@ export function ProfitBar({
   costToMake,
   wac,
   insuranceReimb,
-  patientPays,
   isEstimate = true,
   confidence,
   className,

@@ -6,7 +6,7 @@ import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
 import { getIraNegotiations } from '@/lib/data';
-import { formatCurrency, formatPercent, formatCompact } from '@/lib/formatters';
+import { formatCurrency } from '@/lib/formatters';
 import { ExportButton } from '@/components/ui/ExportButton';
 import Link from 'next/link';
 import {
@@ -19,7 +19,6 @@ import {
   Calendar,
   CheckCircle,
   ArrowRight,
-  ExternalLink,
   Scale,
   Heart,
   AlertTriangle,
@@ -137,16 +136,6 @@ export default function IraEffectPage() {
   );
 
   // Compute summary metrics
-  const totalBeneficiaries = useMemo(
-    () => negotiations.reduce((sum, d) => sum + d.enrolled_beneficiaries, 0),
-    [negotiations]
-  );
-
-  const totalMedicareSpend = useMemo(
-    () => negotiations.reduce((sum, d) => sum + d.medicare_spend_billions, 0),
-    [negotiations]
-  );
-
   const maxSavingsPercent = useMemo(
     () => Math.max(...negotiations.map(d => d.savings_percent)),
     [negotiations]

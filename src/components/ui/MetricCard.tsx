@@ -8,7 +8,7 @@ import type { ReactNode } from 'react';
 interface MetricCardProps {
   label: string;
   value: string | number;
-  subLabel?: string;
+  subLabel?: ReactNode;
   icon?: ReactNode;
   isEstimate?: boolean;
   confidence?: 'high' | 'medium' | 'low';

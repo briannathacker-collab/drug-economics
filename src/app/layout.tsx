@@ -24,12 +24,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Drug Economics — Exposing the Cost of American Drug Pricing",
   description:
-    "Five investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system — at the direct expense of patients.",
+    "Six investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system — at the direct expense of patients.",
   metadataBase: new URL("https://drug-economics.vytalisresearch.com"),
   openGraph: {
     title: "Drug Economics — Exposing the Cost of American Drug Pricing",
     description:
-      "Five investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system.",
+      "Six investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system.",
     url: "https://drug-economics.vytalisresearch.com",
     siteName: "Drug Economics",
     type: "website",
@@ -39,7 +39,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Drug Economics — Exposing the Cost of American Drug Pricing",
     description:
-      "Five investigative apps exposing pharmaceutical pricing.",
+      "Six investigative apps exposing pharmaceutical pricing.",
+  },
+  icons: {
+    icon: [
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   robots: {
     index: true,
@@ -53,7 +62,7 @@ const jsonLd = {
   name: "Drug Economics",
   url: "https://drug-economics.vytalisresearch.com",
   description:
-    "Five investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system.",
+    "Six investigative apps that expose how pharmaceutical manufacturers, insurance companies, and PBMs profit from the American drug pricing system.",
   applicationCategory: "HealthApplication",
   operatingSystem: "Web",
   creator: {

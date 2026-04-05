@@ -26,8 +26,8 @@
       }
     ],
     "total_delay_years": 7,
-    "estimated_patient_cost_of_delay": 16800000000000,
-    "estimated_patient_population": 200000
+    "estimated_patient_cost_of_delay": 18350640000000,
+    "estimated_patient_population": 300000
   },
   {
     "drug_id": "revlimid",
@@ -57,7 +57,7 @@
       }
     ],
     "total_delay_years": 5,
-    "estimated_patient_cost_of_delay": 12500000000000,
+    "estimated_patient_cost_of_delay": 4000000000000,
     "estimated_patient_population": 50000
   },
   {
@@ -79,8 +79,8 @@
       }
     ],
     "total_delay_years": 3,
-    "estimated_patient_cost_of_delay": 9800000000000,
-    "estimated_patient_population": 3000000
+    "estimated_patient_cost_of_delay": 2941920000000,
+    "estimated_patient_population": 1200000
   },
   {
     "drug_id": "stelara",
@@ -101,8 +101,8 @@
       }
     ],
     "total_delay_years": 3,
-    "estimated_patient_cost_of_delay": 6500000000000,
-    "estimated_patient_population": 120000
+    "estimated_patient_cost_of_delay": 20576700000000,
+    "estimated_patient_population": 250000
   },
   {
     "drug_id": "enbrel",
@@ -123,7 +123,7 @@
       }
     ],
     "total_delay_years": 8,
-    "estimated_patient_cost_of_delay": 10200000000000,
+    "estimated_patient_cost_of_delay": 9930240000000,
     "estimated_patient_population": 150000
   },
   {
@@ -167,8 +167,8 @@
       }
     ],
     "total_delay_years": 4,
-    "estimated_patient_cost_of_delay": 15000000000000,
-    "estimated_patient_population": 400000
+    "estimated_patient_cost_of_delay": 10504512000000,
+    "estimated_patient_population": 180000
   },
   {
     "drug_id": "gleevec",

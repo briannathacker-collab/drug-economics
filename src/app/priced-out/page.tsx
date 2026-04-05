@@ -12,7 +12,7 @@ import { formatCurrency, formatPercent } from '@/lib/formatters';
 import { FreshnessBadge } from '@/components/ui/FreshnessBadge';
 import { ExportButton } from '@/components/ui/ExportButton';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
-import { DollarSign, TrendingUp, Building2, Pill } from 'lucide-react';
+import { DollarSign, TrendingUp, Building2, Pill, Info } from 'lucide-react';
 
 export default function PricedOutPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -118,7 +118,17 @@ export default function PricedOutPage() {
           <MetricCard
             label="Highest Markup"
             value={formatPercent(metrics.maxMarkup, 0)}
-            subLabel={metrics.maxMarkupDrug}
+            subLabel={
+              <span className="inline-flex items-center gap-1">
+                {metrics.maxMarkupDrug}
+                <span className="relative group">
+                  <Info className="w-3 h-3 text-[#6B7771] cursor-help" />
+                  <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 hidden group-hover:block w-64 p-2 bg-[#1F2A24] text-white text-[10px] rounded-lg shadow-lg z-50 font-normal leading-relaxed">
+                    Tafamidis (Vyndaqel) manufacturing cost estimated at ~$1.50–$3.00/dose based on transthyretin-targeting small molecule synthesis (Kantarjian et al. methodology). WAC ~$19,000/mo. Estimate labeled accordingly.
+                  </span>
+                </span>
+              </span>
+            }
             icon={<DollarSign className="w-5 h-5" />}
             isEstimate
             confidence="medium"
@@ -136,7 +146,7 @@ export default function PricedOutPage() {
 
         <p className="text-[10px] text-[#6B7771] font-mono mb-6 flex items-center gap-2">
           <FreshnessBadge dataYear={2026} dataQuarter="Q1" source="WAC_MONITOR" />
-          <span>· Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
+          <span>· Manufacturer financials: FY 2024 actuals · Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
         </p>
 
         {/* Legend — plain-English glossary */}

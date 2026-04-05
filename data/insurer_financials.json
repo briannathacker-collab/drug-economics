@@ -5,13 +5,14 @@
     "ticker": "UNH",
     "type": "integrated",
     "annual_revenue": [
+      { "year": 2024, "revenue": 40030000000000 },
       { "year": 2023, "revenue": 37180000000000 },
       { "year": 2022, "revenue": 32437000000000 },
       { "year": 2021, "revenue": 28762000000000 },
       { "year": 2020, "revenue": 25718000000000 },
       { "year": 2019, "revenue": 24208000000000 }
     ],
-    "medical_loss_ratio": 83.2,
+    "medical_loss_ratio": 85.5,
     "net_income": [
       { "year": 2023, "income": 2241600000000 },
       { "year": 2022, "income": 2060000000000 },

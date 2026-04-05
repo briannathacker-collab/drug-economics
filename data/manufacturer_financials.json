@@ -5,6 +5,10 @@
     "ticker": "PFE",
     "annual_revenue": [
       {
+        "year": 2024,
+        "revenue": 6360000000000
+      },
+      {
         "year": 2023,
         "revenue": 5840000000000
       },
@@ -27,6 +31,10 @@
     ],
     "net_income": [
       {
+        "year": 2024,
+        "income": 800000000000
+      },
+      {
         "year": 2023,
         "income": 214000000000
       },
@@ -48,6 +56,10 @@
       }
     ],
     "rd_spend": [
+      {
+        "year": 2024,
+        "spend": 1130000000000
+      },
       {
         "year": 2023,
         "spend": 1183000000000
@@ -102,6 +114,10 @@
     "name": "Johnson & Johnson",
     "ticker": "JNJ",
     "annual_revenue": [
+      {
+        "year": 2024,
+        "revenue": 8880000000000
+      },
       {
         "year": 2023,
         "revenue": 8544000000000
@@ -201,6 +217,10 @@
     "ticker": "ABBV",
     "annual_revenue": [
       {
+        "year": 2024,
+        "revenue": 5630000000000
+      },
+      {
         "year": 2023,
         "revenue": 5435000000000
       },
@@ -299,6 +319,10 @@
     "ticker": "MRK",
     "annual_revenue": [
       {
+        "year": 2024,
+        "revenue": 6420000000000
+      },
+      {
         "year": 2023,
         "revenue": 6014000000000
       },
@@ -321,6 +345,10 @@
     ],
     "net_income": [
       {
+        "year": 2024,
+        "income": 1560000000000
+      },
+      {
         "year": 2023,
         "income": 365000000000
       },
@@ -342,6 +370,10 @@
       }
     ],
     "rd_spend": [
+      {
+        "year": 2024,
+        "spend": 1790000000000
+      },
       {
         "year": 2023,
         "spend": 3050000000000
@@ -396,6 +428,10 @@
     "name": "Eli Lilly and Co.",
     "ticker": "LLY",
     "annual_revenue": [
+      {
+        "year": 2024,
+        "revenue": 4500000000000
+      },
       {
         "year": 2023,
         "revenue": 3415800000000
@@ -495,6 +531,10 @@
     "ticker": "BMY",
     "annual_revenue": [
       {
+        "year": 2024,
+        "revenue": 4830000000000
+      },
+      {
         "year": 2023,
         "revenue": 4503000000000
       },
@@ -592,6 +632,10 @@
     "name": "Novartis AG",
     "ticker": "NVS",
     "annual_revenue": [
+      {
+        "year": 2024,
+        "revenue": 5030000000000
+      },
       {
         "year": 2023,
         "revenue": 4571000000000
@@ -887,6 +931,10 @@
     "ticker": "AZN",
     "annual_revenue": [
       {
+        "year": 2024,
+        "revenue": 5410000000000
+      },
+      {
         "year": 2023,
         "revenue": 4583000000000
       },
@@ -1180,6 +1228,10 @@
     "name": "Novo Nordisk",
     "ticker": "NVO",
     "annual_revenue": [
+      {
+        "year": 2024,
+        "revenue": 4080000000000
+      },
       {
         "year": 2023,
         "revenue": 3254200000000

@@ -12,7 +12,7 @@ import { SourceIcon } from '@/components/ui/SourceIcon';
 import { EstBadge } from '@/components/ui/EstBadge';
 import { AccessibleDataTable } from '@/components/ui/AccessibleDataTable';
 import { ExportButton } from '@/components/ui/ExportButton';
-import { Building2, DollarSign, TrendingUp, ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
+import { Building2, DollarSign, TrendingUp, ChevronDown, ChevronUp, ArrowRight, Info } from 'lucide-react';
 
 export default function FollowTheMoneyPage() {
   const [expandedInsurer, setExpandedInsurer] = useState<string | null>(null);
@@ -45,7 +45,7 @@ export default function FollowTheMoneyPage() {
           </p>
           <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-            Financial data current as of Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
+            Insurer financials: FY 2024 actuals · PBM data: Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
           </p>
         </div>
 
@@ -140,9 +140,15 @@ export default function FollowTheMoneyPage() {
                           </p>
                           <p className="font-mono font-bold text-[#1F2A24]">{formatPercent(insurer.medical_loss_ratio)}</p>
                         </div>
-                        <div className="text-right hidden sm:block">
+                        <div className="text-right hidden sm:block relative group">
                           <p className="text-xs text-[#6B7771]">Denial Rate</p>
-                          <p className="font-mono font-bold text-[#C41E3A]">{formatPercent(insurer.prior_auth_denial_rate)}</p>
+                          <p className="font-mono font-bold text-[#C41E3A] flex items-center gap-1 justify-end">
+                            {formatPercent(insurer.prior_auth_denial_rate)}
+                            <Info className="w-3 h-3 text-[#6B7771]" />
+                          </p>
+                          <div className="absolute right-0 top-full mt-1 w-72 bg-[#1F2A24] text-white text-xs p-3 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50 font-body leading-relaxed">
+                            Source: CMS Prior Authorization and Claims Denial data (2023); ProPublica/KFF analysis of Medicare Advantage denial patterns. Methodologies vary; see Estimates/Proxies.
+                          </div>
                         </div>
                         {isExpanded ? <ChevronUp className="w-5 h-5 text-[#6B7771]" /> : <ChevronDown className="w-5 h-5 text-[#6B7771]" />}
                       </div>
@@ -159,6 +165,8 @@ export default function FollowTheMoneyPage() {
                           label="Prior Auth Denial Rate"
                           value={formatPercent(insurer.prior_auth_denial_rate)}
                           variant="danger"
+                          sourceLabel="CMS Prior Authorization and Claims Denial data (2023); ProPublica/KFF analysis of Medicare Advantage denial patterns. Methodologies vary; see Estimates/Proxies."
+                          lastUpdated="2023"
                         />
                       </div>
 

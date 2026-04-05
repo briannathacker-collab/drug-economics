@@ -214,6 +214,7 @@ export interface IraNegotiation {
   savings_percent: number;
   effective_date: string;
   status: 'active' | 'pending' | 'announced';
+  round: number;
 }
 
 // Source attribution for estimated/derived figures

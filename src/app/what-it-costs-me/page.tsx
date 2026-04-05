@@ -12,6 +12,11 @@ import { formatCurrency } from '@/lib/formatters';
 import { SourceIcon } from '@/components/ui/SourceIcon';
 import { Calculator, DollarSign, Globe, Info, ExternalLink, Share2, Check } from 'lucide-react';
 
+// One-time gene therapies / ultra-rare treatments displayed as monthly costs
+const ONE_TIME_THERAPIES = new Set([
+  'hemgenix', 'zolgensma', 'luxturna', 'kymriah', 'yescarta', 'carvykti', 'abecma',
+]);
+
 const INSURANCE_TYPES = [
   { id: 'employer', label: 'Employer Plan', copayRate: 0.20, deductible: 150000 },
   { id: 'marketplace_silver', label: 'ACA Silver Plan', copayRate: 0.30, deductible: 300000 },
@@ -128,7 +133,7 @@ function WhatItCostsMe() {
                 <option value="">Choose a drug...</option>
                 {drugs.map(d => (
                   <option key={d.drug_id} value={d.drug_id}>
-                    {d.drug_name} ({d.generic_name}) — {formatCurrency(d.wac_monthly)}/mo
+                    {d.drug_name} ({d.generic_name}) — {formatCurrency(d.wac_monthly)}/mo{ONE_TIME_THERAPIES.has(d.drug_id) ? ' (one-time treatment)' : ''}
                   </option>
                 ))}
               </select>
@@ -230,6 +235,12 @@ function WhatItCostsMe() {
               <p className="text-lg text-[#C41E3A] font-mono mt-1">
                 {formatCurrency(oopAnnual)} / year
               </p>
+              {drug && ONE_TIME_THERAPIES.has(drug.drug_id) && (
+                <p className="text-xs text-[#B45309] mt-3 font-body flex items-center gap-1 justify-center">
+                  <Info className="w-3.5 h-3.5 shrink-0" />
+                  One-time treatment. Monthly figure shown is annualized cost &divide; 12 for comparison purposes only.
+                </p>
+              )}
               <p className="text-xs text-[#6B7771] mt-3 font-body">
                 Based on {insurance.label} · Deductible {deductibleMet ? 'met' : 'not met'}
               </p>

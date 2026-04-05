@@ -61,11 +61,11 @@ const TIMELINE_EVENTS = [
   },
   {
     year: '2027',
-    title: 'Next 15 Drugs Selected',
+    title: 'Round 2: 15 More Drugs Announced',
     description:
-      'A second round of 15 Part D drugs will be selected for negotiation, with negotiated prices taking effect in 2027. Expanding the program\'s reach.',
-    color: 'bg-[#6B7771]',
-    status: 'upcoming' as const,
+      'CMS announces negotiated prices for 15 additional Part D drugs in Round 2, with Maximum Fair Prices taking effect January 1, 2027. Discounts range from 64% to 78%.',
+    color: 'bg-[#0B6B3A]',
+    status: 'active' as const,
   },
   {
     year: '2028+',
@@ -96,7 +96,7 @@ const IMPACT_CARDS = [
     icon: <Heart className="w-5 h-5" />,
     title: 'Chronic Condition Relief',
     description:
-      'The first 10 drugs treat common chronic conditions: diabetes, heart disease, blood clots, and autoimmune diseases. These are drugs patients take for years or even life.',
+      'The 25 negotiated drugs treat common chronic conditions: diabetes, heart disease, blood clots, cancer, autoimmune diseases, HIV, and more. These are drugs patients take for years or even life.',
     accent: 'bg-[#FEF3C7] text-[#92400E]',
   },
   {
@@ -152,12 +152,18 @@ export default function IraEffectPage() {
     [negotiations]
   );
 
-  // Estimated annual savings: sum of (WAC - negotiated) * beneficiaries for each drug
-  // This is a simplified estimate; actual savings depend on utilization patterns
+  const avgDiscount = useMemo(
+    () => negotiations.reduce((sum, d) => sum + d.savings_percent, 0) / negotiations.length,
+    [negotiations]
+  );
+
+  // Estimated annual savings: CBO projection across both rounds
   const estimatedAnnualSavingsBillions = useMemo(() => {
-    // CBO and CMS estimated ~$6B in first-year savings for these 10 drugs
     return 6.0;
   }, []);
+
+  const round1Drugs = useMemo(() => negotiations.filter(d => d.round === 1), [negotiations]);
+  const round2Drugs = useMemo(() => negotiations.filter(d => d.round === 2), [negotiations]);
 
   return (
     <div className="min-h-screen bg-[#F7F9F8]">
@@ -175,11 +181,11 @@ export default function IraEffectPage() {
           </h1>
           <p className="mt-4 text-lg text-[#CBD5E1] font-body max-w-3xl leading-relaxed">
             For the first time in its 60-year history, Medicare can negotiate drug prices
-            directly with manufacturers. Here are the first 10 drugs, what they cost before,
-            and what Medicare will pay now.
+            directly with manufacturers. Across two rounds, 25 drugs now have negotiated
+            prices &mdash; 10 in Round 1 and 15 in Round 2.
           </p>
           <p className="mt-3 text-sm text-[#6B7771] font-body">
-            First 10 drugs &middot; Effective January 1, 2026 &middot; Source: CMS.gov
+            IRA Round 1: effective Jan 1 2026 &middot; IRA Round 2: effective Jan 1 2027 &middot; Source: CMS
           </p>
         </div>
       </section>
@@ -190,32 +196,32 @@ export default function IraEffectPage() {
           <MetricCard
             label="Drugs Negotiated"
             value={negotiations.length}
-            subLabel="First round of Medicare price negotiation"
+            subLabel="10 Round 1 + 15 Round 2"
             icon={<Pill className="w-5 h-5" />}
           />
           <MetricCard
-            label="Est. Annual Savings"
-            value={`$${estimatedAnnualSavingsBillions}B+`}
-            subLabel="Projected first-year savings for Medicare"
-            icon={<DollarSign className="w-5 h-5" />}
-          />
-          <MetricCard
-            label="Max Price Reduction"
-            value={formatPercent(maxSavingsPercent, 0)}
-            subLabel="Largest negotiated discount off WAC"
+            label="Avg Discount Off WAC"
+            value={`${Math.round(avgDiscount)}%`}
+            subLabel="Average negotiated reduction across all 25 drugs"
             icon={<TrendingDown className="w-5 h-5" />}
           />
           <MetricCard
-            label="Beneficiaries Affected"
-            value={`${formatCompact(totalBeneficiaries)}+`}
-            subLabel="Medicare enrollees taking these drugs"
-            icon={<Users className="w-5 h-5" />}
+            label="Highest Discount"
+            value={`${maxSavingsPercent}%`}
+            subLabel="Januvia — largest single-drug reduction"
+            icon={<ArrowDown className="w-5 h-5" />}
+          />
+          <MetricCard
+            label="Est. Annual Patient Savings"
+            value={`$${estimatedAnnualSavingsBillions}B`}
+            subLabel="(est. — CBO projection range)"
+            icon={<DollarSign className="w-5 h-5" />}
           />
         </div>
 
         <p className="text-[10px] text-[#6B7771] font-mono mb-8 flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-          Data current as of Q1 2026 &middot; Sources: CMS, HHS, Congressional Budget Office
+          IRA Round 1: effective Jan 1 2026 &middot; IRA Round 2: effective Jan 1 2027 &middot; Source: CMS
         </p>
 
         {/* Negotiated Drugs Table */}
@@ -232,6 +238,7 @@ export default function IraEffectPage() {
                   generic_name: d.generic_name,
                   manufacturer: d.manufacturer,
                   indication: d.indication,
+                  round: d.round,
                   current_wac_annual: d.current_wac_annual,
                   negotiated_annual: d.negotiated_price_annual,
                   savings_percent: d.savings_percent,
@@ -243,6 +250,7 @@ export default function IraEffectPage() {
                   { key: 'generic_name', label: 'Generic Name' },
                   { key: 'manufacturer', label: 'Manufacturer' },
                   { key: 'indication', label: 'Indication' },
+                  { key: 'round', label: 'Round' },
                   { key: 'current_wac_annual', label: 'Current WAC Annual (cents)' },
                   { key: 'negotiated_annual', label: 'Negotiated Annual (cents)' },
                   { key: 'savings_percent', label: 'Savings %' },
@@ -251,7 +259,7 @@ export default function IraEffectPage() {
                 ]}
               />
               <span className="px-3 py-1 bg-[#E6F2EC] text-[#0B6B3A] rounded-full text-sm font-medium font-mono">
-                {negotiations.length} drugs
+                {negotiations.length} drugs (R1: {round1Drugs.length} + R2: {round2Drugs.length})
               </span>
             </div>
           </div>
@@ -290,7 +298,84 @@ export default function IraEffectPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {sortedDrugs.map((drug, i) => {
+                  {/* Round 1 group header */}
+                  <tr className="bg-[#E6F2EC] border-b border-[#E5ECE8]">
+                    <td colSpan={6} className="px-6 py-2">
+                      <span className="text-xs font-bold text-[#0B6B3A] font-body uppercase tracking-wider">
+                        Round 1 &mdash; Effective Jan 1, 2026
+                      </span>
+                      <span className="ml-2 text-[10px] text-[#6B7771] font-mono">
+                        {round1Drugs.length} drugs
+                      </span>
+                    </td>
+                  </tr>
+                  {sortedDrugs.filter(d => d.round === 1).map((drug, i) => {
+                    const annualSavings = drug.current_wac_annual - drug.negotiated_price_annual;
+                    return (
+                      <tr
+                        key={drug.drug_id}
+                        className={`${i % 2 === 0 ? 'bg-white' : 'bg-[#F7F9F8]/50'} hover:bg-[#F1F5F9] transition-colors`}
+                      >
+                        <td className="px-6 py-4">
+                          <div className="font-bold text-[#1F2A24] font-display">
+                            {drug.drug_name}
+                          </div>
+                          <div className="text-xs text-[#6B7771] font-body">
+                            {drug.generic_name} &middot; {drug.indication}
+                          </div>
+                          <div className="text-[10px] text-[#6B7771] font-body mt-0.5">
+                            {drug.manufacturer}
+                          </div>
+                        </td>
+                        <td className="px-4 py-4 text-right">
+                          <span className="font-mono text-[#C41E3A] line-through decoration-1">
+                            {formatCurrency(drug.current_wac_annual)}
+                          </span>
+                        </td>
+                        <td className="px-4 py-4 text-right">
+                          <span className="font-mono font-bold text-[#0B6B3A]">
+                            {formatCurrency(drug.negotiated_price_annual)}
+                          </span>
+                        </td>
+                        <td className="px-4 py-4 text-right">
+                          <div className="flex flex-col items-end gap-0.5">
+                            <span className="inline-flex items-center gap-1 text-[#0B6B3A] font-mono font-bold">
+                              <ArrowDown className="w-3.5 h-3.5" />
+                              {drug.savings_percent}%
+                            </span>
+                            <span className="text-[10px] text-[#6B7771] font-mono">
+                              {formatCurrency(annualSavings)}/yr
+                            </span>
+                          </div>
+                        </td>
+                        <td className="px-4 py-4 text-right hidden md:table-cell">
+                          <span className="font-mono text-[#1F2A24]">
+                            {drug.enrolled_beneficiaries.toLocaleString()}
+                          </span>
+                        </td>
+                        <td className="px-4 py-4 text-right hidden lg:table-cell">
+                          <span className="font-mono text-[#6B7771]">
+                            ${drug.medicare_spend_billions.toFixed(1)}B
+                          </span>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                  {/* Round 2 group header */}
+                  <tr className="bg-[#EFF6FF] border-b border-[#E5ECE8] border-t-2 border-t-[#E5ECE8]">
+                    <td colSpan={6} className="px-6 py-2">
+                      <span className="text-xs font-bold text-[#1E40AF] font-body uppercase tracking-wider">
+                        Round 2 &mdash; Effective Jan 1, 2027
+                      </span>
+                      <span className="ml-2 text-[10px] text-[#6B7771] font-mono">
+                        {round2Drugs.length} drugs
+                      </span>
+                      <span className="ml-2 px-1.5 py-0.5 bg-[#FEF3C7] text-[#92400E] text-[10px] font-mono rounded">
+                        announced
+                      </span>
+                    </td>
+                  </tr>
+                  {sortedDrugs.filter(d => d.round === 2).map((drug, i) => {
                     const annualSavings = drug.current_wac_annual - drug.negotiated_price_annual;
                     return (
                       <tr
@@ -348,9 +433,9 @@ export default function IraEffectPage() {
 
             <div className="px-6 py-3 bg-[#F7F9F8] border-t border-[#E5ECE8]">
               <p className="text-xs text-[#6B7771] font-body italic">
-                WAC figures from Drug Economics database. Negotiated prices from CMS announcements (August 2024).
-                Savings percentages reflect reduction from manufacturer list price. Actual patient out-of-pocket
-                costs depend on insurance coverage and plan design.
+                WAC figures from Drug Economics database. Round 1 negotiated prices from CMS (August 2024);
+                Round 2 negotiated prices from CMS (2025). Savings percentages reflect reduction from manufacturer
+                list price. Actual patient out-of-pocket costs depend on insurance coverage and plan design.
               </p>
             </div>
           </div>
@@ -493,12 +578,14 @@ export default function IraEffectPage() {
           <h3 className="text-base font-bold text-[#1F2A24] font-display mb-3">Sources &amp; Methodology</h3>
           <div className="space-y-2 text-sm text-[#6B7771] font-body leading-relaxed">
             <p>
-              Negotiated prices (Maximum Fair Prices) published by CMS in August 2024.
+              Round 1 negotiated prices (Maximum Fair Prices) published by CMS in August 2024.
+              Round 2 negotiated prices announced by CMS in 2025.
               WAC prices from Drug Economics database, sourced from manufacturer price lists and CMS data.
               Medicare spending and beneficiary enrollment data from CMS Medicare Part D Spending Dashboard.
+              Round 2 beneficiary and spend figures are estimates based on CMS utilization data.
             </p>
             <p className="text-xs text-[#6B7771] font-mono mt-3">
-              Last updated: Q1 2026 &middot; CMS.gov, HHS.gov, Congressional Budget Office
+              Last updated: Q2 2026 &middot; CMS.gov, HHS.gov, Congressional Budget Office
             </p>
           </div>
         </div>

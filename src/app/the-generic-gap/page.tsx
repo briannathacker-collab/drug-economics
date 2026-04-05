@@ -121,7 +121,7 @@ export default function TheGenericGapPage() {
           </p>
           <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-            Delay data current as of Q4 2024 · Sources: FTC, DOJ, court records, peer-reviewed studies
+            Delay data current as of Q1 2026 · Sources: FTC, DOJ, court records, peer-reviewed studies
           </p>
         </div>
 
@@ -145,11 +145,11 @@ export default function TheGenericGapPage() {
             <div className="bg-[#FEE2E2] rounded-xl border border-[#C41E3A]/20 p-5 shadow-sm">
               <p className="text-sm font-medium text-[#C41E3A] font-body">Estimated Patient Cost of Delays</p>
               <p className="text-3xl font-bold text-[#C41E3A] font-mono mt-2">
-                $<AnimatedCounter target={Math.round(totalDelayCost / 100)} />
+                {formatCurrency(totalDelayCost, true)}
               </p>
               <p className="text-xs text-[#6B7771] font-body mt-1 flex items-center gap-1">
                 <EstBadge /> Based on delay years × annual WAC × patient population
-                <SourceIcon sourceLabel="Calculated: delay years × annual WAC × patient population" lastUpdated="Q4 2024" />
+                <SourceIcon sourceLabel="Calculated: delay years × annual WAC × patient population" lastUpdated="Q1 2026" />
               </p>
             </div>
           ) : (

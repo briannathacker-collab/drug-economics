@@ -58,7 +58,7 @@ export default function PipelineWatchPage() {
           </p>
           <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-            Patent and pipeline data current as of Q4 2024 · Sources: FDA Orange Book, ClinicalTrials.gov, SEC filings
+            Patent and pipeline data current as of Q1 2026 · Sources: FDA Orange Book, ClinicalTrials.gov, SEC filings
           </p>
         </div>
 

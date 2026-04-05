@@ -74,7 +74,7 @@ export default function HomePage() {
             Drug Economics
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-[#E6F2EC] font-body max-w-2xl leading-relaxed">
-            Five investigative apps that expose how pharmaceutical manufacturers,
+            Six investigative apps that expose how pharmaceutical manufacturers,
             insurance companies, and pharmacy benefit managers profit from the
             American drug pricing system — at the direct expense of patients.
           </p>

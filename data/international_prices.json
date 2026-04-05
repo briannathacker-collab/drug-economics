@@ -4,11 +4,36 @@
     "drug_name": "Humira",
     "us_wac_annual": 728200,
     "prices": {
-      "canada": {"annual": 175000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.24},
-      "uk": {"annual": 140000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.19},
-      "germany": {"annual": 235000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.32},
-      "australia": {"annual": 155000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.21},
-      "japan": {"annual": 185000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.25}
+      "canada": {
+        "annual": 175000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.24
+      },
+      "uk": {
+        "annual": 140000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.19
+      },
+      "germany": {
+        "annual": 235000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.32
+      },
+      "australia": {
+        "annual": 155000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.21
+      },
+      "japan": {
+        "annual": 185000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.25
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -18,11 +43,36 @@
     "drug_name": "Keytruda",
     "us_wac_annual": 14589600,
     "prices": {
-      "canada": {"annual": 6120000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.42},
-      "uk": {"annual": 5880000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.40},
-      "germany": {"annual": 6720000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.46},
-      "australia": {"annual": 5640000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.39},
-      "japan": {"annual": 4560000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.31}
+      "canada": {
+        "annual": 6120000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.42
+      },
+      "uk": {
+        "annual": 5880000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.4
+      },
+      "germany": {
+        "annual": 6720000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.46
+      },
+      "australia": {
+        "annual": 5640000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.39
+      },
+      "japan": {
+        "annual": 4560000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.31
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -32,11 +82,36 @@
     "drug_name": "Eliquis",
     "us_wac_annual": 817200,
     "prices": {
-      "canada": {"annual": 98000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.12},
-      "uk": {"annual": 84000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.10},
-      "germany": {"annual": 128000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.16},
-      "australia": {"annual": 72000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.09},
-      "japan": {"annual": 105000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.13}
+      "canada": {
+        "annual": 98000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.12
+      },
+      "uk": {
+        "annual": 84000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.1
+      },
+      "germany": {
+        "annual": 128000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.16
+      },
+      "australia": {
+        "annual": 72000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.09
+      },
+      "japan": {
+        "annual": 105000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.13
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -46,11 +121,36 @@
     "drug_name": "Ozempic",
     "us_wac_annual": 12441600,
     "prices": {
-      "canada": {"annual": 3120000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.25},
-      "uk": {"annual": 2880000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.23},
-      "germany": {"annual": 3960000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.32},
-      "australia": {"annual": 1560000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.13},
-      "japan": {"annual": 2040000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.16}
+      "canada": {
+        "annual": 3120000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.25
+      },
+      "uk": {
+        "annual": 2880000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.23
+      },
+      "germany": {
+        "annual": 3960000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.32
+      },
+      "australia": {
+        "annual": 1560000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.13
+      },
+      "japan": {
+        "annual": 2040000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.16
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -60,11 +160,36 @@
     "drug_name": "Dupixent",
     "us_wac_annual": 5124000,
     "prices": {
-      "canada": {"annual": 1680000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.33},
-      "uk": {"annual": 1440000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.28},
-      "germany": {"annual": 2040000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.40},
-      "australia": {"annual": 1320000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.26},
-      "japan": {"annual": 1800000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.35}
+      "canada": {
+        "annual": 1680000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.33
+      },
+      "uk": {
+        "annual": 1440000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.28
+      },
+      "germany": {
+        "annual": 2040000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.4
+      },
+      "australia": {
+        "annual": 1320000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.26
+      },
+      "japan": {
+        "annual": 1800000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.35
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -74,11 +199,36 @@
     "drug_name": "Stelara",
     "us_wac_annual": 31680000,
     "prices": {
-      "canada": {"annual": 8400000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.27},
-      "uk": {"annual": 7200000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.23},
-      "germany": {"annual": 9600000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.30},
-      "australia": {"annual": 6720000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.21},
-      "japan": {"annual": 7800000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.25}
+      "canada": {
+        "annual": 8400000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.27
+      },
+      "uk": {
+        "annual": 7200000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.23
+      },
+      "germany": {
+        "annual": 9600000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.3
+      },
+      "australia": {
+        "annual": 6720000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.21
+      },
+      "japan": {
+        "annual": 7800000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.25
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -88,11 +238,36 @@
     "drug_name": "Trikafta",
     "us_wac_annual": 39444000,
     "prices": {
-      "canada": {"annual": 12000000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.30},
-      "uk": {"annual": 12360000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.31},
-      "germany": {"annual": 15600000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.40},
-      "australia": {"annual": 10800000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.27},
-      "japan": {"annual": 14400000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.37}
+      "canada": {
+        "annual": 12000000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.3
+      },
+      "uk": {
+        "annual": 12360000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.31
+      },
+      "germany": {
+        "annual": 15600000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.4
+      },
+      "australia": {
+        "annual": 10800000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.27
+      },
+      "japan": {
+        "annual": 14400000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.37
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -102,11 +277,36 @@
     "drug_name": "Opdivo",
     "us_wac_annual": 18453600,
     "prices": {
-      "canada": {"annual": 6960000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.38},
-      "uk": {"annual": 5520000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.30},
-      "germany": {"annual": 7440000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.40},
-      "australia": {"annual": 5280000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.29},
-      "japan": {"annual": 4200000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.23}
+      "canada": {
+        "annual": 6960000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.38
+      },
+      "uk": {
+        "annual": 5520000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.3
+      },
+      "germany": {
+        "annual": 7440000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.4
+      },
+      "australia": {
+        "annual": 5280000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.29
+      },
+      "japan": {
+        "annual": 4200000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.23
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -116,11 +316,36 @@
     "drug_name": "Revlimid",
     "us_wac_annual": 22392000,
     "prices": {
-      "canada": {"annual": 7200000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.32},
-      "uk": {"annual": 6600000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.29},
-      "germany": {"annual": 8400000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.38},
-      "australia": {"annual": 5040000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.23},
-      "japan": {"annual": 5760000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.26}
+      "canada": {
+        "annual": 7200000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.32
+      },
+      "uk": {
+        "annual": 6600000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.29
+      },
+      "germany": {
+        "annual": 8400000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.38
+      },
+      "australia": {
+        "annual": 5040000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.23
+      },
+      "japan": {
+        "annual": 5760000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.26
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -130,11 +355,36 @@
     "drug_name": "Wegovy",
     "us_wac_annual": 19632000,
     "prices": {
-      "canada": {"annual": 4800000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.24},
-      "uk": {"annual": 3360000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.17},
-      "germany": {"annual": 5520000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.28},
-      "australia": {"annual": 3840000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.20},
-      "japan": {"annual": 3600000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.18}
+      "canada": {
+        "annual": 4800000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.24
+      },
+      "uk": {
+        "annual": 3360000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.17
+      },
+      "germany": {
+        "annual": 5520000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.28
+      },
+      "australia": {
+        "annual": 3840000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.2
+      },
+      "japan": {
+        "annual": 3600000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.18
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -144,11 +394,36 @@
     "drug_name": "Spinraza",
     "us_wac_annual": 127200000,
     "prices": {
-      "canada": {"annual": 43200000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.34},
-      "uk": {"annual": 45000000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.35},
-      "germany": {"annual": 52800000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.42},
-      "australia": {"annual": 38400000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.30},
-      "japan": {"annual": 36000000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.28}
+      "canada": {
+        "annual": 43200000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.34
+      },
+      "uk": {
+        "annual": 45000000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.35
+      },
+      "germany": {
+        "annual": 52800000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.42
+      },
+      "australia": {
+        "annual": 38400000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.3
+      },
+      "japan": {
+        "annual": 36000000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.28
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"
@@ -158,11 +433,36 @@
     "drug_name": "Lantus",
     "us_wac_annual": 760800,
     "prices": {
-      "canada": {"annual": 48000, "currency": "USD", "source": "PMPRB", "ratio_to_us": 0.06},
-      "uk": {"annual": 36000, "currency": "USD", "source": "BNF/NICE", "ratio_to_us": 0.05},
-      "germany": {"annual": 54000, "currency": "USD", "source": "AMNOG/Lauer-Taxe", "ratio_to_us": 0.07},
-      "australia": {"annual": 30000, "currency": "USD", "source": "PBS", "ratio_to_us": 0.04},
-      "japan": {"annual": 42000, "currency": "USD", "source": "NHI Drug Price List", "ratio_to_us": 0.06}
+      "canada": {
+        "annual": 48000,
+        "currency": "USD",
+        "source": "PMPRB",
+        "ratio_to_us": 0.06
+      },
+      "uk": {
+        "annual": 36000,
+        "currency": "USD",
+        "source": "BNF/NICE",
+        "ratio_to_us": 0.05
+      },
+      "germany": {
+        "annual": 54000,
+        "currency": "USD",
+        "source": "AMNOG/Lauer-Taxe",
+        "ratio_to_us": 0.07
+      },
+      "australia": {
+        "annual": 30000,
+        "currency": "USD",
+        "source": "PBS",
+        "ratio_to_us": 0.04
+      },
+      "japan": {
+        "annual": 42000,
+        "currency": "USD",
+        "source": "NHI Drug Price List",
+        "ratio_to_us": 0.06
+      }
     },
     "data_year": 2026,
     "data_quarter": "Q1"

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "prior-authorization-death-by-delay",
+    "slug": "prior-authorization-death-by-delay",
+    "title": "Prior Authorization: Death by Delay",
+    "subtitle": "How insurance companies turned a billing tool into a patient harm machine — and lobbied to keep it",
+    "category": "insurance",
+    "is_featured": true,
+    "summary": "Prior authorization requires doctors to get insurance company approval before prescribing treatments. A 2023 AMA survey found 94% of physicians say it delays necessary care. Documented deaths from PA denials span cancer treatment, insulin, and mental health medication. Insurers spent $120M+ lobbying against PA reform legislation in 2023–2024.",
+    "estimated_patient_cost_usd": 35000000000,
+    "lobbying_spend_related_usd": 120000000,
+    "organizations": ["AHIP", "UnitedHealth Group", "CVS Health", "Cigna"],
+    "key_findings": [
+      "94% of physicians report PA delays necessary care (AMA 2023)",
+      "33% say PA has led to a serious adverse event for a patient",
+      "25% say PA has led to a patient's hospitalization",
+      "AHIP spent $42M lobbying the quarter Congress advanced PA reform"
+    ],
+    "full_content": "Prior authorization (PA) requires physicians to submit requests to insurance companies before prescribing medications, ordering imaging, or scheduling procedures. Originally designed as a cost-control measure, it has become the primary tool by which insurers deny, delay, and exhaust patient access to approved treatments.\n\nA 2023 AMA survey of 1,000 physicians found 94% report PA causes delays in necessary care, 89% say PA negatively impacts patient clinical outcomes, and 33% say PA has led to a serious adverse event for a patient in their care.\n\nWhen Congress advanced the Improving Seniors' Timely Access to Care Act in 2022, AHIP and the insurance industry spent $42M lobbying on healthcare issues that quarter. The final law was so weakened that it required only electronic PA submissions — not reduced PA rates.",
+    "sources": [
+      { "name": "AMA Prior Authorization Survey 2023", "url": "https://ama-assn.org" },
+      { "name": "ACS CAN Prior Authorization Report", "url": "https://fightcancer.org" }
+    ]
+  },
+  {
+    "id": "medicare-advantage-overpayment",
+    "slug": "medicare-advantage-overpayment",
+    "title": "Medicare Advantage: The $88 Billion Overpayment",
+    "subtitle": "How private insurers extracted $88B from Medicare through risk score manipulation",
+    "category": "insurance",
+    "is_featured": true,
+    "summary": "Medicare Advantage plans are paid based on how sick their enrollees are. A DOJ investigation documented systematic upcoding: adding diagnoses patients didn't have to inflate risk scores. The overpayment totaled an estimated $88B between 2010–2022. MA insurers spent over $400M lobbying to prevent rate corrections.",
+    "estimated_patient_cost_usd": 88000000000,
+    "lobbying_spend_related_usd": 400000000,
+    "organizations": ["AHIP", "UnitedHealth Group"],
+    "key_findings": [
+      "UnitedHealth settled for $2.13B in 2024 — largest Medicare fraud settlement ever",
+      "Home visits by nurses instructed to add diagnoses without treatment",
+      "CMS proposed 2.27% rate cut — AHIP lobbied it into a 3.32% INCREASE",
+      "$88B in overpayments documented by JAMA (2010–2022)"
+    ],
+    "full_content": "Medicare Advantage pays private insurers a per-member monthly payment adjusted by risk score — sicker patients generate higher payments. This creates a direct financial incentive to make patients appear sicker on paper.\n\nThe DOJ documented a coordinated industry practice: home visits by nurses instructed to add diagnoses without treatment, retrospective chart reviews adding codes for conditions resolved years prior, and algorithms identifying 'missed' diagnoses to add before risk score deadlines.\n\nUnitedHealth settled for $2.13B in 2024 — the largest Medicare fraud settlement in history. A 2022 JAMA analysis found Medicare Advantage overpayments due to coding differences totaled $88B between 2010–2022.\n\nWhen CMS proposed reducing MA rates by 2.27% in 2023, AHIP launched the largest lobbying campaign in healthcare insurance history. The final 2024 rate update: a 3.32% INCREASE rather than a decrease.",
+    "sources": [
+      { "name": "JAMA MA Overpayment Study 2022", "url": "https://jamanetwork.com" },
+      { "name": "DOJ UnitedHealth Settlement 2024", "url": "https://justice.gov" }
+    ]
+  },
+  {
+    "id": "insulin-rationing-deaths",
+    "slug": "insulin-rationing-deaths",
+    "title": "Insulin Rationing: $35 to Make, $350 to Buy",
+    "subtitle": "How three companies coordinated insulin price increases for a decade — and what it cost patients who couldn't afford it",
+    "category": "drug_pricing",
+    "is_featured": true,
+    "summary": "Insulin manufacturing cost: $2–6/vial. US list price by 2019: $350+/vial. Senate investigation found Lilly, Sanofi, and Novo Nordisk raised prices in near-perfect coordination. At least 13 people died rationing insulin they couldn't afford.",
+    "estimated_patient_cost_usd": 17000000000,
+    "lobbying_spend_related_usd": 35000000,
+    "organizations": ["Eli Lilly", "Novo Nordisk", "Sanofi"],
+    "key_findings": [
+      "Humalog: $21/vial in 1996 → $332/vial in 2019 (1,500% increase)",
+      "Manufacturing cost unchanged — Lilly gross margin exceeded 70%",
+      "Senate found near-perfect price coordination among 3 manufacturers",
+      "At least 13 documented deaths from insulin rationing"
+    ],
+    "full_content": "In 1996, Eli Lilly launched Humalog at $21/vial. By 2019, the same product cost $332/vial — a 1,500% increase with no change in the molecule. Manufacturing costs had not increased; Lilly's gross margin exceeded 70%.\n\nThe Senate Finance Committee's 2021 report documented internal communications showing awareness of competitor pricing decisions. The pattern: one company would raise prices, others would follow within weeks.\n\nDocumented deaths from insulin rationing include Alec Smith, 26, who died in 2017 one month after aging off his parents' insurance; Jesse Lutgen, 35, who died in 2018 after rationing to save money; and Micah Reitmeyer, 22, who died in 2018 days after aging off parents' insurance.\n\nEach death generated news coverage. None generated price reductions at the time.",
+    "sources": [
+      { "name": "Senate Finance Insulin Report 2021", "url": "https://finance.senate.gov" },
+      { "name": "T1International Cost Survey", "url": "https://t1international.com" }
+    ]
+  },
+  {
+    "id": "most-favored-nation-pricing-fight",
+    "slug": "most-favored-nation-pricing-fight",
+    "title": "Most Favored Nation Pricing: The $200B Fight",
+    "subtitle": "The US pays 2–10x more for drugs than every other developed nation. An executive order to change that triggered record pharma lobbying.",
+    "category": "drug_pricing",
+    "is_featured": true,
+    "summary": "The same drug that costs $300/year in Germany costs $3,000/year in the US. MFN pricing would tie US prices to comparable countries. Pharma spent $227M lobbying in H1 2025 alone — on pace for a full-year record.",
+    "estimated_patient_cost_usd": 200000000000,
+    "lobbying_spend_related_usd": 227000000,
+    "organizations": ["PhRMA", "Eli Lilly", "Pfizer"],
+    "key_findings": [
+      "US brand-name drug prices average 3.56x higher than 32 other countries",
+      "$227M in pharma lobbying in H1 2025 — more than most full years",
+      "$5M+ in pharma contributions to Trump inaugural committee",
+      "14 pharma-aligned think tanks published opposing op-eds within 72 hours"
+    ],
+    "full_content": "RAND analysis found US brand-name drug prices average 3.56x higher than 32 other countries — 3.2x higher than Germany, 4.1x higher than the UK.\n\nIn February 2025, the Trump administration issued an executive order directing HHS to implement Most Favored Nation pricing — tying Medicare Part B drug prices to the median price in comparable OECD countries.\n\nThe lobbying response was immediate: $227M in pharma lobbying in H1 2025, more than any previous full year except 2022. PhRMA, Pfizer, Lilly, Merck, and AbbVie contributed $5M+ total to Trump's inaugural committee in January 2025. 14 pharma-aligned think tanks published op-eds opposing MFN within 72 hours of the EO.\n\nAs of April 2026, the MFN EO remains active but implementation delayed. This is the single most consequential active healthcare policy fight.",
+    "sources": [
+      { "name": "RAND Drug Price Comparison 2024", "url": "https://rand.org" },
+      { "name": "Read Sludge Pharma Lobbying 2025", "url": "https://readsludge.com" }
+    ]
+  },
+  {
+    "id": "opioid-lobby-purdue-ama",
+    "slug": "opioid-lobby-purdue-ama",
+    "title": "The Opioid Lobby: How Pharma Weakened Prescribing Oversight",
+    "subtitle": "Purdue Pharma spent $740M funding doctors and advocacy groups to maintain opioid prescribing — creating a crisis that killed 500,000 Americans",
+    "category": "drug_pricing",
+    "is_featured": false,
+    "summary": "The opioid epidemic killed over 500,000 Americans between 1999–2021. A Senate investigation found Purdue Pharma and other manufacturers spent $740M funding doctors, patient advocacy groups, and medical societies between 2012–2017 to maintain prescribing rates and fight regulatory oversight.",
+    "estimated_patient_cost_usd": 500000000000,
+    "lobbying_spend_related_usd": 740000000,
+    "organizations": ["PhRMA", "Purdue Pharma"],
+    "key_findings": [
+      "14 patient advocacy orgs received $9M from opioid manufacturers (2014–2017)",
+      "Those orgs lobbied against prescription drug monitoring",
+      "Purdue funded CME programs designed around high-dose prescribing",
+      "Techniques pioneered are now standard pharma lobbying practice"
+    ],
+    "full_content": "A 2018 Senate investigation found 14 patient advocacy organizations received $9M from opioid manufacturers in 2014–2017. These organizations lobbied against prescription drug monitoring and prescribing limits. The AMA received manufacturer funding during the period it opposed CDC prescribing guidelines.\n\nCourt documents from Purdue Pharma's bankruptcy included internal strategy documents describing 'message management' programs to discredit physicians who raised addiction concerns, funding of CME programs designed around high-dose prescribing, and a 'pain patient' advocacy infrastructure designed to appear grassroots.\n\nThe techniques Purdue pioneered — funding patient groups, influencing medical societies, manufacturing grassroots support — are now standard pharmaceutical lobbying practice across all disease areas.",
+    "sources": [
+      { "name": "Senate Opioid Investigation 2018", "url": "https://hsgac.senate.gov" },
+      { "name": "CDC Opioid Overdose Data", "url": "https://cdc.gov/drugoverdose" }
+    ]
+  },
+  {
+    "id": "pharmacy-desert-pbm-closures",
+    "slug": "pharmacy-desert-pbm-closures",
+    "title": "PBMs Are Closing Independent Pharmacies",
+    "subtitle": "How PBMs set reimbursement rates that kill independent pharmacies — then steer patients to their own chains",
+    "category": "pbm",
+    "is_featured": false,
+    "summary": "The Big Three PBMs all own pharmacy chains. FTC investigation found PBMs paid their own pharmacies more than independent competitors for identical dispensing. More than 6,000 independent pharmacies closed between 2015–2023.",
+    "estimated_patient_cost_usd": 7300000000,
+    "lobbying_spend_related_usd": 18000000,
+    "organizations": ["PCMA", "CVS Health", "Cigna", "UnitedHealth Group"],
+    "key_findings": [
+      "PBMs paid affiliated pharmacies 20–35% more for the same dispensing",
+      "6,000+ independent pharmacy closures (2015–2023)",
+      "Rural counties lost 23% of independent pharmacies",
+      "Black and Hispanic neighborhoods have 3x the pharmacy desert rate"
+    ],
+    "full_content": "The three largest PBMs are subsidiaries of companies that also own pharmacies: CVS Caremark → CVS Pharmacy (9,000+ locations), OptumRx → Optum Pharmacy, Express Scripts → ESI Mail Pharmacy.\n\nThe FTC's 2024 report documented that PBMs paid affiliated pharmacies 20–35% more for the same drug dispensing, formulary designs placed affiliated pharmacies in lower copay tiers, and DIR fees retroactively clawed back payments, hitting small independents hardest.\n\n6,000+ independent pharmacies closed between 2015–2023. Rural counties lost 23% of independent pharmacies. Black and Hispanic neighborhoods have 3x the rate of pharmacy deserts.",
+    "sources": [
+      { "name": "FTC Interim PBM Report 2024", "url": "https://ftc.gov" },
+      { "name": "NCPA Pharmacy Closure Data", "url": "https://ncpanet.org" }
+    ]
+  },
+  {
+    "id": "hospital-consolidation-price-hike",
+    "slug": "hospital-consolidation-price-hike",
+    "title": "Hospital Mergers: Buy the Competition, Raise the Price",
+    "subtitle": "How 1,600+ hospital mergers drove 20–40% price increases with no quality improvement",
+    "category": "hospital",
+    "is_featured": false,
+    "summary": "More than 1,600 hospital mergers occurred between 2010–2022. FTC research shows mergers in concentrated markets lead to 20–40% price increases for the same services. AHA spent $160M lobbying to prevent FTC from blocking mergers.",
+    "estimated_patient_cost_usd": 45000000000,
+    "lobbying_spend_related_usd": 160000000,
+    "organizations": ["AHA", "HCA Healthcare"],
+    "key_findings": [
+      "1,600+ hospital mergers completed (2010–2022)",
+      "Average hospital market concentration (HHI) increased 40%",
+      "Mergers led to 23–40% price increases within 3 years",
+      "Quality measures did not improve post-merger"
+    ],
+    "full_content": "Between 2010 and 2022, over 1,600 hospital mergers were completed. Average hospital market concentration (HHI) increased 40%. In 30+ metro areas, one system controls 50%+ of the market.\n\nFTC studies found hospital mergers in concentrated markets led to 23–40% price increases within 3 years. Quality measures did not improve.\n\nWhen the FTC challenged mergers under Chair Lina Khan (2021–2024), the AHA mounted a coordinated campaign: filed amicus briefs in 7 merger challenge cases, lobbied Congress to limit FTC health system jurisdiction, and individual systems like HCA retained 12+ lobbying firms.",
+    "sources": [
+      { "name": "FTC Hospital Merger Study 2022", "url": "https://ftc.gov" },
+      { "name": "RAND Hospital Consolidation Analysis", "url": "https://rand.org" }
+    ]
+  },
+  {
+    "id": "mental-health-parity-violations",
+    "slug": "mental-health-parity-violations",
+    "title": "Mental Health Parity: The Law That Exists on Paper Only",
+    "subtitle": "Federal law has required equal mental health coverage since 2008. Every major insurer violates it. Enforcement barely exists.",
+    "category": "insurance",
+    "is_featured": false,
+    "summary": "The Mental Health Parity Act (2008) required equal insurance coverage for mental and physical health. A 2023 Congressional report found every major insurer out of compliance. Prior authorization rates for mental health are 3–6x higher than physical health.",
+    "estimated_patient_cost_usd": 193000000000,
+    "lobbying_spend_related_usd": 200000000,
+    "organizations": ["AHIP", "UnitedHealth Group"],
+    "key_findings": [
+      "All 10 largest insurers found out of compliance",
+      "Mental health PA rates: 3–6x more frequent than physical health",
+      "Mental health provider reimbursement: 20–30% lower",
+      "Average penalty for parity violations: $0"
+    ],
+    "full_content": "The Mental Health Parity and Addiction Equity Act (2008) required insurance plans to cover mental health on terms 'no more restrictive' than physical health.\n\nA 2023 House Energy and Commerce report found all 10 largest insurers out of compliance. Prior authorization for mental health is 3–6x more frequent than physical health. Mental health provider reimbursement is 20–30% lower than comparable physical health. Average wait for mental health appointment: 25 days vs 5 for physical health.\n\nA 2021 DOL audit found 7 of 10 plans violated parity. Average penalty: $0. No insurer has ever lost its license for MHPAEA violation.\n\nNAMI estimates 50% of Americans with serious mental illness receive no treatment. Economic cost of untreated mental illness: $193B annually.",
+    "sources": [
+      { "name": "House E&C Mental Health Parity Report 2023", "url": "https://energycommerce.house.gov" },
+      { "name": "NAMI Treatment Gap Report", "url": "https://nami.org" }
+    ]
+  }
+]

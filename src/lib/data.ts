@@ -21,6 +21,8 @@ import type {
   DrugCardData,
   ChangelogEntry,
   IraNegotiation,
+  RevolvingDoorPerson,
+  CaseStudy,
 } from './types';
 
 import manufacturerFinancialsData from '../../data/manufacturer_financials.json';
@@ -39,6 +41,8 @@ import delayTacticsData from '../../data/delay_tactics.json';
 import changelogData from '../../data/changelog.json';
 import iraNegotiationsData from '../../data/ira_negotiations.json';
 import internationalPricesData from '../../data/international_prices.json';
+import revolvingDoorData from '../../data/revolving_door.json';
+import caseStudiesData from '../../data/case_studies.json';
 
 // Raw data accessors — use unknown intermediate to handle data shape variations
 export function getManufacturerFinancials(): ManufacturerFinancials[] {
@@ -149,6 +153,14 @@ export function getInternationalPriceForDrug(drugId: string): InternationalPrice
 // Changelog
 export function getChangelog(): ChangelogEntry[] {
   return changelogData as unknown as ChangelogEntry[];
+}
+
+export function getRevolvingDoor(): RevolvingDoorPerson[] {
+  return revolvingDoorData as unknown as RevolvingDoorPerson[];
+}
+
+export function getCaseStudies(): CaseStudy[] {
+  return caseStudiesData as unknown as CaseStudy[];
 }
 
 export function getLatestChangelogDate(): string {

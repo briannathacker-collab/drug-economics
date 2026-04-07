@@ -5,22 +5,106 @@ import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
-import { getInsurerFinancials, getPbmRebates, getPremiumHistory } from '@/lib/data';
+import { getInsurerFinancials, getPbmRebates, getPremiumHistory, getRevolvingDoor, getCaseStudies } from '@/lib/data';
 import { formatCurrency, formatPercent } from '@/lib/formatters';
+import type { RevolvingDoorPerson, CaseStudy } from '@/lib/types';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { SourceIcon } from '@/components/ui/SourceIcon';
 import { EstBadge } from '@/components/ui/EstBadge';
 import { AccessibleDataTable } from '@/components/ui/AccessibleDataTable';
 import { ExportButton } from '@/components/ui/ExportButton';
-import { Building2, DollarSign, TrendingUp, ChevronDown, ChevronUp, ArrowRight, Info } from 'lucide-react';
+import { Building2, DollarSign, TrendingUp, ChevronDown, ChevronUp, ArrowRight, Info, AlertTriangle, ExternalLink, Users } from 'lucide-react';
+
+const POSITION_COLORS: Record<string, string> = {
+  government: '#2563EB',
+  pharma: '#C41E3A',
+  trade_assoc: '#B45309',
+  think_tank: '#7C3AED',
+  tech: '#0891B2',
+  venture_capital: '#059669',
+  academic: '#4F46E5',
+  other: '#6B7771',
+};
+
+const CATEGORY_LABELS: Record<string, string> = {
+  insurance: 'Insurance',
+  drug_pricing: 'Drug Pricing',
+  pbm: 'PBM',
+  hospital: 'Hospital',
+};
+
+function formatUSD(usd: number): string {
+  if (usd >= 1_000_000_000) return `$${(usd / 1_000_000_000).toFixed(0)}B`;
+  if (usd >= 1_000_000) return `$${(usd / 1_000_000).toFixed(0)}M`;
+  if (usd >= 1_000) return `$${(usd / 1_000).toFixed(0)}K`;
+  return `$${usd}`;
+}
+
+function PositionTimeline({ positions }: { positions: RevolvingDoorPerson['positions'] }) {
+  const sorted = [...positions].sort((a, b) => a.start_year - b.start_year);
+  const minYear = sorted[0]?.start_year || 2000;
+  const maxYear = Math.max(...sorted.map(p => p.end_year || 2026));
+  const range = maxYear - minYear || 1;
+
+  return (
+    <div className="mt-4">
+      <div className="flex justify-between text-[10px] text-[#6B7771] mb-1 font-mono">
+        <span>{minYear}</span>
+        <span>{maxYear}</span>
+      </div>
+      <div className="space-y-1.5">
+        {sorted.map((pos, i) => {
+          const left = ((pos.start_year - minYear) / range) * 100;
+          const width = (((pos.end_year || 2026) - pos.start_year) / range) * 100;
+          const color = POSITION_COLORS[pos.org_type] || POSITION_COLORS.other;
+          return (
+            <div key={i} className="relative h-7">
+              <div
+                className="absolute h-full rounded flex items-center px-2 overflow-hidden"
+                style={{
+                  left: `${left}%`,
+                  width: `${Math.max(width, 4)}%`,
+                  backgroundColor: color + '1a',
+                  borderLeft: `3px solid ${color}`,
+                }}
+                title={`${pos.title} @ ${pos.org_name} (${pos.start_year}–${pos.end_year || 'present'})`}
+              >
+                <span className="text-[10px] text-[#1F2A24] whitespace-nowrap overflow-hidden text-ellipsis font-body">
+                  {pos.org_name}
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <div className="flex gap-3 mt-2 flex-wrap">
+        {Array.from(new Set(sorted.map(p => p.org_type))).map(type => (
+          <div key={type} className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full" style={{ backgroundColor: POSITION_COLORS[type] || POSITION_COLORS.other }} />
+            <span className="text-[10px] text-[#6B7771] capitalize font-body">{type.replace('_', ' ')}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default function FollowTheMoneyPage() {
   const [expandedInsurer, setExpandedInsurer] = useState<string | null>(null);
-  const [activeView, setActiveView] = useState<'overview' | 'rebates' | 'premiums' | 'integration'>('overview');
+  const [activeView, setActiveView] = useState<'overview' | 'rebates' | 'premiums' | 'integration' | 'revolving-door' | 'case-studies'>('overview');
+  const [expandedCase, setExpandedCase] = useState<string | null>(null);
+  const [caseFilter, setCaseFilter] = useState<string>('');
 
   const insurers = useMemo(() => getInsurerFinancials(), []);
   const pbmData = useMemo(() => getPbmRebates(), []);
   const premiums = useMemo(() => getPremiumHistory(), []);
+  const revolvingDoor = useMemo(() => getRevolvingDoor(), []);
+  const caseStudies = useMemo(() => getCaseStudies(), []);
+
+  const filteredCases = useMemo(() => {
+    if (!caseFilter) return caseStudies;
+    return caseStudies.filter((cs: CaseStudy) => cs.category === caseFilter);
+  }, [caseStudies, caseFilter]);
 
   const PBM_COLORS = ['#0B6B3A', '#0B6B3A', '#6BB899', '#6B7771'];
 
@@ -29,6 +113,8 @@ export default function FollowTheMoneyPage() {
     { id: 'rebates' as const, label: 'Rebate Flow' },
     { id: 'premiums' as const, label: 'Premium Trends' },
     { id: 'integration' as const, label: 'Vertical Integration' },
+    { id: 'revolving-door' as const, label: 'Revolving Door' },
+    { id: 'case-studies' as const, label: 'Case Studies' },
   ];
 
   return (
@@ -462,6 +548,209 @@ export default function FollowTheMoneyPage() {
                     </div>
                   </div>
                 ))}
+            </div>
+          </div>
+        )}
+        {/* Revolving Door */}
+        {activeView === 'revolving-door' && (
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-2">
+                <Users className="w-5 h-5 text-[#C41E3A]" />
+                <h3 className="text-lg font-bold text-[#1F2A24] font-display">The Revolving Door</h3>
+              </div>
+              <p className="text-sm text-[#6B7771] font-body mb-1">
+                Officials who move between government agencies and the industries they regulate — carrying policy influence and insider knowledge with them.
+              </p>
+              <p className="text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
+                Sources: OpenSecrets, SEC EDGAR, CMS, FDA · {revolvingDoor.length} profiles
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {revolvingDoor.map((person) => (
+                <div key={person.id} className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+                  <div className="flex items-start justify-between">
+                    <h3 className="text-lg font-bold text-[#1F2A24] font-display">{person.full_name}</h3>
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full font-body ${
+                      person.significance === 'high'
+                        ? 'bg-[#FEE2E2] text-[#C41E3A]'
+                        : 'bg-[#FFFBEB] text-[#B45309]'
+                    }`}>
+                      {person.significance} significance
+                    </span>
+                  </div>
+
+                  <PositionTimeline positions={person.positions} />
+
+                  <p className="text-sm text-[#6B7771] font-body mt-4 leading-relaxed">
+                    {person.known_policy_influence}
+                  </p>
+
+                  <div className="mt-4 space-y-1.5">
+                    {person.positions.map((pos, i) => (
+                      <div key={i} className="flex items-start gap-2 text-xs">
+                        <div
+                          className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-1.5"
+                          style={{ backgroundColor: POSITION_COLORS[pos.org_type] || POSITION_COLORS.other }}
+                        />
+                        <span className="text-[#1F2A24] font-body font-medium">{pos.title}</span>
+                        <span className="text-[#6B7771] font-body">
+                          @ {pos.org_name} ({pos.start_year}–{pos.end_year || 'present'})
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {person.source_urls.length > 0 && (
+                    <div className="mt-3 flex gap-2">
+                      {person.source_urls.map((url, i) => (
+                        <a key={i} href={url} target="_blank" rel="noopener noreferrer"
+                          className="text-[10px] text-[#6B7771] hover:text-[#0B6B3A] underline font-body flex items-center gap-0.5">
+                          Source {i + 1} <ExternalLink className="w-2.5 h-2.5" />
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Case Studies */}
+        {activeView === 'case-studies' && (
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-2">
+                <AlertTriangle className="w-5 h-5 text-[#C41E3A]" />
+                <h3 className="text-lg font-bold text-[#1F2A24] font-display">Case Studies</h3>
+              </div>
+              <p className="text-sm text-[#6B7771] font-body">
+                Investigative analysis of lobbying operations and their direct impact on patients and costs.
+              </p>
+            </div>
+
+            {/* Category filters */}
+            <div className="flex gap-2 flex-wrap">
+              {['', 'insurance', 'drug_pricing', 'pbm', 'hospital'].map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setCaseFilter(cat)}
+                  className={`px-3 py-1.5 text-xs rounded-full border transition-colors font-body ${
+                    caseFilter === cat
+                      ? 'bg-[#0B6B3A] text-white border-[#0B6B3A]'
+                      : 'border-[#E5ECE8] text-[#6B7771] hover:text-[#1F2A24] bg-white'
+                  }`}
+                >
+                  {cat ? CATEGORY_LABELS[cat] || cat : 'All'}
+                </button>
+              ))}
+            </div>
+
+            <div className="space-y-4">
+              {filteredCases.map((cs: CaseStudy) => {
+                const isExpanded = expandedCase === cs.id;
+                return (
+                  <div key={cs.id} className="bg-white rounded-xl border border-[#E5ECE8] shadow-sm overflow-hidden">
+                    <div
+                      className="p-6 cursor-pointer hover:bg-[#F7F9F8] transition-colors"
+                      onClick={() => setExpandedCase(isExpanded ? null : cs.id)}
+                    >
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 flex-wrap mb-1">
+                            {cs.category && (
+                              <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#E5ECE8] text-[#6B7771] font-body">
+                                {CATEGORY_LABELS[cs.category] || cs.category}
+                              </span>
+                            )}
+                            {cs.is_featured && (
+                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#FFFBEB] text-[#B45309] font-body">
+                                Featured
+                              </span>
+                            )}
+                          </div>
+                          <h3 className="text-lg font-bold text-[#1F2A24] font-display">{cs.title}</h3>
+                          <p className="text-sm text-[#6B7771] font-body mt-1 italic">{cs.subtitle}</p>
+                        </div>
+                        {isExpanded ? <ChevronUp className="w-5 h-5 text-[#6B7771] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#6B7771] flex-shrink-0" />}
+                      </div>
+
+                      <div className="flex gap-6 mt-4">
+                        {cs.estimated_patient_cost_usd > 0 && (
+                          <div>
+                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Patient Cost</div>
+                            <div className="font-mono text-sm text-[#C41E3A] font-bold">{formatUSD(cs.estimated_patient_cost_usd)}</div>
+                          </div>
+                        )}
+                        {cs.lobbying_spend_related_usd > 0 && (
+                          <div>
+                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Lobbying Spend</div>
+                            <div className="font-mono text-sm text-[#1F2A24] font-bold">{formatUSD(cs.lobbying_spend_related_usd)}</div>
+                          </div>
+                        )}
+                        {cs.organizations.length > 0 && (
+                          <div>
+                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Organizations</div>
+                            <div className="text-xs text-[#6B7771] font-body">{cs.organizations.join(', ')}</div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {isExpanded && (
+                      <div className="border-t border-[#E5ECE8] p-6 bg-[#F7F9F8]">
+                        {/* Key Findings */}
+                        <div className="mb-6">
+                          <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Key Findings</h4>
+                          <div className="grid sm:grid-cols-2 gap-2">
+                            {cs.key_findings.map((finding, i) => (
+                              <div key={i} className="flex items-start gap-2 bg-white rounded-lg p-3 border border-[#E5ECE8]">
+                                <span className="text-[#C41E3A] font-bold text-xs mt-0.5">●</span>
+                                <span className="text-sm text-[#1F2A24] font-body leading-relaxed">{finding}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* Full content */}
+                        <div className="mb-6">
+                          <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Analysis</h4>
+                          <div className="bg-white rounded-lg border border-[#E5ECE8] p-5">
+                            {cs.full_content.split('\n\n').map((paragraph, i) => (
+                              <p key={i} className="text-sm text-[#1F2A24] font-body leading-relaxed mb-3 last:mb-0">
+                                {paragraph}
+                              </p>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* Sources */}
+                        {cs.sources.length > 0 && (
+                          <div>
+                            <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-2">Sources</h4>
+                            <div className="flex flex-wrap gap-2">
+                              {cs.sources.map((source, i) => (
+                                <a
+                                  key={i}
+                                  href={source.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-xs text-[#0B6B3A] hover:underline font-body flex items-center gap-1 bg-white rounded-full px-3 py-1 border border-[#E5ECE8]"
+                                >
+                                  {source.name} <ExternalLink className="w-3 h-3" />
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}

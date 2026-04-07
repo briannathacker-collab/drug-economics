@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gottlieb",
+    "full_name": "Scott Gottlieb, MD",
+    "significance": "high",
+    "known_policy_influence": "As FDA Commissioner shaped biosimilar policy, opioid regulations, and tobacco rules. Post-FDA joined Pfizer board and became prominent COVID policy commentator — without always disclosing his Pfizer financial relationship.",
+    "positions": [
+      { "title": "Resident Fellow", "org_name": "American Enterprise Institute", "org_type": "think_tank", "start_year": 2008, "end_year": 2017 },
+      { "title": "FDA Commissioner", "org_name": "FDA", "org_type": "government", "start_year": 2017, "end_year": 2019 },
+      { "title": "Board of Directors", "org_name": "Pfizer Inc.", "org_type": "pharma", "start_year": 2019, "end_year": null },
+      { "title": "Partner", "org_name": "New Enterprise Associates", "org_type": "venture_capital", "start_year": 2019, "end_year": null }
+    ],
+    "source_urls": ["https://opensecrets.org", "https://sec.gov/cgi-bin/browse-edgar"]
+  },
+  {
+    "id": "azar",
+    "full_name": "Alex Azar",
+    "significance": "high",
+    "known_policy_influence": "As Lilly VP (2012–2017) oversaw period of significant insulin price increases. As HHS Secretary negotiated drug pricing policy that critics argued was influenced by prior pharma career. Insulin list prices rose 15% during his tenure at Lilly USA.",
+    "positions": [
+      { "title": "Deputy HHS Secretary", "org_name": "HHS", "org_type": "government", "start_year": 2001, "end_year": 2005 },
+      { "title": "VP Government Affairs & Policy", "org_name": "Eli Lilly", "org_type": "pharma", "start_year": 2007, "end_year": 2012 },
+      { "title": "President, Lilly USA", "org_name": "Eli Lilly", "org_type": "pharma", "start_year": 2012, "end_year": 2017 },
+      { "title": "HHS Secretary", "org_name": "HHS", "org_type": "government", "start_year": 2018, "end_year": 2021 }
+    ],
+    "source_urls": ["https://hhs.gov", "https://lilly.com/investor-relations"]
+  },
+  {
+    "id": "tauzin",
+    "full_name": "Billy Tauzin",
+    "significance": "high",
+    "known_policy_influence": "As House Energy & Commerce Chair, authored the Medicare Modernization Act (2003) with an explicit ban on Medicare drug price negotiation. Joined PhRMA as CEO at $2.5M/year the following year. The no-negotiation clause protected an estimated $500B+ in excess drug profits over 20 years.",
+    "positions": [
+      { "title": "US Representative (R-LA)", "org_name": "US House of Representatives", "org_type": "government", "start_year": 1980, "end_year": 2005 },
+      { "title": "Chair, Energy & Commerce Committee", "org_name": "US House of Representatives", "org_type": "government", "start_year": 2001, "end_year": 2004 },
+      { "title": "President & CEO ($2.5M/yr)", "org_name": "PhRMA", "org_type": "trade_assoc", "start_year": 2005, "end_year": 2010 }
+    ],
+    "source_urls": ["https://opensecrets.org/revolving/rev_summary.php?id=76085"]
+  },
+  {
+    "id": "fowler",
+    "full_name": "Liz Fowler",
+    "significance": "high",
+    "known_policy_influence": "As Senate Finance Committee chief health counsel, was the primary drafter of the Affordable Care Act. Moved to J&J immediately after ACA passage, then returned to government as CMS Innovation Center Director — twice.",
+    "positions": [
+      { "title": "Chief Health Counsel", "org_name": "Senate Finance Committee", "org_type": "government", "start_year": 2008, "end_year": 2010 },
+      { "title": "VP Global Health Policy", "org_name": "Johnson & Johnson", "org_type": "pharma", "start_year": 2010, "end_year": 2012 },
+      { "title": "Director, CMMI", "org_name": "CMS Innovation Center", "org_type": "government", "start_year": 2012, "end_year": 2014 },
+      { "title": "VP Health Policy", "org_name": "Johnson & Johnson", "org_type": "pharma", "start_year": 2014, "end_year": 2021 },
+      { "title": "Director, CMMI (2nd term)", "org_name": "CMS Innovation Center", "org_type": "government", "start_year": 2021, "end_year": null }
+    ],
+    "source_urls": ["https://statnews.com", "https://cms.gov"]
+  },
+  {
+    "id": "califf",
+    "full_name": "Robert Califf, MD",
+    "significance": "high",
+    "known_policy_influence": "Served two non-consecutive terms as FDA Commissioner. Between tenures advised Verily (Google health subsidiary) and multiple pharma companies. During second term oversaw GLP-1 shortage list decisions and compounding enforcement.",
+    "positions": [
+      { "title": "FDA Commissioner (1st term)", "org_name": "FDA", "org_type": "government", "start_year": 2016, "end_year": 2017 },
+      { "title": "Head of Clinical Policy", "org_name": "Verily (Google)", "org_type": "tech", "start_year": 2019, "end_year": 2021 },
+      { "title": "FDA Commissioner (2nd term)", "org_name": "FDA", "org_type": "government", "start_year": 2022, "end_year": null }
+    ],
+    "source_urls": ["https://fda.gov/about-fda/fda-leadership"]
+  },
+  {
+    "id": "tavenner",
+    "full_name": "Marilyn Tavenner",
+    "significance": "high",
+    "known_policy_influence": "As CMS Administrator implemented ACA insurance marketplaces. Within one year of leaving government joined AHIP as President & CEO — representing the very insurers she had been regulating.",
+    "positions": [
+      { "title": "CMS Administrator", "org_name": "CMS", "org_type": "government", "start_year": 2013, "end_year": 2015 },
+      { "title": "President & CEO", "org_name": "AHIP", "org_type": "trade_assoc", "start_year": 2015, "end_year": 2019 }
+    ],
+    "source_urls": ["https://cms.gov", "https://ahip.org"]
+  },
+  {
+    "id": "mcmahon",
+    "full_name": "Mark McClellan, MD, PhD",
+    "significance": "medium",
+    "known_policy_influence": "FDA Commissioner (2002–2004) who oversaw drug safety decisions, then CMS Administrator (2004–2006) who implemented Medicare Part D. Post-government joined J&J board and directed the Duke-Margolis Center for Health Policy, which received pharma funding.",
+    "positions": [
+      { "title": "FDA Commissioner", "org_name": "FDA", "org_type": "government", "start_year": 2002, "end_year": 2004 },
+      { "title": "CMS Administrator", "org_name": "CMS", "org_type": "government", "start_year": 2004, "end_year": 2006 },
+      { "title": "Board of Directors", "org_name": "Johnson & Johnson", "org_type": "pharma", "start_year": 2007, "end_year": null },
+      { "title": "Director, Duke-Margolis Center", "org_name": "Duke University", "org_type": "academic", "start_year": 2015, "end_year": null }
+    ],
+    "source_urls": ["https://fda.gov", "https://healthpolicy.duke.edu"]
+  },
+  {
+    "id": "von_eschenbach",
+    "full_name": "Andrew von Eschenbach, MD",
+    "significance": "medium",
+    "known_policy_influence": "FDA Commissioner (2005–2009) who oversaw the Critical Path Initiative for drug development. Post-FDA joined biotech and pharma boards including Bausch Health and multiple startup advisory roles. Advocated for streamlined drug approvals that industry groups supported.",
+    "positions": [
+      { "title": "Director", "org_name": "National Cancer Institute", "org_type": "government", "start_year": 2002, "end_year": 2005 },
+      { "title": "FDA Commissioner", "org_name": "FDA", "org_type": "government", "start_year": 2005, "end_year": 2009 },
+      { "title": "Board & Advisory Roles", "org_name": "Multiple Pharma/Biotech Cos.", "org_type": "pharma", "start_year": 2009, "end_year": null }
+    ],
+    "source_urls": ["https://fda.gov"]
+  }
+]

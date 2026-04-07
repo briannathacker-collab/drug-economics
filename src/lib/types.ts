@@ -217,6 +217,47 @@ export interface IraNegotiation {
   round: number;
 }
 
+// Revolving Door
+export interface RevolvingDoorPosition {
+  title: string;
+  org_name: string;
+  org_type: string;
+  start_year: number;
+  end_year: number | null;
+  notes?: string;
+}
+
+export interface RevolvingDoorPerson {
+  id: string;
+  full_name: string;
+  significance: 'high' | 'medium';
+  known_policy_influence: string;
+  positions: RevolvingDoorPosition[];
+  source_urls: string[];
+}
+
+// Case Studies
+export interface CaseStudySource {
+  name: string;
+  url: string;
+}
+
+export interface CaseStudy {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  is_featured: boolean;
+  summary: string;
+  estimated_patient_cost_usd: number;
+  lobbying_spend_related_usd: number;
+  organizations: string[];
+  key_findings: string[];
+  full_content: string;
+  sources: CaseStudySource[];
+}
+
 // Source attribution for estimated/derived figures
 export interface SourceMetadata {
   sourceLabel: string;

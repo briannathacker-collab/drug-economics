@@ -74,7 +74,7 @@ describe('getSummaryMetrics', () => {
 
   it('has correct drug and manufacturer counts', () => {
     const metrics = getSummaryMetrics();
-    expect(metrics.totalDrugs).toBe(86);
+    expect(metrics.totalDrugs).toBe(100);
     expect(metrics.totalManufacturers).toBe(21);
   });
 

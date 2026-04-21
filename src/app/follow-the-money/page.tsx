@@ -10,6 +10,7 @@ import { formatCurrency, formatPercent } from '@/lib/formatters';
 import type { RevolvingDoorPerson, CaseStudy } from '@/lib/types';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { SourceIcon } from '@/components/ui/SourceIcon';
+import Link from 'next/link';
 import { EstBadge } from '@/components/ui/EstBadge';
 import { AccessibleDataTable } from '@/components/ui/AccessibleDataTable';
 import { ExportButton } from '@/components/ui/ExportButton';
@@ -129,7 +130,7 @@ export default function FollowTheMoneyPage() {
           </p>
           <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-            Insurer financials: FY 2024 actuals · PBM data: Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
+            Insurer financials: FY 2024 actuals (FY 2025 refresh in progress — see <Link href="/changelog" className="underline hover:text-[#0B6B3A]">changelog</Link>) · PBM data: Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
           </p>
         </div>
 

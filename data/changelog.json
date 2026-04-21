@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-20",
+    "timestamp": "2026-04-20T20:29:30.180058",
+    "source": "Platform Update",
+    "update_type": "DATA_CORRECTION",
+    "drug_name": "ALL",
+    "manufacturer": "ALL",
+    "description": "Audit 2026-04-20 applied: J&J FY2024 NI, AbbVie FY2024 NI, BioMarin FY2023/FY2024 NI (GAAP), Alexion merged into AstraZeneca, KFF Jan 2026 MA denial rates, IRA column relabeled, one-time therapy pricing model, Generic Gap $T formatting, markup unit normalization. FY 2025 refresh is in progress as FY 2025 10-Ks file through Feb-May 2026.",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://github.com/briannathacker-collab/drug-economics/pull/audit-fixes-2026-04-20"
+  },
+  {
     "date": "2026-04-09",
     "timestamp": "2026-04-09T12:59:25.591521",
     "source": "FDA Purple Book",

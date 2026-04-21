@@ -14,6 +14,7 @@ import { FreshnessBadge } from '@/components/ui/FreshnessBadge';
 import { ExportButton } from '@/components/ui/ExportButton';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
 import { DollarSign, TrendingUp, Building2, Pill } from 'lucide-react';
+import Link from 'next/link';
 
 export default function PricedOutPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -167,7 +168,7 @@ export default function PricedOutPage() {
 
         <p className="text-[10px] text-[#6B7771] font-mono mb-6 flex items-center gap-2">
           <FreshnessBadge dataYear={2026} dataQuarter="Q1" source="WAC_MONITOR" />
-          <span>· Manufacturer financials: FY 2024 actuals · Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
+          <span>· Manufacturer financials: FY 2024 actuals (FY 2025 refresh in progress — see <Link href="/changelog" className="underline hover:text-[#0B6B3A]">changelog</Link>) · Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
         </p>
 
         {/* Legend — plain-English glossary */}

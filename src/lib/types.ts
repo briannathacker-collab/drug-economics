@@ -29,6 +29,8 @@ export interface CmsAspEntry {
   [key: string]: any;
 }
 
+export type PricingModel = 'monthly' | 'one_time' | 'per_dose';
+
 export interface WacPrice {
   drug_id: string;
   drug_name: string;
@@ -40,6 +42,7 @@ export interface WacPrice {
   wac_monthly: number;
   wac_annual: number;
   ndc: string;
+  pricing_model?: PricingModel;
   [key: string]: any;
 }
 

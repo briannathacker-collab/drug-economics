@@ -11,10 +11,15 @@ import { formatCurrency } from '@/lib/formatters';
 import { SourceIcon } from '@/components/ui/SourceIcon';
 import { Calculator, DollarSign, Globe, Info, ExternalLink, Share2, Check } from 'lucide-react';
 
-// One-time gene therapies / ultra-rare treatments displayed as monthly costs
+// Source of truth is wac_prices.json's `pricing_model` field; this set is a
+// defensive fallback for records that haven't been tagged yet.
 const ONE_TIME_THERAPIES = new Set([
   'hemgenix', 'zolgensma', 'luxturna', 'kymriah', 'yescarta', 'carvykti', 'abecma',
 ]);
+
+function isOneTime(drug: { drug_id: string; pricing_model?: string }): boolean {
+  return drug.pricing_model === 'one_time' || ONE_TIME_THERAPIES.has(drug.drug_id);
+}
 
 const INSURANCE_TYPES = [
   { id: 'employer', label: 'Employer Plan', copayRate: 0.20, deductible: 150000 },
@@ -81,18 +86,19 @@ function WhatItCostsMe() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Calculate patient OOP
-  const oopMonthly = useMemo(() => {
+  // Calculate patient OOP. For one-time therapies, compute against the total
+  // one-time price (wac_annual) rather than multiplying monthly by 12.
+  const oopTotal = useMemo(() => {
     if (!drug || !insurance) return 0;
-    if (insurance.id === 'uninsured') return drug.wac_monthly;
-    if (deductibleMet) {
-      return Math.round(drug.wac_monthly * insurance.copayRate);
-    }
-    // If deductible not met, patient pays full price up to deductible, then copay
-    return drug.wac_monthly; // Simplified: if deductible not met, pay WAC
+    const priceBasis = drug && isOneTime(drug) ? drug.wac_annual : drug.wac_monthly;
+    if (insurance.id === 'uninsured') return priceBasis;
+    if (deductibleMet) return Math.round(priceBasis * insurance.copayRate);
+    return priceBasis;
   }, [drug, insurance, deductibleMet]);
 
-  const oopAnnual = oopMonthly * 12;
+  const oneTime = drug ? isOneTime(drug) : false;
+  const oopMonthly = oneTime ? oopTotal : oopTotal;
+  const oopAnnual = oneTime ? oopTotal : oopTotal * 12;
 
   return (
     <div className="min-h-screen bg-[#F7F9F8]">
@@ -125,7 +131,9 @@ function WhatItCostsMe() {
                 <option value="">Choose a drug...</option>
                 {drugs.map(d => (
                   <option key={d.drug_id} value={d.drug_id}>
-                    {d.drug_name} ({d.generic_name}) — {formatCurrency(d.wac_monthly)}/mo{ONE_TIME_THERAPIES.has(d.drug_id) ? ' (one-time treatment)' : ''}
+                    {d.drug_name} ({d.generic_name}) — {isOneTime(d)
+                      ? `${formatCurrency(d.wac_annual)} total (one-time)`
+                      : `${formatCurrency(d.wac_monthly)}/mo`}
                   </option>
                 ))}
               </select>
@@ -202,8 +210,9 @@ function WhatItCostsMe() {
 
         {/* ARIA live region for calculator result announcements */}
         <div aria-live="polite" aria-atomic="true" className="sr-only">
-          {showResults && drug && insurance &&
-            `Your estimated monthly cost for ${drug.drug_name} with ${insurance.label} is ${formatCurrency(oopMonthly)} per month, or ${formatCurrency(oopAnnual)} per year.`
+          {showResults && drug && insurance && (oneTime
+            ? `Your estimated one-time out-of-pocket cost for ${drug.drug_name} with ${insurance.label} is ${formatCurrency(oopTotal)}.`
+            : `Your estimated monthly cost for ${drug.drug_name} with ${insurance.label} is ${formatCurrency(oopMonthly)} per month, or ${formatCurrency(oopAnnual)} per year.`)
           }
         </div>
 
@@ -220,17 +229,21 @@ function WhatItCostsMe() {
                 {copied ? <Check className="w-3.5 h-3.5 text-[#0B6B3A]" /> : <Share2 className="w-3.5 h-3.5" />}
                 {copied ? 'Copied!' : 'Share'}
               </button>
-              <p className="text-sm text-[#6B7771] font-body mb-2">Your estimated monthly cost</p>
+              <p className="text-sm text-[#6B7771] font-body mb-2">
+                {oneTime ? 'Your estimated one-time out-of-pocket cost' : 'Your estimated monthly cost'}
+              </p>
               <p className="text-5xl font-bold text-[#C41E3A] font-mono">
-                {formatCurrency(oopMonthly)}
+                {formatCurrency(oopTotal)}
               </p>
-              <p className="text-lg text-[#C41E3A] font-mono mt-1">
-                {formatCurrency(oopAnnual)} / year
-              </p>
-              {drug && ONE_TIME_THERAPIES.has(drug.drug_id) && (
+              {!oneTime && (
+                <p className="text-lg text-[#C41E3A] font-mono mt-1">
+                  {formatCurrency(oopAnnual)} / year
+                </p>
+              )}
+              {oneTime && (
                 <p className="text-xs text-[#B45309] mt-3 font-body flex items-center gap-1 justify-center">
                   <Info className="w-3.5 h-3.5 shrink-0" />
-                  One-time treatment. Monthly figure shown is annualized cost &divide; 12 for comparison purposes only.
+                  One-time gene/cell therapy. Total shown is the full treatment price — not a monthly or annualized figure.
                 </p>
               )}
               <p className="text-xs text-[#6B7771] mt-3 font-body">
@@ -241,28 +254,35 @@ function WhatItCostsMe() {
             {/* Breakdown cards */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <MetricCard
-                label="Drug List Price (WAC)"
-                value={formatCurrency(drug.wac_monthly)}
-                subLabel={`Annual: ${formatCurrency(drug.wac_annual)}`}
+                label={oneTime ? 'Drug Treatment Price (WAC)' : 'Drug List Price (WAC)'}
+                value={oneTime ? formatCurrency(drug.wac_annual) : formatCurrency(drug.wac_monthly)}
+                subLabel={oneTime ? 'One-time treatment' : `Annual: ${formatCurrency(drug.wac_annual)}`}
                 icon={<DollarSign className="w-5 h-5" />}
                 variant="danger"
               />
-              {cogs && (
-                <MetricCard
-                  label="Cost to Manufacture"
-                  value={formatCurrency((cogs.estimate_preferred || 0))}
-                  subLabel={`Markup: ${((drug.wac_monthly - (cogs.estimate_preferred || 0)) / (cogs.estimate_preferred || 0) * 100).toFixed(0)}%`}
-                  isEstimate
-                  confidence={cogs.confidence}
-                  sourceLabel={cogs.citation || 'Peer-reviewed COGS literature'}
-                  sourceUrl={cogs.source_url}
-                  lastUpdated={cogs.publication_year ? String(cogs.publication_year) : '2024'}
-                />
-              )}
+              {cogs && (() => {
+                const cogsBasis = oneTime
+                  ? (cogs.estimated_cogs_annual || (cogs.estimate_preferred || 0) * 12)
+                  : (cogs.estimate_preferred || 0);
+                const wacBasis = oneTime ? drug.wac_annual : drug.wac_monthly;
+                const markupPct = cogsBasis > 0 ? ((wacBasis - cogsBasis) / cogsBasis) * 100 : 0;
+                return (
+                  <MetricCard
+                    label="Cost to Manufacture"
+                    value={formatCurrency(cogsBasis)}
+                    subLabel={`Markup: ${markupPct.toFixed(0)}%`}
+                    isEstimate
+                    confidence={cogs.confidence}
+                    sourceLabel={cogs.citation || 'Peer-reviewed COGS literature'}
+                    sourceUrl={cogs.source_url}
+                    lastUpdated={cogs.publication_year ? String(cogs.publication_year) : '2024'}
+                  />
+                );
+              })()}
               <MetricCard
                 label="You Pay"
-                value={formatCurrency(oopMonthly)}
-                subLabel={`${(oopMonthly / drug.wac_monthly * 100).toFixed(0)}% of list price`}
+                value={formatCurrency(oopTotal)}
+                subLabel={`${(oopTotal / (oneTime ? drug.wac_annual : drug.wac_monthly) * 100).toFixed(0)}% of list price`}
                 variant="danger"
               />
             </div>
@@ -278,8 +298,9 @@ function WhatItCostsMe() {
               </p>
               <div className="space-y-3">
                 {Object.entries(INTL_PRICES).map(([country, ratio]) => {
-                  const intlPrice = Math.round(drug.wac_monthly * ratio);
-                  const savings = drug.wac_monthly - intlPrice;
+                  const usPrice = oneTime ? drug.wac_annual : drug.wac_monthly;
+                  const intlPrice = Math.round(usPrice * ratio);
+                  const savings = usPrice - intlPrice;
                   return (
                     <div key={country} className="flex items-center gap-3">
                       <span className="w-24 text-sm text-[#6B7771] font-body">{country}</span>
@@ -306,7 +327,7 @@ function WhatItCostsMe() {
                   <span className="w-24 text-sm font-bold text-[#C41E3A] font-body">US Price</span>
                   <div className="flex-1 h-6 bg-[#C41E3A] rounded-full" />
                   <span className="w-24 text-right text-sm font-mono text-[#C41E3A] font-bold">
-                    {formatCurrency(drug.wac_monthly)}
+                    {formatCurrency(oneTime ? drug.wac_annual : drug.wac_monthly)}
                   </span>
                   <span className="w-28 text-right text-xs text-[#6B7771] font-mono">—</span>
                 </div>

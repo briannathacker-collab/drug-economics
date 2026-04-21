@@ -16,7 +16,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "keytruda",
@@ -36,7 +37,8 @@
     "note": "Dosed every 3 weeks at 200mg; monthly cost reflects average monthly utilization of ~1.33 infusions",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "eliquis",
@@ -55,7 +57,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "stelara",
@@ -75,7 +78,8 @@
     "note": "Maintenance dosing every 12 weeks; monthly cost reflects average monthly utilization",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "ibrance",
@@ -94,7 +98,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "revlimid",
@@ -113,7 +118,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "ozempic",
@@ -132,7 +138,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "xarelto",
@@ -151,7 +158,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "jardiance",
@@ -170,7 +178,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "trulicity",
@@ -189,7 +198,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "opdivo",
@@ -208,7 +218,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "imbruvica",
@@ -228,7 +239,8 @@
     "note": "Standard dose 420mg/day = 3 capsules/day x 28 days",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "enbrel",
@@ -247,7 +259,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "rinvoq",
@@ -266,7 +279,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "skyrizi",
@@ -286,7 +300,8 @@
     "note": "Dosed every 12 weeks; monthly cost reflects average monthly utilization",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "gleevec",
@@ -306,7 +321,8 @@
     "note": "Standard dose 400mg once daily; generic imatinib available but brand WAC shown",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "sovaldi",
@@ -326,7 +342,8 @@
     "note": "12-week curative course; $84,000 total ($1,000/pill); monthly cost shown as 28-day supply",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "tecfidera",
@@ -346,7 +363,8 @@
     "note": "Standard dose 240mg twice daily; generic dimethyl fumarate available but brand WAC shown",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "tagrisso",
@@ -365,7 +383,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "trikafta",
@@ -385,7 +404,8 @@
     "note": "Triple combination for cystic fibrosis; 2 morning tablets + 1 evening tablet daily",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "dupixent",
@@ -405,7 +425,8 @@
     "note": "Dosed every 2 weeks after loading dose; 2 injections per month",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "pomalyst",
@@ -425,7 +446,8 @@
     "note": "Standard dose 4mg daily on days 1-21 of 28-day cycle; thalidomide analogue like Revlimid",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "harvoni",
@@ -445,7 +467,8 @@
     "note": "8-12 week curative course for Hep C; $94,500 total ($1,125/pill); monthly cost shown as 28-day supply",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "sprycel",
@@ -465,7 +488,8 @@
     "note": "Second-generation BCR-ABL TKI for CML; standard dose 100mg once daily",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "afinitor",
@@ -485,7 +509,8 @@
     "note": "mTOR inhibitor for breast cancer, RCC, and neuroendocrine tumors; 10mg once daily",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "xeljanz",
@@ -505,7 +530,8 @@
     "note": "JAK inhibitor; standard dose 5mg twice daily for RA; first oral JAK inhibitor approved",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "venclexta",
@@ -525,7 +551,8 @@
     "note": "BCL-2 inhibitor for CLL/AML; standard maintenance dose 400mg daily (4x100mg tablets)",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "wegovy",
@@ -545,7 +572,8 @@
     "note": "FDA-approved for chronic weight management; same molecule as Ozempic at higher dose",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "mounjaro",
@@ -565,7 +593,8 @@
     "note": "Dual GIP/GLP-1 receptor agonist; approved for type 2 diabetes; widely used off-label for weight loss",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "zepbound",
@@ -585,7 +614,8 @@
     "note": "Same molecule as Mounjaro (tirzepatide) but FDA-approved specifically for chronic weight management",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "saxenda",
@@ -605,7 +635,8 @@
     "note": "First-generation GLP-1 for weight management; daily injection; same molecule as Victoza at higher dose",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "rybelsus",
@@ -625,7 +656,8 @@
     "note": "First oral GLP-1 receptor agonist; same molecule as Ozempic in oral form; must be taken on empty stomach",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "victoza",
@@ -645,7 +677,8 @@
     "note": "First-generation daily GLP-1 for type 2 diabetes; same molecule as Saxenda at lower dose",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "eylea",
@@ -665,7 +698,8 @@
     "note": "Dosed every 4-8 weeks; monthly cost reflects average monthly utilization",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "entresto",
@@ -685,7 +719,8 @@
     "note": "Standard dose 97/103 mg twice daily for heart failure with reduced ejection fraction",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "darzalex",
@@ -705,7 +740,8 @@
     "note": "Dosing frequency varies by cycle; monthly cost reflects maintenance phase (~2 infusions/month)",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "ocrevus",
@@ -725,7 +761,8 @@
     "note": "600 mg infused every 6 months; monthly cost reflects average monthly utilization",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "biktarvy",
@@ -745,7 +782,8 @@
     "note": "Triple-combination single tablet regimen for HIV-1; one tablet once daily",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "cosentyx",
@@ -765,7 +803,8 @@
     "note": "300 mg every 4 weeks maintenance; monthly cost reflects single monthly injection",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "repatha",
@@ -785,7 +824,8 @@
     "note": "140 mg every 2 weeks or 420 mg monthly; price reflects 140 mg q2w dosing; reduced from original $14,100/yr launch price",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "tremfya",
@@ -805,7 +845,8 @@
     "note": "100 mg every 8 weeks maintenance; monthly cost reflects average monthly utilization",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "kisqali",
@@ -825,7 +866,8 @@
     "note": "600 mg daily (3x200mg) for 21 days of 28-day cycle; CDK4/6 inhibitor for HR+/HER2- breast cancer",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "verzenio",
@@ -845,7 +887,8 @@
     "note": "150 mg twice daily continuously; only CDK4/6 inhibitor with continuous dosing; adjuvant indication driving growth",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "lynparza",
@@ -865,7 +908,8 @@
     "note": "300 mg (2x150mg) twice daily; first-in-class PARP inhibitor for BRCA-mutated cancers",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "farxiga",
@@ -885,7 +929,8 @@
     "note": "SGLT2 inhibitor; approved for diabetes, heart failure, and CKD; once daily dosing",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "otezla",
@@ -905,7 +950,8 @@
     "note": "PDE4 inhibitor; 30 mg twice daily; oral alternative to biologics for psoriasis/psoriatic arthritis; acquired by Amgen from Celgene",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "vyvanse",
@@ -925,7 +971,8 @@
     "note": "Prodrug of dextroamphetamine; most-prescribed branded ADHD medication; generic entry began August 2023",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "xtandi",
@@ -945,7 +992,8 @@
     "note": "Androgen receptor inhibitor; 160 mg daily (4x40mg capsules); standard of care for metastatic prostate cancer; co-developed with Astellas",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "januvia",
@@ -965,7 +1013,8 @@
     "note": "Selected for IRA Medicare price negotiation; maximum fair price of $113/month effective January 2026",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "gardasil",
@@ -985,7 +1034,8 @@
     "note": "Per-dose pricing; standard series is 2-3 doses over 6-12 months depending on age at initiation",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "bridion",
@@ -1005,7 +1055,8 @@
     "note": "Single-dose neuromuscular blockade reversal agent; per-administration pricing; typically one vial per surgical procedure",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "welireg",
@@ -1025,7 +1076,8 @@
     "note": "First-in-class HIF-2\u03b1 inhibitor; 120 mg daily (3 x 40 mg tablets); approved for VHL-associated tumors and advanced RCC",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "lagevrio",
@@ -1045,7 +1097,8 @@
     "note": "5-day treatment course (800 mg twice daily = 40 capsules); course cost shown; developed in partnership with Ridgeback Biotherapeutics",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "vyndaqel",
@@ -1065,7 +1118,8 @@
     "note": "One of the most expensive cardiovascular drugs; treats transthyretin amyloid cardiomyopathy (ATTR-CM); Vyndamax (tafamidis 61mg) is an alternative formulation",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "prolia",
@@ -1085,7 +1139,8 @@
     "note": "Dosed every 6 months for osteoporosis; monthly cost reflects annualized per-dose cost; also marketed as Xgeva (120 mg) for bone metastases",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "remicade",
@@ -1105,7 +1160,8 @@
     "note": "Pioneer TNF-alpha inhibitor; typical 5 mg/kg every 8 weeks = ~2 vials/month average; multiple biosimilars now available (Inflectra, Renflexis, Avsola)",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "rituxan",
@@ -1125,7 +1181,8 @@
     "note": "Pioneering anti-CD20 monoclonal antibody; used in NHL, CLL, and rheumatoid arthritis; dosing varies widely by indication; biosimilars available (Truxima, Ruxience, Riabni)",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "herceptin",
@@ -1145,7 +1202,8 @@
     "note": "Transformed HER2-positive breast cancer treatment; dosed every 3 weeks; monthly cost reflects ~1.33 infusions/month; multiple biosimilars now available",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "botox",
@@ -1165,7 +1223,8 @@
     "note": "Chronic migraine: 155-195 units every 12 weeks (~2 vials per treatment); also approved for overactive bladder, spasticity, cervical dystonia; separate cosmetic market",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "prevnar",
@@ -1185,7 +1244,8 @@
     "note": "Single-dose adult vaccination; pediatric schedule requires up to 4 doses; succeeded Prevnar 13 with expanded serotype coverage",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "paxlovid",
@@ -1205,7 +1265,8 @@
     "note": "5-day treatment course (30 tablets); commercial WAC after USG procurement; originally distributed free under government contract through 2023",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "trelegy",
@@ -1225,7 +1286,8 @@
     "note": "Triple-combination inhaler for COPD and asthma; one of the most prescribed COPD medications in the US; once-daily dosing",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "vraylar",
@@ -1245,7 +1307,8 @@
     "note": "Atypical antipsychotic for schizophrenia, bipolar I disorder (manic/mixed/depressive episodes), and major depressive disorder adjunct; acquired via Allergan",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "yervoy",
@@ -1264,7 +1327,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "tecentriq",
@@ -1283,7 +1347,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "avastin",
@@ -1302,7 +1367,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "imfinzi",
@@ -1321,7 +1387,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "enhertu",
@@ -1340,7 +1407,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "kymriah",
@@ -1359,7 +1427,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "yescarta",
@@ -1378,7 +1447,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "spinraza",
@@ -1397,7 +1467,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "zolgensma",
@@ -1416,7 +1487,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "soliris",
@@ -1435,7 +1507,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "ultomiris",
@@ -1454,7 +1527,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "hemgenix",
@@ -1473,7 +1547,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "vimizim",
@@ -1492,7 +1567,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "naglazyme",
@@ -1511,7 +1587,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "voxzogo",
@@ -1530,7 +1607,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "novolog",
@@ -1549,7 +1627,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "lantus",
@@ -1568,7 +1647,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "kesimpta",
@@ -1587,7 +1667,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "aimovig",
@@ -1606,7 +1687,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "hemlibra",
@@ -1625,7 +1707,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "adakveo",
@@ -1644,7 +1727,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "vabysmo",
@@ -1663,7 +1747,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "beovu",
@@ -1682,7 +1767,8 @@
     "effective_date": "2026-01-01",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "leqembi",
@@ -1702,7 +1788,8 @@
     "note": "Dosed every 2 weeks at 10 mg/kg IV; monthly cost reflects ~2 infusions",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "tepezza",
@@ -1722,7 +1809,8 @@
     "note": "8 infusions over ~5 months; WAC per infusion ~$14,890; annualized over treatment course",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "praluent",
@@ -1742,7 +1830,8 @@
     "note": "Dosed 150 mg every 2 weeks subcutaneously",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "taltz",
@@ -1762,7 +1851,8 @@
     "note": "Maintenance dose 80 mg every 4 weeks after loading",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "carvykti",
@@ -1782,7 +1872,8 @@
     "note": "One-time CAR-T infusion; $465,000 total annualized across 12 months",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "abecma",
@@ -1802,7 +1893,8 @@
     "note": "One-time CAR-T infusion; $419,500 total annualized across 12 months",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "nurtec",
@@ -1822,7 +1914,8 @@
     "note": "For prevention: 75 mg every other day (~15/month); acute: as needed. Cost varies by usage",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "jakafi",
@@ -1842,7 +1935,8 @@
     "note": "Dosed 20 mg twice daily (60 tablets/month); WAC per tablet ~$277",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "trodelvy",
@@ -1862,7 +1956,8 @@
     "note": "Dosed 10 mg/kg on days 1 and 8 of 21-day cycles; ~3 vials per infusion avg",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "padcev",
@@ -1882,7 +1977,8 @@
     "note": "Dosed 1.25 mg/kg on days 1, 8 of 21-day cycles; monthly reflects ~2 infusions avg",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "xgeva",
@@ -1902,7 +1998,8 @@
     "note": "Dosed 120 mg every 4 weeks for bone metastases prevention",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "lumakras",
@@ -1922,7 +2019,8 @@
     "note": "960 mg daily (eight 120 mg tablets); first KRAS G12C inhibitor",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   },
   {
     "drug_id": "luxturna",
@@ -1942,7 +2040,8 @@
     "note": "One-time gene therapy; $425,000 per eye ($850,000 both eyes); annualized across 12 months",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "one_time"
   },
   {
     "drug_id": "evenity",
@@ -1962,6 +2061,7 @@
     "note": "210 mg monthly (two 105 mg injections); 12-month treatment course for osteoporosis",
     "data_year": 2026,
     "data_quarter": "Q1",
-    "source": "WAC_MONITOR"
+    "source": "WAC_MONITOR",
+    "pricing_model": "monthly"
   }
 ]

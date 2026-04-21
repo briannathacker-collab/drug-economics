@@ -185,7 +185,7 @@ export default function FollowTheMoneyPage() {
                   { key: 'revenue', label: 'Revenue (cents)' },
                   { key: 'net_income', label: 'Net Income (cents)' },
                   { key: 'mlr', label: 'Medical Loss Ratio' },
-                  { key: 'denial_rate', label: 'Prior Auth Denial Rate' },
+                  { key: 'denial_rate', label: 'MA Prior-Auth Denial Rate (2024)' },
                   { key: 'ceo_name', label: 'CEO' },
                   { key: 'ceo_compensation', label: 'CEO Compensation (cents)' },
                   { key: 'subsidiaries', label: 'Subsidiaries' },
@@ -225,13 +225,18 @@ export default function FollowTheMoneyPage() {
                           <p className="font-mono font-bold text-[#1F2A24]">{formatPercent(insurer.medical_loss_ratio)}</p>
                         </div>
                         <div className="text-right hidden sm:block relative group">
-                          <p className="text-xs text-[#6B7771]">Denial Rate</p>
+                          <p className="text-xs text-[#6B7771]">MA Prior-Auth Denial Rate (2024)</p>
                           <p className="font-mono font-bold text-[#C41E3A] flex items-center gap-1 justify-end">
-                            {formatPercent(insurer.prior_auth_denial_rate)}
+                            {insurer.prior_auth_denial_rate != null
+                              ? formatPercent(insurer.prior_auth_denial_rate)
+                              : '—'}
                             <Info className="w-3 h-3 text-[#6B7771]" />
                           </p>
                           <div className="absolute right-0 top-full mt-1 w-72 bg-[#1F2A24] text-white text-xs p-3 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50 font-body leading-relaxed">
-                            Source: CMS Prior Authorization and Claims Denial data (2023); ProPublica/KFF analysis of Medicare Advantage denial patterns. Methodologies vary; see Estimates/Proxies.
+                            {insurer.prior_auth_denial_rate_note
+                              ? insurer.prior_auth_denial_rate_note + ' '
+                              : ''}
+                            Source: KFF analysis of CMS Medicare Advantage prior authorization data, January 2026.
                           </div>
                         </div>
                         {isExpanded ? <ChevronUp className="w-5 h-5 text-[#6B7771]" /> : <ChevronDown className="w-5 h-5 text-[#6B7771]" />}
@@ -246,11 +251,15 @@ export default function FollowTheMoneyPage() {
                         <MetricCard label="Net Income" value={formatCurrency(latestIncome, true)} icon={<TrendingUp className="w-4 h-4" />} />
                         <MetricCard label="CEO Pay" value={formatCurrency(insurer.ceo_compensation, true)} subLabel={insurer.ceo_name} />
                         <MetricCard
-                          label="Prior Auth Denial Rate"
-                          value={formatPercent(insurer.prior_auth_denial_rate)}
+                          label="MA Prior-Auth Denial Rate (2024)"
+                          value={insurer.prior_auth_denial_rate != null
+                            ? formatPercent(insurer.prior_auth_denial_rate)
+                            : 'Not reported'}
+                          subLabel={insurer.prior_auth_denial_rate_note ?? undefined}
                           variant="danger"
-                          sourceLabel="CMS Prior Authorization and Claims Denial data (2023); ProPublica/KFF analysis of Medicare Advantage denial patterns. Methodologies vary; see Estimates/Proxies."
-                          lastUpdated="2023"
+                          sourceLabel="KFF analysis of CMS Medicare Advantage prior authorization data, January 2026"
+                          sourceUrl="https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
+                          lastUpdated="2024"
                         />
                       </div>
 

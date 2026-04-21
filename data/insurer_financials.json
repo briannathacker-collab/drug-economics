@@ -5,25 +5,66 @@
     "ticker": "UNH",
     "type": "integrated",
     "annual_revenue": [
-      { "year": 2024, "revenue": 40030000000000 },
-      { "year": 2023, "revenue": 37180000000000 },
-      { "year": 2022, "revenue": 32437000000000 },
-      { "year": 2021, "revenue": 28762000000000 },
-      { "year": 2020, "revenue": 25718000000000 },
-      { "year": 2019, "revenue": 24208000000000 }
+      {
+        "year": 2024,
+        "revenue": 40030000000000
+      },
+      {
+        "year": 2023,
+        "revenue": 37180000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 32437000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 28762000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 25718000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 24208000000000
+      }
     ],
     "medical_loss_ratio": 85.5,
     "net_income": [
-      { "year": 2023, "income": 2241600000000 },
-      { "year": 2022, "income": 2060000000000 },
-      { "year": 2021, "income": 1720000000000 },
-      { "year": 2020, "income": 1573000000000 },
-      { "year": 2019, "income": 1368000000000 }
+      {
+        "year": 2023,
+        "income": 2241600000000
+      },
+      {
+        "year": 2022,
+        "income": 2060000000000
+      },
+      {
+        "year": 2021,
+        "income": 1720000000000
+      },
+      {
+        "year": 2020,
+        "income": 1573000000000
+      },
+      {
+        "year": 2019,
+        "income": 1368000000000
+      }
     ],
     "ceo_compensation": 2325000000,
     "ceo_name": "Andrew Witty",
-    "prior_auth_denial_rate": 32.2,
-    "subsidiaries": ["UnitedHealthcare (Insurance)", "OptumRx (PBM)", "Optum Health (Clinics)", "Optum Insight (Data/Analytics)"]
+    "prior_auth_denial_rate": 12.8,
+    "subsidiaries": [
+      "UnitedHealthcare (Insurance)",
+      "OptumRx (PBM)",
+      "Optum Health (Clinics)",
+      "Optum Insight (Data/Analytics)"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
   },
   {
     "insurer_id": "cvs_health",
@@ -31,24 +72,64 @@
     "ticker": "CVS",
     "type": "integrated",
     "annual_revenue": [
-      { "year": 2023, "revenue": 35749000000000 },
-      { "year": 2022, "revenue": 32213000000000 },
-      { "year": 2021, "revenue": 29237000000000 },
-      { "year": 2020, "revenue": 26843000000000 },
-      { "year": 2019, "revenue": 25676000000000 }
+      {
+        "year": 2023,
+        "revenue": 35749000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 32213000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 29237000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 26843000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 25676000000000
+      }
     ],
     "medical_loss_ratio": 85.1,
     "net_income": [
-      { "year": 2023, "income": 871100000000 },
-      { "year": 2022, "income": 438000000000 },
-      { "year": 2021, "income": 792000000000 },
-      { "year": 2020, "income": 765000000000 },
-      { "year": 2019, "income": 658000000000 }
+      {
+        "year": 2023,
+        "income": 871100000000
+      },
+      {
+        "year": 2022,
+        "income": 438000000000
+      },
+      {
+        "year": 2021,
+        "income": 792000000000
+      },
+      {
+        "year": 2020,
+        "income": 765000000000
+      },
+      {
+        "year": 2019,
+        "income": 658000000000
+      }
     ],
     "ceo_compensation": 2140000000,
     "ceo_name": "Karen Lynch",
-    "prior_auth_denial_rate": 24.5,
-    "subsidiaries": ["Aetna (Insurance)", "CVS Caremark (PBM)", "CVS Pharmacy (Retail)", "MinuteClinic (Clinics)", "Signify Health"]
+    "prior_auth_denial_rate": null,
+    "subsidiaries": [
+      "Aetna (Insurance)",
+      "CVS Caremark (PBM)",
+      "CVS Pharmacy (Retail)",
+      "MinuteClinic (Clinics)",
+      "Signify Health"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/",
+    "prior_auth_denial_rate_note": "Not reported in KFF Jan 2026 brief for 2024 data. CVS Health had highest appeal rate (19.9%) but no separate denial rate breakout."
   },
   {
     "insurer_id": "cigna",
@@ -56,24 +137,63 @@
     "ticker": "CI",
     "type": "integrated",
     "annual_revenue": [
-      { "year": 2023, "revenue": 19515000000000 },
-      { "year": 2022, "revenue": 18037000000000 },
-      { "year": 2021, "revenue": 17417000000000 },
-      { "year": 2020, "revenue": 16026000000000 },
-      { "year": 2019, "revenue": 15347000000000 }
+      {
+        "year": 2023,
+        "revenue": 19515000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 18037000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 17417000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 16026000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 15347000000000
+      }
     ],
     "medical_loss_ratio": 82.7,
     "net_income": [
-      { "year": 2023, "income": 541100000000 },
-      { "year": 2022, "income": 637000000000 },
-      { "year": 2021, "income": 535000000000 },
-      { "year": 2020, "income": 872000000000 },
-      { "year": 2019, "income": 526000000000 }
+      {
+        "year": 2023,
+        "income": 541100000000
+      },
+      {
+        "year": 2022,
+        "income": 637000000000
+      },
+      {
+        "year": 2021,
+        "income": 535000000000
+      },
+      {
+        "year": 2020,
+        "income": 872000000000
+      },
+      {
+        "year": 2019,
+        "income": 526000000000
+      }
     ],
     "ceo_compensation": 2080000000,
     "ceo_name": "David Cordani",
-    "prior_auth_denial_rate": 33.8,
-    "subsidiaries": ["Cigna Healthcare (Insurance)", "Express Scripts (PBM)", "Evernorth Health Services", "Accredo (Specialty Pharmacy)"]
+    "prior_auth_denial_rate": null,
+    "subsidiaries": [
+      "Cigna Healthcare (Insurance)",
+      "Express Scripts (PBM)",
+      "Evernorth Health Services",
+      "Accredo (Specialty Pharmacy)"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/",
+    "prior_auth_denial_rate_note": "Not ranked in KFF MA prior-auth brief due to limited Medicare Advantage market share."
   },
   {
     "insurer_id": "elevance",
@@ -81,24 +201,61 @@
     "ticker": "ELV",
     "type": "insurer",
     "annual_revenue": [
-      { "year": 2023, "revenue": 17117000000000 },
-      { "year": 2022, "revenue": 15627000000000 },
-      { "year": 2021, "revenue": 13773000000000 },
-      { "year": 2020, "revenue": 12136000000000 },
-      { "year": 2019, "revenue": 10413000000000 }
+      {
+        "year": 2023,
+        "revenue": 17117000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 15627000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 13773000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 12136000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 10413000000000
+      }
     ],
     "medical_loss_ratio": 86.5,
     "net_income": [
-      { "year": 2023, "income": 588900000000 },
-      { "year": 2022, "income": 602000000000 },
-      { "year": 2021, "income": 607000000000 },
-      { "year": 2020, "income": 464000000000 },
-      { "year": 2019, "income": 479000000000 }
+      {
+        "year": 2023,
+        "income": 588900000000
+      },
+      {
+        "year": 2022,
+        "income": 602000000000
+      },
+      {
+        "year": 2021,
+        "income": 607000000000
+      },
+      {
+        "year": 2020,
+        "income": 464000000000
+      },
+      {
+        "year": 2019,
+        "income": 479000000000
+      }
     ],
     "ceo_compensation": 2130000000,
     "ceo_name": "Gail Boudreaux",
-    "prior_auth_denial_rate": 26.3,
-    "subsidiaries": ["Anthem Blue Cross Blue Shield", "CarelonRx (PBM)", "Carelon Behavioral Health"]
+    "prior_auth_denial_rate": 4.2,
+    "subsidiaries": [
+      "Anthem Blue Cross Blue Shield",
+      "CarelonRx (PBM)",
+      "Carelon Behavioral Health"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
   },
   {
     "insurer_id": "humana",
@@ -106,24 +263,61 @@
     "ticker": "HUM",
     "type": "insurer",
     "annual_revenue": [
-      { "year": 2023, "revenue": 10640000000000 },
-      { "year": 2022, "revenue": 9263000000000 },
-      { "year": 2021, "revenue": 8368000000000 },
-      { "year": 2020, "revenue": 7759000000000 },
-      { "year": 2019, "revenue": 6474000000000 }
+      {
+        "year": 2023,
+        "revenue": 10640000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 9263000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 8368000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 7759000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 6474000000000
+      }
     ],
     "medical_loss_ratio": 87.0,
     "net_income": [
-      { "year": 2023, "income": 278700000000 },
-      { "year": 2022, "income": 281200000000 },
-      { "year": 2021, "income": 266500000000 },
-      { "year": 2020, "income": 367400000000 },
-      { "year": 2019, "income": 262500000000 }
+      {
+        "year": 2023,
+        "income": 278700000000
+      },
+      {
+        "year": 2022,
+        "income": 281200000000
+      },
+      {
+        "year": 2021,
+        "income": 266500000000
+      },
+      {
+        "year": 2020,
+        "income": 367400000000
+      },
+      {
+        "year": 2019,
+        "income": 262500000000
+      }
     ],
     "ceo_compensation": 1650000000,
     "ceo_name": "Bruce Broussard",
-    "prior_auth_denial_rate": 20.1,
-    "subsidiaries": ["Humana Insurance", "Humana Pharmacy Solutions", "CenterWell (Primary Care)"]
+    "prior_auth_denial_rate": 5.8,
+    "subsidiaries": [
+      "Humana Insurance",
+      "Humana Pharmacy Solutions",
+      "CenterWell (Primary Care)"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
   },
   {
     "insurer_id": "centene",
@@ -131,23 +325,60 @@
     "ticker": "CNC",
     "type": "insurer",
     "annual_revenue": [
-      { "year": 2023, "revenue": 15437000000000 },
-      { "year": 2022, "revenue": 14466000000000 },
-      { "year": 2021, "revenue": 12570000000000 },
-      { "year": 2020, "revenue": 11138000000000 },
-      { "year": 2019, "revenue": 7402000000000 }
+      {
+        "year": 2023,
+        "revenue": 15437000000000
+      },
+      {
+        "year": 2022,
+        "revenue": 14466000000000
+      },
+      {
+        "year": 2021,
+        "revenue": 12570000000000
+      },
+      {
+        "year": 2020,
+        "revenue": 11138000000000
+      },
+      {
+        "year": 2019,
+        "revenue": 7402000000000
+      }
     ],
     "medical_loss_ratio": 88.1,
     "net_income": [
-      { "year": 2023, "income": 310000000000 },
-      { "year": 2022, "income": 144000000000 },
-      { "year": 2021, "income": 136700000000 },
-      { "year": 2020, "income": 186000000000 },
-      { "year": 2019, "income": 118000000000 }
+      {
+        "year": 2023,
+        "income": 310000000000
+      },
+      {
+        "year": 2022,
+        "income": 144000000000
+      },
+      {
+        "year": 2021,
+        "income": 136700000000
+      },
+      {
+        "year": 2020,
+        "income": 186000000000
+      },
+      {
+        "year": 2019,
+        "income": 118000000000
+      }
     ],
     "ceo_compensation": 1850000000,
     "ceo_name": "Sarah London",
-    "prior_auth_denial_rate": 18.7,
-    "subsidiaries": ["Centene Managed Care", "Envolve Pharmacy Solutions", "Health Net"]
+    "prior_auth_denial_rate": 12.3,
+    "subsidiaries": [
+      "Centene Managed Care",
+      "Envolve Pharmacy Solutions",
+      "Health Net"
+    ],
+    "prior_auth_denial_rate_year": 2024,
+    "prior_auth_denial_rate_source": "KFF analysis of CMS Medicare Advantage prior authorization data, January 2026",
+    "prior_auth_denial_rate_source_url": "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
   }
 ]

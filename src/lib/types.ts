@@ -160,7 +160,11 @@ export interface InsurerFinancials {
   net_income: { year: number; income: number }[];
   ceo_compensation: number;
   ceo_name: string;
-  prior_auth_denial_rate: number;
+  prior_auth_denial_rate: number | null;
+  prior_auth_denial_rate_year?: number;
+  prior_auth_denial_rate_source?: string;
+  prior_auth_denial_rate_source_url?: string;
+  prior_auth_denial_rate_note?: string;
   subsidiaries: string[];
 }
 

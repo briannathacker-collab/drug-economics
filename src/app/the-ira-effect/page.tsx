@@ -189,15 +189,15 @@ export default function IraEffectPage() {
             icon={<Pill className="w-5 h-5" />}
           />
           <MetricCard
-            label="Avg Discount Off WAC"
+            label="Avg Discount vs. Current WAC"
             value={`${Math.round(avgDiscount)}%`}
-            subLabel="Average negotiated reduction across all 25 drugs"
+            subLabel="Calc against 2026 WAC — CMS's published discounts use 2023 reference WAC and run a few points lower"
             icon={<TrendingDown className="w-5 h-5" />}
           />
           <MetricCard
-            label="Highest Discount"
+            label="Highest Discount vs. Current WAC"
             value={`${maxSavingsPercent}%`}
-            subLabel="Januvia — largest single-drug reduction"
+            subLabel="Januvia — 81% vs. 2026 WAC. CMS's published figure is 79% (vs. 2023 WAC)."
             icon={<ArrowDown className="w-5 h-5" />}
           />
           <MetricCard
@@ -242,7 +242,7 @@ export default function IraEffectPage() {
                   { key: 'round', label: 'Round' },
                   { key: 'current_wac_annual', label: 'Current WAC Annual (cents)' },
                   { key: 'negotiated_annual', label: 'Negotiated Annual (cents)' },
-                  { key: 'savings_percent', label: 'Savings %' },
+                  { key: 'savings_percent', label: 'Discount vs. Current WAC %' },
                   { key: 'beneficiaries', label: 'Beneficiaries' },
                   { key: 'medicare_spend_b', label: 'Medicare Spend ($B)' },
                 ]}
@@ -276,7 +276,9 @@ export default function IraEffectPage() {
                       <span className="text-[#0B6B3A]">Negotiated/yr</span>
                     </th>
                     <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right">
-                      Savings
+                      <span className="inline-flex items-center gap-1" title="Discount computed against current (2026) WAC. CMS's published discount figures use 2023 reference WAC and are typically a few points lower (e.g., Januvia shows 81% here vs. CMS's 79%).">
+                        Discount vs. WAC
+                      </span>
                     </th>
                     <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right hidden md:table-cell">
                       Beneficiaries
@@ -420,11 +422,19 @@ export default function IraEffectPage() {
               </table>
             </div>
 
-            <div className="px-6 py-3 bg-[#F7F9F8] border-t border-[#E5ECE8]">
+            <div className="px-6 py-3 bg-[#F7F9F8] border-t border-[#E5ECE8] space-y-1">
               <p className="text-xs text-[#6B7771] font-body italic">
                 WAC figures from Drug Economics database. Round 1 negotiated prices from CMS (August 2024);
-                Round 2 negotiated prices from CMS (2025). Savings percentages reflect reduction from manufacturer
-                list price. Actual patient out-of-pocket costs depend on insurance coverage and plan design.
+                Round 2 negotiated prices from CMS (2025). Actual patient out-of-pocket costs depend on insurance
+                coverage and plan design.
+              </p>
+              <p className="text-xs text-[#6B7771] font-body italic">
+                <strong>Methodology:</strong> The &ldquo;Discount vs. WAC&rdquo; column is computed as
+                (current WAC − negotiated price) ÷ current WAC. CMS&rsquo;s published discount figures
+                are calculated against the 2023 reference WAC CMS used during negotiation. Because WAC has
+                risen since 2023, the numbers here run a few points higher than CMS&rsquo;s headline
+                percentages (e.g., Januvia shows 81% vs. CMS&rsquo;s 79%). Use CMS publications for the
+                official negotiated discount.
               </p>
             </div>
           </div>

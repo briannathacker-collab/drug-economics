@@ -385,8 +385,7 @@ export function getSummaryMetrics() {
   const totalDrugs = drugs.length;
   const totalManufacturers = manufacturers.length;
 
-  let totalMarkup = 0;
-  let markupCount = 0;
+  const markups: number[] = [];
   let maxMarkupDrug = '';
   let maxMarkup = 0;
 
@@ -395,8 +394,7 @@ export function getSummaryMetrics() {
     const am = computeAnnualMarkup(c, drug);
     if (am.method !== 'unavailable') {
       const m = am.percent;
-      totalMarkup += m;
-      markupCount++;
+      markups.push(m);
       if (m > maxMarkup) {
         maxMarkup = m;
         maxMarkupDrug = drug.drug_name;
@@ -404,13 +402,23 @@ export function getSummaryMetrics() {
     }
   });
 
-  const avgMarkup = markupCount > 0 ? totalMarkup / markupCount : 0;
+  // Median is more robust than mean here — a handful of ultra-orphan drugs
+  // (Vyndaqel, Spinraza, Pomalyst) have markups in the thousands of × and
+  // pull the arithmetic mean to a number that misrepresents the typical drug.
+  const sorted = [...markups].sort((a, b) => a - b);
+  const medianMarkup = sorted.length === 0
+    ? 0
+    : sorted.length % 2 === 1
+      ? sorted[(sorted.length - 1) / 2]
+      : (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2;
+  const avgMarkup = sorted.length > 0 ? sorted.reduce((a, b) => a + b, 0) / sorted.length : 0;
   const totalRevenue = manufacturers.reduce((sum, m) => sum + (m.annual_revenue[0]?.revenue || 0), 0);
 
   return {
     totalDrugs,
     totalManufacturers,
     avgMarkup,
+    medianMarkup,
     maxMarkupDrug,
     maxMarkup,
     totalRevenue,

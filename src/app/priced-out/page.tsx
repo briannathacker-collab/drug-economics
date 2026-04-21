@@ -9,7 +9,7 @@ import { MethodologyTooltip } from '@/components/ui/MethodologyTooltip';
 import { ManufacturerCard } from '@/components/ui/ManufacturerCard';
 import { DrugDetailDrawer } from './DrugDetailDrawer';
 import { getManufacturerCards, getSummaryMetrics } from '@/lib/data';
-import { formatCurrency, formatPercent } from '@/lib/formatters';
+import { formatCurrency, formatMarkupDisplay } from '@/lib/formatters';
 import { FreshnessBadge } from '@/components/ui/FreshnessBadge';
 import { ExportButton } from '@/components/ui/ExportButton';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
@@ -109,20 +109,20 @@ export default function PricedOutPage() {
           <MetricCard
             label={
               <MethodologyTooltip
-                label="Avg. Markup Over Cost"
-                formula="avg over drugs: (annual_WAC − annual_COGS) / annual_COGS × 100"
+                label="Median Markup Over Cost"
+                formula="median over drugs: (annual_WAC − annual_COGS) / annual_COGS"
                 inputs={[
+                  { label: 'Aggregation', value: 'median (robust to outliers)' },
                   { label: 'Unit normalization', value: 'annual (both sides)' },
-                  { label: 'COGS source', value: 'peer-reviewed literature' },
                   { label: 'Drugs in sample', value: `${metrics.totalDrugs}` },
                 ]}
-                note="Both WAC and COGS are annualized before the ratio to avoid mixing monthly, per-dose, and annual basis across drugs."
+                note="Median rather than mean — a handful of ultra-orphan drugs (Vyndaqel, Spinraza, Pomalyst) have markups in the thousands of × and pull the arithmetic mean to a number that misrepresents the typical drug. Markups of 500% or more are rendered as N× ratios to match how academic citations present them."
                 sourceLabel="Peer-reviewed COGS literature (Hernandez et al., Kelley, Kantarjian, Prasad et al.)"
               >
-                <span>Avg. Markup Over Cost</span>
+                <span>Median Markup Over Cost</span>
               </MethodologyTooltip>
             }
-            value={formatPercent(metrics.avgMarkup, 0)}
+            value={formatMarkupDisplay(metrics.medianMarkup)}
             subLabel="WAC vs. estimated manufacturing cost"
             icon={<TrendingUp className="w-5 h-5" />}
             isEstimate
@@ -135,17 +135,18 @@ export default function PricedOutPage() {
             label={
               <MethodologyTooltip
                 label="Highest Markup"
-                formula="max over drugs: (annual_WAC − annual_COGS) / annual_COGS × 100"
+                formula="max over drugs: (annual_WAC − annual_COGS) / annual_COGS"
                 inputs={[
                   { label: 'Winner', value: metrics.maxMarkupDrug },
-                  { label: 'COGS basis', value: 'Kantarjian et al. small-molecule synthesis estimate' },
+                  { label: 'COGS basis', value: 'Barber et al. 2020 + Kittleson et al. 2023 (tafamidis synthesis benchmarks)' },
                 ]}
+                note="Ratio is intentionally extreme — Vyndaqel WAC is ~$24,600/month vs. published COGS estimates of ~$9/month, so the true ratio is in the thousands of ×."
                 sourceLabel="Peer-reviewed COGS literature"
               >
                 <span>Highest Markup</span>
               </MethodologyTooltip>
             }
-            value={formatPercent(metrics.maxMarkup, 0)}
+            value={formatMarkupDisplay(metrics.maxMarkup)}
             subLabel={
               <span className="inline-flex items-center gap-1">
                 {metrics.maxMarkupDrug}

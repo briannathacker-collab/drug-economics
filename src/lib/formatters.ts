@@ -29,6 +29,17 @@ export function formatMarkup(cogs: number, wac: number): string {
   return `${markup.toFixed(0)}%`;
 }
 
+// Display helper for markup. Small markups (< 500%) stay as % for precision;
+// large markups render as Nx ratios (e.g., "2,734×") which are more readable
+// and more consistent with how academic / journalistic citations present the
+// figure. Takes percent as input, returns a formatted string suffix-free.
+export function formatMarkupDisplay(percent: number): string {
+  if (!isFinite(percent) || percent <= 0) return 'N/A';
+  if (percent < 500) return `${percent.toFixed(0)}%`;
+  const ratio = percent / 100 + 1; // (wac - cogs) / cogs + 1 = wac / cogs
+  return `${formatNumber(Math.round(ratio))}×`;
+}
+
 export function computeMarkupPercent(cogs: number, wac: number): number {
   if (cogs <= 0) return 0;
   return ((wac - cogs) / cogs) * 100;

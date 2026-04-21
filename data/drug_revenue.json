@@ -847,7 +847,7 @@
     "peak_revenue_year": 2015,
     "peak_revenue": 1390000000000,
     "trajectory": "declining",
-    "trajectory_notes": "Peak was $13.9B in 2015 — one of the fastest revenue ramps in pharma history. Curative nature shrinks patient pool; Epclusa now preferred pan-genotypic option",
+    "trajectory_notes": "Peak was $13.9B in 2015 \u2014 one of the fastest revenue ramps in pharma history. Curative nature shrinks patient pool; Epclusa now preferred pan-genotypic option",
     "therapeutic_area": "hepatitis"
   },
   {
@@ -1870,7 +1870,7 @@
     "peak_revenue_year": 2023,
     "peak_revenue": 50000000000,
     "trajectory": "rapid_growth",
-    "trajectory_notes": "First-in-class HIF-2α inhibitor with expanding indications; approved for VHL disease (2021) and advanced RCC (2023); significant growth expected",
+    "trajectory_notes": "First-in-class HIF-2\u03b1 inhibitor with expanding indications; approved for VHL disease (2021) and advanced RCC (2023); significant growth expected",
     "therapeutic_area": "oncology"
   },
   {
@@ -2581,7 +2581,7 @@
   {
     "drug_id": "soliris",
     "drug_name": "Soliris",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "annual_revenue": [
       {
         "year": 2019,
@@ -2618,7 +2618,7 @@
   {
     "drug_id": "ultomiris",
     "drug_name": "Ultomiris",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "annual_revenue": [
       {
         "year": 2020,

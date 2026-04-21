@@ -2699,7 +2699,7 @@
     "drug_id": "soliris",
     "drug_name": "Soliris",
     "generic_name": "eculizumab",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "estimated_cogs_monthly": 25000,
     "estimates": [
       {
@@ -2742,7 +2742,7 @@
     "drug_id": "ultomiris",
     "drug_name": "Ultomiris",
     "generic_name": "ravulizumab",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "estimated_cogs_monthly": 27000,
     "estimates": [
       {

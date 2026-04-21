@@ -24,8 +24,9 @@ describe('getManufacturerCards', () => {
 
   it('returns the correct count of manufacturers', () => {
     const cards = getManufacturerCards();
-    // Should match the 21 manufacturers in manufacturer_financials.json
-    expect(cards.length).toBe(21);
+    // Alexion merged into AstraZeneca 2026-04-20 (acquired by AZN in 2021),
+    // dropping count from 21 to 20.
+    expect(cards.length).toBe(20);
   });
 
   it('each card has required fields', () => {

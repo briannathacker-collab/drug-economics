@@ -1321,8 +1321,8 @@
     ],
     "gross_margin": 84.5,
     "ceo_compensation": 1100000000,
-    "ceo_name": "Lars Fruergaard Jørgensen",
-    "headquarters": "Bagsværd, Denmark",
+    "ceo_name": "Lars Fruergaard J\u00f8rgensen",
+    "headquarters": "Bagsv\u00e6rd, Denmark",
     "employees": 63400
   },
   {
@@ -1524,72 +1524,6 @@
     "ceo_name": "Emma Walmsley",
     "headquarters": "London, UK",
     "employees": 70000
-  },
-  {
-    "manufacturer_id": "alexion",
-    "name": "Alexion Pharmaceuticals (AstraZeneca)",
-    "ticker": "AZN",
-    "annual_revenue": [
-      {
-        "year": 2023,
-        "revenue": 750000000000
-      },
-      {
-        "year": 2022,
-        "revenue": 700000000000
-      },
-      {
-        "year": 2021,
-        "revenue": 620000000000
-      }
-    ],
-    "net_income": [
-      {
-        "year": 2023,
-        "income": 180000000000
-      },
-      {
-        "year": 2022,
-        "income": 165000000000
-      },
-      {
-        "year": 2021,
-        "income": 140000000000
-      }
-    ],
-    "rd_spend": [
-      {
-        "year": 2023,
-        "spend": 150000000000
-      },
-      {
-        "year": 2022,
-        "spend": 135000000000
-      },
-      {
-        "year": 2021,
-        "spend": 120000000000
-      }
-    ],
-    "sga_spend": [
-      {
-        "year": 2023,
-        "spend": 200000000000
-      },
-      {
-        "year": 2022,
-        "spend": 185000000000
-      },
-      {
-        "year": 2021,
-        "spend": 170000000000
-      }
-    ],
-    "gross_margin": 85.2,
-    "ceo_compensation": 850000000,
-    "ceo_name": "Marc Dunoyer",
-    "headquarters": "Boston, MA",
-    "employees": 11000
   },
   {
     "manufacturer_id": "cslbehring",

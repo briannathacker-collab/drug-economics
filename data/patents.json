@@ -1661,7 +1661,7 @@
   {
     "drug_id": "soliris",
     "drug_name": "Soliris",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "original_patent_number": "US6355245",
     "original_patent_expiry": "2021-03-15",
     "effective_exclusivity_end": "2025-03-15",
@@ -1690,7 +1690,7 @@
   {
     "drug_id": "ultomiris",
     "drug_name": "Ultomiris",
-    "manufacturer_id": "alexion",
+    "manufacturer_id": "astrazeneca",
     "original_patent_number": "US10633434",
     "original_patent_expiry": "2035-12-31",
     "effective_exclusivity_end": "2035-12-31",

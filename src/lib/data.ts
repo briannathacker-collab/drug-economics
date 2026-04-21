@@ -44,6 +44,8 @@ import internationalPricesData from '../../data/international_prices.json';
 import revolvingDoorData from '../../data/revolving_door.json';
 import caseStudiesData from '../../data/case_studies.json';
 
+import { computeAnnualMarkup } from './formatters';
+
 // Raw data accessors — use unknown intermediate to handle data shape variations
 export function getManufacturerFinancials(): ManufacturerFinancials[] {
   return manufacturerFinancialsData as unknown as ManufacturerFinancials[];
@@ -339,9 +341,8 @@ export function getManufacturerCards(): ManufacturerCardData[] {
       const cogs = getCogsForDrug(drug.drug_id);
       const history = getWacHistory().find(h => h.drug_id === drug.drug_id);
       const cogsValue = cogs?.estimate_preferred || 0;
-      const markup = cogsValue > 0
-        ? ((drug.wac_monthly - cogsValue) / cogsValue) * 100
-        : undefined;
+      const annualMarkup = computeAnnualMarkup(cogs, drug);
+      const markup = annualMarkup.method === 'unavailable' ? undefined : annualMarkup.percent;
 
       return {
         drug_id: drug.drug_id,
@@ -391,9 +392,9 @@ export function getSummaryMetrics() {
 
   drugs.forEach(drug => {
     const c = getCogsForDrug(drug.drug_id);
-    const cogsValue = c?.estimate_preferred || 0;
-    if (cogsValue > 0) {
-      const m = ((drug.wac_monthly - cogsValue) / cogsValue) * 100;
+    const am = computeAnnualMarkup(c, drug);
+    if (am.method !== 'unavailable') {
+      const m = am.percent;
       totalMarkup += m;
       markupCount++;
       if (m > maxMarkup) {

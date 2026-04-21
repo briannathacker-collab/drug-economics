@@ -4,6 +4,7 @@ import {
   formatPercent,
   formatMarkup,
   computeMarkupPercent,
+  computeAnnualMarkup,
   formatAnnual,
   formatNumber,
   formatCompact,
@@ -11,6 +12,7 @@ import {
   formatDate,
   formatYear,
 } from '@/lib/formatters';
+import type { CogsEstimate, WacPrice } from '@/lib/types';
 
 // -------------------------------------------------------------------
 // formatCurrency — converts cents to display dollars
@@ -150,6 +152,59 @@ describe('computeMarkupPercent', () => {
 
   it('computes 0 when WAC equals COGS', () => {
     expect(computeMarkupPercent(100, 100)).toBe(0);
+  });
+});
+
+// -------------------------------------------------------------------
+// computeAnnualMarkup — unit-normalized markup from typed records
+// -------------------------------------------------------------------
+describe('computeAnnualMarkup', () => {
+  const humiraWac = {
+    drug_id: 'humira',
+    wac_monthly: 728200,
+    wac_annual: 8738400,
+    units_per_month: 1,
+  } as unknown as WacPrice;
+
+  it('returns unavailable when either record is missing', () => {
+    expect(computeAnnualMarkup(undefined, humiraWac).method).toBe('unavailable');
+    expect(computeAnnualMarkup({} as CogsEstimate, undefined).method).toBe('unavailable');
+  });
+
+  it('uses annual field when present', () => {
+    const cogs = { estimated_cogs_annual: 210000 } as unknown as CogsEstimate;
+    const result = computeAnnualMarkup(cogs, humiraWac);
+    expect(result.method).toBe('annual');
+    expect(result.cogs_annual_cents).toBe(210000);
+    expect(result.wac_annual_cents).toBe(8738400);
+    // (8738400 - 210000) / 210000 × 100 ≈ 4061.14
+    expect(result.percent).toBeCloseTo(4061.14, 1);
+  });
+
+  it('falls back to monthly × 12 when annual is missing', () => {
+    const cogs = { estimated_cogs_monthly: 17500 } as unknown as CogsEstimate;
+    const result = computeAnnualMarkup(cogs, humiraWac);
+    expect(result.method).toBe('monthly_x12');
+    expect(result.cogs_annual_cents).toBe(210000);
+  });
+
+  it('falls back to per_unit × units_per_month × 12 when only per-unit data present', () => {
+    const cogs = { estimated_cogs_per_unit: 30 } as unknown as CogsEstimate;
+    const wac = { ...humiraWac, units_per_month: 30 } as unknown as WacPrice;
+    const result = computeAnnualMarkup(cogs, wac);
+    expect(result.method).toBe('per_unit_x_units');
+    expect(result.cogs_annual_cents).toBe(30 * 30 * 12);
+  });
+
+  it('returns unavailable rather than dividing by zero when cogs fields are empty', () => {
+    const cogs = {} as CogsEstimate;
+    expect(computeAnnualMarkup(cogs, humiraWac).method).toBe('unavailable');
+  });
+
+  it('prefers estimate_preferred over estimated_cogs_monthly', () => {
+    const cogs = { estimate_preferred: 20000, estimated_cogs_monthly: 17500 } as unknown as CogsEstimate;
+    const result = computeAnnualMarkup(cogs, humiraWac);
+    expect(result.cogs_annual_cents).toBe(20000 * 12);
   });
 });
 

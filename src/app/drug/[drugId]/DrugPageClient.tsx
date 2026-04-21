@@ -6,7 +6,7 @@ import { EstBadge } from '@/components/ui/EstBadge';
 import { ShareDrugCard } from '@/components/ui/ShareDrugCard';
 import { DataQualityScore } from '@/components/ui/DataQualityScore';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
-import { formatCurrency, computeMarkupPercent } from '@/lib/formatters';
+import { formatCurrency, computeAnnualMarkup } from '@/lib/formatters';
 import type {
   WacPrice,
   CogsEstimate,
@@ -35,9 +35,8 @@ export function DrugPageClient({
   delayTactics,
 }: DrugPageClientProps) {
   const annualCost = drug.wac_monthly * 12;
-  const markupPct = cogs?.estimate_preferred
-    ? computeMarkupPercent(cogs.estimate_preferred, drug.wac_monthly)
-    : null;
+  const markup = computeAnnualMarkup(cogs ?? undefined, drug);
+  const markupPct = markup.method === 'unavailable' ? null : markup.percent;
 
   return (
     <div>

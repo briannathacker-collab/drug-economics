@@ -6,7 +6,7 @@ import {
   getCogsForDrug,
   getManufacturerById,
 } from '@/lib/data';
-import { computeMarkupPercent } from '@/lib/formatters';
+import { computeAnnualMarkup } from '@/lib/formatters';
 import { EmbedCard } from './EmbedCard';
 
 interface Props {
@@ -34,9 +34,8 @@ export default async function EmbedPage({ params }: Props) {
 
   const cogs = getCogsForDrug(drugId);
   const manufacturer = getManufacturerById(drug.manufacturer_id);
-  const markupPct = cogs?.estimate_preferred
-    ? computeMarkupPercent(cogs.estimate_preferred, drug.wac_monthly)
-    : null;
+  const markup = computeAnnualMarkup(cogs, drug);
+  const markupPct = markup.method === 'unavailable' ? null : markup.percent;
 
   return (
     <html lang="en">

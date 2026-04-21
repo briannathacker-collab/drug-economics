@@ -7,7 +7,7 @@ import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MarkupBadge } from '@/components/ui/MarkupBadge';
 import { getWacPrices, getCogsForDrug, getManufacturerById } from '@/lib/data';
-import { formatCurrency, computeMarkupPercent } from '@/lib/formatters';
+import { formatCurrency, computeAnnualMarkup } from '@/lib/formatters';
 import { Search, ArrowRight, Pill } from 'lucide-react';
 
 export default function SearchPage() {
@@ -68,9 +68,8 @@ export default function SearchPage() {
           {results.map(drug => {
             const cogs = getCogsForDrug(drug.drug_id);
             const mfr = getManufacturerById(drug.manufacturer_id);
-            const markupPct = cogs?.estimate_preferred
-              ? computeMarkupPercent(cogs.estimate_preferred, drug.wac_monthly)
-              : null;
+            const markup = computeAnnualMarkup(cogs, drug);
+            const markupPct = markup.method === 'unavailable' ? null : markup.percent;
 
             return (
               <Link

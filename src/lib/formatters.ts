@@ -1,6 +1,8 @@
 // Drug Economics — Formatting Utilities
 // All monetary values stored as cents — these functions convert to display dollars
 
+import type { CogsEstimate, WacPrice } from './types';
+
 export function formatCurrency(cents: number, compact = false): string {
   const dollars = cents / 100;
   if (compact) {
@@ -29,6 +31,60 @@ export function formatMarkup(cogs: number, wac: number): string {
 export function computeMarkupPercent(cogs: number, wac: number): number {
   if (cogs <= 0) return 0;
   return ((wac - cogs) / cogs) * 100;
+}
+
+// Normalize both sides to annual cents before computing markup so per-unit /
+// monthly / annual mixes can't produce inflated ratios. Prefers the explicit
+// annual field on each record; falls back to monthly × 12.
+export interface AnnualMarkup {
+  percent: number;
+  cogs_annual_cents: number;
+  wac_annual_cents: number;
+  method: 'annual' | 'monthly_x12' | 'per_unit_x_units' | 'unavailable';
+}
+
+export function computeAnnualMarkup(
+  cogs: CogsEstimate | undefined,
+  wac: WacPrice | undefined,
+): AnnualMarkup {
+  if (!cogs || !wac) {
+    return { percent: 0, cogs_annual_cents: 0, wac_annual_cents: 0, method: 'unavailable' };
+  }
+
+  const wacAnnual =
+    wac.wac_annual && wac.wac_annual > 0
+      ? wac.wac_annual
+      : wac.wac_monthly > 0
+        ? wac.wac_monthly * 12
+        : 0;
+
+  let cogsAnnual = 0;
+  let method: AnnualMarkup['method'] = 'unavailable';
+  const anyCogs = cogs as unknown as { estimated_cogs_annual?: number; estimated_cogs_per_unit?: number };
+  if (anyCogs.estimated_cogs_annual && anyCogs.estimated_cogs_annual > 0) {
+    cogsAnnual = anyCogs.estimated_cogs_annual;
+    method = 'annual';
+  } else if (cogs.estimate_preferred && cogs.estimate_preferred > 0) {
+    cogsAnnual = cogs.estimate_preferred * 12;
+    method = 'monthly_x12';
+  } else if (cogs.estimated_cogs_monthly && cogs.estimated_cogs_monthly > 0) {
+    cogsAnnual = cogs.estimated_cogs_monthly * 12;
+    method = 'monthly_x12';
+  } else if (anyCogs.estimated_cogs_per_unit && anyCogs.estimated_cogs_per_unit > 0 && wac.units_per_month) {
+    cogsAnnual = anyCogs.estimated_cogs_per_unit * wac.units_per_month * 12;
+    method = 'per_unit_x_units';
+  }
+
+  if (cogsAnnual <= 0 || wacAnnual <= 0) {
+    return { percent: 0, cogs_annual_cents: cogsAnnual, wac_annual_cents: wacAnnual, method: 'unavailable' };
+  }
+
+  return {
+    percent: ((wacAnnual - cogsAnnual) / cogsAnnual) * 100,
+    cogs_annual_cents: cogsAnnual,
+    wac_annual_cents: wacAnnual,
+    method,
+  };
 }
 
 export function formatAnnual(monthlyAmountCents: number): string {

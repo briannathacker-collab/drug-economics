@@ -13,7 +13,7 @@ import {
   getPatentForDrug,
   getDelayTacticsForDrug,
 } from '@/lib/data';
-import { formatCurrency, computeMarkupPercent } from '@/lib/formatters';
+import { formatCurrency, computeAnnualMarkup } from '@/lib/formatters';
 
 interface Props {
   params: Promise<{ drugId: string }>;
@@ -29,14 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!drug) return { title: 'Drug Not Found — Drug Economics' };
 
   const cogs = getCogsForDrug(drugId);
-  const markup = cogs?.estimate_preferred
-    ? computeMarkupPercent(cogs.estimate_preferred, drug.wac_monthly)
-    : null;
+  const markup = computeAnnualMarkup(cogs, drug);
+  const hasMarkup = markup.method !== 'unavailable';
   const mfr = getManufacturerById(drug.manufacturer_id);
 
   const title = `${drug.drug_name} (${drug.generic_name}) — Drug Economics`;
-  const description = markup
-    ? `${drug.drug_name} costs an estimated ${formatCurrency(cogs!.estimate_preferred!)} to make but lists at ${formatCurrency(drug.wac_monthly)}/mo — a ${markup.toFixed(0)}% markup. By ${mfr?.name || drug.manufacturer_id}.`
+  const description = hasMarkup
+    ? `${drug.drug_name} costs an estimated ${formatCurrency(cogs!.estimate_preferred!)}/mo to make but lists at ${formatCurrency(drug.wac_monthly)}/mo — a ${markup.percent.toFixed(0)}% annual markup. By ${mfr?.name || drug.manufacturer_id}.`
     : `${drug.drug_name} (${drug.generic_name}) lists at ${formatCurrency(drug.wac_monthly)}/mo. Pricing data by Drug Economics.`;
 
   return {

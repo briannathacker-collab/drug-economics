@@ -8,7 +8,15 @@ import { MethodologyModal } from '@/components/ui/MethodologyModal';
 import { getLatestChangelogDate } from '@/lib/data';
 import { formatDate } from '@/lib/formatters';
 import Image from 'next/image';
-import { Menu, X, Search } from 'lucide-react';
+import { Menu, X, Search, ExternalLink } from 'lucide-react';
+
+const RELATED_SITES = [
+  {
+    name: 'InfluenceRx',
+    href: 'https://influencerx.vytalisresearch.com/',
+    description: 'Lobbying & political influence tracker',
+  },
+];
 
 const APPS = [
   { name: 'Priced Out', href: '/priced-out', id: 'priced-out' },
@@ -83,6 +91,19 @@ export function TopNav() {
 
           {/* Right side: Search + Updated date + Estimates badge + hamburger */}
           <div className="flex items-center gap-2 shrink-0">
+            {RELATED_SITES.map(site => (
+              <a
+                key={site.href}
+                href={site.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={site.description}
+                className="hidden lg:inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium text-[#555555] hover:text-[#2d5016] hover:bg-[#E6F2EC] transition-colors font-body"
+              >
+                {site.name}
+                <ExternalLink className="w-3 h-3" aria-hidden="true" />
+              </a>
+            ))}
             <Link
               href="/search"
               className="p-2 rounded-lg text-[#555555] hover:bg-[#F1F5F9] hover:text-[#1a1a1a] transition-colors"
@@ -168,6 +189,25 @@ export function TopNav() {
           >
             Changelog
           </Link>
+          {/* Related external sites */}
+          <div className="pt-2 border-t border-[#e0ddd5] mt-2">
+            <p className="px-4 py-1 text-[10px] uppercase tracking-wider text-[#888] font-mono">Related</p>
+            {RELATED_SITES.map(site => (
+              <a
+                key={site.href}
+                href={site.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between px-4 py-3 rounded-lg text-sm font-medium font-body text-[#555555] hover:bg-[#F1F5F9] hover:text-[#1a1a1a]"
+              >
+                <span>
+                  {site.name}
+                  <span className="block text-[10px] text-[#888] font-normal">{site.description}</span>
+                </span>
+                <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+              </a>
+            ))}
+          </div>
           {/* Show methodology modal on mobile too */}
           <div className="pt-2 border-t border-[#e0ddd5] mt-2 sm:hidden">
             <MethodologyModal />

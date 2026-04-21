@@ -162,7 +162,7 @@ export default function IraEffectPage() {
       {/* Hero Section */}
       <section className="bg-[#2d5016] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-          <div className="flex items-center gap-2 text-sm text-[#555555] font-body mb-3">
+          <div className="flex items-center gap-2 text-sm text-[#E6F2EC]/90 font-body mb-3">
             <Shield className="w-4 h-4" />
             Inflation Reduction Act of 2022
           </div>
@@ -174,7 +174,7 @@ export default function IraEffectPage() {
             directly with manufacturers. Across two rounds, 25 drugs now have negotiated
             prices &mdash; 10 in Round 1 and 15 in Round 2.
           </p>
-          <p className="mt-3 text-sm text-[#555555] font-body">
+          <p className="mt-3 text-sm text-[#E6F2EC]/80 font-body">
             IRA Round 1: effective Jan 1 2026 &middot; IRA Round 2: effective Jan 1 2027 &middot; Source: CMS
           </p>
         </div>

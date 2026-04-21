@@ -84,7 +84,7 @@ export default function PricedOutPage() {
           <p className="mt-2 text-[#E6F2EC] text-base sm:text-lg font-body max-w-2xl">
             What drugs really cost to make vs. what manufacturers charge. Compare <JargonTooltip term="WAC">WAC</JargonTooltip> prices, manufacturing costs, and profit margins.
           </p>
-          <p className="mt-2 text-xs text-[#555555] font-body">
+          <p className="mt-2 text-xs text-[#E6F2EC]/80 font-body">
             WAC = Wholesale Acquisition Cost — manufacturer list price before rebates
           </p>
         </div>

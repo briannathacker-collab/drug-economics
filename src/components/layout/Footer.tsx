@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { ExternalLink } from 'lucide-react';
 
 const NAV_LINKS = [
   { name: 'Priced Out', href: '/priced-out' },
@@ -11,6 +12,14 @@ const NAV_LINKS = [
   { name: 'The Generic Gap', href: '/the-generic-gap' },
   { name: 'IRA Effect', href: '/the-ira-effect' },
   { name: 'Changelog', href: '/changelog' },
+];
+
+const RELATED_SITES = [
+  {
+    name: 'InfluenceRx',
+    href: 'https://influencerx.vytalisresearch.com/',
+    description: 'Lobbying & political influence tracker',
+  },
 ];
 
 export function Footer() {
@@ -42,6 +51,24 @@ export function Footer() {
               </Link>
             ))}
           </nav>
+        </div>
+
+        {/* Row 1b: Related sites */}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-4 border-b border-white/10 text-sm">
+          <span className="text-xs font-mono uppercase tracking-wider text-[#888]">Related Vytalis Research sites</span>
+          {RELATED_SITES.map(site => (
+            <a
+              key={site.href}
+              href={site.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-body text-[#E6F2EC] hover:text-white transition-colors"
+            >
+              {site.name}
+              <ExternalLink className="w-3 h-3" aria-hidden="true" />
+              <span className="text-xs text-[#888] ml-1">{site.description}</span>
+            </a>
+          ))}
         </div>
 
         {/* Row 2: Legal Disclaimer */}

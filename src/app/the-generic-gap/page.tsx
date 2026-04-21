@@ -5,6 +5,7 @@ import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { EstBadge } from '@/components/ui/EstBadge';
+import { MethodologyTooltip } from '@/components/ui/MethodologyTooltip';
 import { getDelayTactics, getPatents, getWacPrices } from '@/lib/data';
 import { formatCurrency } from '@/lib/formatters';
 import { SourceIcon } from '@/components/ui/SourceIcon';
@@ -117,7 +118,22 @@ export default function TheGenericGapPage() {
           />
           {METHODOLOGY_COMPLETE ? (
             <div className="bg-[#FEE2E2] rounded-xl border border-[#C41E3A]/20 p-5 shadow-sm">
-              <p className="text-sm font-medium text-[#C41E3A] font-body">Estimated Patient Cost of Delays</p>
+              <p className="text-sm font-medium text-[#C41E3A] font-body flex items-center gap-1">
+                <MethodologyTooltip
+                  label="Estimated Patient Cost of Delays"
+                  formula="sum over drugs: delay_years × annual_WAC × patient_population"
+                  inputs={[
+                    { label: 'Drugs with documented delays', value: `${delays.length}` },
+                    { label: 'Total delay-years', value: `${totalDelayYears}` },
+                    { label: 'WAC basis', value: 'annual_WAC from WAC monitor' },
+                    { label: 'Population basis', value: 'stored per-drug estimate' },
+                  ]}
+                  note="Each drug's contribution = delay_years × annual_WAC × estimated_patient_population. Patient population is a rough estimate per drug; see the delay encyclopedia for per-drug sourcing."
+                  sourceLabel="FTC, DOJ, court records, peer-reviewed studies"
+                >
+                  <span>Estimated Patient Cost of Delays</span>
+                </MethodologyTooltip>
+              </p>
               <p className="text-3xl font-bold text-[#C41E3A] font-mono mt-2">
                 {formatCurrency(totalDelayCost, true)}
               </p>

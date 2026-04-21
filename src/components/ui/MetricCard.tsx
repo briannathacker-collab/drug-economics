@@ -6,7 +6,7 @@ import { SourceIcon } from './SourceIcon';
 import type { ReactNode } from 'react';
 
 interface MetricCardProps {
-  label: string;
+  label: ReactNode;
   value: string | number;
   subLabel?: ReactNode;
   icon?: ReactNode;

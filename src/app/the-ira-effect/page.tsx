@@ -5,6 +5,7 @@ import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { MetricCard } from '@/components/ui/MetricCard';
 import { JargonTooltip } from '@/components/ui/JargonTooltip';
+import { MethodologyTooltip } from '@/components/ui/MethodologyTooltip';
 import { getIraNegotiations } from '@/lib/data';
 import { formatCurrency } from '@/lib/formatters';
 import { ExportButton } from '@/components/ui/ExportButton';
@@ -189,13 +190,40 @@ export default function IraEffectPage() {
             icon={<Pill className="w-5 h-5" />}
           />
           <MetricCard
-            label="Avg Discount vs. Current WAC"
+            label={
+              <MethodologyTooltip
+                label="Avg Discount vs. Current WAC"
+                formula="avg_i ((current_WAC_i − negotiated_price_i) / current_WAC_i) × 100"
+                inputs={[
+                  { label: 'Drugs in sample', value: `${negotiations.length}` },
+                  { label: 'WAC basis', value: '2026 current' },
+                  { label: 'Negotiated price basis', value: 'CMS Maximum Fair Price' },
+                ]}
+                note="CMS's published discount figures are computed against the 2023 reference WAC used during negotiation, so this column runs a few points higher than CMS's headline numbers."
+                sourceLabel="CMS IRA Maximum Fair Prices + Drug Economics WAC database"
+              >
+                <span>Avg Discount vs. Current WAC</span>
+              </MethodologyTooltip>
+            }
             value={`${Math.round(avgDiscount)}%`}
             subLabel="Calc against 2026 WAC — CMS's published discounts use 2023 reference WAC and run a few points lower"
             icon={<TrendingDown className="w-5 h-5" />}
           />
           <MetricCard
-            label="Highest Discount vs. Current WAC"
+            label={
+              <MethodologyTooltip
+                label="Highest Discount vs. Current WAC"
+                formula="max_i ((current_WAC_i − negotiated_price_i) / current_WAC_i) × 100"
+                inputs={[
+                  { label: 'Winner', value: 'Januvia' },
+                  { label: 'Site value', value: '81%' },
+                  { label: 'CMS published (vs 2023 WAC)', value: '79%' },
+                ]}
+                sourceLabel="CMS IRA Maximum Fair Prices"
+              >
+                <span>Highest Discount vs. Current WAC</span>
+              </MethodologyTooltip>
+            }
             value={`${maxSavingsPercent}%`}
             subLabel="Januvia — 81% vs. 2026 WAC. CMS's published figure is 79% (vs. 2023 WAC)."
             icon={<ArrowDown className="w-5 h-5" />}

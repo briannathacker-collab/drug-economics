@@ -43,17 +43,17 @@ export function ManufacturerDrugTable({ drugs }: { drugs: DrugCardData[] }) {
   });
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-[#E5ECE8]">
-      <table className="min-w-full divide-y divide-[#E5ECE8] text-sm">
-        <thead className="bg-[#F7F9F8]">
+    <div className="overflow-x-auto rounded-lg border border-[#e0ddd5]">
+      <table className="min-w-full divide-y divide-[#e0ddd5] text-sm">
+        <thead className="bg-[#f5f5f0]">
           <tr>
             {COLUMNS.map(col => (
               <th
                 key={col.key}
                 onClick={() => col.sortable && toggleSort(col.key)}
                 className={cn(
-                  'whitespace-nowrap px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-[#6B7771] font-body',
-                  col.sortable && 'cursor-pointer select-none hover:text-[#1F2A24]',
+                  'whitespace-nowrap px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-[#555555] font-body',
+                  col.sortable && 'cursor-pointer select-none hover:text-[#1a1a1a]',
                   col.key !== 'name' && col.key !== 'specialty' && 'text-right'
                 )}
               >
@@ -65,18 +65,18 @@ export function ManufacturerDrugTable({ drugs }: { drugs: DrugCardData[] }) {
             ))}
           </tr>
         </thead>
-        <tbody className="divide-y divide-[#E5ECE8] bg-white">
+        <tbody className="divide-y divide-[#e0ddd5] bg-white">
           {sorted.map(drug => (
             <tr
               key={drug.drug_id}
               onClick={() => router.push(`/drug/${drug.drug_id}`)}
-              className="cursor-pointer hover:bg-[#F7F9F8] transition-colors"
+              className="cursor-pointer hover:bg-[#f5f5f0] transition-colors"
             >
               <td className="px-4 py-3">
-                <p className="font-medium text-[#1F2A24] font-body">{drug.name}</p>
-                <p className="text-xs text-[#6B7771] font-body">{drug.generic_name}</p>
+                <p className="font-medium text-[#1a1a1a] font-body">{drug.name}</p>
+                <p className="text-xs text-[#555555] font-body">{drug.generic_name}</p>
               </td>
-              <td className="px-4 py-3 text-[#6B7771] font-body">{drug.specialty}</td>
+              <td className="px-4 py-3 text-[#555555] font-body">{drug.specialty}</td>
               <td className="px-4 py-3 text-right font-mono">
                 {drug.cogs_estimate ? (
                   <span className="flex items-center justify-end gap-1">
@@ -91,14 +91,14 @@ export function ManufacturerDrugTable({ drugs }: { drugs: DrugCardData[] }) {
                     )}
                   </span>
                 ) : (
-                  <span className="text-[#6B7771] italic text-xs">Not available</span>
+                  <span className="text-[#555555] italic text-xs">Not available</span>
                 )}
               </td>
-              <td className="px-4 py-3 text-right font-mono text-[#C41E3A] font-medium">
+              <td className="px-4 py-3 text-right font-mono text-[#c0392b] font-medium">
                 {formatCurrency(drug.wac_monthly)}
               </td>
               <td className="px-4 py-3 text-right">
-                <span className="bg-[#FEE2E2] text-[#C41E3A] px-2 py-0.5 rounded text-xs font-bold font-mono">
+                <span className="bg-[#FEE2E2] text-[#c0392b] px-2 py-0.5 rounded text-xs font-bold font-mono">
                   {formatCurrency(drug.wac_annual)}
                 </span>
               </td>
@@ -106,12 +106,12 @@ export function ManufacturerDrugTable({ drugs }: { drugs: DrugCardData[] }) {
                 {drug.markup_percent !== undefined ? (
                   <span className={cn(
                     'px-2 py-0.5 rounded-full text-xs font-bold font-mono',
-                    drug.markup_percent > 1000 ? 'bg-[#FEE2E2] text-[#C41E3A]' : 'bg-[#FFFBEB] text-[#B45309]'
+                    drug.markup_percent > 1000 ? 'bg-[#FEE2E2] text-[#c0392b]' : 'bg-[#FFFBEB] text-[#b8860b]'
                   )}>
                     {drug.markup_percent.toFixed(0)}%
                   </span>
                 ) : (
-                  <span className="text-[#6B7771] italic text-xs">&mdash;</span>
+                  <span className="text-[#555555] italic text-xs">&mdash;</span>
                 )}
               </td>
             </tr>
@@ -119,7 +119,7 @@ export function ManufacturerDrugTable({ drugs }: { drugs: DrugCardData[] }) {
         </tbody>
       </table>
       {sorted.length === 0 && (
-        <div className="py-16 text-center text-sm text-[#6B7771] font-body">
+        <div className="py-16 text-center text-sm text-[#555555] font-body">
           No drugs found for this manufacturer.
         </div>
       )}

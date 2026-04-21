@@ -68,8 +68,8 @@ def run():
                     issues.append(f"MISSING SOURCE: {drug_name} COGS estimate has no source_url")
                 if not est.get("publication_year") and not est.get("year"):
                     issues.append(f"MISSING YEAR: {drug_name} COGS estimate has no publication_year")
-                if not est.get("institution"):
-                    issues.append(f"MISSING INSTITUTION: {drug_name} COGS estimate has no institution")
+                if not est.get("author") and not est.get("institution"):
+                    issues.append(f"MISSING AUTHOR: {drug_name} COGS estimate has no author/institution")
 
     # 3. Check for WAC figures with only 1 source (low confidence)
     wac_path = DATA_DIR / "wac_prices.json"
@@ -90,7 +90,7 @@ def run():
         cogs = json.loads(cogs_path.read_text())
         for drug in cogs:
             drug_name = drug.get("drug_name", "Unknown")
-            est = drug.get("preferred_estimate_monthly_cents", 0)
+            est = drug.get("estimated_cogs_monthly", 0)
             if est is not None and est <= 0 and not drug.get("no_data"):
                 issues.append(
                     f"DATA ERROR: {drug_name} has zero or negative COGS estimate"
@@ -108,23 +108,22 @@ def run():
             if not name:
                 continue
             w = wac_by_name[name].get("wac_monthly", 0)
-            c = cogs_by_name[name].get("preferred_estimate_monthly_cents", 0)
+            c = cogs_by_name[name].get("estimated_cogs_monthly", 0)
             if w and c and w < c:
                 issues.append(
                     f"DATA ERROR: {name} — WAC (${w / 100:.0f}) is LESS than "
                     f"COGS estimate (${c / 100:.0f}) — impossible, check data"
                 )
 
-    # 6. Check delay_tactics drugs for missing population_source
+    # 6. Check delay_tactics drugs for missing patient population data
     delay_path = DATA_DIR / "delay_tactics.json"
     if delay_path.exists():
         delays = json.loads(delay_path.read_text())
         for entry in delays:
             drug_name = entry.get("drug_name", "Unknown")
-            if not entry.get("population_source"):
-                issues.append(f"MISSING POPULATION SOURCE: {drug_name} in delay_tactics has no population_source")
-            if not entry.get("population_source_url"):
-                issues.append(f"MISSING POPULATION SOURCE URL: {drug_name} in delay_tactics has no population_source_url")
+            pop = entry.get("estimated_patient_population")
+            if pop is None or (isinstance(pop, (int, float)) and pop <= 0):
+                issues.append(f"MISSING PATIENT POPULATION: {drug_name} in delay_tactics has no estimated_patient_population")
 
     # 7. Check data freshness — flag records missing year/quarter or outdated
     now = datetime.now()

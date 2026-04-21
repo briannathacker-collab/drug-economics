@@ -5,6 +5,8 @@ These are the most politically significant numbers on the site —
 they show what Medicare actually negotiated vs. what manufacturers charge.
 """
 
+from __future__ import annotations
+
 import json
 from datetime import datetime
 from pathlib import Path

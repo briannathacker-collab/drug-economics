@@ -8,6 +8,8 @@ Three-source detection approach: only logs a price increase when confirmed
 by at least 2 of 3 sources to prevent false positives.
 """
 
+from __future__ import annotations
+
 import json
 import re
 from datetime import datetime
@@ -212,6 +214,17 @@ def run():
         major = [i for i in confirmed_increases if i["pct_increase"] >= 5.0]
         if major:
             send_price_increase_alert(major)
+
+    log_update(
+        drug_name="ALL",
+        manufacturer="ALL",
+        source="WAC Monitor",
+        update_type="WEEKLY_CHECK",
+        description=(
+            f"WAC monitor weekly scan — "
+            f"{len(confirmed_increases)} increases confirmed across {len(current_wac)} drugs"
+        ),
+    )
 
     print(
         f"[{datetime.now()}] BOT: WAC monitor complete — "

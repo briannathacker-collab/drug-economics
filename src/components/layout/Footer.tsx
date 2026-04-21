@@ -15,19 +15,19 @@ const NAV_LINKS = [
 
 export function Footer() {
   return (
-    <footer className="bg-[#1F2A24] text-white" role="contentinfo">
+    <footer className="bg-[#1a1a1a] text-white" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Row 1: Brand + Nav */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-8 border-b border-white/10">
           <div className="flex items-center gap-2">
             <Image
-              src="/logo/vytalis-symbol.svg"
-              alt="Vytalis Research"
-              width={22}
-              height={22}
-              className="w-[22px] h-[22px] brightness-0 invert opacity-50"
+              src="/logo/vitarecord-logo.png"
+              alt="VitaRecord"
+              width={24}
+              height={26}
+              className="w-6 h-6 brightness-0 invert opacity-50"
             />
-            <p className="text-sm font-body text-[#6B7771]">
+            <p className="text-sm font-body text-[#555555]">
               Drug Economics — Vytalis Research
             </p>
           </div>
@@ -36,7 +36,7 @@ export function Footer() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-body text-[#6B7771] hover:text-[#E6F2EC] transition-colors"
+                className="text-sm font-body text-[#555555] hover:text-[#E6F2EC] transition-colors"
               >
                 {link.name}
               </Link>

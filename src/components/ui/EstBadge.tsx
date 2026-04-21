@@ -17,8 +17,8 @@ export function EstBadge({ confidence = 'medium', className }: EstBadgeProps) {
           type="button"
           className={cn(
             'inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium font-mono',
-            'bg-[#FFFBEB] text-[#B45309] border border-[#B45309]/20',
-            'hover:bg-[#B45309]/10 transition-colors cursor-pointer',
+            'bg-[#FFFBEB] text-[#b8860b] border border-[#b8860b]/20',
+            'hover:bg-[#b8860b]/10 transition-colors cursor-pointer',
             className
           )}
           title={`Confidence: ${confidence}. Click for methodology details.`}

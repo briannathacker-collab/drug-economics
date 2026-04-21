@@ -66,7 +66,7 @@ export function ExportButton({ data, filename, columns, className }: ExportButto
     <div className={`relative inline-block ${className || ''}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs text-[#6B7771] bg-white border border-[#E5ECE8] rounded-lg hover:bg-[#F1F5F9] transition-colors font-body"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs text-[#555555] bg-white border border-[#e0ddd5] rounded-lg hover:bg-[#F1F5F9] transition-colors font-body"
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
@@ -77,19 +77,19 @@ export function ExportButton({ data, filename, columns, className }: ExportButto
       {isOpen && (
         <>
           <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />
-          <div className="absolute right-0 mt-1 w-40 bg-white rounded-lg shadow-lg border border-[#E5ECE8] z-50 py-1">
+          <div className="absolute right-0 mt-1 w-40 bg-white rounded-lg shadow-lg border border-[#e0ddd5] z-50 py-1">
             <button
               onClick={exportCSV}
-              className="w-full flex items-center gap-2 px-3 py-2 text-sm text-[#1F2A24] hover:bg-[#F1F5F9] transition-colors font-body"
+              className="w-full flex items-center gap-2 px-3 py-2 text-sm text-[#1a1a1a] hover:bg-[#F1F5F9] transition-colors font-body"
             >
-              <Table className="w-4 h-4 text-[#6B7771]" />
+              <Table className="w-4 h-4 text-[#555555]" />
               CSV (.csv)
             </button>
             <button
               onClick={exportJSON}
-              className="w-full flex items-center gap-2 px-3 py-2 text-sm text-[#1F2A24] hover:bg-[#F1F5F9] transition-colors font-body"
+              className="w-full flex items-center gap-2 px-3 py-2 text-sm text-[#1a1a1a] hover:bg-[#F1F5F9] transition-colors font-body"
             >
-              <FileText className="w-4 h-4 text-[#6B7771]" />
+              <FileText className="w-4 h-4 text-[#555555]" />
               JSON (.json)
             </button>
           </div>

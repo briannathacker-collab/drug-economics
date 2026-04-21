@@ -107,7 +107,19 @@
     "ceo_compensation": 3310000000,
     "ceo_name": "Albert Bourla",
     "headquarters": "New York, NY",
-    "employees": 88000
+    "employees": 88000,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 4502200000000,
+        "net_income_cents": 941900000000,
+        "rd_expense_cents": null,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-28",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "jnj",
@@ -213,7 +225,19 @@
     "ceo_compensation": 2610000000,
     "ceo_name": "Joaquin Duato",
     "headquarters": "New Brunswick, NJ",
-    "employees": 131900
+    "employees": 131900,
+    "annual": [
+      {
+        "year": 2014,
+        "quarter": 3,
+        "net_revenue_cents": 5607700000000,
+        "net_income_cents": 2168800000000,
+        "rd_expense_cents": null,
+        "gross_margin_pct": 84.4,
+        "period_end": "2014-09-28",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "abbvie",
@@ -319,7 +343,19 @@
     "ceo_compensation": 2460000000,
     "ceo_name": "Richard Gonzalez",
     "headquarters": "North Chicago, IL",
-    "employees": 50000
+    "employees": 50000,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 4454200000000,
+        "net_income_cents": 241000000000,
+        "rd_expense_cents": null,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "merck",
@@ -429,7 +465,19 @@
     "ceo_compensation": 2680000000,
     "ceo_name": "Robert Davis",
     "headquarters": "Rahway, NJ",
-    "employees": 69000
+    "employees": 69000,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 4861100000000,
+        "net_income_cents": 1529100000000,
+        "rd_expense_cents": 1190300000000,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "lilly",
@@ -531,7 +579,19 @@
     "ceo_compensation": 2600000000,
     "ceo_name": "David Ricks",
     "headquarters": "Indianapolis, IN",
-    "employees": 43000
+    "employees": 43000,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 4588700000000,
+        "net_income_cents": 1400230000000,
+        "rd_expense_cents": 434160000000,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "bms",
@@ -633,7 +693,19 @@
     "ceo_compensation": 2150000000,
     "ceo_name": "Christopher Boerner",
     "headquarters": "New York, NY",
-    "employees": 34000
+    "employees": 34000,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 3569200000000,
+        "net_income_cents": 596700000000,
+        "rd_expense_cents": 736500000000,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "novartis",
@@ -833,7 +905,19 @@
     "ceo_compensation": 1930000000,
     "ceo_name": "Daniel O'Day",
     "headquarters": "Foster City, CA",
-    "employees": 17000
+    "employees": 17000,
+    "annual": [
+      {
+        "year": 2020,
+        "quarter": 3,
+        "net_revenue_cents": 1726800000000,
+        "net_income_cents": 632700000000,
+        "rd_expense_cents": 110100000000,
+        "gross_margin_pct": null,
+        "period_end": "2020-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "biogen",
@@ -931,7 +1015,19 @@
     "ceo_compensation": 1870000000,
     "ceo_name": "Christopher Viehbacher",
     "headquarters": "Cambridge, MA",
-    "employees": 7500
+    "employees": 7500,
+    "annual": [
+      {
+        "year": 2025,
+        "quarter": 3,
+        "net_revenue_cents": 761120000000,
+        "net_income_cents": 134180000000,
+        "rd_expense_cents": 28434000000,
+        "gross_margin_pct": null,
+        "period_end": "2025-09-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "astrazeneca",
@@ -1229,7 +1325,19 @@
     "ceo_compensation": 2890000000,
     "ceo_name": "Leonard Schleifer",
     "headquarters": "Tarrytown, NY",
-    "employees": 12600
+    "employees": 12600,
+    "annual": [
+      {
+        "year": 2018,
+        "quarter": 1,
+        "net_revenue_cents": 151148500000,
+        "net_income_cents": 366030000000,
+        "rd_expense_cents": 422410000000,
+        "gross_margin_pct": null,
+        "period_end": "2018-03-31",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "novo",
@@ -1365,7 +1473,19 @@
     "ceo_compensation": 2380000000,
     "ceo_name": "Robert Bradway",
     "headquarters": "Thousand Oaks, CA",
-    "employees": 26500
+    "employees": 26500,
+    "annual": [
+      {
+        "year": 2021,
+        "quarter": 2,
+        "net_revenue_cents": 1242700000000,
+        "net_income_cents": 637800000000,
+        "rd_expense_cents": null,
+        "gross_margin_pct": null,
+        "period_end": "2021-06-30",
+        "filing_source": "SEC EDGAR XBRL"
+      }
+    ]
   },
   {
     "manufacturer_id": "genentech",

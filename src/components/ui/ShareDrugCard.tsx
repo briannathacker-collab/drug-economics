@@ -59,7 +59,7 @@ export function ShareDrugCard({ drugId, drugName, className }: ShareDrugCardProp
       <button
         onClick={handleShare}
         disabled={status === 'loading'}
-        className="flex items-center gap-2 px-4 py-2 bg-[#C41E3A] hover:bg-[#A01830] text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 font-body"
+        className="flex items-center gap-2 px-4 py-2 bg-[#c0392b] hover:bg-[#A01830] text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 font-body"
       >
         {status === 'done' ? <Check className="w-4 h-4" /> : <Share2 className="w-4 h-4" />}
         {status === 'done' ? 'Shared!' : 'Share this drug'}
@@ -67,7 +67,7 @@ export function ShareDrugCard({ drugId, drugName, className }: ShareDrugCardProp
       <button
         onClick={handleDownload}
         disabled={status === 'loading'}
-        className="flex items-center gap-2 px-4 py-2 border border-[#E5ECE8] hover:bg-[#F7F9F8] text-[#6B7771] text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 font-body"
+        className="flex items-center gap-2 px-4 py-2 border border-[#e0ddd5] hover:bg-[#f5f5f0] text-[#555555] text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 font-body"
       >
         <Download className="w-4 h-4" />
         Download card

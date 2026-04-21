@@ -4,6 +4,8 @@ Refreshes clinical trial pipeline data weekly.
 Updates the Pipeline Watch app with latest trial statuses.
 """
 
+from __future__ import annotations
+
 import json
 from datetime import datetime, timedelta
 from pathlib import Path

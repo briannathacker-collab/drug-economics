@@ -74,17 +74,17 @@ export default function PricedOutPage() {
   }, [manufacturerCards, searchQuery, specialty, sortBy]);
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       {/* Green header */}
-      <section className="bg-[#0B6B3A] text-white">
+      <section className="bg-[#2d5016] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
           <h1 className="text-3xl sm:text-4xl font-bold font-display tracking-tight">Priced Out</h1>
           <p className="mt-2 text-[#E6F2EC] text-base sm:text-lg font-body max-w-2xl">
             What drugs really cost to make vs. what manufacturers charge. Compare <JargonTooltip term="WAC">WAC</JargonTooltip> prices, manufacturing costs, and profit margins.
           </p>
-          <p className="mt-2 text-xs text-[#6B7771] font-body">
+          <p className="mt-2 text-xs text-[#555555] font-body">
             WAC = Wholesale Acquisition Cost — manufacturer list price before rebates
           </p>
         </div>
@@ -166,47 +166,47 @@ export default function PricedOutPage() {
           />
         </div>
 
-        <p className="text-[10px] text-[#6B7771] font-mono mb-6 flex items-center gap-2">
+        <p className="text-[10px] text-[#555555] font-mono mb-6 flex items-center gap-2">
           <FreshnessBadge dataYear={2026} dataQuarter="Q1" source="WAC_MONITOR" />
           <span>· Manufacturer financials: FY 2024 actuals (FY 2025 refresh in progress — see <Link href="/changelog" className="underline hover:text-[#0B6B3A]">changelog</Link>) · Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
         </p>
 
         {/* Legend — plain-English glossary */}
-        <details className="mb-8 rounded-xl border border-[#E5ECE8] bg-white shadow-sm">
-          <summary className="cursor-pointer px-5 py-3 text-sm font-semibold text-[#0B6B3A] font-body select-none hover:bg-[#F7F9F8] rounded-xl transition-colors">
+        <details className="mb-8 rounded-xl border border-[#e0ddd5] bg-white shadow-sm">
+          <summary className="cursor-pointer px-5 py-3 text-sm font-semibold text-[#2d5016] font-body select-none hover:bg-[#f5f5f0] rounded-xl transition-colors">
             What do these numbers mean?
           </summary>
-          <div className="px-5 pb-5 pt-2 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm text-[#6B7771] font-body">
+          <div className="px-5 pb-5 pt-2 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm text-[#555555] font-body">
             <div>
-              <p className="font-semibold text-[#1F2A24]">WAC (Wholesale Acquisition Cost)</p>
+              <p className="font-semibold text-[#1a1a1a]">WAC (Wholesale Acquisition Cost)</p>
               <p>The manufacturer&apos;s list price for a drug before any rebates, insurer negotiations, or PBM discounts. Think of it as the &ldquo;sticker price.&rdquo; Almost nobody actually pays WAC, but it&apos;s the starting point that determines what everyone else pays.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Cost to Make (COGS)</p>
+              <p className="font-semibold text-[#1a1a1a]">Cost to Make (COGS)</p>
               <p>An estimate of what it actually costs to manufacture the drug — ingredients, production, packaging. These come from peer-reviewed academic studies and are labeled with a confidence level.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Markup %</p>
+              <p className="font-semibold text-[#1a1a1a]">Markup %</p>
               <p>How much the list price (WAC) exceeds the estimated manufacturing cost. A 1,000% markup means a drug that costs ~$100/mo to make is listed at ~$1,100/mo.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Revenue</p>
+              <p className="font-semibold text-[#1a1a1a]">Revenue</p>
               <p>The company&apos;s total annual sales across all products worldwide — not just drugs on this page. Gives context for how large the manufacturer is.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Net Income</p>
+              <p className="font-semibold text-[#1a1a1a]">Net Income</p>
               <p>The company&apos;s profit after all expenses, taxes, and costs are subtracted from revenue. This is what they actually take home.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">R&amp;D Spend</p>
+              <p className="font-semibold text-[#1a1a1a]">R&amp;D Spend</p>
               <p>How much the company spends on research and development. Often cited to justify high drug prices — you can compare it to their profit to judge for yourself.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Gross Margin</p>
+              <p className="font-semibold text-[#1a1a1a]">Gross Margin</p>
               <p>The percentage of revenue left after subtracting the cost of goods sold. A 75% gross margin means for every $1 in sales, $0.75 is gross profit.</p>
             </div>
             <div>
-              <p className="font-semibold text-[#1F2A24]">Combined Revenue</p>
+              <p className="font-semibold text-[#1a1a1a]">Combined Revenue</p>
               <p>Total annual revenue of all manufacturers shown on this page, added together. Shows the scale of the companies setting these prices.</p>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function PricedOutPage() {
 
         {/* Section header */}
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-[#1F2A24] font-display">
+          <h2 className="text-2xl font-bold text-[#1a1a1a] font-display">
             Manufacturers
           </h2>
           <div className="flex items-center gap-3">
@@ -241,7 +241,7 @@ export default function PricedOutPage() {
                 { key: 'markup_percent', label: 'Markup %' },
               ]}
             />
-            <span className="px-3 py-1 bg-[#E6F2EC] text-[#0B6B3A] rounded-full text-sm font-medium font-mono">
+            <span className="px-3 py-1 bg-[#E6F2EC] text-[#2d5016] rounded-full text-sm font-medium font-mono">
               {filtered.length}
             </span>
           </div>
@@ -268,7 +268,7 @@ export default function PricedOutPage() {
 
         {filtered.length === 0 && (
           <div className="text-center py-16" role="status">
-            <p className="text-[#6B7771] font-body">No manufacturers match your search.</p>
+            <p className="text-[#555555] font-body">No manufacturers match your search.</p>
           </div>
         )}
       </main>

@@ -35,18 +35,18 @@ export function MetricCard({
   return (
     <div
       className={cn(
-        'bg-white rounded-xl border border-[#E5ECE8] p-5 shadow-sm',
-        variant === 'danger' && 'border-l-4 border-l-[#C41E3A]',
-        variant === 'warning' && 'border-l-4 border-l-[#B45309]',
+        'bg-white rounded-xl border border-[#e0ddd5] p-5 shadow-sm',
+        variant === 'danger' && 'border-l-4 border-l-[#c0392b]',
+        variant === 'warning' && 'border-l-4 border-l-[#b8860b]',
         className
       )}
     >
       <div className="flex items-start justify-between">
-        <span className="text-sm font-medium text-[#6B7771] font-body">{label}</span>
-        {icon && <span className="text-[#6B7771]">{icon}</span>}
+        <span className="text-sm font-medium text-[#555555] font-body">{label}</span>
+        {icon && <span className="text-[#555555]">{icon}</span>}
       </div>
       <div className="mt-2 flex items-baseline gap-2">
-        <span className="text-2xl font-bold text-[#1F2A24] font-body tracking-tight">{value}</span>
+        <span className="text-2xl font-bold text-[#1a1a1a] font-body tracking-tight">{value}</span>
         {isEstimate && <EstBadge confidence={confidence} />}
         {isEstimate && sourceLabel && (
           <SourceIcon
@@ -57,7 +57,7 @@ export function MetricCard({
         )}
       </div>
       {subLabel && (
-        <p className="mt-1 text-sm text-[#6B7771] font-body">{subLabel}</p>
+        <p className="mt-1 text-sm text-[#555555] font-body">{subLabel}</p>
       )}
     </div>
   );

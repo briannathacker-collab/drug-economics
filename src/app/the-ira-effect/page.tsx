@@ -32,7 +32,7 @@ const TIMELINE_EVENTS = [
     title: 'IRA Signed Into Law',
     description:
       'President Biden signs the Inflation Reduction Act, granting Medicare the authority to negotiate drug prices directly with manufacturers for the first time in the program\'s history.',
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
     status: 'complete' as const,
   },
   {
@@ -40,7 +40,7 @@ const TIMELINE_EVENTS = [
     title: 'First 10 Drugs Selected',
     description:
       'CMS announces the first 10 high-spend Medicare Part D drugs selected for negotiation. All are brand-name drugs with no generic or biosimilar competition.',
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
     status: 'complete' as const,
   },
   {
@@ -48,7 +48,7 @@ const TIMELINE_EVENTS = [
     title: 'Negotiations Completed',
     description:
       'Medicare and drug manufacturers reach agreement on Maximum Fair Prices (MFPs) for all 10 drugs, with reductions ranging from 38% to 79% off list prices.',
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
     status: 'complete' as const,
   },
   {
@@ -56,7 +56,7 @@ const TIMELINE_EVENTS = [
     title: 'Negotiated Prices Take Effect',
     description:
       'Maximum Fair Prices go into effect for the first 10 drugs on January 1, 2026. Medicare beneficiaries begin paying lower out-of-pocket costs immediately.',
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
     status: 'active' as const,
   },
   {
@@ -64,7 +64,7 @@ const TIMELINE_EVENTS = [
     title: 'Round 2: 15 More Drugs Announced',
     description:
       'CMS announces negotiated prices for 15 additional Part D drugs in Round 2, with Maximum Fair Prices taking effect January 1, 2027. Discounts range from 64% to 78%.',
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
     status: 'active' as const,
   },
   {
@@ -72,7 +72,7 @@ const TIMELINE_EVENTS = [
     title: 'Expanding to 20 Drugs/Year',
     description:
       'The program expands to include up to 20 drugs per year, covering both Part D (pharmacy) and Part B (physician-administered) drugs.',
-    color: 'bg-[#6B7771]',
+    color: 'bg-[#555555]',
     status: 'upcoming' as const,
   },
 ];
@@ -83,7 +83,7 @@ const IMPACT_CARDS = [
     title: 'Lower Out-of-Pocket Costs',
     description:
       'Medicare beneficiaries taking these drugs will see significant reductions in their co-pays and coinsurance amounts, putting money back in their pockets.',
-    accent: 'bg-[#E6F2EC] text-[#0B6B3A]',
+    accent: 'bg-[#E6F2EC] text-[#2d5016]',
   },
   {
     icon: <Scale className="w-5 h-5" />,
@@ -111,7 +111,7 @@ const IMPACT_CARDS = [
     title: 'Federal Savings',
     description:
       'The Congressional Budget Office estimates Medicare drug price negotiation will save the federal government $98.5 billion over a decade, reducing the national deficit.',
-    accent: 'bg-[#E6F2EC] text-[#0B6B3A]',
+    accent: 'bg-[#E6F2EC] text-[#2d5016]',
   },
   {
     icon: <Users className="w-5 h-5" />,
@@ -156,13 +156,13 @@ export default function IraEffectPage() {
   const round2Drugs = useMemo(() => negotiations.filter(d => d.round === 2), [negotiations]);
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       {/* Hero Section */}
-      <section className="bg-[#0B6B3A] text-white">
+      <section className="bg-[#2d5016] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-          <div className="flex items-center gap-2 text-sm text-[#6B7771] font-body mb-3">
+          <div className="flex items-center gap-2 text-sm text-[#555555] font-body mb-3">
             <Shield className="w-4 h-4" />
             Inflation Reduction Act of 2022
           </div>
@@ -174,7 +174,7 @@ export default function IraEffectPage() {
             directly with manufacturers. Across two rounds, 25 drugs now have negotiated
             prices &mdash; 10 in Round 1 and 15 in Round 2.
           </p>
-          <p className="mt-3 text-sm text-[#6B7771] font-body">
+          <p className="mt-3 text-sm text-[#555555] font-body">
             IRA Round 1: effective Jan 1 2026 &middot; IRA Round 2: effective Jan 1 2027 &middot; Source: CMS
           </p>
         </div>
@@ -236,15 +236,15 @@ export default function IraEffectPage() {
           />
         </div>
 
-        <p className="text-[10px] text-[#6B7771] font-mono mb-8 flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
+        <p className="text-[10px] text-[#555555] font-mono mb-8 flex items-center gap-2">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#2d5016] inline-block" />
           IRA Round 1: effective Jan 1 2026 &middot; IRA Round 2: effective Jan 1 2027 &middot; Source: CMS
         </p>
 
         {/* Negotiated Drugs Table */}
         <section className="mb-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-[#1F2A24] font-display">
+            <h2 className="text-2xl font-bold text-[#1a1a1a] font-display">
               Medicare Negotiated vs. List Price
             </h2>
             <div className="flex items-center gap-3">
@@ -275,15 +275,15 @@ export default function IraEffectPage() {
                   { key: 'medicare_spend_b', label: 'Medicare Spend ($B)' },
                 ]}
               />
-              <span className="px-3 py-1 bg-[#E6F2EC] text-[#0B6B3A] rounded-full text-sm font-medium font-mono">
+              <span className="px-3 py-1 bg-[#E6F2EC] text-[#2d5016] rounded-full text-sm font-medium font-mono">
                 {negotiations.length} drugs (R1: {round1Drugs.length} + R2: {round2Drugs.length})
               </span>
             </div>
           </div>
 
-          <div className="bg-white rounded-xl border border-[#E5ECE8] overflow-hidden shadow-sm">
-            <div className="px-6 py-4 border-b border-[#E5ECE8] bg-[#F7F9F8]">
-              <p className="text-sm text-[#6B7771] font-body">
+          <div className="bg-white rounded-xl border border-[#e0ddd5] overflow-hidden shadow-sm">
+            <div className="px-6 py-4 border-b border-[#e0ddd5] bg-[#f5f5f0]">
+              <p className="text-sm text-[#555555] font-body">
                 The <JargonTooltip term="MFP">Maximum Fair Price</JargonTooltip> is what Medicare
                 will pay under negotiation. The <JargonTooltip term="WAC">Wholesale Acquisition Cost</JargonTooltip> is
                 the manufacturer&rsquo;s list price. All prices shown are annual costs in cents, converted to dollars for display.
@@ -293,37 +293,37 @@ export default function IraEffectPage() {
             <div className="overflow-x-auto">
               <table className="w-full text-sm" role="table">
                 <thead>
-                  <tr className="bg-[#F7F9F8] text-left border-b border-[#E5ECE8]">
-                    <th className="px-6 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider">
+                  <tr className="bg-[#f5f5f0] text-left border-b border-[#e0ddd5]">
+                    <th className="px-6 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider">
                       Drug
                     </th>
-                    <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right">
+                    <th className="px-4 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider text-right">
                       WAC/yr
                     </th>
-                    <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right">
-                      <span className="text-[#0B6B3A]">Negotiated/yr</span>
+                    <th className="px-4 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider text-right">
+                      <span className="text-[#2d5016]">Negotiated/yr</span>
                     </th>
-                    <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right">
+                    <th className="px-4 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider text-right">
                       <span className="inline-flex items-center gap-1" title="Discount computed against current (2026) WAC. CMS's published discount figures use 2023 reference WAC and are typically a few points lower (e.g., Januvia shows 81% here vs. CMS's 79%).">
                         Discount vs. WAC
                       </span>
                     </th>
-                    <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right hidden md:table-cell">
+                    <th className="px-4 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider text-right hidden md:table-cell">
                       Beneficiaries
                     </th>
-                    <th className="px-4 py-3 text-xs font-bold text-[#6B7771] font-body uppercase tracking-wider text-right hidden lg:table-cell">
+                    <th className="px-4 py-3 text-xs font-bold text-[#555555] font-body uppercase tracking-wider text-right hidden lg:table-cell">
                       Medicare Spend
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   {/* Round 1 group header */}
-                  <tr className="bg-[#E6F2EC] border-b border-[#E5ECE8]">
+                  <tr className="bg-[#E6F2EC] border-b border-[#e0ddd5]">
                     <td colSpan={6} className="px-6 py-2">
-                      <span className="text-xs font-bold text-[#0B6B3A] font-body uppercase tracking-wider">
+                      <span className="text-xs font-bold text-[#2d5016] font-body uppercase tracking-wider">
                         Round 1 &mdash; Effective Jan 1, 2026
                       </span>
-                      <span className="ml-2 text-[10px] text-[#6B7771] font-mono">
+                      <span className="ml-2 text-[10px] text-[#555555] font-mono">
                         {round1Drugs.length} drugs
                       </span>
                     </td>
@@ -333,47 +333,47 @@ export default function IraEffectPage() {
                     return (
                       <tr
                         key={drug.drug_id}
-                        className={`${i % 2 === 0 ? 'bg-white' : 'bg-[#F7F9F8]/50'} hover:bg-[#F1F5F9] transition-colors`}
+                        className={`${i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f0]/50'} hover:bg-[#F1F5F9] transition-colors`}
                       >
                         <td className="px-6 py-4">
-                          <div className="font-bold text-[#1F2A24] font-display">
+                          <div className="font-bold text-[#1a1a1a] font-display">
                             {drug.drug_name}
                           </div>
-                          <div className="text-xs text-[#6B7771] font-body">
+                          <div className="text-xs text-[#555555] font-body">
                             {drug.generic_name} &middot; {drug.indication}
                           </div>
-                          <div className="text-[10px] text-[#6B7771] font-body mt-0.5">
+                          <div className="text-[10px] text-[#555555] font-body mt-0.5">
                             {drug.manufacturer}
                           </div>
                         </td>
                         <td className="px-4 py-4 text-right">
-                          <span className="font-mono text-[#C41E3A] line-through decoration-1">
+                          <span className="font-mono text-[#c0392b] line-through decoration-1">
                             {formatCurrency(drug.current_wac_annual)}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right">
-                          <span className="font-mono font-bold text-[#0B6B3A]">
+                          <span className="font-mono font-bold text-[#2d5016]">
                             {formatCurrency(drug.negotiated_price_annual)}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right">
                           <div className="flex flex-col items-end gap-0.5">
-                            <span className="inline-flex items-center gap-1 text-[#0B6B3A] font-mono font-bold">
+                            <span className="inline-flex items-center gap-1 text-[#2d5016] font-mono font-bold">
                               <ArrowDown className="w-3.5 h-3.5" />
                               {drug.savings_percent}%
                             </span>
-                            <span className="text-[10px] text-[#6B7771] font-mono">
+                            <span className="text-[10px] text-[#555555] font-mono">
                               {formatCurrency(annualSavings)}/yr
                             </span>
                           </div>
                         </td>
                         <td className="px-4 py-4 text-right hidden md:table-cell">
-                          <span className="font-mono text-[#1F2A24]">
+                          <span className="font-mono text-[#1a1a1a]">
                             {drug.enrolled_beneficiaries.toLocaleString()}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right hidden lg:table-cell">
-                          <span className="font-mono text-[#6B7771]">
+                          <span className="font-mono text-[#555555]">
                             ${drug.medicare_spend_billions.toFixed(1)}B
                           </span>
                         </td>
@@ -381,12 +381,12 @@ export default function IraEffectPage() {
                     );
                   })}
                   {/* Round 2 group header */}
-                  <tr className="bg-[#EFF6FF] border-b border-[#E5ECE8] border-t-2 border-t-[#E5ECE8]">
+                  <tr className="bg-[#EFF6FF] border-b border-[#e0ddd5] border-t-2 border-t-[#e0ddd5]">
                     <td colSpan={6} className="px-6 py-2">
                       <span className="text-xs font-bold text-[#1E40AF] font-body uppercase tracking-wider">
                         Round 2 &mdash; Effective Jan 1, 2027
                       </span>
-                      <span className="ml-2 text-[10px] text-[#6B7771] font-mono">
+                      <span className="ml-2 text-[10px] text-[#555555] font-mono">
                         {round2Drugs.length} drugs
                       </span>
                       <span className="ml-2 px-1.5 py-0.5 bg-[#FEF3C7] text-[#92400E] text-[10px] font-mono rounded">
@@ -399,47 +399,47 @@ export default function IraEffectPage() {
                     return (
                       <tr
                         key={drug.drug_id}
-                        className={`${i % 2 === 0 ? 'bg-white' : 'bg-[#F7F9F8]/50'} hover:bg-[#F1F5F9] transition-colors`}
+                        className={`${i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f0]/50'} hover:bg-[#F1F5F9] transition-colors`}
                       >
                         <td className="px-6 py-4">
-                          <div className="font-bold text-[#1F2A24] font-display">
+                          <div className="font-bold text-[#1a1a1a] font-display">
                             {drug.drug_name}
                           </div>
-                          <div className="text-xs text-[#6B7771] font-body">
+                          <div className="text-xs text-[#555555] font-body">
                             {drug.generic_name} &middot; {drug.indication}
                           </div>
-                          <div className="text-[10px] text-[#6B7771] font-body mt-0.5">
+                          <div className="text-[10px] text-[#555555] font-body mt-0.5">
                             {drug.manufacturer}
                           </div>
                         </td>
                         <td className="px-4 py-4 text-right">
-                          <span className="font-mono text-[#C41E3A] line-through decoration-1">
+                          <span className="font-mono text-[#c0392b] line-through decoration-1">
                             {formatCurrency(drug.current_wac_annual)}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right">
-                          <span className="font-mono font-bold text-[#0B6B3A]">
+                          <span className="font-mono font-bold text-[#2d5016]">
                             {formatCurrency(drug.negotiated_price_annual)}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right">
                           <div className="flex flex-col items-end gap-0.5">
-                            <span className="inline-flex items-center gap-1 text-[#0B6B3A] font-mono font-bold">
+                            <span className="inline-flex items-center gap-1 text-[#2d5016] font-mono font-bold">
                               <ArrowDown className="w-3.5 h-3.5" />
                               {drug.savings_percent}%
                             </span>
-                            <span className="text-[10px] text-[#6B7771] font-mono">
+                            <span className="text-[10px] text-[#555555] font-mono">
                               {formatCurrency(annualSavings)}/yr
                             </span>
                           </div>
                         </td>
                         <td className="px-4 py-4 text-right hidden md:table-cell">
-                          <span className="font-mono text-[#1F2A24]">
+                          <span className="font-mono text-[#1a1a1a]">
                             {drug.enrolled_beneficiaries.toLocaleString()}
                           </span>
                         </td>
                         <td className="px-4 py-4 text-right hidden lg:table-cell">
-                          <span className="font-mono text-[#6B7771]">
+                          <span className="font-mono text-[#555555]">
                             ${drug.medicare_spend_billions.toFixed(1)}B
                           </span>
                         </td>
@@ -450,13 +450,13 @@ export default function IraEffectPage() {
               </table>
             </div>
 
-            <div className="px-6 py-3 bg-[#F7F9F8] border-t border-[#E5ECE8] space-y-1">
-              <p className="text-xs text-[#6B7771] font-body italic">
+            <div className="px-6 py-3 bg-[#f5f5f0] border-t border-[#e0ddd5] space-y-1">
+              <p className="text-xs text-[#555555] font-body italic">
                 WAC figures from Drug Economics database. Round 1 negotiated prices from CMS (August 2024);
                 Round 2 negotiated prices from CMS (2025). Actual patient out-of-pocket costs depend on insurance
                 coverage and plan design.
               </p>
-              <p className="text-xs text-[#6B7771] font-body italic">
+              <p className="text-xs text-[#555555] font-body italic">
                 <strong>Methodology:</strong> The &ldquo;Discount vs. WAC&rdquo; column is computed as
                 (current WAC − negotiated price) ÷ current WAC. CMS&rsquo;s published discount figures
                 are calculated against the 2023 reference WAC CMS used during negotiation. Because WAC has
@@ -470,11 +470,11 @@ export default function IraEffectPage() {
 
         {/* Timeline Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-[#1F2A24] font-display mb-6">
+          <h2 className="text-2xl font-bold text-[#1a1a1a] font-display mb-6">
             IRA Implementation Timeline
           </h2>
 
-          <div className="bg-white rounded-xl border border-[#E5ECE8] p-8 shadow-sm">
+          <div className="bg-white rounded-xl border border-[#e0ddd5] p-8 shadow-sm">
             <div className="relative">
               {TIMELINE_EVENTS.map((event, i) => (
                 <div key={i} className="flex gap-4 mb-6 last:mb-0">
@@ -494,24 +494,24 @@ export default function IraEffectPage() {
                       <div
                         className={`w-0.5 flex-1 mt-1 ${
                           event.status === 'complete'
-                            ? 'bg-[#0B6B3A]'
+                            ? 'bg-[#2d5016]'
                             : event.status === 'active'
-                            ? 'bg-[#0B6B3A]/40'
-                            : 'bg-[#E5ECE8]'
+                            ? 'bg-[#2d5016]/40'
+                            : 'bg-[#e0ddd5]'
                         }`}
                       />
                     )}
                   </div>
                   <div className="pb-6">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-xs font-mono text-[#6B7771]">{event.year}</span>
+                      <span className="text-xs font-mono text-[#555555]">{event.year}</span>
                       <span
                         className={`text-[10px] px-1.5 py-0.5 rounded font-mono ${
                           event.status === 'complete'
-                            ? 'bg-[#E6F2EC] text-[#0B6B3A]'
+                            ? 'bg-[#E6F2EC] text-[#2d5016]'
                             : event.status === 'active'
                             ? 'bg-[#FEF3C7] text-[#92400E]'
-                            : 'bg-[#F1F5F9] text-[#6B7771]'
+                            : 'bg-[#F1F5F9] text-[#555555]'
                         }`}
                       >
                         {event.status === 'complete'
@@ -521,8 +521,8 @@ export default function IraEffectPage() {
                           : 'Upcoming'}
                       </span>
                     </div>
-                    <h4 className="font-bold text-[#1F2A24] font-body">{event.title}</h4>
-                    <p className="text-sm text-[#6B7771] font-body mt-1 leading-relaxed max-w-2xl">
+                    <h4 className="font-bold text-[#1a1a1a] font-body">{event.title}</h4>
+                    <p className="text-sm text-[#555555] font-body mt-1 leading-relaxed max-w-2xl">
                       {event.description}
                     </p>
                   </div>
@@ -534,7 +534,7 @@ export default function IraEffectPage() {
 
         {/* What This Means Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-[#1F2A24] font-display mb-6">
+          <h2 className="text-2xl font-bold text-[#1a1a1a] font-display mb-6">
             What This Means
           </h2>
 
@@ -542,7 +542,7 @@ export default function IraEffectPage() {
             {IMPACT_CARDS.map((card, i) => (
               <div
                 key={i}
-                className="bg-white rounded-xl border border-[#E5ECE8] p-5 shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white rounded-xl border border-[#e0ddd5] p-5 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="flex items-start gap-3 mb-3">
                   <div
@@ -550,9 +550,9 @@ export default function IraEffectPage() {
                   >
                     {card.icon}
                   </div>
-                  <h3 className="font-bold text-[#1F2A24] font-body pt-2">{card.title}</h3>
+                  <h3 className="font-bold text-[#1a1a1a] font-body pt-2">{card.title}</h3>
                 </div>
-                <p className="text-sm text-[#6B7771] font-body leading-relaxed">
+                <p className="text-sm text-[#555555] font-body leading-relaxed">
                   {card.description}
                 </p>
               </div>
@@ -562,7 +562,7 @@ export default function IraEffectPage() {
 
         {/* Context + Cross-Links */}
         <section className="mb-8">
-          <div className="bg-[#0B6B3A] rounded-xl p-8">
+          <div className="bg-[#2d5016] rounded-xl p-8">
             <h3 className="text-lg font-bold text-white font-display mb-4">
               The Bigger Picture
             </h3>
@@ -601,9 +601,9 @@ export default function IraEffectPage() {
         </section>
 
         {/* Source Note */}
-        <div className="bg-[#F7F9F8] rounded-xl border border-[#E5ECE8] p-6">
-          <h3 className="text-base font-bold text-[#1F2A24] font-display mb-3">Sources &amp; Methodology</h3>
-          <div className="space-y-2 text-sm text-[#6B7771] font-body leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-xl border border-[#e0ddd5] p-6">
+          <h3 className="text-base font-bold text-[#1a1a1a] font-display mb-3">Sources &amp; Methodology</h3>
+          <div className="space-y-2 text-sm text-[#555555] font-body leading-relaxed">
             <p>
               Round 1 negotiated prices (Maximum Fair Prices) published by CMS in August 2024.
               Round 2 negotiated prices announced by CMS in 2025.
@@ -611,7 +611,7 @@ export default function IraEffectPage() {
               Medicare spending and beneficiary enrollment data from CMS Medicare Part D Spending Dashboard.
               Round 2 beneficiary and spend figures are estimates based on CMS utilization data.
             </p>
-            <p className="text-xs text-[#6B7771] font-mono mt-3">
+            <p className="text-xs text-[#555555] font-mono mt-3">
               Last updated: Q2 2026 &middot; CMS.gov, HHS.gov, Congressional Budget Office
             </p>
           </div>

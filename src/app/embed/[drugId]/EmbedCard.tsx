@@ -31,16 +31,16 @@ export function EmbedCard({
       style={{
         maxWidth: 480,
         borderRadius: 12,
-        border: '1px solid #E5ECE8',
+        border: '1px solid #e0ddd5',
         background: '#FFFFFF',
         overflow: 'hidden',
         fontFamily: 'DM Sans, system-ui, sans-serif',
       }}
     >
       {/* Header */}
-      <div style={{ background: '#0B6B3A', padding: '16px 20px' }}>
+      <div style={{ background: '#2d5016', padding: '16px 20px' }}>
         <div style={{ fontSize: 20, fontWeight: 700, color: '#FFFFFF' }}>{drugName}</div>
-        <div style={{ fontSize: 13, color: '#6B7771', marginTop: 2 }}>
+        <div style={{ fontSize: 13, color: '#555555', marginTop: 2 }}>
           {genericName} &middot; {manufacturer}
         </div>
       </div>
@@ -48,23 +48,23 @@ export function EmbedCard({
       {/* Metrics */}
       <div style={{ padding: 20, display: 'grid', gridTemplateColumns: cogsEstimate ? '1fr 1fr' : '1fr', gap: 16 }}>
         <div>
-          <div style={{ fontSize: 11, color: '#6B7771', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+          <div style={{ fontSize: 11, color: '#555555', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
             List Price (WAC)
           </div>
-          <div style={{ fontSize: 24, fontWeight: 700, color: '#C41E3A', fontFamily: 'DM Mono, monospace' }}>
+          <div style={{ fontSize: 24, fontWeight: 700, color: '#c0392b', fontFamily: 'DM Mono, monospace' }}>
             {formatCurrency(wacMonthly)}/mo
           </div>
-          <div style={{ fontSize: 12, color: '#6B7771' }}>
+          <div style={{ fontSize: 12, color: '#555555' }}>
             {formatCurrency(annualCost)}/year
           </div>
         </div>
 
         {cogsEstimate && (
           <div>
-            <div style={{ fontSize: 11, color: '#6B7771', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            <div style={{ fontSize: 11, color: '#555555', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               Est. Cost to Make
             </div>
-            <div style={{ fontSize: 24, fontWeight: 700, color: '#0B6B3A', fontFamily: 'DM Mono, monospace' }}>
+            <div style={{ fontSize: 24, fontWeight: 700, color: '#2d5016', fontFamily: 'DM Mono, monospace' }}>
               {formatCurrency(cogsEstimate)}/mo
             </div>
             {confidence && (
@@ -72,7 +72,7 @@ export function EmbedCard({
                 display: 'inline-block',
                 fontSize: 10,
                 background: '#FFFBEB',
-                color: '#B45309',
+                color: '#b8860b',
                 padding: '2px 6px',
                 borderRadius: 4,
                 fontWeight: 600,
@@ -94,13 +94,13 @@ export function EmbedCard({
             padding: 12,
             textAlign: 'center',
           }}>
-            <div style={{ fontSize: 12, color: '#6B7771' }}>Markup over est. manufacturing cost</div>
-            <div style={{ fontSize: 28, fontWeight: 700, color: '#C41E3A', fontFamily: 'DM Mono, monospace' }}>
+            <div style={{ fontSize: 12, color: '#555555' }}>Markup over est. manufacturing cost</div>
+            <div style={{ fontSize: 28, fontWeight: 700, color: '#c0392b', fontFamily: 'DM Mono, monospace' }}>
               {markupPct.toFixed(0)}%
             </div>
-            <div style={{ fontSize: 13, color: '#6B7771', marginTop: 4 }}>
+            <div style={{ fontSize: 13, color: '#555555', marginTop: 4 }}>
               For every <strong>$1</strong> estimated to make, charges{' '}
-              <strong style={{ color: '#C41E3A' }}>
+              <strong style={{ color: '#c0392b' }}>
                 ${(wacMonthly / cogsEstimate).toFixed(0)}
               </strong>
             </div>
@@ -110,13 +110,13 @@ export function EmbedCard({
 
       {/* Footer */}
       <div style={{
-        borderTop: '1px solid #E5ECE8',
+        borderTop: '1px solid #e0ddd5',
         padding: '10px 20px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
       }}>
-        <div style={{ fontSize: 10, color: '#6B7771' }}>
+        <div style={{ fontSize: 10, color: '#555555' }}>
           Data from Drug Economics &middot; Sources: CMS, FDA, SEC, peer-reviewed literature
         </div>
         <a
@@ -125,7 +125,7 @@ export function EmbedCard({
           rel="noopener noreferrer"
           style={{
             fontSize: 11,
-            color: '#0B6B3A',
+            color: '#2d5016',
             fontWeight: 600,
             textDecoration: 'none',
           }}

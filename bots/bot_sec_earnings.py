@@ -7,6 +7,8 @@ manufacturer profit figures shown on cards.
 Uses SEC EDGAR API (no API key needed, just a user-agent header).
 """
 
+from __future__ import annotations
+
 import json
 import re
 from datetime import datetime

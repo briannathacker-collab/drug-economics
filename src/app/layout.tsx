@@ -85,7 +85,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfair.variable} ${jetbrainsMono.variable} antialiased bg-[#F7F9F8] font-[var(--font-inter)]`}
+        className={`${inter.variable} ${playfair.variable} ${jetbrainsMono.variable} antialiased bg-[#f5f5f0] font-[var(--font-inter)]`}
       >
         <script
           type="application/ld+json"

@@ -19,8 +19,8 @@ export function IndicationTags({ indications, className }: IndicationTagsProps) 
           className={cn(
             'inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium font-body',
             ind.type === 'on-label'
-              ? 'bg-[#E6F2EC] text-[#0B6B3A]'
-              : 'bg-[#FFFBEB] text-[#B45309]'
+              ? 'bg-[#E6F2EC] text-[#2d5016]'
+              : 'bg-[#FFFBEB] text-[#b8860b]'
           )}
           title={
             ind.type === 'off-label'

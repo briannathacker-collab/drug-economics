@@ -68,18 +68,18 @@ export default async function DrugPage({ params }: Props) {
   const delayTactics = getDelayTacticsForDrug(drugId);
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}
-        <nav className="text-sm text-[#6B7771] font-body mb-6" aria-label="Breadcrumb">
+        <nav className="text-sm text-[#555555] font-body mb-6" aria-label="Breadcrumb">
           <ol className="flex items-center gap-1.5">
-            <li><Link href="/" className="hover:text-[#6B7771]">Home</Link></li>
+            <li><Link href="/" className="hover:text-[#555555]">Home</Link></li>
             <li>/</li>
-            <li><Link href="/priced-out" className="hover:text-[#6B7771]">Priced Out</Link></li>
+            <li><Link href="/priced-out" className="hover:text-[#555555]">Priced Out</Link></li>
             <li>/</li>
-            <li className="text-[#1F2A24] font-medium">{drug.drug_name}</li>
+            <li className="text-[#1a1a1a] font-medium">{drug.drug_name}</li>
           </ol>
         </nav>
 

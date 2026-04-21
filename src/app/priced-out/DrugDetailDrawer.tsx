@@ -41,50 +41,50 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
             {/* Header */}
             <div className="flex items-start justify-between mb-6">
               <div>
-                <Dialog.Title className="text-2xl font-bold text-[#1F2A24] font-display">
+                <Dialog.Title className="text-2xl font-bold text-[#1a1a1a] font-display">
                   {drug.drug_name}
                 </Dialog.Title>
-                <p className="text-sm text-[#6B7771] font-body mt-1">
+                <p className="text-sm text-[#555555] font-body mt-1">
                   {drug.generic_name} · {manufacturer?.name || drug.manufacturer_id}
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Link
                   href={`/drug/${drugId}`}
-                  className="hidden sm:inline-flex items-center gap-1 text-xs text-[#0B6B3A] font-medium hover:underline font-body"
+                  className="hidden sm:inline-flex items-center gap-1 text-xs text-[#2d5016] font-medium hover:underline font-body"
                 >
                   <ExternalLinkIcon className="w-3 h-3" />
                   Full page
                 </Link>
                 <Dialog.Close className="p-2 rounded-lg hover:bg-[#F1F5F9] transition-colors" aria-label="Close drug details">
-                  <X className="w-5 h-5 text-[#6B7771]" />
+                  <X className="w-5 h-5 text-[#555555]" />
                 </Dialog.Close>
               </div>
             </div>
 
             {/* Key price metrics */}
             <div className="grid grid-cols-2 gap-3 mb-6">
-              <div className="bg-[#F7F9F8] rounded-lg p-4">
-                <p className="text-xs text-[#6B7771] font-body uppercase tracking-wider">
+              <div className="bg-[#f5f5f0] rounded-lg p-4">
+                <p className="text-xs text-[#555555] font-body uppercase tracking-wider">
                   Monthly <JargonTooltip term="WAC">WAC</JargonTooltip>
                 </p>
-                <p className="text-xl font-bold text-[#C41E3A] font-mono mt-1">
+                <p className="text-xl font-bold text-[#c0392b] font-mono mt-1">
                   {formatCurrency(drug.wac_monthly)}
                 </p>
               </div>
               <div className="bg-[#FEE2E2] rounded-lg p-4">
-                <p className="text-xs text-[#6B7771] font-body uppercase tracking-wider">
+                <p className="text-xs text-[#555555] font-body uppercase tracking-wider">
                   Annual Cost
                 </p>
-                <p className="text-xl font-bold text-[#C41E3A] font-mono mt-1">
+                <p className="text-xl font-bold text-[#c0392b] font-mono mt-1">
                   {formatCurrency(annualCost)}
                 </p>
-                <p className="text-[10px] text-[#6B7771] mt-0.5">WAC x 12</p>
+                <p className="text-[10px] text-[#555555] mt-0.5">WAC x 12</p>
               </div>
               {cogs && (
                 <>
                   <div className="bg-[#E6F2EC] rounded-lg p-4">
-                    <p className="text-xs text-[#6B7771] font-body uppercase tracking-wider flex items-center gap-1">
+                    <p className="text-xs text-[#555555] font-body uppercase tracking-wider flex items-center gap-1">
                       Cost to Make <EstBadge confidence={cogs.confidence} />
                       <SourceIcon
                         sourceLabel={cogs.citation || 'Peer-reviewed COGS literature'}
@@ -92,28 +92,28 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
                         lastUpdated={cogs.publication_year ? String(cogs.publication_year) : '2024'}
                       />
                     </p>
-                    <p className="text-xl font-bold text-[#0B6B3A] font-mono mt-1">
+                    <p className="text-xl font-bold text-[#2d5016] font-mono mt-1">
                       {formatCurrency((cogs.estimate_preferred || 0))}
                     </p>
-                    <p className="text-[10px] text-[#6B7771] mt-0.5 italic">
+                    <p className="text-[10px] text-[#555555] mt-0.5 italic">
                       Estimated from published academic research. Actual manufacturer production costs are proprietary and not publicly disclosed.
                       {cogs.citation && ` Source: ${cogs.citation}${cogs.publication_year ? `, ${cogs.publication_year}` : ''}.`}
                     </p>
                   </div>
                   <div className="bg-[#FEE2E2] rounded-lg p-4">
-                    <p className="text-xs text-[#6B7771] font-body uppercase tracking-wider">
+                    <p className="text-xs text-[#555555] font-body uppercase tracking-wider">
                       Markup
                     </p>
-                    <p className="text-xl font-bold text-[#C41E3A] font-mono mt-1">
+                    <p className="text-xl font-bold text-[#c0392b] font-mono mt-1">
                       {((drug.wac_monthly - (cogs.estimate_preferred || 0)) / (cogs.estimate_preferred || 0) * 100).toFixed(0)}%
                     </p>
-                    <p className="text-[10px] text-[#6B7771] mt-0.5">
+                    <p className="text-[10px] text-[#555555] mt-0.5">
                       WAC vs. est. cost to make
                     </p>
                     {(cogs.estimate_preferred || 0) > 0 && (
-                      <p className="text-xs text-[#6B7771] mt-1.5 font-body">
-                        For every <span className="font-mono font-bold text-[#1F2A24]">$1</span> estimated to make, the manufacturer charges{' '}
-                        <span className="font-mono font-bold text-[#C41E3A]">
+                      <p className="text-xs text-[#555555] mt-1.5 font-body">
+                        For every <span className="font-mono font-bold text-[#1a1a1a]">$1</span> estimated to make, the manufacturer charges{' '}
+                        <span className="font-mono font-bold text-[#c0392b]">
                           ${(drug.wac_monthly / (cogs.estimate_preferred || 1)).toFixed(0)}
                         </span>
                       </p>
@@ -126,7 +126,7 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
             {/* Profit breakdown bars */}
             {cogs && (
               <div className="mb-8">
-                <h3 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">
+                <h3 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">
                   Profit Breakdown
                 </h3>
                 <ProfitBar
@@ -149,17 +149,17 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
 
             {/* COGS source */}
             {cogs && (
-              <div className="bg-[#F7F9F8] rounded-lg p-4 mb-6 text-sm">
-                <h4 className="font-semibold text-[#1F2A24] font-body mb-2">Manufacturing Cost Source</h4>
-                <p className="text-[#6B7771] font-body">{cogs.citation}</p>
-                <div className="flex items-center gap-4 mt-2 text-xs text-[#6B7771]">
+              <div className="bg-[#f5f5f0] rounded-lg p-4 mb-6 text-sm">
+                <h4 className="font-semibold text-[#1a1a1a] font-body mb-2">Manufacturing Cost Source</h4>
+                <p className="text-[#555555] font-body">{cogs.citation}</p>
+                <div className="flex items-center gap-4 mt-2 text-xs text-[#555555]">
                   <span>Author: {cogs.author}</span>
                   <span>Year: {cogs.publication_year}</span>
                   <span className="flex items-center gap-1">
                     Confidence: <EstBadge confidence={cogs.confidence} />
                   </span>
                 </div>
-                <div className="mt-2 text-xs text-[#6B7771]">
+                <div className="mt-2 text-xs text-[#555555]">
                   Range: {formatCurrency(cogs.estimate_low || 0)} — {formatCurrency(cogs.estimate_high || 0)} /mo
                 </div>
               </div>
@@ -173,30 +173,30 @@ export function DrugDetailDrawer({ drugId, onClose }: DrugDetailDrawerProps) {
             )}
 
             {/* Drug info */}
-            <div className="border-t border-[#E5ECE8] pt-6">
-              <h3 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Drug Details</h3>
+            <div className="border-t border-[#e0ddd5] pt-6">
+              <h3 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">Drug Details</h3>
               <dl className="grid grid-cols-2 gap-3 text-sm">
                 <div>
-                  <dt className="text-[#6B7771] font-body">Dosage Form</dt>
-                  <dd className="text-[#1F2A24] font-body mt-0.5">{drug.dosage_form}</dd>
+                  <dt className="text-[#555555] font-body">Dosage Form</dt>
+                  <dd className="text-[#1a1a1a] font-body mt-0.5">{drug.dosage_form}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#6B7771] font-body">Strength</dt>
-                  <dd className="text-[#1F2A24] font-body mt-0.5">{drug.strength}</dd>
+                  <dt className="text-[#555555] font-body">Strength</dt>
+                  <dd className="text-[#1a1a1a] font-body mt-0.5">{drug.strength}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#6B7771] font-body">Manufacturer</dt>
-                  <dd className="text-[#0B6B3A] font-body font-medium mt-0.5">{manufacturer?.name}</dd>
+                  <dt className="text-[#555555] font-body">Manufacturer</dt>
+                  <dd className="text-[#2d5016] font-body font-medium mt-0.5">{manufacturer?.name}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#6B7771] font-body">
+                  <dt className="text-[#555555] font-body">
                     <JargonTooltip term="NDC">NDC</JargonTooltip>
                   </dt>
-                  <dd className="text-[#1F2A24] font-mono mt-0.5">{drug.ndc}</dd>
+                  <dd className="text-[#1a1a1a] font-mono mt-0.5">{drug.ndc}</dd>
                 </div>
               </dl>
-              <div className="mt-4 pt-3 border-t border-[#E5ECE8]">
-                <p className="text-[10px] text-[#6B7771] font-body mb-1">Pricing Data</p>
+              <div className="mt-4 pt-3 border-t border-[#e0ddd5]">
+                <p className="text-[10px] text-[#555555] font-body mb-1">Pricing Data</p>
                 <FreshnessBadge
                   dataYear={(drug as Record<string, unknown>).data_year as number | undefined}
                   dataQuarter={(drug as Record<string, unknown>).data_quarter as string | undefined}

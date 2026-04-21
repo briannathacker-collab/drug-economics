@@ -46,17 +46,17 @@ export default function PipelineWatchPage() {
   const trialSpecialties = useMemo(() => Array.from(new Set(trials.map(t => t.specialty))).sort(), [trials]);
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[#1F2A24] font-display">Pipeline Watch</h1>
-          <p className="mt-2 text-[#6B7771] font-body">
+          <h1 className="text-3xl font-bold text-[#1a1a1a] font-display">Pipeline Watch</h1>
+          <p className="mt-2 text-[#555555] font-body">
             When will there be a cheaper version of your drug? Track patent cliffs, biosimilar progress, and clinical trials.
           </p>
-          <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
+          <p className="mt-2 text-[10px] text-[#555555] font-mono flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#2d5016] inline-block" />
             Patent and pipeline data current as of Q1 2026 · Sources: FDA Orange Book, ClinicalTrials.gov, SEC filings
           </p>
         </div>
@@ -72,8 +72,8 @@ export default function PipelineWatchPage() {
               onClick={() => setActiveTab(tab.id)}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors font-body ${
                 activeTab === tab.id
-                  ? 'bg-[#0B6B3A] text-white'
-                  : 'bg-white text-[#6B7771] border border-[#E5ECE8] hover:bg-[#F1F5F9]'
+                  ? 'bg-[#2d5016] text-white'
+                  : 'bg-white text-[#555555] border border-[#e0ddd5] hover:bg-[#F1F5F9]'
               }`}
             >
               {tab.icon}
@@ -124,10 +124,10 @@ export default function PipelineWatchPage() {
             <div className="overflow-x-auto">
               <div className="min-w-[800px]">
                 {/* Year markers */}
-                <div className="flex items-end border-b border-[#E5ECE8] pb-2 mb-4">
+                <div className="flex items-end border-b border-[#e0ddd5] pb-2 mb-4">
                   {Array.from({ length: 12 }, (_, i) => 2024 + i).map(year => (
                     <div key={year} className="flex-1 text-center">
-                      <span className="text-xs font-mono text-[#6B7771]">{year}</span>
+                      <span className="text-xs font-mono text-[#555555]">{year}</span>
                     </div>
                   ))}
                 </div>
@@ -151,8 +151,8 @@ export default function PipelineWatchPage() {
                           <div
                             className={`absolute top-1 h-8 rounded-md px-3 flex items-center gap-1 text-xs font-medium cursor-pointer transition-all ${
                               hasBiosimilar
-                                ? 'bg-[#E6F2EC] text-[#0B6B3A] border border-[#0B6B3A]/30'
-                                : 'bg-[#FEE2E2] text-[#C41E3A] border border-[#C41E3A]/30'
+                                ? 'bg-[#E6F2EC] text-[#2d5016] border border-[#2d5016]/30'
+                                : 'bg-[#FEE2E2] text-[#c0392b] border border-[#c0392b]/30'
                             }`}
                             style={{ left: `${Math.max(0, Math.min(90, offsetPercent))}%` }}
                             onClick={() => setExpandedDrug(isExpanded ? null : patent.drug_id)}
@@ -160,7 +160,7 @@ export default function PipelineWatchPage() {
                             <span className="font-semibold">{patent.drug_name}</span>
                             <span className="font-mono text-[10px] opacity-70">{cliffYear}</span>
                             {delay && delay.total_delay_years > 0 && (
-                              <span className="bg-[#C41E3A] text-white px-1 rounded text-[10px]">
+                              <span className="bg-[#c0392b] text-white px-1 rounded text-[10px]">
                                 +{delay.total_delay_years}yr delay
                               </span>
                             )}
@@ -170,41 +170,41 @@ export default function PipelineWatchPage() {
 
                         {/* Expanded detail */}
                         {isExpanded && (
-                          <div className="bg-white rounded-lg border border-[#E5ECE8] p-4 mt-1 ml-4">
+                          <div className="bg-white rounded-lg border border-[#e0ddd5] p-4 mt-1 ml-4">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                               <div>
-                                <p className="text-[#6B7771] text-xs font-body">Patent Cliff</p>
-                                <p className="font-medium text-[#1F2A24] font-mono">{formatDate(patent.patent_cliff_date)}</p>
+                                <p className="text-[#555555] text-xs font-body">Patent Cliff</p>
+                                <p className="font-medium text-[#1a1a1a] font-mono">{formatDate(patent.patent_cliff_date)}</p>
                               </div>
                               <div>
-                                <p className="text-[#6B7771] text-xs font-body">Exclusivity</p>
-                                <p className="font-medium text-[#1F2A24] font-body">{patent.exclusivity_type}</p>
+                                <p className="text-[#555555] text-xs font-body">Exclusivity</p>
+                                <p className="font-medium text-[#1a1a1a] font-body">{patent.exclusivity_type}</p>
                               </div>
                               <div>
-                                <p className="text-[#6B7771] text-xs font-body">Secondary Patents</p>
-                                <p className="font-medium text-[#1F2A24] font-mono">{patent.secondary_patents.length}</p>
+                                <p className="text-[#555555] text-xs font-body">Secondary Patents</p>
+                                <p className="font-medium text-[#1a1a1a] font-mono">{patent.secondary_patents.length}</p>
                               </div>
                               <div>
-                                <p className="text-[#6B7771] text-xs font-body">Delay</p>
-                                <p className="font-medium text-[#C41E3A] font-mono">
+                                <p className="text-[#555555] text-xs font-body">Delay</p>
+                                <p className="font-medium text-[#c0392b] font-mono">
                                   {patent.delay_years > 0 ? `${patent.delay_years} years` : 'None documented'}
                                 </p>
                               </div>
                             </div>
                             {drug && (
-                              <div className="mt-3 pt-3 border-t border-[#E5ECE8]">
-                                <p className="text-xs text-[#6B7771] font-body">
-                                  Current WAC: <span className="text-[#C41E3A] font-mono font-bold">{formatCurrency(drug.wac_monthly)}/mo</span>
-                                  {' · '}Annual: <span className="text-[#C41E3A] font-mono font-bold">{formatCurrency(drug.wac_annual)}</span>
+                              <div className="mt-3 pt-3 border-t border-[#e0ddd5]">
+                                <p className="text-xs text-[#555555] font-body">
+                                  Current WAC: <span className="text-[#c0392b] font-mono font-bold">{formatCurrency(drug.wac_monthly)}/mo</span>
+                                  {' · '}Annual: <span className="text-[#c0392b] font-mono font-bold">{formatCurrency(drug.wac_annual)}</span>
                                 </p>
                               </div>
                             )}
                             {delay && delay.tactics.length > 0 && (
-                              <div className="mt-3 pt-3 border-t border-[#E5ECE8]">
-                                <p className="text-xs font-semibold text-[#1F2A24] mb-2">Delay Tactics Used:</p>
+                              <div className="mt-3 pt-3 border-t border-[#e0ddd5]">
+                                <p className="text-xs font-semibold text-[#1a1a1a] mb-2">Delay Tactics Used:</p>
                                 <div className="flex flex-wrap gap-1">
                                   {delay.tactics.map((t, i) => (
-                                    <span key={i} className="text-[10px] bg-[#FEE2E2] text-[#C41E3A] px-2 py-0.5 rounded-full">
+                                    <span key={i} className="text-[10px] bg-[#FEE2E2] text-[#c0392b] px-2 py-0.5 rounded-full">
                                       {t.type.replace(/_/g, ' ')}
                                     </span>
                                   ))}
@@ -212,17 +212,17 @@ export default function PipelineWatchPage() {
                               </div>
                             )}
                             {/* Cross-app links */}
-                            <div className="mt-3 pt-3 border-t border-[#E5ECE8] flex flex-wrap gap-2">
+                            <div className="mt-3 pt-3 border-t border-[#e0ddd5] flex flex-wrap gap-2">
                               <Link
                                 href={`/what-it-costs-me?drug=${patent.drug_id}`}
-                                className="inline-flex items-center gap-1 text-xs text-[#0B6B3A] font-medium hover:underline font-body"
+                                className="inline-flex items-center gap-1 text-xs text-[#2d5016] font-medium hover:underline font-body"
                               >
                                 Calculate your cost <ArrowRight className="w-3 h-3" />
                               </Link>
                               {delay && delay.total_delay_years > 0 && (
                                 <Link
                                   href="/the-generic-gap"
-                                  className="inline-flex items-center gap-1 text-xs text-[#C41E3A] font-medium hover:underline font-body"
+                                  className="inline-flex items-center gap-1 text-xs text-[#c0392b] font-medium hover:underline font-body"
                                 >
                                   See delay tactics <ArrowRight className="w-3 h-3" />
                                 </Link>
@@ -265,41 +265,41 @@ export default function PipelineWatchPage() {
                 ]}
               />
             </div>
-            <div className="bg-white rounded-xl border border-[#E5ECE8] overflow-hidden">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-[#E5ECE8] bg-[#F7F9F8]">
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Reference Drug</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Biosimilar</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Applicant</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Status</th>
-                    <th className="px-4 py-3 text-right text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Discount</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Filed</th>
-                    <th className="px-4 py-3 text-left text-xs font-medium text-[#6B7771] uppercase tracking-wider font-body">Approved</th>
+                  <tr className="border-b border-[#e0ddd5] bg-[#f5f5f0]">
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Reference Drug</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Biosimilar</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Applicant</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Status</th>
+                    <th className="px-4 py-3 text-right text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Discount</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Filed</th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-[#555555] uppercase tracking-wider font-body">Approved</th>
                   </tr>
                 </thead>
                 <tbody>
                   {biosimilars.map((bio, i) => (
-                    <tr key={i} className="border-b border-[#E5ECE8] hover:bg-[#F7F9F8]">
-                      <td className="px-4 py-3 font-medium text-[#1F2A24] font-body">{bio.reference_drug_name}</td>
-                      <td className="px-4 py-3 text-[#0B6B3A] font-body font-medium">{bio.biosimilar_name}</td>
-                      <td className="px-4 py-3 text-[#6B7771] font-body">{bio.applicant}</td>
+                    <tr key={i} className="border-b border-[#e0ddd5] hover:bg-[#f5f5f0]">
+                      <td className="px-4 py-3 font-medium text-[#1a1a1a] font-body">{bio.reference_drug_name}</td>
+                      <td className="px-4 py-3 text-[#2d5016] font-body font-medium">{bio.biosimilar_name}</td>
+                      <td className="px-4 py-3 text-[#555555] font-body">{bio.applicant}</td>
                       <td className="px-4 py-3">
                         <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${
-                          bio.status === 'launched' ? 'bg-[#E6F2EC] text-[#0B6B3A]' :
-                          bio.status === 'approved' ? 'bg-[#FFFBEB] text-[#B45309]' :
-                          bio.status === 'filed' ? 'bg-[#F1F5F9] text-[#6B7771]' :
-                          'bg-[#FEE2E2] text-[#C41E3A]'
+                          bio.status === 'launched' ? 'bg-[#E6F2EC] text-[#2d5016]' :
+                          bio.status === 'approved' ? 'bg-[#FFFBEB] text-[#b8860b]' :
+                          bio.status === 'filed' ? 'bg-[#F1F5F9] text-[#555555]' :
+                          'bg-[#FEE2E2] text-[#c0392b]'
                         }`}>
                           {bio.status}
                         </span>
                       </td>
-                      <td className="px-4 py-3 text-right font-mono text-[#0B6B3A] font-medium">
+                      <td className="px-4 py-3 text-right font-mono text-[#2d5016] font-medium">
                         {bio.current_discount_percent ? `${bio.current_discount_percent}%` : '—'}
                       </td>
-                      <td className="px-4 py-3 text-[#6B7771] font-mono text-xs">{bio.filing_date ? formatDate(bio.filing_date) : '—'}</td>
-                      <td className="px-4 py-3 text-[#6B7771] font-mono text-xs">
+                      <td className="px-4 py-3 text-[#555555] font-mono text-xs">{bio.filing_date ? formatDate(bio.filing_date) : '—'}</td>
+                      <td className="px-4 py-3 text-[#555555] font-mono text-xs">
                         {bio.approval_date ? formatDate(bio.approval_date) : '—'}
                       </td>
                     </tr>
@@ -320,7 +320,7 @@ export default function PipelineWatchPage() {
                 value={specialtyFilter}
                 onChange={e => setSpecialtyFilter(e.target.value)}
                 aria-label="Filter trials by specialty"
-                className="px-3 py-2 rounded-lg border border-[#E5ECE8] bg-white text-sm text-[#6B7771] font-body"
+                className="px-3 py-2 rounded-lg border border-[#e0ddd5] bg-white text-sm text-[#555555] font-body"
               >
                 <option value="">All Specialties</option>
                 {trialSpecialties.map(s => <option key={s} value={s}>{s}</option>)}
@@ -329,7 +329,7 @@ export default function PipelineWatchPage() {
                 value={phaseFilter}
                 onChange={e => setPhaseFilter(e.target.value)}
                 aria-label="Filter trials by phase"
-                className="px-3 py-2 rounded-lg border border-[#E5ECE8] bg-white text-sm text-[#6B7771] font-body"
+                className="px-3 py-2 rounded-lg border border-[#e0ddd5] bg-white text-sm text-[#555555] font-body"
               >
                 <option value="">All Phases</option>
                 <option value="Phase 2">Phase 2</option>
@@ -368,30 +368,30 @@ export default function PipelineWatchPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
               {filteredTrials.map(trial => (
-                <div key={trial.nct_number} className="bg-white rounded-xl border border-[#E5ECE8] p-5 shadow-sm">
+                <div key={trial.nct_number} className="bg-white rounded-xl border border-[#e0ddd5] p-5 shadow-sm">
                   <div className="flex items-start justify-between mb-3">
                     <div>
-                      <h3 className="font-bold text-[#1F2A24] font-body">{trial.drug_name}</h3>
-                      <p className="text-xs text-[#6B7771] font-body">{trial.developer}</p>
+                      <h3 className="font-bold text-[#1a1a1a] font-body">{trial.drug_name}</h3>
+                      <p className="text-xs text-[#555555] font-body">{trial.developer}</p>
                     </div>
                     {trial.designation && (
-                      <span className="px-2 py-0.5 bg-[#E6F2EC] text-[#0B6B3A] rounded-full text-[10px] font-medium uppercase">
+                      <span className="px-2 py-0.5 bg-[#E6F2EC] text-[#2d5016] rounded-full text-[10px] font-medium uppercase">
                         {trial.designation.replace('_', ' ')}
                       </span>
                     )}
                   </div>
 
-                  <p className="text-sm text-[#6B7771] font-body mb-3">{trial.condition}</p>
+                  <p className="text-sm text-[#555555] font-body mb-3">{trial.condition}</p>
 
                   {/* Phase progress */}
                   <div className="mb-3">
                     <div className="flex items-center justify-between text-xs mb-1">
-                      <span className="text-[#6B7771] font-body">{trial.phase}</span>
-                      <span className="text-[#6B7771] font-mono">{trial.nct_number}</span>
+                      <span className="text-[#555555] font-body">{trial.phase}</span>
+                      <span className="text-[#555555] font-mono">{trial.nct_number}</span>
                     </div>
                     <div className="h-2 bg-[#F1F5F9] rounded-full overflow-hidden">
                       <div
-                        className="h-full bg-[#0B6B3A] rounded-full"
+                        className="h-full bg-[#2d5016] rounded-full"
                         style={{ width: trial.phase === 'Phase 3' ? '75%' : trial.phase === 'Phase 2' ? '50%' : '25%' }}
                       />
                     </div>
@@ -399,21 +399,21 @@ export default function PipelineWatchPage() {
 
                   <div className="grid grid-cols-2 gap-2 text-xs">
                     <div>
-                      <p className="text-[#6B7771]">Enrollment</p>
-                      <p className="font-mono text-[#1F2A24]">{trial.enrollment.toLocaleString()}</p>
+                      <p className="text-[#555555]">Enrollment</p>
+                      <p className="font-mono text-[#1a1a1a]">{trial.enrollment.toLocaleString()}</p>
                     </div>
                     <div>
-                      <p className="text-[#6B7771]">Est. Completion</p>
-                      <p className="font-mono text-[#1F2A24]">{trial.estimated_completion ? formatDate(trial.estimated_completion) : '—'}</p>
+                      <p className="text-[#555555]">Est. Completion</p>
+                      <p className="font-mono text-[#1a1a1a]">{trial.estimated_completion ? formatDate(trial.estimated_completion) : '—'}</p>
                     </div>
                     <div>
-                      <p className="text-[#6B7771]">Specialty</p>
-                      <p className="text-[#1F2A24]">{trial.specialty}</p>
+                      <p className="text-[#555555]">Specialty</p>
+                      <p className="text-[#1a1a1a]">{trial.specialty}</p>
                     </div>
                     {trial.current_soc_monthly_cost && (
                       <div>
-                        <p className="text-[#6B7771]">Current SOC Cost</p>
-                        <p className="font-mono text-[#C41E3A] font-medium">{formatCurrency(trial.current_soc_monthly_cost)}/mo</p>
+                        <p className="text-[#555555]">Current SOC Cost</p>
+                        <p className="font-mono text-[#c0392b] font-medium">{formatCurrency(trial.current_soc_monthly_cost)}/mo</p>
                       </div>
                     )}
                   </div>

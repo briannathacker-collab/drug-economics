@@ -101,24 +101,24 @@ function WhatItCostsMe() {
   const oopAnnual = oneTime ? oopTotal : oopTotal * 12;
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[#1F2A24] font-display">What It Costs Me</h1>
-          <p className="mt-2 text-[#6B7771] font-body">
+          <h1 className="text-3xl font-bold text-[#1a1a1a] font-display">What It Costs Me</h1>
+          <p className="mt-2 text-[#555555] font-body">
             What will you personally pay for your medication? Select your drug and insurance to find out.
           </p>
         </div>
 
         {/* Calculator form */}
-        <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm mb-8">
+        <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm mb-8">
           <div className="space-y-6">
             {/* Step 1: Drug selector */}
             <div>
-              <label htmlFor="drug-select" className="block text-sm font-semibold text-[#1F2A24] font-body mb-2">
-                <span className="bg-[#0B6B3A] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">1</span>
+              <label htmlFor="drug-select" className="block text-sm font-semibold text-[#1a1a1a] font-body mb-2">
+                <span className="bg-[#2d5016] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">1</span>
                 Select Your Drug
               </label>
               <select
@@ -126,7 +126,7 @@ function WhatItCostsMe() {
                 value={selectedDrug}
                 onChange={e => { setSelectedDrug(e.target.value); setShowResults(false); }}
                 aria-label="Select a drug to calculate cost"
-                className="w-full px-4 py-3 rounded-lg border border-[#E5ECE8] bg-white text-sm text-[#1F2A24] focus:outline-none focus:ring-2 focus:ring-[#0B6B3A]/20 focus:border-[#0B6B3A] font-body"
+                className="w-full px-4 py-3 rounded-lg border border-[#e0ddd5] bg-white text-sm text-[#1a1a1a] focus:outline-none focus:ring-2 focus:ring-[#2d5016]/20 focus:border-[#2d5016] font-body"
               >
                 <option value="">Choose a drug...</option>
                 {drugs.map(d => (
@@ -141,8 +141,8 @@ function WhatItCostsMe() {
 
             {/* Step 2: Insurance type */}
             <fieldset>
-              <legend className="block text-sm font-semibold text-[#1F2A24] font-body mb-2">
-                <span className="bg-[#0B6B3A] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">2</span>
+              <legend className="block text-sm font-semibold text-[#1a1a1a] font-body mb-2">
+                <span className="bg-[#2d5016] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">2</span>
                 Your Insurance Type
               </legend>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2" role="group" aria-label="Insurance type selection">
@@ -153,8 +153,8 @@ function WhatItCostsMe() {
                     aria-pressed={insuranceType === ins.id}
                     className={`px-3 py-2 rounded-lg text-xs font-medium transition-colors font-body ${
                       insuranceType === ins.id
-                        ? 'bg-[#0B6B3A] text-white'
-                        : 'bg-[#F7F9F8] text-[#6B7771] border border-[#E5ECE8] hover:border-[#0B6B3A]'
+                        ? 'bg-[#2d5016] text-white'
+                        : 'bg-[#f5f5f0] text-[#555555] border border-[#e0ddd5] hover:border-[#2d5016]'
                     }`}
                   >
                     {ins.label}
@@ -165,8 +165,8 @@ function WhatItCostsMe() {
 
             {/* Step 3: Deductible */}
             <fieldset>
-              <legend className="block text-sm font-semibold text-[#1F2A24] font-body mb-2">
-                <span className="bg-[#0B6B3A] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">3</span>
+              <legend className="block text-sm font-semibold text-[#1a1a1a] font-body mb-2">
+                <span className="bg-[#2d5016] text-white w-6 h-6 rounded-full inline-flex items-center justify-center text-xs mr-2" aria-hidden="true">3</span>
                 Have you met your deductible?
               </legend>
               <div className="flex gap-3">
@@ -175,8 +175,8 @@ function WhatItCostsMe() {
                   aria-pressed={deductibleMet}
                   className={`px-6 py-2 rounded-lg text-sm font-medium transition-colors font-body ${
                     deductibleMet
-                      ? 'bg-[#0B6B3A] text-white'
-                      : 'bg-[#F7F9F8] text-[#6B7771] border border-[#E5ECE8]'
+                      ? 'bg-[#2d5016] text-white'
+                      : 'bg-[#f5f5f0] text-[#555555] border border-[#e0ddd5]'
                   }`}
                 >
                   Yes
@@ -186,8 +186,8 @@ function WhatItCostsMe() {
                   aria-pressed={!deductibleMet}
                   className={`px-6 py-2 rounded-lg text-sm font-medium transition-colors font-body ${
                     !deductibleMet
-                      ? 'bg-[#C41E3A] text-white'
-                      : 'bg-[#F7F9F8] text-[#6B7771] border border-[#E5ECE8]'
+                      ? 'bg-[#c0392b] text-white'
+                      : 'bg-[#f5f5f0] text-[#555555] border border-[#e0ddd5]'
                   }`}
                 >
                   No
@@ -200,7 +200,7 @@ function WhatItCostsMe() {
               onClick={calculate}
               disabled={!selectedDrug || !insuranceType}
               aria-label={!selectedDrug || !insuranceType ? 'Select a drug and insurance type first' : 'Calculate your estimated cost'}
-              className="w-full py-3 bg-[#0B6B3A] text-white rounded-lg font-semibold text-sm hover:bg-[#07542D] transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-body flex items-center justify-center gap-2"
+              className="w-full py-3 bg-[#2d5016] text-white rounded-lg font-semibold text-sm hover:bg-[#3a6b1e] transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-body flex items-center justify-center gap-2"
             >
               <Calculator className="w-4 h-4" />
               Calculate My Cost
@@ -223,30 +223,30 @@ function WhatItCostsMe() {
             <div className="bg-[#FEE2E2] rounded-xl p-8 text-center relative">
               <button
                 onClick={shareUrl}
-                className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-white/80 text-[#6B7771] hover:bg-white transition-colors font-body"
+                className="absolute top-4 right-4 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-white/80 text-[#555555] hover:bg-white transition-colors font-body"
                 aria-label="Copy shareable link to clipboard"
               >
-                {copied ? <Check className="w-3.5 h-3.5 text-[#0B6B3A]" /> : <Share2 className="w-3.5 h-3.5" />}
+                {copied ? <Check className="w-3.5 h-3.5 text-[#2d5016]" /> : <Share2 className="w-3.5 h-3.5" />}
                 {copied ? 'Copied!' : 'Share'}
               </button>
-              <p className="text-sm text-[#6B7771] font-body mb-2">
+              <p className="text-sm text-[#555555] font-body mb-2">
                 {oneTime ? 'Your estimated one-time out-of-pocket cost' : 'Your estimated monthly cost'}
               </p>
-              <p className="text-5xl font-bold text-[#C41E3A] font-mono">
+              <p className="text-5xl font-bold text-[#c0392b] font-mono">
                 {formatCurrency(oopTotal)}
               </p>
               {!oneTime && (
-                <p className="text-lg text-[#C41E3A] font-mono mt-1">
+                <p className="text-lg text-[#c0392b] font-mono mt-1">
                   {formatCurrency(oopAnnual)} / year
                 </p>
               )}
               {oneTime && (
-                <p className="text-xs text-[#B45309] mt-3 font-body flex items-center gap-1 justify-center">
+                <p className="text-xs text-[#b8860b] mt-3 font-body flex items-center gap-1 justify-center">
                   <Info className="w-3.5 h-3.5 shrink-0" />
                   One-time gene/cell therapy. Total shown is the full treatment price — not a monthly or annualized figure.
                 </p>
               )}
-              <p className="text-xs text-[#6B7771] mt-3 font-body">
+              <p className="text-xs text-[#555555] mt-3 font-body">
                 Based on {insurance.label} · Deductible {deductibleMet ? 'met' : 'not met'}
               </p>
             </div>
@@ -288,12 +288,12 @@ function WhatItCostsMe() {
             </div>
 
             {/* International comparison */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-4 flex items-center gap-2">
-                <Globe className="w-5 h-5 text-[#0B6B3A]" />
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-4 flex items-center gap-2">
+                <Globe className="w-5 h-5 text-[#2d5016]" />
                 International Price Comparison
               </h3>
-              <p className="text-xs text-[#6B7771] font-body mb-4">
+              <p className="text-xs text-[#555555] font-body mb-4">
                 What this drug costs in other countries (approximate, based on published reference pricing studies)
               </p>
               <div className="space-y-3">
@@ -303,36 +303,36 @@ function WhatItCostsMe() {
                   const savings = usPrice - intlPrice;
                   return (
                     <div key={country} className="flex items-center gap-3">
-                      <span className="w-24 text-sm text-[#6B7771] font-body">{country}</span>
+                      <span className="w-24 text-sm text-[#555555] font-body">{country}</span>
                       <div className="flex-1 h-6 bg-[#F1F5F9] rounded-full overflow-hidden relative">
                         <div
-                          className="h-full bg-[#0B6B3A] rounded-full"
+                          className="h-full bg-[#2d5016] rounded-full"
                           style={{ width: `${ratio * 100}%` }}
                         />
                         <div
-                          className="absolute top-0 h-full bg-[#C41E3A] rounded-r-full opacity-20"
+                          className="absolute top-0 h-full bg-[#c0392b] rounded-r-full opacity-20"
                           style={{ left: `${ratio * 100}%`, width: `${(1 - ratio) * 100}%` }}
                         />
                       </div>
-                      <span className="w-24 text-right text-sm font-mono text-[#0B6B3A] font-medium">
+                      <span className="w-24 text-right text-sm font-mono text-[#2d5016] font-medium">
                         {formatCurrency(intlPrice)}
                       </span>
-                      <span className="w-28 text-right text-xs text-[#C41E3A] font-mono">
+                      <span className="w-28 text-right text-xs text-[#c0392b] font-mono">
                         Save {formatCurrency(savings)}
                       </span>
                     </div>
                   );
                 })}
-                <div className="flex items-center gap-3 border-t border-[#E5ECE8] pt-3">
-                  <span className="w-24 text-sm font-bold text-[#C41E3A] font-body">US Price</span>
-                  <div className="flex-1 h-6 bg-[#C41E3A] rounded-full" />
-                  <span className="w-24 text-right text-sm font-mono text-[#C41E3A] font-bold">
+                <div className="flex items-center gap-3 border-t border-[#e0ddd5] pt-3">
+                  <span className="w-24 text-sm font-bold text-[#c0392b] font-body">US Price</span>
+                  <div className="flex-1 h-6 bg-[#c0392b] rounded-full" />
+                  <span className="w-24 text-right text-sm font-mono text-[#c0392b] font-bold">
                     {formatCurrency(oneTime ? drug.wac_annual : drug.wac_monthly)}
                   </span>
-                  <span className="w-28 text-right text-xs text-[#6B7771] font-mono">—</span>
+                  <span className="w-28 text-right text-xs text-[#555555] font-mono">—</span>
                 </div>
               </div>
-              <p className="text-[10px] text-[#6B7771] mt-3 italic font-body flex items-center gap-1">
+              <p className="text-[10px] text-[#555555] mt-3 italic font-body flex items-center gap-1">
                 <EstBadge /> International prices are estimates based on published reference pricing studies and may vary by formulation and dosage.
                 <SourceIcon
                   sourceLabel="Published reference pricing studies"
@@ -342,14 +342,14 @@ function WhatItCostsMe() {
             </div>
 
             {/* Copay cards & patient assistance */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-4 flex items-center gap-2">
-                <Info className="w-5 h-5 text-[#0B6B3A]" />
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-4 flex items-center gap-2">
+                <Info className="w-5 h-5 text-[#2d5016]" />
                 Lowering Your Cost: Copay Cards, Assistance Programs &amp; Generics
               </h3>
-              <div className="text-sm text-[#6B7771] font-body space-y-4 leading-relaxed">
+              <div className="text-sm text-[#555555] font-body space-y-4 leading-relaxed">
                 <p>
-                  <strong className="text-[#1F2A24]">If you have commercial or employer insurance,</strong> check whether
+                  <strong className="text-[#1a1a1a]">If you have commercial or employer insurance,</strong> check whether
                   the manufacturer offers a <strong>copay card</strong> for your drug. These cards can significantly
                   reduce what you pay at the pharmacy — sometimes to $0 or a low flat copay per fill.
                 </p>
@@ -362,17 +362,17 @@ function WhatItCostsMe() {
                   documents or call your insurer to find out how your plan handles copay card payments.
                 </p>
                 <p>
-                  <strong className="text-[#1F2A24]">If you have Medicare, Medicaid, or other government insurance,</strong> you
+                  <strong className="text-[#1a1a1a]">If you have Medicare, Medicaid, or other government insurance,</strong> you
                   generally cannot use manufacturer copay cards. However, many manufacturers offer separate
                   <strong> patient assistance programs (PAPs)</strong> that provide medications at reduced or
                   no cost for patients who meet income and medical criteria. Visit the manufacturer&apos;s website
                   for the specific drug to see what programs are available.
                 </p>
                 <p>
-                  <strong className="text-[#1F2A24]">If a generic version exists,</strong> compare the cash price
+                  <strong className="text-[#1a1a1a]">If a generic version exists,</strong> compare the cash price
                   of the generic through{' '}
                   <a href="https://www.costplusdrugs.com" target="_blank" rel="noopener noreferrer"
-                    className="text-[#0B6B3A] font-medium hover:underline inline-flex items-center gap-0.5">
+                    className="text-[#2d5016] font-medium hover:underline inline-flex items-center gap-0.5">
                     Cost Plus Drugs<ExternalLink className="w-3 h-3" />
                   </a>{' '}
                   and other discount pharmacies. In some cases, paying cash for a generic can be less expensive
@@ -381,8 +381,8 @@ function WhatItCostsMe() {
               </div>
 
               {/* Where to look for help */}
-              <div className="mt-5 pt-5 border-t border-[#E5ECE8]">
-                <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Where to Look for Help</h4>
+              <div className="mt-5 pt-5 border-t border-[#e0ddd5]">
+                <h4 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">Where to Look for Help</h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {[
                     { name: 'NeedyMeds', url: 'https://www.needymeds.org', desc: 'Drug assistance database' },
@@ -397,12 +397,12 @@ function WhatItCostsMe() {
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#F7F9F8] hover:bg-[#E6F2EC] transition-colors group"
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#f5f5f0] hover:bg-[#E6F2EC] transition-colors group"
                     >
-                      <ExternalLink className="w-3.5 h-3.5 text-[#6B7771] group-hover:text-[#07542D] shrink-0" />
+                      <ExternalLink className="w-3.5 h-3.5 text-[#555555] group-hover:text-[#3a6b1e] shrink-0" />
                       <div className="min-w-0">
-                        <p className="text-sm font-medium text-[#0B6B3A] group-hover:underline truncate">{resource.name}</p>
-                        <p className="text-[10px] text-[#6B7771]">{resource.desc}</p>
+                        <p className="text-sm font-medium text-[#2d5016] group-hover:underline truncate">{resource.name}</p>
+                        <p className="text-[10px] text-[#555555]">{resource.desc}</p>
                       </div>
                     </a>
                   ))}
@@ -411,7 +411,7 @@ function WhatItCostsMe() {
 
               {/* Practical takeaway */}
               <div className="mt-5 bg-[#E6F2EC] rounded-lg p-4">
-                <p className="text-sm text-[#0B6B3A] font-body font-medium leading-relaxed">
+                <p className="text-sm text-[#2d5016] font-body font-medium leading-relaxed">
                   Before filling your prescription, compare all available options: your insurance copay,
                   a manufacturer copay card, a manufacturer patient assistance program, nonprofit assistance funds,
                   and — if a generic exists — cash pricing through discount pharmacies. The lowest-cost
@@ -421,35 +421,35 @@ function WhatItCostsMe() {
             </div>
 
             {/* What-If scenarios */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-4">What If...</h3>
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-4">What If...</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="bg-[#E6F2EC] rounded-lg p-4">
-                  <p className="text-xs text-[#0B6B3A] font-semibold font-body mb-1">If a biosimilar existed</p>
-                  <p className="text-xl font-bold text-[#0B6B3A] font-mono">
+                  <p className="text-xs text-[#2d5016] font-semibold font-body mb-1">If a biosimilar existed</p>
+                  <p className="text-xl font-bold text-[#2d5016] font-mono">
                     {formatCurrency(Math.round(oopMonthly * 0.55))}
                   </p>
-                  <p className="text-xs text-[#6B7771] font-body mt-1 flex items-center gap-0.5">
+                  <p className="text-xs text-[#555555] font-body mt-1 flex items-center gap-0.5">
                     ~45% lower (typical biosimilar discount)
                     <SourceIcon sourceLabel="Typical biosimilar discount range" lastUpdated="Q4 2024" />
                   </p>
                 </div>
                 <div className="bg-[#E6F2EC] rounded-lg p-4">
-                  <p className="text-xs text-[#0B6B3A] font-semibold font-body mb-1">If Medicare negotiated</p>
-                  <p className="text-xl font-bold text-[#0B6B3A] font-mono">
+                  <p className="text-xs text-[#2d5016] font-semibold font-body mb-1">If Medicare negotiated</p>
+                  <p className="text-xl font-bold text-[#2d5016] font-mono">
                     {formatCurrency(Math.round(oopMonthly * 0.40))}
                   </p>
-                  <p className="text-xs text-[#6B7771] font-body mt-1 flex items-center gap-0.5">
+                  <p className="text-xs text-[#555555] font-body mt-1 flex items-center gap-0.5">
                     ~60% lower (IRA negotiation target)
                     <SourceIcon sourceLabel="IRA negotiation projections" lastUpdated="Q4 2024" />
                   </p>
                 </div>
                 <div className="bg-[#E6F2EC] rounded-lg p-4">
-                  <p className="text-xs text-[#0B6B3A] font-semibold font-body mb-1">With manufacturer copay card</p>
-                  <p className="text-xl font-bold text-[#0B6B3A] font-mono">
+                  <p className="text-xs text-[#2d5016] font-semibold font-body mb-1">With manufacturer copay card</p>
+                  <p className="text-xl font-bold text-[#2d5016] font-mono">
                     {formatCurrency(Math.round(oopMonthly * 0.10))}
                   </p>
-                  <p className="text-xs text-[#6B7771] font-body mt-1">
+                  <p className="text-xs text-[#555555] font-body mt-1">
                     Check eligibility — may not reduce total yearly cost
                   </p>
                 </div>
@@ -466,21 +466,21 @@ function WhatItCostsMe() {
 
 function WhatItCostsMeSkeleton() {
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
-          <div className="h-9 w-64 bg-[#E5ECE8] rounded-lg animate-pulse" />
-          <div className="mt-3 h-5 w-96 bg-[#E5ECE8] rounded animate-pulse" />
+          <div className="h-9 w-64 bg-[#e0ddd5] rounded-lg animate-pulse" />
+          <div className="mt-3 h-5 w-96 bg-[#e0ddd5] rounded animate-pulse" />
         </div>
-        <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+        <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
           <div className="space-y-6">
             <div>
-              <div className="h-5 w-36 bg-[#E5ECE8] rounded animate-pulse mb-2" />
+              <div className="h-5 w-36 bg-[#e0ddd5] rounded animate-pulse mb-2" />
               <div className="h-12 w-full bg-[#F1F5F9] rounded-lg animate-pulse" />
             </div>
             <div>
-              <div className="h-5 w-40 bg-[#E5ECE8] rounded animate-pulse mb-2" />
+              <div className="h-5 w-40 bg-[#e0ddd5] rounded animate-pulse mb-2" />
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                 {Array.from({ length: 8 }).map((_, i) => (
                   <div key={i} className="h-10 bg-[#F1F5F9] rounded-lg animate-pulse" />
@@ -488,13 +488,13 @@ function WhatItCostsMeSkeleton() {
               </div>
             </div>
             <div>
-              <div className="h-5 w-56 bg-[#E5ECE8] rounded animate-pulse mb-2" />
+              <div className="h-5 w-56 bg-[#e0ddd5] rounded animate-pulse mb-2" />
               <div className="flex gap-3">
                 <div className="h-10 w-20 bg-[#F1F5F9] rounded-lg animate-pulse" />
                 <div className="h-10 w-20 bg-[#F1F5F9] rounded-lg animate-pulse" />
               </div>
             </div>
-            <div className="h-12 w-full bg-[#0B6B3A]/20 rounded-lg animate-pulse" />
+            <div className="h-12 w-full bg-[#2d5016]/20 rounded-lg animate-pulse" />
           </div>
         </div>
       </main>

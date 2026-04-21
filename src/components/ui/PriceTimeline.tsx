@@ -20,10 +20,10 @@ export function PriceTimeline({ data, className }: PriceTimelineProps) {
   return (
     <div className={className}>
       <div className="flex items-center justify-between mb-3">
-        <h4 className="text-sm font-semibold text-[#1F2A24] font-body">Price History</h4>
-        <div className="flex items-center gap-3 text-xs text-[#6B7771] font-mono">
+        <h4 className="text-sm font-semibold text-[#1a1a1a] font-body">Price History</h4>
+        <div className="flex items-center gap-3 text-xs text-[#555555] font-mono">
           <span>Launch: {formatCurrency(data.launch_price)}</span>
-          <span className="text-[#C41E3A] font-bold">+{data.total_increase_percent.toFixed(0)}% total</span>
+          <span className="text-[#c0392b] font-bold">+{data.total_increase_percent.toFixed(0)}% total</span>
         </div>
       </div>
 
@@ -32,19 +32,19 @@ export function PriceTimeline({ data, className }: PriceTimelineProps) {
           <LineChart data={chartData}>
             <XAxis
               dataKey="date"
-              tick={{ fontSize: 11, fill: '#6B7771', fontFamily: 'DM Mono' }}
-              axisLine={{ stroke: '#E5ECE8' }}
+              tick={{ fontSize: 11, fill: '#555555', fontFamily: 'DM Mono' }}
+              axisLine={{ stroke: '#e0ddd5' }}
               tickLine={false}
             />
             <YAxis
-              tick={{ fontSize: 11, fill: '#6B7771', fontFamily: 'DM Mono' }}
+              tick={{ fontSize: 11, fill: '#555555', fontFamily: 'DM Mono' }}
               axisLine={false}
               tickLine={false}
               tickFormatter={(v) => `$${v.toLocaleString()}`}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: '#1F2A24',
+                backgroundColor: '#1a1a1a',
                 border: 'none',
                 borderRadius: '8px',
                 fontSize: '12px',
@@ -57,16 +57,16 @@ export function PriceTimeline({ data, className }: PriceTimelineProps) {
             <Line
               type="stepAfter"
               dataKey="price"
-              stroke="#C41E3A"
+              stroke="#c0392b"
               strokeWidth={2}
-              dot={{ fill: '#C41E3A', r: 3 }}
-              activeDot={{ fill: '#C41E3A', r: 5, stroke: '#FEE2E2', strokeWidth: 2 }}
+              dot={{ fill: '#c0392b', r: 3 }}
+              activeDot={{ fill: '#c0392b', r: 5, stroke: '#FEE2E2', strokeWidth: 2 }}
             />
           </LineChart>
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-2 flex items-center gap-4 text-xs text-[#6B7771] font-body">
+      <div className="mt-2 flex items-center gap-4 text-xs text-[#555555] font-body">
         <span>{data.num_increases} price increases</span>
         <span>CAGR: {data.cagr.toFixed(1)}%</span>
       </div>
@@ -78,13 +78,13 @@ export function PriceTimeline({ data, className }: PriceTimelineProps) {
         const yearsElapsed = currentYear - launchYear;
         const inflationPct = Math.round(2.6 * yearsElapsed);
         return yearsElapsed > 0 ? (
-          <div className="mt-2 text-sm text-[#6B7771] font-body">
+          <div className="mt-2 text-sm text-[#555555] font-body">
             Since {launchYear}: price increased{' '}
-            <span className="text-[#C41E3A] font-bold">
+            <span className="text-[#c0392b] font-bold">
               {data.total_increase_percent.toFixed(0)}%
             </span>
             {' '}&mdash; inflation over the same period:{' '}
-            <span className="text-[#1F2A24] font-bold">
+            <span className="text-[#1a1a1a] font-bold">
               {inflationPct}%
             </span>
           </div>

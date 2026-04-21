@@ -3,10 +3,10 @@ import type { ManufacturerCardData } from '@/lib/types';
 
 function StatCard({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
-    <div className="rounded-lg border border-[#E5ECE8] bg-white px-5 py-4">
-      <p className="text-[10px] font-medium uppercase tracking-wider text-[#6B7771] font-body">{label}</p>
-      <p className="mt-1 text-2xl font-semibold text-[#1F2A24] font-mono">{value}</p>
-      {sub && <p className="mt-0.5 text-xs text-[#6B7771] font-body">{sub}</p>}
+    <div className="rounded-lg border border-[#e0ddd5] bg-white px-5 py-4">
+      <p className="text-[10px] font-medium uppercase tracking-wider text-[#555555] font-body">{label}</p>
+      <p className="mt-1 text-2xl font-semibold text-[#1a1a1a] font-mono">{value}</p>
+      {sub && <p className="mt-0.5 text-xs text-[#555555] font-body">{sub}</p>}
     </div>
   );
 }

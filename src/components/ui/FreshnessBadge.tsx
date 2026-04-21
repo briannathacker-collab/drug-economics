@@ -23,19 +23,19 @@ export function FreshnessBadge({
   const freshness = computeFreshness(dataYear ?? null, dataQuarter ?? null);
 
   const dotColors: Record<FreshnessColor, string> = {
-    green: 'bg-[#0B6B3A]',
-    yellow: 'bg-[#B45309]',
+    green: 'bg-[#2d5016]',
+    yellow: 'bg-[#b8860b]',
     orange: 'bg-orange-500',
-    red: 'bg-[#C41E3A]',
-    gray: 'bg-[#6B7771]',
+    red: 'bg-[#c0392b]',
+    gray: 'bg-[#555555]',
   };
 
   const textColors: Record<FreshnessColor, string> = {
-    green: 'text-[#0B6B3A]',
-    yellow: 'text-[#B45309]',
+    green: 'text-[#2d5016]',
+    yellow: 'text-[#b8860b]',
     orange: 'text-orange-600',
-    red: 'text-[#C41E3A]',
-    gray: 'text-[#6B7771]',
+    red: 'text-[#c0392b]',
+    gray: 'text-[#555555]',
   };
 
   return (
@@ -50,7 +50,7 @@ export function FreshnessBadge({
       <span className={cn('w-1.5 h-1.5 rounded-full shrink-0', dotColors[freshness.color])} />
       {freshness.label}
       {!compact && freshness.quarters_old !== null && (
-        <span className="text-[#6B7771]">
+        <span className="text-[#555555]">
           · {source || ''} {dataYear} {dataQuarter} ({formatFreshnessAge(freshness.quarters_old)})
         </span>
       )}

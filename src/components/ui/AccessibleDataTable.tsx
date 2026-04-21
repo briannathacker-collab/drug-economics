@@ -28,7 +28,7 @@ export function AccessibleDataTable({ columns, rows, caption, className }: Acces
     <div className={className}>
       <button
         onClick={() => setVisible(!visible)}
-        className="inline-flex items-center gap-1.5 text-xs text-[#6B7771] hover:text-[#6B7771] font-body transition-colors mt-2"
+        className="inline-flex items-center gap-1.5 text-xs text-[#555555] hover:text-[#555555] font-body transition-colors mt-2"
         aria-expanded={visible}
         aria-controls="data-table"
       >
@@ -37,15 +37,15 @@ export function AccessibleDataTable({ columns, rows, caption, className }: Acces
       </button>
 
       {visible && (
-        <div id="data-table" className="mt-3 overflow-x-auto rounded-lg border border-[#E5ECE8]">
+        <div id="data-table" className="mt-3 overflow-x-auto rounded-lg border border-[#e0ddd5]">
           <table className="w-full text-xs" role="table">
             <caption className="sr-only">{caption}</caption>
             <thead>
-              <tr className="bg-[#F7F9F8]">
+              <tr className="bg-[#f5f5f0]">
                 {columns.map(col => (
                   <th
                     key={col.key}
-                    className="px-3 py-2 text-left font-bold text-[#6B7771] font-body uppercase tracking-wider"
+                    className="px-3 py-2 text-left font-bold text-[#555555] font-body uppercase tracking-wider"
                     scope="col"
                   >
                     {col.label}
@@ -55,9 +55,9 @@ export function AccessibleDataTable({ columns, rows, caption, className }: Acces
             </thead>
             <tbody>
               {rows.map((row, i) => (
-                <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-[#F7F9F8]/50'}>
+                <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f0]/50'}>
                   {columns.map(col => (
-                    <td key={col.key} className="px-3 py-2 text-[#1F2A24] font-mono">
+                    <td key={col.key} className="px-3 py-2 text-[#1a1a1a] font-mono">
                       {col.format ? col.format(row[col.key]) : String(row[col.key] ?? '—')}
                     </td>
                   ))}

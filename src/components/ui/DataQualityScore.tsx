@@ -107,20 +107,20 @@ function computeGrade(drug: WacPrice, cogs: CogsEstimate | null, history: WacHis
 const GRADE_STYLES: Record<Grade, { bg: string; text: string; border: string; label: string }> = {
   A: {
     bg: 'bg-[#E6F2EC]',
-    text: 'text-[#0B6B3A]',
-    border: 'border-[#0B6B3A]/20',
+    text: 'text-[#2d5016]',
+    border: 'border-[#2d5016]/20',
     label: 'Comprehensive data',
   },
   B: {
     bg: 'bg-[#FFFBEB]',
-    text: 'text-[#B45309]',
-    border: 'border-[#B45309]/20',
+    text: 'text-[#b8860b]',
+    border: 'border-[#b8860b]/20',
     label: 'Partial data',
   },
   C: {
     bg: 'bg-[#FEE2E2]',
-    text: 'text-[#C41E3A]',
-    border: 'border-[#C41E3A]/20',
+    text: 'text-[#c0392b]',
+    border: 'border-[#c0392b]/20',
     label: 'Limited data',
   },
 };
@@ -143,12 +143,12 @@ export function DataQualityScore({ drug, cogs, history, className }: DataQuality
       )}
       title={`Data Quality Score: ${grade} (${score}/100)\n${factors.join('\n')}`}
     >
-      <p className="text-xs text-[#6B7771] font-body uppercase tracking-wider mb-1">
+      <p className="text-xs text-[#555555] font-body uppercase tracking-wider mb-1">
         Data Quality
       </p>
       <p className={cn('text-3xl font-bold font-mono', style.text)}>{grade}</p>
       <p className={cn('text-xs font-body mt-1', style.text)}>{style.label}</p>
-      <p className="text-[10px] text-[#6B7771] font-mono mt-1">{score}/100</p>
+      <p className="text-[10px] text-[#555555] font-mono mt-1">{score}/100</p>
     </div>
   );
 }

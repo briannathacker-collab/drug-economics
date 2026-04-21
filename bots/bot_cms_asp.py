@@ -8,6 +8,8 @@ Uses header-row detection and column aliasing for robustness against
 CMS format variations across quarters.
 """
 
+from __future__ import annotations
+
 import csv
 import io
 import json
@@ -24,7 +26,7 @@ from lib.changelog import log_update
 from lib.validate import validate_cms_asp
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-CMS_ASP_URL = "https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing/asp-files"
+CMS_ASP_URL = "https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files"
 
 # ---------------------------------------------------------------------------
 # Column aliasing: CMS format varies slightly by quarter.
@@ -75,7 +77,9 @@ def _find_header_row(df_raw: pd.DataFrame, max_scan: int = 15) -> int:
     for idx in range(scan_limit):
         row_values = df_raw.iloc[idx].astype(str).str.strip().str.upper().tolist()
         for val in row_values:
-            if "HCPCS" in val:
+            # Only match short header-like cells. Reject prose (notes, descriptions)
+            # that merely mention HCPCS.
+            if len(val) <= 40 and (val == "HCPCS" or val.startswith("HCPCS ") or val.startswith("HCPCS_")):
                 return idx
     return 0  # fallback: assume first row is header
 
@@ -140,10 +144,12 @@ def _parse_csv(file_bytes: bytes) -> list[dict]:
     text = file_bytes.decode("utf-8-sig")
     lines = text.splitlines()
 
-    # Header-row detection for CSV: scan first 15 lines for HCPCS
+    # Header-row detection for CSV: find first line whose first cell is a
+    # short HCPCS header (not a prose note that mentions HCPCS).
     header_idx = 0
     for idx, line in enumerate(lines[:15]):
-        if "HCPCS" in line.upper():
+        first = line.split(",", 1)[0].strip().strip('"').upper()
+        if len(first) <= 40 and (first == "HCPCS" or first.startswith("HCPCS ") or first.startswith("HCPCS_")):
             header_idx = idx
             break
 
@@ -228,24 +234,42 @@ def run():
         res = httpx.get(CMS_ASP_URL, follow_redirects=True, timeout=30)
         res.raise_for_status()
 
-        # CMS naming convention: aspYYQQ.zip (e.g., asp25q1.zip)
-        links = re.findall(
-            r'href="([^"]*asp\d{2}q\d\.zip[^"]*)"', res.text, re.IGNORECASE
+        # CMS naming shifted from aspYYQQ.zip to descriptive
+        # "MONTH-YEAR-asp-pricing..." or "MONTH-YEAR-medicare-part-b-payment-limit-files..."
+        # Match pricing-file links but skip NDC-HCPCS crosswalks and NOC files.
+        month_to_q = {
+            "january": 1, "april": 2, "july": 3, "october": 4,
+        }
+        candidates = re.findall(
+            r'href="([^"]*\.zip)"', res.text, re.IGNORECASE
         )
+        links = []
+        for href in candidates:
+            low = href.lower()
+            if "ndc-hcpcs" in low or "crosswalk" in low or "noc-pricing" in low or "noc" in low.split("/")[-1].split("-"):
+                continue
+            if "asp-pricing" not in low and "payment-limit" not in low:
+                continue
+            # Legacy short form
+            m_legacy = re.search(r"asp(\d{2})q(\d)", low)
+            # New long form: {month}-{year}-...
+            m_long = re.search(r"(january|april|july|october)-(\d{4})", low)
+            if m_legacy or m_long:
+                links.append((href, m_legacy, m_long))
+
         if not links:
             raise RuntimeError("Could not find CMS ASP ZIP link on page")
 
-        latest_url = (
-            links[0]
-            if links[0].startswith("http")
-            else f"https://www.cms.gov{links[0]}"
-        )
-        match = re.search(r"asp(\d{2})q(\d)", latest_url, re.IGNORECASE)
-        if not match:
-            raise RuntimeError("Could not parse quarter from ZIP filename")
+        href, m_legacy, m_long = links[0]
+        latest_url = href if href.startswith("http") else f"https://www.cms.gov{href}"
 
-        data_year = int(f"20{match.group(1)}")
-        data_quarter = int(match.group(2))
+        if m_legacy:
+            data_year = int(f"20{m_legacy.group(1)}")
+            data_quarter = int(m_legacy.group(2))
+        else:
+            data_year = int(m_long.group(2))
+            data_quarter = month_to_q[m_long.group(1)]
+
         quarter_key = f"{data_year}-Q{data_quarter}"
 
         # Check if we already have this quarter

@@ -18,13 +18,13 @@ import { Building2, DollarSign, TrendingUp, ChevronDown, ChevronUp, ArrowRight, 
 
 const POSITION_COLORS: Record<string, string> = {
   government: '#2563EB',
-  pharma: '#C41E3A',
-  trade_assoc: '#B45309',
+  pharma: '#c0392b',
+  trade_assoc: '#b8860b',
   think_tank: '#7C3AED',
   tech: '#0891B2',
   venture_capital: '#059669',
   academic: '#4F46E5',
-  other: '#6B7771',
+  other: '#555555',
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -49,7 +49,7 @@ function PositionTimeline({ positions }: { positions: RevolvingDoorPerson['posit
 
   return (
     <div className="mt-4">
-      <div className="flex justify-between text-[10px] text-[#6B7771] mb-1 font-mono">
+      <div className="flex justify-between text-[10px] text-[#555555] mb-1 font-mono">
         <span>{minYear}</span>
         <span>{maxYear}</span>
       </div>
@@ -70,7 +70,7 @@ function PositionTimeline({ positions }: { positions: RevolvingDoorPerson['posit
                 }}
                 title={`${pos.title} @ ${pos.org_name} (${pos.start_year}–${pos.end_year || 'present'})`}
               >
-                <span className="text-[10px] text-[#1F2A24] whitespace-nowrap overflow-hidden text-ellipsis font-body">
+                <span className="text-[10px] text-[#1a1a1a] whitespace-nowrap overflow-hidden text-ellipsis font-body">
                   {pos.org_name}
                 </span>
               </div>
@@ -82,7 +82,7 @@ function PositionTimeline({ positions }: { positions: RevolvingDoorPerson['posit
         {Array.from(new Set(sorted.map(p => p.org_type))).map(type => (
           <div key={type} className="flex items-center gap-1">
             <div className="w-2 h-2 rounded-full" style={{ backgroundColor: POSITION_COLORS[type] || POSITION_COLORS.other }} />
-            <span className="text-[10px] text-[#6B7771] capitalize font-body">{type.replace('_', ' ')}</span>
+            <span className="text-[10px] text-[#555555] capitalize font-body">{type.replace('_', ' ')}</span>
           </div>
         ))}
       </div>
@@ -107,7 +107,7 @@ export default function FollowTheMoneyPage() {
     return caseStudies.filter((cs: CaseStudy) => cs.category === caseFilter);
   }, [caseStudies, caseFilter]);
 
-  const PBM_COLORS = ['#0B6B3A', '#0B6B3A', '#6BB899', '#6B7771'];
+  const PBM_COLORS = ['#2d5016', '#2d5016', '#6BB899', '#555555'];
 
   const views = [
     { id: 'overview' as const, label: 'Insurer Profiles' },
@@ -119,18 +119,18 @@ export default function FollowTheMoneyPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[#1F2A24] font-display">Follow the Money</h1>
-          <p className="mt-2 text-[#6B7771] font-body">
+          <h1 className="text-3xl font-bold text-[#1a1a1a] font-display">Follow the Money</h1>
+          <p className="mt-2 text-[#555555] font-body">
             Where does every dollar of your premium actually go? Track insurer profits, PBM rebates, and the flow of money.
           </p>
-          <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
-            Insurer financials: FY 2024 actuals (FY 2025 refresh in progress — see <Link href="/changelog" className="underline hover:text-[#0B6B3A]">changelog</Link>) · PBM data: Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
+          <p className="mt-2 text-[10px] text-[#555555] font-mono flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#2d5016] inline-block" />
+            Insurer financials: FY 2024 actuals (FY 2025 refresh in progress — see <Link href="/changelog" className="underline hover:text-[#2d5016]">changelog</Link>) · PBM data: Q4 2024 · Sources: SEC EDGAR, KFF, FTC reports
           </p>
         </div>
 
@@ -144,8 +144,8 @@ export default function FollowTheMoneyPage() {
               onClick={() => setActiveView(v.id)}
               className={`px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors font-body ${
                 activeView === v.id
-                  ? 'bg-[#0B6B3A] text-white'
-                  : 'bg-white text-[#6B7771] border border-[#E5ECE8] hover:bg-[#F1F5F9]'
+                  ? 'bg-[#2d5016] text-white'
+                  : 'bg-white text-[#555555] border border-[#e0ddd5] hover:bg-[#F1F5F9]'
               }`}
             >
               {v.label}
@@ -199,54 +199,54 @@ export default function FollowTheMoneyPage() {
               const latestIncome = insurer.net_income[0]?.income || 0;
 
               return (
-                <div key={insurer.insurer_id} className="bg-white rounded-xl border border-[#E5ECE8] shadow-sm overflow-hidden">
+                <div key={insurer.insurer_id} className="bg-white rounded-xl border border-[#e0ddd5] shadow-sm overflow-hidden">
                   <div
-                    className="p-5 cursor-pointer hover:bg-[#F7F9F8] transition-colors"
+                    className="p-5 cursor-pointer hover:bg-[#f5f5f0] transition-colors"
                     onClick={() => setExpandedInsurer(isExpanded ? null : insurer.insurer_id)}
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 rounded-xl bg-[#0B6B3A] flex items-center justify-center text-white font-bold font-display text-sm">
+                        <div className="w-12 h-12 rounded-xl bg-[#2d5016] flex items-center justify-center text-white font-bold font-display text-sm">
                           {insurer.name.split(' ')[0].slice(0, 2).toUpperCase()}
                         </div>
                         <div>
-                          <h3 className="text-lg font-bold text-[#1F2A24] font-display">{insurer.name}</h3>
-                          <p className="text-xs text-[#6B7771] font-mono">{insurer.ticker} · {insurer.type}</p>
+                          <h3 className="text-lg font-bold text-[#1a1a1a] font-display">{insurer.name}</h3>
+                          <p className="text-xs text-[#555555] font-mono">{insurer.ticker} · {insurer.type}</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-6">
                         <div className="text-right hidden sm:block">
-                          <p className="text-xs text-[#6B7771]">Revenue</p>
-                          <p className="font-mono font-bold text-[#1F2A24]">{formatCurrency(latestRevenue, true)}</p>
+                          <p className="text-xs text-[#555555]">Revenue</p>
+                          <p className="font-mono font-bold text-[#1a1a1a]">{formatCurrency(latestRevenue, true)}</p>
                         </div>
                         <div className="text-right hidden sm:block">
-                          <p className="text-xs text-[#6B7771]">
+                          <p className="text-xs text-[#555555]">
                             <JargonTooltip term="MLR">MLR</JargonTooltip>
                           </p>
-                          <p className="font-mono font-bold text-[#1F2A24]">{formatPercent(insurer.medical_loss_ratio)}</p>
+                          <p className="font-mono font-bold text-[#1a1a1a]">{formatPercent(insurer.medical_loss_ratio)}</p>
                         </div>
                         <div className="text-right hidden sm:block relative group">
-                          <p className="text-xs text-[#6B7771]">MA Prior-Auth Denial Rate (2024)</p>
-                          <p className="font-mono font-bold text-[#C41E3A] flex items-center gap-1 justify-end">
+                          <p className="text-xs text-[#555555]">MA Prior-Auth Denial Rate (2024)</p>
+                          <p className="font-mono font-bold text-[#c0392b] flex items-center gap-1 justify-end">
                             {insurer.prior_auth_denial_rate != null
                               ? formatPercent(insurer.prior_auth_denial_rate)
                               : '—'}
-                            <Info className="w-3 h-3 text-[#6B7771]" />
+                            <Info className="w-3 h-3 text-[#555555]" />
                           </p>
-                          <div className="absolute right-0 top-full mt-1 w-72 bg-[#1F2A24] text-white text-xs p-3 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50 font-body leading-relaxed">
+                          <div className="absolute right-0 top-full mt-1 w-72 bg-[#1a1a1a] text-white text-xs p-3 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50 font-body leading-relaxed">
                             {insurer.prior_auth_denial_rate_note
                               ? insurer.prior_auth_denial_rate_note + ' '
                               : ''}
                             Source: KFF analysis of CMS Medicare Advantage prior authorization data, January 2026.
                           </div>
                         </div>
-                        {isExpanded ? <ChevronUp className="w-5 h-5 text-[#6B7771]" /> : <ChevronDown className="w-5 h-5 text-[#6B7771]" />}
+                        {isExpanded ? <ChevronUp className="w-5 h-5 text-[#555555]" /> : <ChevronDown className="w-5 h-5 text-[#555555]" />}
                       </div>
                     </div>
                   </div>
 
                   {isExpanded && (
-                    <div className="border-t border-[#E5ECE8] p-5 bg-[#F7F9F8]">
+                    <div className="border-t border-[#e0ddd5] p-5 bg-[#f5f5f0]">
                       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
                         <MetricCard label="Revenue" value={formatCurrency(latestRevenue, true)} icon={<DollarSign className="w-4 h-4" />} />
                         <MetricCard label="Net Income" value={formatCurrency(latestIncome, true)} icon={<TrendingUp className="w-4 h-4" />} />
@@ -266,10 +266,10 @@ export default function FollowTheMoneyPage() {
 
                       {insurer.subsidiaries.length > 0 && (
                         <div>
-                          <p className="text-xs font-semibold text-[#1F2A24] mb-2 font-body">Subsidiaries & Divisions</p>
+                          <p className="text-xs font-semibold text-[#1a1a1a] mb-2 font-body">Subsidiaries & Divisions</p>
                           <div className="flex flex-wrap gap-1.5">
                             {insurer.subsidiaries.map((sub, i) => (
-                              <span key={i} className="text-xs bg-[#E6F2EC] text-[#0B6B3A] px-2 py-0.5 rounded-full font-body">
+                              <span key={i} className="text-xs bg-[#E6F2EC] text-[#2d5016] px-2 py-0.5 rounded-full font-body">
                                 {sub}
                               </span>
                             ))}
@@ -313,28 +313,28 @@ export default function FollowTheMoneyPage() {
               />
             </div>
             {/* Rebate flow explainer */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-6">How Rebates Flow</h3>
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-6">How Rebates Flow</h3>
               <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
                 {[
-                  { label: 'Drug Manufacturer', sub: 'Sets list price (WAC)', color: 'bg-[#C41E3A]' },
-                  { label: 'PBM', sub: 'Negotiates rebate, keeps portion', color: 'bg-[#B45309]' },
-                  { label: 'Insurance Plan', sub: 'Receives partial rebate', color: 'bg-[#0B6B3A]' },
-                  { label: 'Patient', sub: 'Pays copay on LIST price', color: 'bg-[#6B7771]' },
+                  { label: 'Drug Manufacturer', sub: 'Sets list price (WAC)', color: 'bg-[#c0392b]' },
+                  { label: 'PBM', sub: 'Negotiates rebate, keeps portion', color: 'bg-[#b8860b]' },
+                  { label: 'Insurance Plan', sub: 'Receives partial rebate', color: 'bg-[#2d5016]' },
+                  { label: 'Patient', sub: 'Pays copay on LIST price', color: 'bg-[#555555]' },
                 ].map((step, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <div className="text-center">
                       <div className={`${step.color} text-white w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-2`}>
                         <Building2 className="w-6 h-6" />
                       </div>
-                      <p className="text-sm font-semibold text-[#1F2A24] font-body">{step.label}</p>
-                      <p className="text-[10px] text-[#6B7771] font-body mt-0.5">{step.sub}</p>
+                      <p className="text-sm font-semibold text-[#1a1a1a] font-body">{step.label}</p>
+                      <p className="text-[10px] text-[#555555] font-body mt-0.5">{step.sub}</p>
                     </div>
-                    {i < 3 && <ArrowRight className="w-5 h-5 text-[#6B7771] hidden md:block" />}
+                    {i < 3 && <ArrowRight className="w-5 h-5 text-[#555555] hidden md:block" />}
                   </div>
                 ))}
               </div>
-              <div className="mt-6 bg-[#FEE2E2] rounded-lg p-4 text-sm text-[#C41E3A] font-body">
+              <div className="mt-6 bg-[#FEE2E2] rounded-lg p-4 text-sm text-[#c0392b] font-body">
                 <strong>Key insight:</strong> Patients pay copays and coinsurance based on the drug&apos;s
                 <strong> list price</strong>, not the discounted price the PBM negotiated.
                 The rebate goes to the PBM and plan — the patient sees none of it.
@@ -342,11 +342,11 @@ export default function FollowTheMoneyPage() {
             </div>
 
             {/* PBM market share */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-4">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-4">
                 <JargonTooltip term="PBM">PBM</JargonTooltip> Market Concentration
               </h3>
-              <p className="text-sm text-[#6B7771] font-body mb-6">
+              <p className="text-sm text-[#555555] font-body mb-6">
                 Three companies control approximately 80% of all prescription drug benefits in America.
               </p>
               <div className="flex flex-col md:flex-row items-center gap-8">
@@ -376,10 +376,10 @@ export default function FollowTheMoneyPage() {
                       <div className="w-3 h-3 rounded-full" style={{ backgroundColor: PBM_COLORS[i] }} />
                       <div className="flex-1">
                         <div className="flex items-center justify-between">
-                          <span className="text-sm font-medium text-[#1F2A24] font-body">{pbm.pbm_name}</span>
-                          <span className="text-sm font-mono font-bold text-[#1F2A24]">{formatPercent(pbm.market_share, 0)}</span>
+                          <span className="text-sm font-medium text-[#1a1a1a] font-body">{pbm.pbm_name}</span>
+                          <span className="text-sm font-mono font-bold text-[#1a1a1a]">{formatPercent(pbm.market_share, 0)}</span>
                         </div>
-                        <p className="text-xs text-[#6B7771] font-body flex items-center gap-0.5">
+                        <p className="text-xs text-[#555555] font-body flex items-center gap-0.5">
                           Parent: {pbm.parent_company} · Passthrough: ~{formatPercent(pbm.passthrough_rate, 0)}
                           <EstBadge confidence="low" />
                           <SourceIcon
@@ -414,29 +414,29 @@ export default function FollowTheMoneyPage() {
             </div>
 
             {/* Spread pricing */}
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-2">Spread Pricing Explained</h3>
-              <p className="text-xs text-[#6B7771] font-body mb-4 flex items-center gap-1">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-2">Spread Pricing Explained</h3>
+              <p className="text-xs text-[#555555] font-body mb-4 flex items-center gap-1">
                 Illustrative example based on FTC findings
                 <EstBadge confidence="low" />
                 <SourceIcon sourceLabel="FTC Interim Report on PBMs, 2024" lastUpdated="2024" />
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-[#FEE2E2] rounded-lg p-5">
-                  <p className="text-xs text-[#C41E3A] font-semibold mb-2 font-body uppercase tracking-wider">PBM bills the plan</p>
-                  <p className="text-3xl font-bold text-[#C41E3A] font-mono">$500</p>
-                  <p className="text-sm text-[#6B7771] font-body mt-1">For a 30-day supply</p>
+                  <p className="text-xs text-[#c0392b] font-semibold mb-2 font-body uppercase tracking-wider">PBM bills the plan</p>
+                  <p className="text-3xl font-bold text-[#c0392b] font-mono">$500</p>
+                  <p className="text-sm text-[#555555] font-body mt-1">For a 30-day supply</p>
                 </div>
                 <div className="bg-[#E6F2EC] rounded-lg p-5">
-                  <p className="text-xs text-[#0B6B3A] font-semibold mb-2 font-body uppercase tracking-wider">PBM pays the pharmacy</p>
-                  <p className="text-3xl font-bold text-[#0B6B3A] font-mono">$350</p>
-                  <p className="text-sm text-[#6B7771] font-body mt-1">For the same 30-day supply</p>
+                  <p className="text-xs text-[#2d5016] font-semibold mb-2 font-body uppercase tracking-wider">PBM pays the pharmacy</p>
+                  <p className="text-3xl font-bold text-[#2d5016] font-mono">$350</p>
+                  <p className="text-sm text-[#555555] font-body mt-1">For the same 30-day supply</p>
                 </div>
               </div>
               <div className="mt-4 bg-[#FFFBEB] rounded-lg p-4 text-center">
-                <p className="text-xs text-[#B45309] font-semibold font-body">THE SPREAD</p>
-                <p className="text-2xl font-bold text-[#B45309] font-mono">$150</p>
-                <p className="text-sm text-[#6B7771] font-body mt-1">
+                <p className="text-xs text-[#b8860b] font-semibold font-body">THE SPREAD</p>
+                <p className="text-2xl font-bold text-[#b8860b] font-mono">$150</p>
+                <p className="text-sm text-[#555555] font-body mt-1">
                   The PBM keeps this difference. The patient, pharmacy, and plan sponsor may never see it.
                 </p>
               </div>
@@ -468,8 +468,8 @@ export default function FollowTheMoneyPage() {
                 ]}
               />
             </div>
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-4">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-4">
                 Premiums Rise, Coverage Stays Flat
               </h3>
               <div className="h-80">
@@ -479,31 +479,31 @@ export default function FollowTheMoneyPage() {
                     premium: p.avg_family_premium / 100,
                     deductible: p.avg_family_deductible / 100,
                   }))}>
-                    <XAxis dataKey="year" tick={{ fontSize: 11, fill: '#6B7771', fontFamily: 'DM Mono' }} />
+                    <XAxis dataKey="year" tick={{ fontSize: 11, fill: '#555555', fontFamily: 'DM Mono' }} />
                     <YAxis
-                      tick={{ fontSize: 11, fill: '#6B7771', fontFamily: 'DM Mono' }}
+                      tick={{ fontSize: 11, fill: '#555555', fontFamily: 'DM Mono' }}
                       tickFormatter={v => `$${(v / 1000).toFixed(0)}K`}
                     />
                     <Tooltip
-                      contentStyle={{ backgroundColor: '#1F2A24', border: 'none', borderRadius: '8px', color: '#fff', fontSize: '12px' }}
+                      contentStyle={{ backgroundColor: '#1a1a1a', border: 'none', borderRadius: '8px', color: '#fff', fontSize: '12px' }}
                       formatter={(value) => [`$${Number(value).toLocaleString()}`, '']}
                     />
-                    <Line type="monotone" dataKey="premium" stroke="#C41E3A" strokeWidth={2} name="Avg Family Premium" dot={{ r: 2 }} />
+                    <Line type="monotone" dataKey="premium" stroke="#c0392b" strokeWidth={2} name="Avg Family Premium" dot={{ r: 2 }} />
                     <Line type="monotone" dataKey="deductible" stroke="#2563EB" strokeWidth={2} name="Avg Family Deductible" dot={{ r: 2 }} />
                   </LineChart>
                 </ResponsiveContainer>
               </div>
               <div className="flex items-center gap-6 mt-4 justify-center">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-[#C41E3A]" />
-                  <span className="text-xs text-[#6B7771] font-body">Average Family Premium</span>
+                  <div className="w-3 h-3 rounded-full bg-[#c0392b]" />
+                  <span className="text-xs text-[#555555] font-body">Average Family Premium</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-[#2563EB]" />
-                  <span className="text-xs text-[#6B7771] font-body">Average Family Deductible</span>
+                  <span className="text-xs text-[#555555] font-body">Average Family Deductible</span>
                 </div>
               </div>
-              <p className="text-xs text-[#6B7771] mt-4 font-body text-center">
+              <p className="text-xs text-[#555555] mt-4 font-body text-center">
                 Source: Kaiser Family Foundation Employer Health Benefits Survey
               </p>
 
@@ -528,9 +528,9 @@ export default function FollowTheMoneyPage() {
         {/* Vertical integration */}
         {activeView === 'integration' && (
           <div className="space-y-6">
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1F2A24] font-display mb-2">Vertical Integration</h3>
-              <p className="text-sm text-[#6B7771] font-body mb-6">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-[#1a1a1a] font-display mb-2">Vertical Integration</h3>
+              <p className="text-sm text-[#555555] font-body mb-6">
                 The largest health companies own the insurer, the PBM, the pharmacy, and the clinics.
                 They profit at every step of the supply chain.
               </p>
@@ -539,21 +539,21 @@ export default function FollowTheMoneyPage() {
                 .filter(ins => ins.type === 'integrated' || ins.subsidiaries.length > 2)
                 .map(ins => (
                   <div key={ins.insurer_id} className="mb-6 last:mb-0">
-                    <div className="bg-[#0B6B3A] text-white rounded-t-xl p-4">
+                    <div className="bg-[#2d5016] text-white rounded-t-xl p-4">
                       <h4 className="font-bold font-display text-lg">{ins.name}</h4>
                       <p className="text-sm text-[#E6F2EC] font-mono">{ins.ticker}</p>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-0.5 bg-[#E5ECE8]">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-0.5 bg-[#e0ddd5]">
                       {ins.subsidiaries.map((sub, i) => (
                         <div key={i} className="bg-white p-3 text-center">
-                          <p className="text-xs text-[#6B7771] font-body">
+                          <p className="text-xs text-[#555555] font-body">
                             {i === 0 ? 'Insurance' : i === 1 ? 'PBM' : i === 2 ? 'Pharmacy' : 'Other'}
                           </p>
-                          <p className="text-sm font-medium text-[#1F2A24] font-body mt-1">{sub}</p>
+                          <p className="text-sm font-medium text-[#1a1a1a] font-body mt-1">{sub}</p>
                         </div>
                       ))}
                     </div>
-                    <div className="bg-[#FEE2E2] rounded-b-xl p-3 text-xs text-[#C41E3A] font-body text-center">
+                    <div className="bg-[#FEE2E2] rounded-b-xl p-3 text-xs text-[#c0392b] font-body text-center">
                       One company profits as insurer, pharmacy manager, and pharmacy — all from the same patient.
                     </div>
                   </div>
@@ -564,29 +564,29 @@ export default function FollowTheMoneyPage() {
         {/* Revolving Door */}
         {activeView === 'revolving-door' && (
           <div className="space-y-6">
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-2">
-                <Users className="w-5 h-5 text-[#C41E3A]" />
-                <h3 className="text-lg font-bold text-[#1F2A24] font-display">The Revolving Door</h3>
+                <Users className="w-5 h-5 text-[#c0392b]" />
+                <h3 className="text-lg font-bold text-[#1a1a1a] font-display">The Revolving Door</h3>
               </div>
-              <p className="text-sm text-[#6B7771] font-body mb-1">
+              <p className="text-sm text-[#555555] font-body mb-1">
                 Officials who move between government agencies and the industries they regulate — carrying policy influence and insider knowledge with them.
               </p>
-              <p className="text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
+              <p className="text-[10px] text-[#555555] font-mono flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#2d5016] inline-block" />
                 Sources: OpenSecrets, SEC EDGAR, CMS, FDA · {revolvingDoor.length} profiles
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               {revolvingDoor.map((person) => (
-                <div key={person.id} className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+                <div key={person.id} className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
                   <div className="flex items-start justify-between">
-                    <h3 className="text-lg font-bold text-[#1F2A24] font-display">{person.full_name}</h3>
+                    <h3 className="text-lg font-bold text-[#1a1a1a] font-display">{person.full_name}</h3>
                     <span className={`text-[10px] px-2 py-0.5 rounded-full font-body ${
                       person.significance === 'high'
-                        ? 'bg-[#FEE2E2] text-[#C41E3A]'
-                        : 'bg-[#FFFBEB] text-[#B45309]'
+                        ? 'bg-[#FEE2E2] text-[#c0392b]'
+                        : 'bg-[#FFFBEB] text-[#b8860b]'
                     }`}>
                       {person.significance} significance
                     </span>
@@ -594,7 +594,7 @@ export default function FollowTheMoneyPage() {
 
                   <PositionTimeline positions={person.positions} />
 
-                  <p className="text-sm text-[#6B7771] font-body mt-4 leading-relaxed">
+                  <p className="text-sm text-[#555555] font-body mt-4 leading-relaxed">
                     {person.known_policy_influence}
                   </p>
 
@@ -605,8 +605,8 @@ export default function FollowTheMoneyPage() {
                           className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-1.5"
                           style={{ backgroundColor: POSITION_COLORS[pos.org_type] || POSITION_COLORS.other }}
                         />
-                        <span className="text-[#1F2A24] font-body font-medium">{pos.title}</span>
-                        <span className="text-[#6B7771] font-body">
+                        <span className="text-[#1a1a1a] font-body font-medium">{pos.title}</span>
+                        <span className="text-[#555555] font-body">
                           @ {pos.org_name} ({pos.start_year}–{pos.end_year || 'present'})
                         </span>
                       </div>
@@ -617,7 +617,7 @@ export default function FollowTheMoneyPage() {
                     <div className="mt-3 flex gap-2">
                       {person.source_urls.map((url, i) => (
                         <a key={i} href={url} target="_blank" rel="noopener noreferrer"
-                          className="text-[10px] text-[#6B7771] hover:text-[#0B6B3A] underline font-body flex items-center gap-0.5">
+                          className="text-[10px] text-[#555555] hover:text-[#2d5016] underline font-body flex items-center gap-0.5">
                           Source {i + 1} <ExternalLink className="w-2.5 h-2.5" />
                         </a>
                       ))}
@@ -632,12 +632,12 @@ export default function FollowTheMoneyPage() {
         {/* Case Studies */}
         {activeView === 'case-studies' && (
           <div className="space-y-6">
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-2">
-                <AlertTriangle className="w-5 h-5 text-[#C41E3A]" />
-                <h3 className="text-lg font-bold text-[#1F2A24] font-display">Case Studies</h3>
+                <AlertTriangle className="w-5 h-5 text-[#c0392b]" />
+                <h3 className="text-lg font-bold text-[#1a1a1a] font-display">Case Studies</h3>
               </div>
-              <p className="text-sm text-[#6B7771] font-body">
+              <p className="text-sm text-[#555555] font-body">
                 Investigative analysis of lobbying operations and their direct impact on patients and costs.
               </p>
             </div>
@@ -650,8 +650,8 @@ export default function FollowTheMoneyPage() {
                   onClick={() => setCaseFilter(cat)}
                   className={`px-3 py-1.5 text-xs rounded-full border transition-colors font-body ${
                     caseFilter === cat
-                      ? 'bg-[#0B6B3A] text-white border-[#0B6B3A]'
-                      : 'border-[#E5ECE8] text-[#6B7771] hover:text-[#1F2A24] bg-white'
+                      ? 'bg-[#2d5016] text-white border-[#2d5016]'
+                      : 'border-[#e0ddd5] text-[#555555] hover:text-[#1a1a1a] bg-white'
                   }`}
                 >
                   {cat ? CATEGORY_LABELS[cat] || cat : 'All'}
@@ -663,63 +663,63 @@ export default function FollowTheMoneyPage() {
               {filteredCases.map((cs: CaseStudy) => {
                 const isExpanded = expandedCase === cs.id;
                 return (
-                  <div key={cs.id} className="bg-white rounded-xl border border-[#E5ECE8] shadow-sm overflow-hidden">
+                  <div key={cs.id} className="bg-white rounded-xl border border-[#e0ddd5] shadow-sm overflow-hidden">
                     <div
-                      className="p-6 cursor-pointer hover:bg-[#F7F9F8] transition-colors"
+                      className="p-6 cursor-pointer hover:bg-[#f5f5f0] transition-colors"
                       onClick={() => setExpandedCase(isExpanded ? null : cs.id)}
                     >
                       <div className="flex items-start justify-between gap-4">
                         <div className="flex-1">
                           <div className="flex items-center gap-2 flex-wrap mb-1">
                             {cs.category && (
-                              <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#E5ECE8] text-[#6B7771] font-body">
+                              <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#e0ddd5] text-[#555555] font-body">
                                 {CATEGORY_LABELS[cs.category] || cs.category}
                               </span>
                             )}
                             {cs.is_featured && (
-                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#FFFBEB] text-[#B45309] font-body">
+                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#FFFBEB] text-[#b8860b] font-body">
                                 Featured
                               </span>
                             )}
                           </div>
-                          <h3 className="text-lg font-bold text-[#1F2A24] font-display">{cs.title}</h3>
-                          <p className="text-sm text-[#6B7771] font-body mt-1 italic">{cs.subtitle}</p>
+                          <h3 className="text-lg font-bold text-[#1a1a1a] font-display">{cs.title}</h3>
+                          <p className="text-sm text-[#555555] font-body mt-1 italic">{cs.subtitle}</p>
                         </div>
-                        {isExpanded ? <ChevronUp className="w-5 h-5 text-[#6B7771] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#6B7771] flex-shrink-0" />}
+                        {isExpanded ? <ChevronUp className="w-5 h-5 text-[#555555] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#555555] flex-shrink-0" />}
                       </div>
 
                       <div className="flex gap-6 mt-4">
                         {cs.estimated_patient_cost_usd > 0 && (
                           <div>
-                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Patient Cost</div>
-                            <div className="font-mono text-sm text-[#C41E3A] font-bold">{formatUSD(cs.estimated_patient_cost_usd)}</div>
+                            <div className="text-[10px] text-[#555555] uppercase font-mono">Patient Cost</div>
+                            <div className="font-mono text-sm text-[#c0392b] font-bold">{formatUSD(cs.estimated_patient_cost_usd)}</div>
                           </div>
                         )}
                         {cs.lobbying_spend_related_usd > 0 && (
                           <div>
-                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Lobbying Spend</div>
-                            <div className="font-mono text-sm text-[#1F2A24] font-bold">{formatUSD(cs.lobbying_spend_related_usd)}</div>
+                            <div className="text-[10px] text-[#555555] uppercase font-mono">Lobbying Spend</div>
+                            <div className="font-mono text-sm text-[#1a1a1a] font-bold">{formatUSD(cs.lobbying_spend_related_usd)}</div>
                           </div>
                         )}
                         {cs.organizations.length > 0 && (
                           <div>
-                            <div className="text-[10px] text-[#6B7771] uppercase font-mono">Organizations</div>
-                            <div className="text-xs text-[#6B7771] font-body">{cs.organizations.join(', ')}</div>
+                            <div className="text-[10px] text-[#555555] uppercase font-mono">Organizations</div>
+                            <div className="text-xs text-[#555555] font-body">{cs.organizations.join(', ')}</div>
                           </div>
                         )}
                       </div>
                     </div>
 
                     {isExpanded && (
-                      <div className="border-t border-[#E5ECE8] p-6 bg-[#F7F9F8]">
+                      <div className="border-t border-[#e0ddd5] p-6 bg-[#f5f5f0]">
                         {/* Key Findings */}
                         <div className="mb-6">
-                          <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Key Findings</h4>
+                          <h4 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">Key Findings</h4>
                           <div className="grid sm:grid-cols-2 gap-2">
                             {cs.key_findings.map((finding, i) => (
-                              <div key={i} className="flex items-start gap-2 bg-white rounded-lg p-3 border border-[#E5ECE8]">
-                                <span className="text-[#C41E3A] font-bold text-xs mt-0.5">●</span>
-                                <span className="text-sm text-[#1F2A24] font-body leading-relaxed">{finding}</span>
+                              <div key={i} className="flex items-start gap-2 bg-white rounded-lg p-3 border border-[#e0ddd5]">
+                                <span className="text-[#c0392b] font-bold text-xs mt-0.5">●</span>
+                                <span className="text-sm text-[#1a1a1a] font-body leading-relaxed">{finding}</span>
                               </div>
                             ))}
                           </div>
@@ -727,10 +727,10 @@ export default function FollowTheMoneyPage() {
 
                         {/* Full content */}
                         <div className="mb-6">
-                          <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Analysis</h4>
-                          <div className="bg-white rounded-lg border border-[#E5ECE8] p-5">
+                          <h4 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">Analysis</h4>
+                          <div className="bg-white rounded-lg border border-[#e0ddd5] p-5">
                             {cs.full_content.split('\n\n').map((paragraph, i) => (
-                              <p key={i} className="text-sm text-[#1F2A24] font-body leading-relaxed mb-3 last:mb-0">
+                              <p key={i} className="text-sm text-[#1a1a1a] font-body leading-relaxed mb-3 last:mb-0">
                                 {paragraph}
                               </p>
                             ))}
@@ -740,7 +740,7 @@ export default function FollowTheMoneyPage() {
                         {/* Sources */}
                         {cs.sources.length > 0 && (
                           <div>
-                            <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-2">Sources</h4>
+                            <h4 className="text-sm font-semibold text-[#1a1a1a] font-body mb-2">Sources</h4>
                             <div className="flex flex-wrap gap-2">
                               {cs.sources.map((source, i) => (
                                 <a
@@ -748,7 +748,7 @@ export default function FollowTheMoneyPage() {
                                   href={source.url}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="text-xs text-[#0B6B3A] hover:underline font-body flex items-center gap-1 bg-white rounded-full px-3 py-1 border border-[#E5ECE8]"
+                                  className="text-xs text-[#2d5016] hover:underline font-body flex items-center gap-1 bg-white rounded-full px-3 py-1 border border-[#e0ddd5]"
                                 >
                                   {source.name} <ExternalLink className="w-3 h-3" />
                                 </a>

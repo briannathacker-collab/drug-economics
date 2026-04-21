@@ -43,16 +43,16 @@ const APPS = [
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-[#F7F9F8] flex flex-col items-center justify-center px-4 sm:px-6">
+    <div className="min-h-screen bg-[#f5f5f0] flex flex-col items-center justify-center px-4 sm:px-6">
       <div className="max-w-lg w-full text-center">
         {/* 404 indicator */}
-        <p className="text-sm font-mono text-[#0B6B3A] tracking-widest uppercase">
+        <p className="text-sm font-mono text-[#2d5016] tracking-widest uppercase">
           Error 404
         </p>
-        <h1 className="mt-3 text-4xl sm:text-5xl font-bold font-display text-[#0B6B3A] tracking-tight">
+        <h1 className="mt-3 text-4xl sm:text-5xl font-bold font-display text-[#2d5016] tracking-tight">
           Page not found
         </h1>
-        <p className="mt-4 text-base font-body text-[#6B7771] leading-relaxed">
+        <p className="mt-4 text-base font-body text-[#555555] leading-relaxed">
           The page you are looking for does not exist or may have been moved.
           Try navigating back to the homepage or explore one of the apps below.
         </p>
@@ -60,17 +60,17 @@ export default function NotFound() {
         {/* Home link */}
         <Link
           href="/"
-          className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-[#0B6B3A] text-white rounded-lg text-sm font-semibold hover:bg-[#236B44] transition-colors font-body"
+          className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-[#2d5016] text-white rounded-lg text-sm font-semibold hover:bg-[#3a6b1e] transition-colors font-body"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Home
         </Link>
 
         {/* Divider */}
-        <div className="mt-10 border-t border-[#E5ECE8]" />
+        <div className="mt-10 border-t border-[#e0ddd5]" />
 
         {/* App links */}
-        <p className="mt-8 text-sm font-body text-[#6B7771] uppercase tracking-wider">
+        <p className="mt-8 text-sm font-body text-[#555555] uppercase tracking-wider">
           Or explore an app
         </p>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -80,16 +80,16 @@ export default function NotFound() {
               <Link
                 key={app.href}
                 href={app.href}
-                className="flex items-center gap-3 p-3 rounded-lg border border-[#E5ECE8] bg-white hover:border-[#0B6B3A]/30 hover:shadow-sm transition-all text-left"
+                className="flex items-center gap-3 p-3 rounded-lg border border-[#e0ddd5] bg-white hover:border-[#2d5016]/30 hover:shadow-sm transition-all text-left"
               >
                 <div className="w-8 h-8 rounded-md bg-[#E6F2EC] flex items-center justify-center shrink-0">
-                  <Icon className="w-4 h-4 text-[#0B6B3A]" />
+                  <Icon className="w-4 h-4 text-[#2d5016]" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold font-display text-[#1F2A24]">
+                  <p className="text-sm font-semibold font-display text-[#1a1a1a]">
                     {app.name}
                   </p>
-                  <p className="text-xs font-body text-[#6B7771]">
+                  <p className="text-xs font-body text-[#555555]">
                     {app.description}
                   </p>
                 </div>

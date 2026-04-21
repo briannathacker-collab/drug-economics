@@ -1,15 +1,50 @@
 /* Design tokens — Vytalis Research brand */
 :root {
-  --green-brand: #0B6B3A;
-  --green-dark: #0B6B3A;
-  --green-action: #0B6B3A;
-  --green-hover: #236B44;
-  --green-tint-bg: #E6F2EC;
-  --red-crisis: #C41E3A;
-  --amber-warning: #B45309;
-  --page-bg: #F7F9F8;
-  --text-heading: #1F2A24;
-  --text-body: #6B7771;
-  --text-muted: #6B7771;
-  --border: #E5ECE8;
+  /* Greens */
+  --brand-green: #2d5016;
+  --hero-green: #2d5016;
+  --hero-green-light: #3a6b1e;
+  --brand-green-text: #3a6b1e;
+  --green-brand: #2d5016;
+  --green-dark: #2d5016;
+  --green-action: #2d5016;
+  --green-hover: #3a6b1e;
+  --green-tint-bg: #e6f2ec;
+  --accent: #2d5016;
+
+  /* Reds / accents */
+  --accent2: #c0392b;
+  --red: #c0392b;
+  --red-crisis: #c0392b;
+
+  /* Golds / amber */
+  --accent-warm: #8b6914;
+  --amber: #b8860b;
+  --amber-warning: #b8860b;
+  --gold-highlight: #d4a843;
+
+  /* Backgrounds */
+  --bg: #f5f5f0;
+  --bg-white: #ffffff;
+  --surface: #ffffff;
+  --secondary: #f0ede6;
+  --page-bg: #f5f5f0;
+
+  /* Text */
+  --text: #1a1a1a;
+  --text2: #555555;
+  --text3: #888888;
+  --text-muted: #999999;
+  --text-heading: #1a1a1a;
+  --text-body: #555555;
+
+  /* Borders */
+  --border: #e0ddd5;
+  --input: #e0ddd5;
+
+  /* Sector colors (PAC/charts) */
+  --pac-democrat: #4338ca;
+  --sector-insurance: #8b6914;
+  --sector-hospital: #a0522d;
+  --sector-trade: #5a7d3a;
 }

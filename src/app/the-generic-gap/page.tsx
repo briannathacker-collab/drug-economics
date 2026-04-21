@@ -85,17 +85,17 @@ export default function TheGenericGapPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[#1F2A24] font-display">The Generic Gap</h1>
-          <p className="mt-2 text-[#6B7771] font-body">
+          <h1 className="text-3xl font-bold text-[#1a1a1a] font-display">The Generic Gap</h1>
+          <p className="mt-2 text-[#555555] font-body">
             Why isn&apos;t there a cheaper version yet? Track the tactics manufacturers use to delay generic competition — and what it costs patients.
           </p>
-          <p className="mt-2 text-[10px] text-[#6B7771] font-mono flex items-center gap-1">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0B6B3A] inline-block" />
+          <p className="mt-2 text-[10px] text-[#555555] font-mono flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#2d5016] inline-block" />
             Delay data current as of Q1 2026 · Sources: FTC, DOJ, court records, peer-reviewed studies
           </p>
         </div>
@@ -117,8 +117,8 @@ export default function TheGenericGapPage() {
             variant="danger"
           />
           {METHODOLOGY_COMPLETE ? (
-            <div className="bg-[#FEE2E2] rounded-xl border border-[#C41E3A]/20 p-5 shadow-sm">
-              <p className="text-sm font-medium text-[#C41E3A] font-body flex items-center gap-1">
+            <div className="bg-[#FEE2E2] rounded-xl border border-[#c0392b]/20 p-5 shadow-sm">
+              <p className="text-sm font-medium text-[#c0392b] font-body flex items-center gap-1">
                 <MethodologyTooltip
                   label="Estimated Patient Cost of Delays"
                   formula="sum over drugs: delay_years × annual_WAC × patient_population"
@@ -134,59 +134,59 @@ export default function TheGenericGapPage() {
                   <span>Estimated Patient Cost of Delays</span>
                 </MethodologyTooltip>
               </p>
-              <p className="text-3xl font-bold text-[#C41E3A] font-mono mt-2">
+              <p className="text-3xl font-bold text-[#c0392b] font-mono mt-2">
                 {formatCurrency(totalDelayCost, true)}
               </p>
-              <p className="text-xs text-[#6B7771] font-body mt-1 flex items-center gap-1">
+              <p className="text-xs text-[#555555] font-body mt-1 flex items-center gap-1">
                 <EstBadge /> Based on delay years × annual WAC × patient population
                 <SourceIcon sourceLabel="Calculated: delay years × annual WAC × patient population" lastUpdated="Q1 2026" />
               </p>
             </div>
           ) : (
-            <div className="bg-[#F1F5F9] rounded-xl border border-[#E5ECE8] p-5 shadow-sm">
-              <p className="text-sm font-medium text-[#6B7771] font-body">Estimated Patient Cost of Delays</p>
-              <p className="text-sm text-[#6B7771] font-body mt-2">Estimate not available — methodology documentation in progress</p>
+            <div className="bg-[#F1F5F9] rounded-xl border border-[#e0ddd5] p-5 shadow-sm">
+              <p className="text-sm font-medium text-[#555555] font-body">Estimated Patient Cost of Delays</p>
+              <p className="text-sm text-[#555555] font-body mt-2">Estimate not available — methodology documentation in progress</p>
             </div>
           )}
         </div>
 
         {/* Methodology breakdown */}
-        <details className="mb-8 bg-white rounded-xl border border-[#E5ECE8] shadow-sm">
-          <summary className="px-5 py-4 cursor-pointer text-sm font-semibold text-[#1F2A24] font-body flex items-center gap-2 hover:bg-[#F7F9F8] rounded-xl">
-            <AlertTriangle className="w-4 h-4 text-[#B45309]" />
+        <details className="mb-8 bg-white rounded-xl border border-[#e0ddd5] shadow-sm">
+          <summary className="px-5 py-4 cursor-pointer text-sm font-semibold text-[#1a1a1a] font-body flex items-center gap-2 hover:bg-[#f5f5f0] rounded-xl">
+            <AlertTriangle className="w-4 h-4 text-[#b8860b]" />
             How We Calculated These Numbers
           </summary>
-          <div className="px-5 pb-5 space-y-4 border-t border-[#E5ECE8]">
+          <div className="px-5 pb-5 space-y-4 border-t border-[#e0ddd5]">
             <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="p-4 rounded-lg bg-[#F0FDF4] border border-[#0B6B3A]/20">
+              <div className="p-4 rounded-lg bg-[#F0FDF4] border border-[#2d5016]/20">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-sm font-semibold text-[#1F2A24] font-body">Drugs With Documented Delays</p>
-                  <span className="text-[10px] font-mono font-bold text-[#0B6B3A] bg-[#0B6B3A]/10 px-2 py-0.5 rounded">HIGH</span>
+                  <p className="text-sm font-semibold text-[#1a1a1a] font-body">Drugs With Documented Delays</p>
+                  <span className="text-[10px] font-mono font-bold text-[#2d5016] bg-[#2d5016]/10 px-2 py-0.5 rounded">HIGH</span>
                 </div>
-                <p className="text-xs text-[#6B7771] font-body leading-relaxed">
+                <p className="text-xs text-[#555555] font-body leading-relaxed">
                   Count of drugs with at least one documented delay tactic from FTC enforcement actions, DOJ antitrust filings, court records, or peer-reviewed studies. Each entry is individually sourced.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-[#FFFBEB] border border-[#B45309]/20">
+              <div className="p-4 rounded-lg bg-[#FFFBEB] border border-[#b8860b]/20">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-sm font-semibold text-[#1F2A24] font-body">Total Years Stolen</p>
-                  <span className="text-[10px] font-mono font-bold text-[#B45309] bg-[#B45309]/10 px-2 py-0.5 rounded">MEDIUM</span>
+                  <p className="text-sm font-semibold text-[#1a1a1a] font-body">Total Years Stolen</p>
+                  <span className="text-[10px] font-mono font-bold text-[#b8860b] bg-[#b8860b]/10 px-2 py-0.5 rounded">MEDIUM</span>
                 </div>
-                <p className="text-xs text-[#6B7771] font-body leading-relaxed">
+                <p className="text-xs text-[#555555] font-body leading-relaxed">
                   Sum of delay years per drug, calculated as the difference between expected generic entry (patent expiry + 180-day exclusivity) and actual or projected generic availability. Some dates are estimates based on litigation timelines.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-[#FEF2F2] border border-[#C41E3A]/20">
+              <div className="p-4 rounded-lg bg-[#FEF2F2] border border-[#c0392b]/20">
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-sm font-semibold text-[#1F2A24] font-body">Estimated Patient Cost</p>
-                  <span className="text-[10px] font-mono font-bold text-[#C41E3A] bg-[#C41E3A]/10 px-2 py-0.5 rounded">LOW</span>
+                  <p className="text-sm font-semibold text-[#1a1a1a] font-body">Estimated Patient Cost</p>
+                  <span className="text-[10px] font-mono font-bold text-[#c0392b] bg-[#c0392b]/10 px-2 py-0.5 rounded">LOW</span>
                 </div>
-                <p className="text-xs text-[#6B7771] font-body leading-relaxed">
+                <p className="text-xs text-[#555555] font-body leading-relaxed">
                   Delay years &times; annual WAC price &times; estimated patient population. Uses list price (WAC), not net price after rebates. Actual patient cost varies by insurance status. This is a rough order-of-magnitude estimate.
                 </p>
               </div>
             </div>
-            <p className="text-[10px] text-[#6B7771] font-mono">
+            <p className="text-[10px] text-[#555555] font-mono">
               Confidence: HIGH = directly from public records · MEDIUM = calculated from public data with assumptions · LOW = rough estimate with significant uncertainty
             </p>
           </div>
@@ -202,8 +202,8 @@ export default function TheGenericGapPage() {
               onClick={() => setActiveView(v.id)}
               className={`px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors font-body ${
                 activeView === v.id
-                  ? 'bg-[#0B6B3A] text-white'
-                  : 'bg-white text-[#6B7771] border border-[#E5ECE8] hover:bg-[#F1F5F9]'
+                  ? 'bg-[#2d5016] text-white'
+                  : 'bg-white text-[#555555] border border-[#e0ddd5] hover:bg-[#F1F5F9]'
               }`}
             >
               {v.label}
@@ -226,8 +226,8 @@ export default function TheGenericGapPage() {
         {/* How 12 Years Becomes 20+ */}
         {activeView === 'explainer' && (
           <div className="space-y-6">
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-[#1F2A24] font-display mb-6 text-center">
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-8 shadow-sm">
+              <h3 className="text-xl font-bold text-[#1a1a1a] font-display mb-6 text-center">
                 How a 12-Year Patent Becomes 20+ Years of Monopoly Pricing
               </h3>
 
@@ -238,49 +238,49 @@ export default function TheGenericGapPage() {
                     year: 'Year 0',
                     title: 'Original Patent Filed',
                     desc: 'The drug compound is patented. The clock starts on 20 years of exclusivity.',
-                    color: 'bg-[#0B6B3A]',
+                    color: 'bg-[#2d5016]',
                     yearRange: '20 yr patent life',
                   },
                   {
                     year: 'Year 8',
                     title: 'FDA Approval + Market Exclusivity',
                     desc: 'After clinical trials, the FDA grants approval plus 5–7 years of additional market exclusivity (NCE, orphan, pediatric).',
-                    color: 'bg-[#0B6B3A]',
+                    color: 'bg-[#2d5016]',
                     yearRange: '+5-7 yr exclusivity',
                   },
                   {
                     year: 'Year 12',
                     title: 'Original Patent Expires, But…',
                     desc: 'Manufacturer files dozens of secondary patents: new formulations, devices, dosing methods, treatment combinations.',
-                    color: 'bg-[#B45309]',
+                    color: 'bg-[#b8860b]',
                     yearRange: 'Patent thicket begins',
                   },
                   {
                     year: 'Year 14',
                     title: 'Generic Files Application',
                     desc: 'A generic maker files an ANDA. The brand company immediately sues for patent infringement, triggering an automatic 30-month FDA delay.',
-                    color: 'bg-[#C41E3A]',
+                    color: 'bg-[#c0392b]',
                     yearRange: '+30 month stay',
                   },
                   {
                     year: 'Year 16',
                     title: 'Pay-for-Delay Settlement',
                     desc: 'Rather than risk losing in court, the brand company pays the generic maker millions to delay launch. The generic agrees to wait.',
-                    color: 'bg-[#C41E3A]',
+                    color: 'bg-[#c0392b]',
                     yearRange: '+2-5 yr settlement',
                   },
                   {
                     year: 'Year 18',
                     title: 'REMS Abuse & Citizen Petitions',
                     desc: 'The brand blocks sample access using safety programs and files citizen petitions at FDA to delay generic review.',
-                    color: 'bg-[#C41E3A]',
+                    color: 'bg-[#c0392b]',
                     yearRange: '+1-3 yr delay',
                   },
                   {
                     year: 'Year 20+',
                     title: 'Generic Finally Launches',
                     desc: 'After years of delay, a generic or biosimilar finally reaches patients — at prices that could have been available 8+ years earlier.',
-                    color: 'bg-[#6B7771]',
+                    color: 'bg-[#555555]',
                     yearRange: 'Finally',
                   },
                 ].map((step, i) => (
@@ -289,31 +289,31 @@ export default function TheGenericGapPage() {
                       <div className={`${step.color} text-white w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold font-mono shrink-0`}>
                         {i + 1}
                       </div>
-                      {i < 6 && <div className="w-0.5 flex-1 bg-[#E5ECE8] mt-1" />}
+                      {i < 6 && <div className="w-0.5 flex-1 bg-[#e0ddd5] mt-1" />}
                     </div>
                     <div className="pb-6">
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="text-xs font-mono text-[#6B7771]">{step.year}</span>
+                        <span className="text-xs font-mono text-[#555555]">{step.year}</span>
                         <span className={`text-[10px] px-1.5 py-0.5 rounded font-mono ${
-                          step.color === 'bg-[#C41E3A]' ? 'bg-[#FEE2E2] text-[#C41E3A]' :
-                          step.color === 'bg-[#B45309]' ? 'bg-[#FFFBEB] text-[#B45309]' :
-                          'bg-[#E6F2EC] text-[#0B6B3A]'
+                          step.color === 'bg-[#c0392b]' ? 'bg-[#FEE2E2] text-[#c0392b]' :
+                          step.color === 'bg-[#b8860b]' ? 'bg-[#FFFBEB] text-[#b8860b]' :
+                          'bg-[#E6F2EC] text-[#2d5016]'
                         }`}>
                           {step.yearRange}
                         </span>
                       </div>
-                      <h4 className="font-bold text-[#1F2A24] font-body">{step.title}</h4>
-                      <p className="text-sm text-[#6B7771] font-body mt-1 leading-relaxed">{step.desc}</p>
+                      <h4 className="font-bold text-[#1a1a1a] font-body">{step.title}</h4>
+                      <p className="text-sm text-[#555555] font-body mt-1 leading-relaxed">{step.desc}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
               <div className="mt-8 bg-[#FEE2E2] rounded-lg p-5 text-center">
-                <p className="text-sm font-semibold text-[#C41E3A] font-body">
+                <p className="text-sm font-semibold text-[#c0392b] font-body">
                   Every year of delay = another year patients pay monopoly prices.
                 </p>
-                <p className="text-xs text-[#6B7771] font-body mt-1">
+                <p className="text-xs text-[#555555] font-body mt-1">
                   These tactics are legal. That is the problem.
                 </p>
               </div>
@@ -335,33 +335,33 @@ export default function TheGenericGapPage() {
                 }));
 
               return (
-                <div key={key} className="bg-white rounded-xl border border-[#E5ECE8] p-5 shadow-sm">
+                <div key={key} className="bg-white rounded-xl border border-[#e0ddd5] p-5 shadow-sm">
                   <div className="flex items-start gap-3 mb-3">
                     <div className="w-8 h-8 rounded-lg bg-[#FEE2E2] flex items-center justify-center shrink-0">
-                      <ShieldAlert className="w-4 h-4 text-[#C41E3A]" />
+                      <ShieldAlert className="w-4 h-4 text-[#c0392b]" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1F2A24] font-body">{info.name}</h3>
+                      <h3 className="font-bold text-[#1a1a1a] font-body">{info.name}</h3>
                     </div>
                   </div>
-                  <p className="text-sm text-[#6B7771] font-body leading-relaxed mb-4">
+                  <p className="text-sm text-[#555555] font-body leading-relaxed mb-4">
                     {info.description}
                   </p>
 
                   {examples.length > 0 && (
-                    <div className="border-t border-[#E5ECE8] pt-3">
-                      <p className="text-[10px] uppercase text-[#6B7771] font-body tracking-wider mb-2">Documented Examples</p>
+                    <div className="border-t border-[#e0ddd5] pt-3">
+                      <p className="text-[10px] uppercase text-[#555555] font-body tracking-wider mb-2">Documented Examples</p>
                       {examples.slice(0, 2).map((ex, i) => (
-                        <div key={i} className="bg-[#F7F9F8] rounded-lg p-3 mb-2 last:mb-0">
+                        <div key={i} className="bg-[#f5f5f0] rounded-lg p-3 mb-2 last:mb-0">
                           <div className="flex items-center justify-between">
-                            <span className="text-sm font-medium text-[#C41E3A] font-body">{ex.drug}</span>
-                            <span className="text-xs text-[#6B7771] font-body">{ex.manufacturer}</span>
+                            <span className="text-sm font-medium text-[#c0392b] font-body">{ex.drug}</span>
+                            <span className="text-xs text-[#555555] font-body">{ex.manufacturer}</span>
                           </div>
-                          <p className="text-xs text-[#6B7771] font-body mt-1 line-clamp-2">{ex.tactic.description}</p>
-                          <div className="flex items-center gap-3 mt-2 text-[10px] text-[#6B7771]">
+                          <p className="text-xs text-[#555555] font-body mt-1 line-clamp-2">{ex.tactic.description}</p>
+                          <div className="flex items-center gap-3 mt-2 text-[10px] text-[#555555]">
                             <span className="font-mono">Delay: {ex.tactic.delay_months}mo</span>
                             {ex.tactic.ftc_case_ref && (
-                              <span className="text-[#B45309]">FTC case documented</span>
+                              <span className="text-[#b8860b]">FTC case documented</span>
                             )}
                           </div>
                         </div>
@@ -380,13 +380,13 @@ export default function TheGenericGapPage() {
             {/* Search + Export */}
             <div className="flex items-center gap-3 mb-6">
             <div className="relative max-w-md flex-1">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6B7771]" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#555555]" />
               <input
                 type="text"
                 placeholder="Search by drug or manufacturer..."
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                className="w-full pl-9 pr-4 py-2.5 rounded-lg border border-[#E5ECE8] bg-white text-sm text-[#1F2A24] placeholder:text-[#6B7771] focus:outline-none focus:ring-2 focus:ring-[#0B6B3A]/20 focus:border-[#0B6B3A] font-body"
+                className="w-full pl-9 pr-4 py-2.5 rounded-lg border border-[#e0ddd5] bg-white text-sm text-[#1a1a1a] placeholder:text-[#555555] focus:outline-none focus:ring-2 focus:ring-[#2d5016]/20 focus:border-[#2d5016] font-body"
               />
             </div>
               <ExportButton
@@ -422,26 +422,26 @@ export default function TheGenericGapPage() {
                 const isExpanded = selectedDrug === delay.drug_id;
 
                 return (
-                  <div key={delay.drug_id} className="bg-white rounded-xl border border-[#E5ECE8] shadow-sm overflow-hidden">
+                  <div key={delay.drug_id} className="bg-white rounded-xl border border-[#e0ddd5] shadow-sm overflow-hidden">
                     <div
-                      className="p-5 cursor-pointer hover:bg-[#F7F9F8] transition-colors"
+                      className="p-5 cursor-pointer hover:bg-[#f5f5f0] transition-colors"
                       onClick={() => setSelectedDrug(isExpanded ? null : delay.drug_id)}
                     >
                       <div className="flex items-center justify-between">
                         <div>
-                          <h3 className="text-lg font-bold text-[#1F2A24] font-display">{delay.drug_name}</h3>
-                          <p className="text-xs text-[#6B7771] font-body">{delay.manufacturer}</p>
+                          <h3 className="text-lg font-bold text-[#1a1a1a] font-display">{delay.drug_name}</h3>
+                          <p className="text-xs text-[#555555] font-body">{delay.manufacturer}</p>
                         </div>
                         <div className="flex items-center gap-4">
                           <div className="text-right">
-                            <p className="text-2xl font-bold text-[#C41E3A] font-mono">{delay.total_delay_years} yr</p>
-                            <p className="text-[10px] text-[#6B7771] font-body uppercase">Gap</p>
+                            <p className="text-2xl font-bold text-[#c0392b] font-mono">{delay.total_delay_years} yr</p>
+                            <p className="text-[10px] text-[#555555] font-body uppercase">Gap</p>
                           </div>
                           <div className="text-right">
-                            <p className="text-sm font-bold text-[#C41E3A] font-mono">
+                            <p className="text-sm font-bold text-[#c0392b] font-mono">
                               {formatCurrency(delay.estimated_patient_cost_of_delay, true)}
                             </p>
-                            <p className="text-[10px] text-[#6B7771] font-body uppercase flex items-center gap-0.5 justify-end">
+                            <p className="text-[10px] text-[#555555] font-body uppercase flex items-center gap-0.5 justify-end">
                               Est. cost <EstBadge />
                               <SourceIcon sourceLabel="Delay years × annual WAC × patient population" lastUpdated="Q4 2024" />
                             </p>
@@ -452,7 +452,7 @@ export default function TheGenericGapPage() {
                       {/* Tactic chips */}
                       <div className="flex flex-wrap gap-1.5 mt-3">
                         {delay.tactics.map((t, i) => (
-                          <span key={i} className="text-[10px] bg-[#FEE2E2] text-[#C41E3A] px-2 py-0.5 rounded-full font-medium">
+                          <span key={i} className="text-[10px] bg-[#FEE2E2] text-[#c0392b] px-2 py-0.5 rounded-full font-medium">
                             {TACTIC_INFO[t.type]?.name || t.type.replace(/_/g, ' ')}
                           </span>
                         ))}
@@ -460,29 +460,29 @@ export default function TheGenericGapPage() {
                     </div>
 
                     {isExpanded && (
-                      <div className="border-t border-[#E5ECE8] bg-[#F7F9F8] p-5">
+                      <div className="border-t border-[#e0ddd5] bg-[#f5f5f0] p-5">
                         {/* Drug pricing context */}
                         {drug && (
                           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
                             <div className="bg-white rounded-lg p-3">
-                              <p className="text-[10px] text-[#6B7771] uppercase">Monthly WAC</p>
-                              <p className="font-bold text-[#C41E3A] font-mono">{formatCurrency(drug.wac_monthly)}</p>
+                              <p className="text-[10px] text-[#555555] uppercase">Monthly WAC</p>
+                              <p className="font-bold text-[#c0392b] font-mono">{formatCurrency(drug.wac_monthly)}</p>
                             </div>
                             <div className="bg-white rounded-lg p-3">
-                              <p className="text-[10px] text-[#6B7771] uppercase">Annual Cost</p>
-                              <p className="font-bold text-[#C41E3A] font-mono">{formatCurrency(drug.wac_annual)}</p>
+                              <p className="text-[10px] text-[#555555] uppercase">Annual Cost</p>
+                              <p className="font-bold text-[#c0392b] font-mono">{formatCurrency(drug.wac_annual)}</p>
                             </div>
                             {patent && (
                               <div className="bg-white rounded-lg p-3">
-                                <p className="text-[10px] text-[#6B7771] uppercase">Patent Cliff</p>
-                                <p className="font-bold text-[#1F2A24] font-mono">
+                                <p className="text-[10px] text-[#555555] uppercase">Patent Cliff</p>
+                                <p className="font-bold text-[#1a1a1a] font-mono">
                                   {new Date(patent.patent_cliff_date).getFullYear()}
                                 </p>
                               </div>
                             )}
                             <div className="bg-white rounded-lg p-3">
-                              <p className="text-[10px] text-[#6B7771] uppercase">Patients Affected</p>
-                              <p className="font-bold text-[#1F2A24] font-mono">
+                              <p className="text-[10px] text-[#555555] uppercase">Patients Affected</p>
+                              <p className="font-bold text-[#1a1a1a] font-mono">
                                 {delay.estimated_patient_population.toLocaleString()}
                               </p>
                             </div>
@@ -490,32 +490,32 @@ export default function TheGenericGapPage() {
                         )}
 
                         {/* Each tactic detail */}
-                        <h4 className="text-sm font-semibold text-[#1F2A24] font-body mb-3">Tactics Used</h4>
+                        <h4 className="text-sm font-semibold text-[#1a1a1a] font-body mb-3">Tactics Used</h4>
                         <div className="space-y-3">
                           {delay.tactics.map((tactic, i) => (
-                            <div key={i} className="bg-white rounded-lg border border-[#E5ECE8] p-4">
+                            <div key={i} className="bg-white rounded-lg border border-[#e0ddd5] p-4">
                               <div className="flex items-center gap-2 mb-2">
-                                <span className="text-xs font-bold text-[#C41E3A] bg-[#FEE2E2] px-2 py-0.5 rounded font-body">
+                                <span className="text-xs font-bold text-[#c0392b] bg-[#FEE2E2] px-2 py-0.5 rounded font-body">
                                   {TACTIC_INFO[tactic.type]?.name || tactic.type.replace(/_/g, ' ')}
                                 </span>
-                                <span className="text-xs font-mono text-[#6B7771]">
+                                <span className="text-xs font-mono text-[#555555]">
                                   {tactic.delay_months} months delay
                                 </span>
                               </div>
-                              <p className="text-sm text-[#6B7771] font-body leading-relaxed">
+                              <p className="text-sm text-[#555555] font-body leading-relaxed">
                                 {tactic.description}
                               </p>
                               {tactic.ftc_case_ref && (
-                                <p className="text-xs text-[#B45309] mt-2 font-body">
+                                <p className="text-xs text-[#b8860b] mt-2 font-body">
                                   <AlertTriangle className="w-3 h-3 inline mr-1" />
                                   {tactic.ftc_case_ref}
                                 </p>
                               )}
                               {tactic.court_case && (
-                                <p className="text-xs text-[#6B7771] mt-1 font-mono">{tactic.court_case}</p>
+                                <p className="text-xs text-[#555555] mt-1 font-mono">{tactic.court_case}</p>
                               )}
                               {tactic.outcome && (
-                                <p className="text-xs text-[#6B7771] mt-2 font-body italic">
+                                <p className="text-xs text-[#555555] mt-2 font-body italic">
                                   Outcome: {tactic.outcome}
                                 </p>
                               )}
@@ -525,13 +525,13 @@ export default function TheGenericGapPage() {
 
                         {/* Gap cost calculator */}
                         <div className="mt-6 bg-[#FEE2E2] rounded-lg p-5 text-center">
-                          <p className="text-xs text-[#C41E3A] font-semibold uppercase tracking-wider font-body">
+                          <p className="text-xs text-[#c0392b] font-semibold uppercase tracking-wider font-body">
                             Estimated Cost of This Delay
                           </p>
-                          <p className="text-3xl font-bold text-[#C41E3A] font-mono mt-2">
+                          <p className="text-3xl font-bold text-[#c0392b] font-mono mt-2">
                             {formatCurrency(delay.estimated_patient_cost_of_delay, true)}
                           </p>
-                          <p className="text-xs text-[#6B7771] font-body mt-2 flex items-center gap-1 justify-center">
+                          <p className="text-xs text-[#555555] font-body mt-2 flex items-center gap-1 justify-center">
                             <EstBadge />
                             {delay.total_delay_years} years × {formatCurrency(drug?.wac_annual || 0)}/yr × {delay.estimated_patient_population.toLocaleString()} patients
                             <SourceIcon sourceLabel="Delay years × annual WAC × patient population" lastUpdated="Q4 2024" />
@@ -541,13 +541,13 @@ export default function TheGenericGapPage() {
                         <div className="mt-4 flex flex-wrap gap-2">
                           <Link
                             href={`/what-it-costs-me?drug=${delay.drug_id}`}
-                            className="inline-flex items-center gap-1 text-xs text-[#0B6B3A] font-medium hover:underline font-body bg-[#E6F2EC] px-3 py-1.5 rounded-lg"
+                            className="inline-flex items-center gap-1 text-xs text-[#2d5016] font-medium hover:underline font-body bg-[#E6F2EC] px-3 py-1.5 rounded-lg"
                           >
                             Calculate your cost <ArrowRight className="w-3 h-3" />
                           </Link>
                           <Link
                             href="/pipeline-watch"
-                            className="inline-flex items-center gap-1 text-xs text-[#0B6B3A] font-medium hover:underline font-body bg-[#F1F5F9] px-3 py-1.5 rounded-lg"
+                            className="inline-flex items-center gap-1 text-xs text-[#2d5016] font-medium hover:underline font-body bg-[#F1F5F9] px-3 py-1.5 rounded-lg"
                           >
                             View patent timeline <ArrowRight className="w-3 h-3" />
                           </Link>
@@ -560,7 +560,7 @@ export default function TheGenericGapPage() {
 
               {filteredDelays.length === 0 && (
                 <div className="text-center py-12">
-                  <p className="text-[#6B7771] font-body">No drugs match your search.</p>
+                  <p className="text-[#555555] font-body">No drugs match your search.</p>
                 </div>
               )}
             </div>
@@ -570,8 +570,8 @@ export default function TheGenericGapPage() {
         {/* What You Can Do */}
         {activeView === 'action' && (
           <div className="space-y-6">
-            <div className="bg-white rounded-xl border border-[#E5ECE8] p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-[#1F2A24] font-display mb-6">What You Can Do</h3>
+            <div className="bg-white rounded-xl border border-[#e0ddd5] p-8 shadow-sm">
+              <h3 className="text-xl font-bold text-[#1a1a1a] font-display mb-6">What You Can Do</h3>
 
               <div className="space-y-4">
                 {[
@@ -612,19 +612,19 @@ export default function TheGenericGapPage() {
                     linkText: null,
                   },
                 ].map((action, i) => (
-                  <div key={i} className="flex gap-4 p-4 bg-[#F7F9F8] rounded-lg">
-                    <div className="w-8 h-8 rounded-full bg-[#E6F2EC] flex items-center justify-center shrink-0 text-sm font-bold text-[#0B6B3A] font-mono">
+                  <div key={i} className="flex gap-4 p-4 bg-[#f5f5f0] rounded-lg">
+                    <div className="w-8 h-8 rounded-full bg-[#E6F2EC] flex items-center justify-center shrink-0 text-sm font-bold text-[#2d5016] font-mono">
                       {i + 1}
                     </div>
                     <div>
-                      <h4 className="font-bold text-[#1F2A24] font-body">{action.title}</h4>
-                      <p className="text-sm text-[#6B7771] font-body mt-1 leading-relaxed">{action.desc}</p>
+                      <h4 className="font-bold text-[#1a1a1a] font-body">{action.title}</h4>
+                      <p className="text-sm text-[#555555] font-body mt-1 leading-relaxed">{action.desc}</p>
                       {action.link && (
                         <a
                           href={action.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-sm text-[#0B6B3A] font-medium mt-2 hover:underline font-body"
+                          className="inline-flex items-center gap-1 text-sm text-[#2d5016] font-medium mt-2 hover:underline font-body"
                         >
                           {action.linkText}
                           <ExternalLink className="w-3 h-3" />
@@ -636,12 +636,12 @@ export default function TheGenericGapPage() {
               </div>
             </div>
 
-            <div className="bg-[#0B6B3A] rounded-xl p-8 text-center">
+            <div className="bg-[#2d5016] rounded-xl p-8 text-center">
               <p className="text-lg font-accent text-[#E6F2EC] leading-relaxed">
                 These pricing practices are not accidents. They are strategies.
                 They are documented. And they are legal — for now.
               </p>
-              <p className="text-sm text-[#6B7771] font-body mt-4">
+              <p className="text-sm text-[#555555] font-body mt-4">
                 Every day of delay is another day patients pay monopoly prices for drugs
                 that could cost a fraction of what they charge.
               </p>

@@ -61,7 +61,11 @@ def validate_pipeline_trials(data: list[dict]):
     """Validate clinical trial pipeline data."""
     if not isinstance(data, list):
         raise ValueError("Pipeline trials data must be a list")
-    valid_phases = {"Phase I", "Phase II", "Phase III", "Phase IV", "Pre-clinical"}
+    valid_phases = {
+        "Phase I", "Phase II", "Phase III", "Phase IV",
+        "Phase 1", "Phase 2", "Phase 3", "Phase 4",
+        "Pre-clinical",
+    }
     for trial in data:
         phase = trial.get("phase", "")
         if phase and phase not in valid_phases:

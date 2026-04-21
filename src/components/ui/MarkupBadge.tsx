@@ -20,10 +20,10 @@ export function MarkupBadge({ percent, className, sourceLabel, sourceUrl, lastUp
       className={cn(
         'inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold font-mono',
         isExtreme
-          ? 'bg-[#FEE2E2] text-[#C41E3A]'
+          ? 'bg-[#FEE2E2] text-[#c0392b]'
           : isHigh
-          ? 'bg-[#FEE2E2] text-[#C41E3A]'
-          : 'bg-[#FFFBEB] text-[#B45309]',
+          ? 'bg-[#FEE2E2] text-[#c0392b]'
+          : 'bg-[#FFFBEB] text-[#b8860b]',
         className
       )}
     >

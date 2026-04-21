@@ -194,6 +194,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 6125,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -99.4
       }
     ],
     "notes": "Tight ASP-WAC spread reflects limited competition in PD-1 class",
@@ -396,6 +405,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 1162,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -99.9
       }
     ],
     "notes": "Biosimilar competition expected 2025; spread may widen",
@@ -1103,6 +1121,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 3362,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -99.8
       }
     ],
     "notes": "PD-1 checkpoint inhibitor; buy-and-bill under Part B",
@@ -1608,6 +1635,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 73188,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -56.4
       }
     ],
     "notes": "ASP declining as biosimilar aflibercept products enter the market",
@@ -1709,6 +1745,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 7077,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -98.1
       }
     ],
     "notes": "Minimal discount gap; strong market position with no biosimilar competition",
@@ -1810,6 +1855,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 5959,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -99.8
       }
     ],
     "notes": "Infused every 6 months; ASP per infusion (~$34K); minimal discount due to no competition",
@@ -2111,6 +2165,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 3104,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -96.6
       }
     ],
     "data_year": 2024,
@@ -2211,6 +2274,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 7415,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -97.8
       }
     ],
     "data_year": 2024,
@@ -2311,6 +2383,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 7342,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -97.8
       }
     ],
     "data_year": 2024,
@@ -2411,6 +2492,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 651,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -99.5
       }
     ],
     "data_year": 2024,
@@ -2511,6 +2601,15 @@
         "data_year": 2024,
         "data_quarter": "Q4",
         "source": "CMS_ASP"
+      },
+      {
+        "quarter": "2026-Q2",
+        "asp_per_unit": 2950,
+        "data_year": 2026,
+        "data_quarter": 2,
+        "source": "CMS_ASP",
+        "flagged": false,
+        "quarter_over_quarter_change": -98.3
       }
     ],
     "data_year": 2024,

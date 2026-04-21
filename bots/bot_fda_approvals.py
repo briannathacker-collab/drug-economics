@@ -4,6 +4,8 @@ Checks for new drug approvals, new biosimilar approvals, and Orange Book
 patent updates weekly. Feeds the Pipeline Watch and Generic Gap apps.
 """
 
+from __future__ import annotations
+
 import json
 from datetime import datetime, timedelta
 from pathlib import Path

@@ -46,17 +46,17 @@ function ExpandableStep({
   };
 
   return (
-    <div className="border border-[#E5ECE8] rounded-lg overflow-hidden">
+    <div className="border border-[#e0ddd5] rounded-lg overflow-hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center gap-2 px-4 py-3 text-left hover:bg-[#F7F9F8] transition-colors"
+        className="w-full flex items-center gap-2 px-4 py-3 text-left hover:bg-[#f5f5f0] transition-colors"
       >
         {open ? (
-          <ChevronDown className="w-4 h-4 text-[#6B7771] shrink-0" />
+          <ChevronDown className="w-4 h-4 text-[#555555] shrink-0" />
         ) : (
-          <ChevronRight className="w-4 h-4 text-[#6B7771] shrink-0" />
+          <ChevronRight className="w-4 h-4 text-[#555555] shrink-0" />
         )}
-        <span className="text-sm font-semibold text-[#1F2A24] flex-1">{title}</span>
+        <span className="text-sm font-semibold text-[#1a1a1a] flex-1">{title}</span>
         <span
           className={cn(
             'text-[10px] font-medium px-2 py-0.5 rounded-full uppercase tracking-wider',
@@ -67,7 +67,7 @@ function ExpandableStep({
         </span>
       </button>
       {open && (
-        <div className="px-4 pb-4 pt-1 text-sm text-[#6B7771] leading-relaxed border-t border-[#E5ECE8] bg-[#F7F9F8]">
+        <div className="px-4 pb-4 pt-1 text-sm text-[#555555] leading-relaxed border-t border-[#e0ddd5] bg-[#f5f5f0]">
           {children}
         </div>
       )}
@@ -82,7 +82,7 @@ function ExpandableStep({
 function TabHowWeCalculated() {
   return (
     <div className="space-y-3">
-      <p className="text-sm text-[#6B7771] font-body leading-relaxed mb-4">
+      <p className="text-sm text-[#555555] font-body leading-relaxed mb-4">
         Each number in Drug Economics is derived from public data through a repeatable process.
         Expand any step below to see the source, assumptions, and confidence level.
       </p>
@@ -102,7 +102,7 @@ function TabHowWeCalculated() {
       <ExpandableStep title="Cost-to-Manufacture (COGS) Estimates" confidence="medium">
         <p><strong>Source:</strong> Peer-reviewed academic literature including Harvard PORTAL, ICER reports, MSF Access Campaign studies, and the Liverpool Drug Price Consortium.</p>
         <p className="mt-2"><strong>Method:</strong> We compile published manufacturing cost analyses and use the most recent, methodologically rigorous estimate available. Where multiple estimates exist, we use the median.</p>
-        <p className="mt-2"><strong>Assumptions:</strong> Actual manufacturer production costs are proprietary and undisclosed. All COGS figures are estimates clearly labeled with an <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-[#FFFBEB] text-[#B45309] border border-[#B45309]/20 font-mono">est.</span> badge.</p>
+        <p className="mt-2"><strong>Assumptions:</strong> Actual manufacturer production costs are proprietary and undisclosed. All COGS figures are estimates clearly labeled with an <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-[#FFFBEB] text-[#b8860b] border border-[#b8860b]/20 font-mono">est.</span> badge.</p>
         <p className="mt-2"><strong>Confidence levels:</strong></p>
         <ul className="list-disc pl-5 mt-1 space-y-1">
           <li><strong>High</strong> — Peer-reviewed paper with explicit manufacturing cost analysis</li>
@@ -145,22 +145,22 @@ function TabHowWeCalculated() {
 function TabDrugBreakdown() {
   return (
     <div className="space-y-4">
-      <p className="text-sm text-[#6B7771] font-body leading-relaxed">
+      <p className="text-sm text-[#555555] font-body leading-relaxed">
         Every drug in Drug Economics has individually sourced data. The table below summarizes the
         source for each input on a per-drug basis.
       </p>
 
-      <div className="overflow-x-auto border border-[#E5ECE8] rounded-lg">
+      <div className="overflow-x-auto border border-[#e0ddd5] rounded-lg">
         <table className="w-full text-xs">
           <thead>
-            <tr className="bg-[#F7F9F8] border-b border-[#E5ECE8]">
-              <th className="text-left px-3 py-2 font-semibold text-[#1F2A24]">Input</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#1F2A24]">Primary Source</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#1F2A24]">Update Frequency</th>
-              <th className="text-left px-3 py-2 font-semibold text-[#1F2A24]">Confidence</th>
+            <tr className="bg-[#f5f5f0] border-b border-[#e0ddd5]">
+              <th className="text-left px-3 py-2 font-semibold text-[#1a1a1a]">Input</th>
+              <th className="text-left px-3 py-2 font-semibold text-[#1a1a1a]">Primary Source</th>
+              <th className="text-left px-3 py-2 font-semibold text-[#1a1a1a]">Update Frequency</th>
+              <th className="text-left px-3 py-2 font-semibold text-[#1a1a1a]">Confidence</th>
             </tr>
           </thead>
-          <tbody className="text-[#6B7771] divide-y divide-[#E5ECE8]">
+          <tbody className="text-[#555555] divide-y divide-[#e0ddd5]">
             <tr>
               <td className="px-3 py-2 font-medium">WAC Price</td>
               <td className="px-3 py-2">CMS ASP Drug Pricing Files</td>
@@ -242,7 +242,7 @@ function TabDrugBreakdown() {
             a.click();
             URL.revokeObjectURL(url);
           }}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-[#0B6B3A] bg-[#E6F2EC] hover:bg-[#D1FAE5] transition-colors"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-[#2d5016] bg-[#E6F2EC] hover:bg-[#D1FAE5] transition-colors"
         >
           <Download className="w-3.5 h-3.5" />
           Download source table (CSV)
@@ -272,20 +272,20 @@ function ScenarioCard({
       className={cn(
         'rounded-lg border p-4',
         highlight
-          ? 'border-[#0B6B3A] bg-[#E6F2EC]'
-          : 'border-[#E5ECE8] bg-[#F7F9F8]'
+          ? 'border-[#2d5016] bg-[#E6F2EC]'
+          : 'border-[#e0ddd5] bg-[#f5f5f0]'
       )}
     >
-      <p className="text-xs font-medium text-[#6B7771] uppercase tracking-wider mb-1">{label}</p>
+      <p className="text-xs font-medium text-[#555555] uppercase tracking-wider mb-1">{label}</p>
       <p
         className={cn(
           'text-2xl font-bold font-body tracking-tight mb-2',
-          highlight ? 'text-[#0B6B3A]' : 'text-[#1F2A24]'
+          highlight ? 'text-[#2d5016]' : 'text-[#1a1a1a]'
         )}
       >
         {value}
       </p>
-      <p className="text-sm text-[#6B7771] leading-relaxed">{description}</p>
+      <p className="text-sm text-[#555555] leading-relaxed">{description}</p>
     </div>
   );
 }
@@ -293,7 +293,7 @@ function ScenarioCard({
 function TabUncertaintyRange() {
   return (
     <div className="space-y-4">
-      <p className="text-sm text-[#6B7771] font-body leading-relaxed">
+      <p className="text-sm text-[#555555] font-body leading-relaxed">
         Because manufacturing costs are estimates, the total markup across all tracked drugs
         falls within a range. We present three scenarios to convey the uncertainty honestly.
       </p>
@@ -317,9 +317,9 @@ function TabUncertaintyRange() {
         />
       </div>
 
-      <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-        <p className="text-sm text-[#6B7771] leading-relaxed">
-          <strong className="text-[#1F2A24]">In plain language:</strong> We are confident the true total
+      <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+        <p className="text-sm text-[#555555] leading-relaxed">
+          <strong className="text-[#1a1a1a]">In plain language:</strong> We are confident the true total
           markup falls between $890 billion and $4.2 trillion. Our central estimate of $2.09 trillion
           uses the most methodologically rigorous published data for each drug. The range is wide because
           manufacturers do not disclose actual production costs.
@@ -336,52 +336,52 @@ function TabUncertaintyRange() {
 function TabLimitations() {
   return (
     <div className="space-y-4">
-      <p className="text-sm text-[#6B7771] font-body leading-relaxed">
+      <p className="text-sm text-[#555555] font-body leading-relaxed">
         Drug Economics is designed to make pharmaceutical economics visible to the public.
         We display what is known and clearly label what is estimated. Here are the explicit
         limitations of our data and methodology.
       </p>
 
       <div className="space-y-3">
-        <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-          <h4 className="text-sm font-semibold text-[#1F2A24] mb-1">1. R&D Costs Are Not Deducted</h4>
-          <p className="text-sm text-[#6B7771] leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+          <h4 className="text-sm font-semibold text-[#1a1a1a] mb-1">1. R&D Costs Are Not Deducted</h4>
+          <p className="text-sm text-[#555555] leading-relaxed">
             Our markup figures compare sale price to manufacturing cost. They do not subtract
             the cost of research, clinical trials, or failed drug candidates. We report R&D
             spending separately on manufacturer pages so users can evaluate it themselves.
           </p>
         </div>
 
-        <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-          <h4 className="text-sm font-semibold text-[#1F2A24] mb-1">2. Distribution & Supply Chain Costs</h4>
-          <p className="text-sm text-[#6B7771] leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+          <h4 className="text-sm font-semibold text-[#1a1a1a] mb-1">2. Distribution & Supply Chain Costs</h4>
+          <p className="text-sm text-[#555555] leading-relaxed">
             Costs incurred by wholesalers, distributors, and pharmacies between the manufacturer
             and the patient are not included in COGS estimates. These add real costs but are
             separate from the manufacturer&apos;s markup.
           </p>
         </div>
 
-        <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-          <h4 className="text-sm font-semibold text-[#1F2A24] mb-1">3. Rebates & Discounts Are Opaque</h4>
-          <p className="text-sm text-[#6B7771] leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+          <h4 className="text-sm font-semibold text-[#1a1a1a] mb-1">3. Rebates & Discounts Are Opaque</h4>
+          <p className="text-sm text-[#555555] leading-relaxed">
             PBM rebates and negotiated discounts reduce the effective price paid, but their
             exact amounts are proprietary. Our estimates of net-of-rebate prices rely on CMS
             and academic estimates, not actual contract terms.
           </p>
         </div>
 
-        <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-          <h4 className="text-sm font-semibold text-[#1F2A24] mb-1">4. International Price Comparisons Are Approximate</h4>
-          <p className="text-sm text-[#6B7771] leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+          <h4 className="text-sm font-semibold text-[#1a1a1a] mb-1">4. International Price Comparisons Are Approximate</h4>
+          <p className="text-sm text-[#555555] leading-relaxed">
             International drug prices vary by formulation, dosage, pack size, and reference
             pricing methodology. Our comparisons use published reference pricing studies
             and may not reflect the exact price paid in any specific country.
           </p>
         </div>
 
-        <div className="bg-[#F7F9F8] rounded-lg p-4 border border-[#E5ECE8]">
-          <h4 className="text-sm font-semibold text-[#1F2A24] mb-1">5. Coverage Is Not Exhaustive</h4>
-          <p className="text-sm text-[#6B7771] leading-relaxed">
+        <div className="bg-[#f5f5f0] rounded-lg p-4 border border-[#e0ddd5]">
+          <h4 className="text-sm font-semibold text-[#1a1a1a] mb-1">5. Coverage Is Not Exhaustive</h4>
+          <p className="text-sm text-[#555555] leading-relaxed">
             Drug Economics tracks a curated set of high-cost, high-impact drugs. It does not
             cover every approved medication. If a drug is not in our database, it does not
             mean its pricing is unproblematic.
@@ -389,15 +389,15 @@ function TabLimitations() {
         </div>
       </div>
 
-      <div className="bg-[#E6F2EC] rounded-lg p-4 border border-[#0B6B3A]/20">
-        <h4 className="text-sm font-semibold text-[#0B6B3A] mb-1">Corrections & Feedback</h4>
-        <p className="text-sm text-[#6B7771] leading-relaxed">
+      <div className="bg-[#E6F2EC] rounded-lg p-4 border border-[#2d5016]/20">
+        <h4 className="text-sm font-semibold text-[#2d5016] mb-1">Corrections & Feedback</h4>
+        <p className="text-sm text-[#555555] leading-relaxed">
           If a figure cannot be verified from at least two independent sources, it is flagged
           for review. If data is unavailable, we say so — we never fabricate numbers.
           Found an error or have better source data?{' '}
           <a
             href="/contact"
-            className="text-[#0B6B3A] underline hover:text-[#1F2A24] transition-colors"
+            className="text-[#2d5016] underline hover:text-[#1a1a1a] transition-colors"
           >
             Contact us
           </a>
@@ -418,20 +418,20 @@ export function MethodologyModalContent() {
     <>
       <div className="flex items-start justify-between mb-4">
         <div>
-          <Dialog.Title className="text-xl font-bold text-[#1F2A24] font-display">
+          <Dialog.Title className="text-xl font-bold text-[#1a1a1a] font-display">
             Data Sources & Methodology
           </Dialog.Title>
-          <Dialog.Description className="text-sm text-[#6B7771] mt-1 font-body">
+          <Dialog.Description className="text-sm text-[#555555] mt-1 font-body">
             How we gather and validate every number in Drug Economics.
           </Dialog.Description>
         </div>
         <Dialog.Close className="p-1.5 rounded-lg hover:bg-[#F1F5F9] transition-colors">
-          <X className="w-5 h-5 text-[#6B7771]" />
+          <X className="w-5 h-5 text-[#555555]" />
         </Dialog.Close>
       </div>
 
       {/* Tab bar */}
-      <div className="flex gap-1 border-b border-[#E5ECE8] mb-5 -mx-8 px-8 overflow-x-auto">
+      <div className="flex gap-1 border-b border-[#e0ddd5] mb-5 -mx-8 px-8 overflow-x-auto">
         {TABS.map((tab) => (
           <button
             key={tab.id}
@@ -439,8 +439,8 @@ export function MethodologyModalContent() {
             className={cn(
               'px-3 py-2 text-sm font-medium whitespace-nowrap transition-colors border-b-2 -mb-px',
               activeTab === tab.id
-                ? 'border-[#0B6B3A] text-[#0B6B3A]'
-                : 'border-transparent text-[#6B7771] hover:text-[#6B7771] hover:border-[#CBD5E1]'
+                ? 'border-[#2d5016] text-[#2d5016]'
+                : 'border-transparent text-[#555555] hover:text-[#555555] hover:border-[#CBD5E1]'
             )}
           >
             {tab.label}
@@ -472,7 +472,7 @@ export function MethodologyModal({ trigger }: MethodologyModalProps) {
     <Dialog.Root>
       <Dialog.Trigger asChild>
         {trigger || (
-          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-[#FFFBEB] text-[#B45309] border border-[#B45309]/20 hover:bg-[#B45309]/10 transition-colors font-body">
+          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-[#FFFBEB] text-[#b8860b] border border-[#b8860b]/20 hover:bg-[#b8860b]/10 transition-colors font-body">
             <span className="text-[10px]">⚠</span>
             Estimates / Proxies
           </button>

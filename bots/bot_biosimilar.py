@@ -4,6 +4,8 @@ Checks for new biosimilar approvals and status changes weekly.
 Updates the Pipeline Watch and Generic Gap apps.
 """
 
+from __future__ import annotations
+
 import json
 from datetime import datetime, timedelta
 from pathlib import Path

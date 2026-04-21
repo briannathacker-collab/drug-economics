@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
         style={{
           width: `${width}px`,
           height: `${height}px`,
-          background: '#1F2A24',
+          background: '#1a1a1a',
           display: 'flex',
           flexDirection: 'column',
           padding: isSquare ? '56px' : '48px',
@@ -45,10 +45,10 @@ export async function GET(request: NextRequest) {
       >
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span style={{ color: '#C41E3A', fontSize: 28, fontWeight: 800, letterSpacing: '4px' }}>
+          <span style={{ color: '#c0392b', fontSize: 28, fontWeight: 800, letterSpacing: '4px' }}>
             DRUG ECONOMICS
           </span>
-          <span style={{ color: '#6B7771', fontSize: 18 }}>drugeconomics.com</span>
+          <span style={{ color: '#555555', fontSize: 18 }}>drugeconomics.com</span>
         </div>
 
         {/* Drug identity */}
@@ -56,7 +56,7 @@ export async function GET(request: NextRequest) {
           <div style={{ color: 'white', fontSize: isSquare ? 52 : 56, fontWeight: 800, lineHeight: 1 }}>
             {drug.drug_name.toUpperCase()}
           </div>
-          <div style={{ color: '#6B7771', fontSize: 22, marginTop: 8, display: 'flex' }}>
+          <div style={{ color: '#555555', fontSize: 22, marginTop: 8, display: 'flex' }}>
             {drug.generic_name} · {manufacturer?.name || drug.manufacturer_id}
           </div>
         </div>
@@ -75,7 +75,7 @@ export async function GET(request: NextRequest) {
             <div
               style={{
                 flex: 1,
-                border: '2px solid #0B6B3A',
+                border: '2px solid #2d5016',
                 borderRadius: 12,
                 padding: '24px',
                 display: 'flex',
@@ -83,10 +83,10 @@ export async function GET(request: NextRequest) {
                 gap: 8,
               }}
             >
-              <span style={{ color: '#6B7771', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
+              <span style={{ color: '#555555', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
                 COSTS TO MAKE
               </span>
-              <span style={{ color: '#0B6B3A', fontSize: isSquare ? 40 : 44, fontWeight: 800, fontFamily: 'monospace' }}>
+              <span style={{ color: '#2d5016', fontSize: isSquare ? 40 : 44, fontWeight: 800, fontFamily: 'monospace' }}>
                 ~{fmt(cogsValue)}
               </span>
               <span style={{ color: '#64748B', fontSize: 16, display: 'flex' }}>per month · est.</span>
@@ -97,7 +97,7 @@ export async function GET(request: NextRequest) {
           <div
             style={{
               flex: 1,
-              border: '2px solid #C41E3A',
+              border: '2px solid #c0392b',
               borderRadius: 12,
               padding: '24px',
               display: 'flex',
@@ -105,10 +105,10 @@ export async function GET(request: NextRequest) {
               gap: 8,
             }}
           >
-            <span style={{ color: '#6B7771', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
+            <span style={{ color: '#555555', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
               PATIENTS PAY
             </span>
-            <span style={{ color: '#C41E3A', fontSize: isSquare ? 40 : 44, fontWeight: 800, fontFamily: 'monospace' }}>
+            <span style={{ color: '#c0392b', fontSize: isSquare ? 40 : 44, fontWeight: 800, fontFamily: 'monospace' }}>
               {fmt(drug.wac_monthly)}
             </span>
             <span style={{ color: '#64748B', fontSize: 16, display: 'flex' }}>per month · list price</span>
@@ -119,7 +119,7 @@ export async function GET(request: NextRequest) {
             <div
               style={{
                 flex: 1,
-                border: '3px solid #C41E3A',
+                border: '3px solid #c0392b',
                 borderRadius: 12,
                 background: '#1a0505',
                 padding: '24px',
@@ -128,10 +128,10 @@ export async function GET(request: NextRequest) {
                 gap: 8,
               }}
             >
-              <span style={{ color: '#6B7771', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
+              <span style={{ color: '#555555', fontSize: 14, letterSpacing: '2px', fontWeight: 600 }}>
                 MARKUP
               </span>
-              <span style={{ color: '#C41E3A', fontSize: isSquare ? 48 : 52, fontWeight: 800, fontFamily: 'monospace' }}>
+              <span style={{ color: '#c0392b', fontSize: isSquare ? 48 : 52, fontWeight: 800, fontFamily: 'monospace' }}>
                 {markup.toLocaleString()}%
               </span>
               <span style={{ color: '#64748B', fontSize: 16, display: 'flex' }}>est.</span>
@@ -143,12 +143,12 @@ export async function GET(request: NextRequest) {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: isSquare ? 32 : 0 }}>
           <span style={{ color: 'white', fontSize: 20, display: 'flex' }}>
             Patients pay{' '}
-            <span style={{ color: '#C41E3A', fontWeight: 700, marginLeft: 6, marginRight: 6 }}>
+            <span style={{ color: '#c0392b', fontWeight: 700, marginLeft: 6, marginRight: 6 }}>
               {fmt(annualCents)}
             </span>{' '}
             per year for this drug
           </span>
-          <span style={{ color: '#6B7771', fontSize: 14, textAlign: 'right', display: 'flex' }}>
+          <span style={{ color: '#555555', fontSize: 14, textAlign: 'right', display: 'flex' }}>
             {cogsValue > 0 ? 'COGS est: peer-reviewed · Price: CMS' : 'Price: CMS'}
           </span>
         </div>

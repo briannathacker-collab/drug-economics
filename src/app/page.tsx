@@ -13,7 +13,7 @@ const APPS = [
     question: 'What does this drug really cost vs. what they charge?',
     description: 'Manufacturer profiler, drug pricing explorer, cost-to-make vs. list price, profit waterfall, price history timeline.',
     icon: <DollarSign className="w-6 h-6" />,
-    color: 'bg-[#C41E3A]',
+    color: 'bg-[#c0392b]',
   },
   {
     number: 2,
@@ -22,7 +22,7 @@ const APPS = [
     question: 'When will there be a cheaper version of my drug?',
     description: 'Patent cliff timeline, biosimilar entry tracker, delay tactic encyclopedia, clinical trials pipeline.',
     icon: <Clock className="w-6 h-6" />,
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
   },
   {
     number: 3,
@@ -31,7 +31,7 @@ const APPS = [
     question: 'What will I personally pay for my medication?',
     description: 'Out-of-pocket calculator, insurance type selector, international price comparison, coupon trap explainer.',
     icon: <Calculator className="w-6 h-6" />,
-    color: 'bg-[#B45309]',
+    color: 'bg-[#b8860b]',
   },
   {
     number: 4,
@@ -40,7 +40,7 @@ const APPS = [
     question: 'Where does every dollar of my premium actually go?',
     description: 'Insurer & PBM profit tracker, rebate flow diagram, spread pricing explainer, vertical integration map.',
     icon: <Building2 className="w-6 h-6" />,
-    color: 'bg-[#0B6B3A]',
+    color: 'bg-[#2d5016]',
   },
   {
     number: 5,
@@ -64,11 +64,11 @@ const APPS = [
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       {/* Hero */}
-      <section id="main-content" className="bg-[#0B6B3A] text-white">
+      <section id="main-content" className="bg-[#2d5016] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display tracking-tight leading-tight">
             Drug Economics
@@ -78,13 +78,13 @@ export default function HomePage() {
             insurance companies, and pharmacy benefit managers profit from the
             American drug pricing system — at the direct expense of patients.
           </p>
-          <p className="mt-6 text-sm text-[#6B7771] font-body">
+          <p className="mt-6 text-sm text-[#555555] font-body">
             For patients, families, caregivers, journalists, and policymakers.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/priced-out"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#0B6B3A] text-white rounded-lg text-sm font-semibold hover:bg-[#236B44] transition-colors border border-[#E6F2EC]/20 font-body"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#2d5016] text-white rounded-lg text-sm font-semibold hover:bg-[#3a6b1e] transition-colors border border-[#E6F2EC]/20 font-body"
             >
               Start Exploring
               <ArrowRight className="w-4 h-4" />
@@ -95,26 +95,26 @@ export default function HomePage() {
 
       {/* App Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <h2 className="text-2xl font-bold text-[#1F2A24] font-display mb-8">The Suite</h2>
+        <h2 className="text-2xl font-bold text-[#1a1a1a] font-display mb-8">The Suite</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {APPS.map(app => (
             <Link
               key={app.number}
               href={app.href}
-              className="group bg-white rounded-xl border border-[#E5ECE8] p-6 shadow-sm hover:shadow-md hover:border-[#0B6B3A]/30 transition-all"
+              className="group bg-white rounded-xl border border-[#e0ddd5] p-6 shadow-sm hover:shadow-md hover:border-[#2d5016]/30 transition-all"
             >
               <div className="flex items-start justify-between">
                 <div className={`${app.color} text-white w-10 h-10 rounded-lg flex items-center justify-center`}>
                   {app.icon}
                 </div>
-                <span className="text-xs font-mono text-[#6B7771]">App {app.number}</span>
+                <span className="text-xs font-mono text-[#555555]">App {app.number}</span>
               </div>
-              <h3 className="mt-4 text-lg font-bold text-[#1F2A24] font-display group-hover:text-[#07542D] transition-colors">
+              <h3 className="mt-4 text-lg font-bold text-[#1a1a1a] font-display group-hover:text-[#3a6b1e] transition-colors">
                 {app.name}
               </h3>
-              <p className="mt-1 text-sm font-accent text-[#C41E3A]">{app.question}</p>
-              <p className="mt-3 text-sm text-[#6B7771] font-body leading-relaxed">{app.description}</p>
-              <div className="mt-4 flex items-center gap-1 text-sm font-medium text-[#0B6B3A] group-hover:gap-2 transition-all font-body">
+              <p className="mt-1 text-sm font-accent text-[#c0392b]">{app.question}</p>
+              <p className="mt-3 text-sm text-[#555555] font-body leading-relaxed">{app.description}</p>
+              <div className="mt-4 flex items-center gap-1 text-sm font-medium text-[#2d5016] group-hover:gap-2 transition-all font-body">
                 Explore <ArrowRight className="w-4 h-4" />
               </div>
             </Link>
@@ -123,14 +123,14 @@ export default function HomePage() {
       </section>
 
       {/* Mission Statement */}
-      <section className="bg-white border-t border-[#E5ECE8]">
+      <section className="bg-white border-t border-[#e0ddd5]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 text-center">
-          <p className="text-lg font-accent text-[#0B6B3A] leading-relaxed">
+          <p className="text-lg font-accent text-[#2d5016] leading-relaxed">
             The data tells a story. The story is: the American drug pricing system
             is structured to extract maximum profit at every layer, and patients
             pay the cost.
           </p>
-          <p className="mt-4 text-sm text-[#6B7771] font-body">
+          <p className="mt-4 text-sm text-[#555555] font-body">
             Every figure is sourced. Every estimate is labeled. Every number is verifiable.
           </p>
         </div>

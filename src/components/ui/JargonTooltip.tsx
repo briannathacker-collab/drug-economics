@@ -31,18 +31,18 @@ export function JargonTooltip({ term, children }: JargonTooltipProps) {
     <Tooltip.Provider delayDuration={200}>
       <Tooltip.Root>
         <Tooltip.Trigger asChild>
-          <span className="border-b border-dotted border-[#6B7771] cursor-help text-inherit">
+          <span className="border-b border-dotted border-[#555555] cursor-help text-inherit">
             {children || term}
           </span>
         </Tooltip.Trigger>
         <Tooltip.Portal>
           <Tooltip.Content
-            className="bg-[#1F2A24] text-white text-sm px-3 py-2 rounded-lg max-w-xs shadow-lg z-50 font-body"
+            className="bg-[#1a1a1a] text-white text-sm px-3 py-2 rounded-lg max-w-xs shadow-lg z-50 font-body"
             sideOffset={5}
           >
             <p className="font-semibold text-[#E6F2EC] mb-1">{term.toUpperCase()}</p>
             <p className="text-gray-300 text-xs leading-relaxed">{definition}</p>
-            <Tooltip.Arrow className="fill-[#1F2A24]" />
+            <Tooltip.Arrow className="fill-[#1a1a1a]" />
           </Tooltip.Content>
         </Tooltip.Portal>
       </Tooltip.Root>

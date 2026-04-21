@@ -22,7 +22,7 @@ export function SourceIcon({ sourceLabel, sourceUrl, lastUpdated, className }: S
           >
             <Info
               size={13}
-              className="text-[#6B7771] hover:text-[#6B7771] transition-colors"
+              className="text-[#555555] hover:text-[#555555] transition-colors"
             />
           </span>
         </Tooltip.Trigger>
@@ -30,12 +30,12 @@ export function SourceIcon({ sourceLabel, sourceUrl, lastUpdated, className }: S
           <Tooltip.Content
             side="top"
             sideOffset={6}
-            className="z-50 bg-[#1F2A24] text-white text-xs rounded-lg px-3 py-2 max-w-xs shadow-lg font-body"
+            className="z-50 bg-[#1a1a1a] text-white text-xs rounded-lg px-3 py-2 max-w-xs shadow-lg font-body"
           >
             <p>
               <span className="font-semibold">Source:</span> {sourceLabel}
             </p>
-            <p className="text-[#6B7771] mt-0.5">Updated {lastUpdated}</p>
+            <p className="text-[#555555] mt-0.5">Updated {lastUpdated}</p>
             {sourceUrl && (
               <a
                 href={sourceUrl}
@@ -47,7 +47,7 @@ export function SourceIcon({ sourceLabel, sourceUrl, lastUpdated, className }: S
                 View source →
               </a>
             )}
-            <Tooltip.Arrow className="fill-[#1F2A24]" />
+            <Tooltip.Arrow className="fill-[#1a1a1a]" />
           </Tooltip.Content>
         </Tooltip.Portal>
       </Tooltip.Root>

@@ -24,16 +24,16 @@ export default function ManufacturerPage() {
 
   if (!manufacturer) {
     return (
-      <div className="min-h-screen bg-[#F7F9F8]">
+      <div className="min-h-screen bg-[#f5f5f0]">
         <TopNav />
         <main className="max-w-7xl mx-auto px-4 sm:px-6 py-16 text-center">
-          <h1 className="text-2xl font-bold text-[#1F2A24] font-display">Manufacturer not found</h1>
-          <p className="mt-2 text-[#6B7771] font-body">
+          <h1 className="text-2xl font-bold text-[#1a1a1a] font-display">Manufacturer not found</h1>
+          <p className="mt-2 text-[#555555] font-body">
             No manufacturer with ID &ldquo;{id}&rdquo; exists in our data.
           </p>
           <Link
             href="/priced-out"
-            className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-[#0B6B3A] hover:text-[#07542D] transition-colors font-body"
+            className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-[#2d5016] hover:text-[#3a6b1e] transition-colors font-body"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Priced Out
@@ -45,30 +45,30 @@ export default function ManufacturerPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F7F9F8]">
+    <div className="min-h-screen bg-[#f5f5f0]">
       <TopNav />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
         {/* Breadcrumb */}
-        <nav className="mb-6 flex items-center gap-2 text-sm text-[#6B7771] font-body">
-          <Link href="/priced-out" className="hover:text-[#1F2A24] transition-colors">
+        <nav className="mb-6 flex items-center gap-2 text-sm text-[#555555] font-body">
+          <Link href="/priced-out" className="hover:text-[#1a1a1a] transition-colors">
             Priced Out
           </Link>
           <span>&rsaquo;</span>
-          <Link href="/priced-out#manufacturers" className="hover:text-[#1F2A24] transition-colors">
+          <Link href="/priced-out#manufacturers" className="hover:text-[#1a1a1a] transition-colors">
             Manufacturers
           </Link>
           <span>&rsaquo;</span>
-          <span className="text-[#1F2A24] font-medium">{manufacturer.name}</span>
+          <span className="text-[#1a1a1a] font-medium">{manufacturer.name}</span>
         </nav>
 
         {/* Header */}
         <div className="mb-8 flex items-start justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-[#1F2A24] font-display">{manufacturer.name}</h1>
-            <p className="mt-1 text-sm text-[#6B7771] font-mono">{manufacturer.ticker}</p>
+            <h1 className="text-3xl font-bold text-[#1a1a1a] font-display">{manufacturer.name}</h1>
+            <p className="mt-1 text-sm text-[#555555] font-mono">{manufacturer.ticker}</p>
           </div>
-          <div className="w-12 h-12 rounded-full bg-[#E6F2EC] flex items-center justify-center text-lg font-bold text-[#0B6B3A] font-display">
+          <div className="w-12 h-12 rounded-full bg-[#E6F2EC] flex items-center justify-center text-lg font-bold text-[#2d5016] font-display">
             {manufacturer.name
               .split(/[\s&]+/)
               .filter(w => w.length > 1)
@@ -85,9 +85,9 @@ export default function ManufacturerPage() {
         {/* Drug Table */}
         <div className="mt-10">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-bold text-[#1F2A24] font-display">
+            <h2 className="text-lg font-bold text-[#1a1a1a] font-display">
               Drug Portfolio
-              <span className="ml-2 text-sm font-normal text-[#6B7771] font-body">
+              <span className="ml-2 text-sm font-normal text-[#555555] font-body">
                 {manufacturer.drugs.length} drug{manufacturer.drugs.length !== 1 ? 's' : ''} tracked
               </span>
             </h2>
@@ -114,7 +114,7 @@ export default function ManufacturerPage() {
             />
           </div>
 
-          <p className="text-[10px] text-[#6B7771] font-mono mb-4 flex items-center gap-2">
+          <p className="text-[10px] text-[#555555] font-mono mb-4 flex items-center gap-2">
             <FreshnessBadge dataYear={2026} dataQuarter="Q1" source="WAC_MONITOR" />
             <span>&middot; Sources: CMS, FDA, SEC EDGAR, peer-reviewed literature</span>
           </p>

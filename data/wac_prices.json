@@ -343,7 +343,9 @@
     "data_year": 2026,
     "data_quarter": "Q1",
     "source": "WAC_MONITOR",
-    "pricing_model": "monthly"
+    "pricing_model": "monthly",
+    "wac_note": "WAC shown is the 2014 launch list price (Sovaldi: $84,000 per 12-week course = $28,000/mo; Harvoni: $94,500 per 12-week course = $31,500/mo). Gilead has not raised the list price, but net realized prices are significantly lower due to Medicaid/state deals and 340B discounts. Currently verifiable WAC data sources (Red Book, AnalySource) confirm list unchanged.",
+    "wac_note_flag": "list_price_stale_net_price_diverges"
   },
   {
     "drug_id": "tecfidera",
@@ -468,7 +470,9 @@
     "data_year": 2026,
     "data_quarter": "Q1",
     "source": "WAC_MONITOR",
-    "pricing_model": "monthly"
+    "pricing_model": "monthly",
+    "wac_note": "WAC shown is the 2014 launch list price (Sovaldi: $84,000 per 12-week course = $28,000/mo; Harvoni: $94,500 per 12-week course = $31,500/mo). Gilead has not raised the list price, but net realized prices are significantly lower due to Medicaid/state deals and 340B discounts. Currently verifiable WAC data sources (Red Book, AnalySource) confirm list unchanged.",
+    "wac_note_flag": "list_price_stale_net_price_diverges"
   },
   {
     "drug_id": "sprycel",

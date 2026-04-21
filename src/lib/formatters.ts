@@ -6,6 +6,7 @@ import type { CogsEstimate, WacPrice } from './types';
 export function formatCurrency(cents: number, compact = false): string {
   const dollars = cents / 100;
   if (compact) {
+    if (dollars >= 1_000_000_000_000) return `$${(dollars / 1_000_000_000_000).toFixed(2)}T`;
     if (dollars >= 1_000_000_000) return `$${(dollars / 1_000_000_000).toFixed(1)}B`;
     if (dollars >= 1_000_000) return `$${(dollars / 1_000_000).toFixed(1)}M`;
     if (dollars >= 1_000) return `$${(dollars / 1_000).toFixed(1)}K`;
@@ -96,6 +97,7 @@ export function formatNumber(n: number): string {
 }
 
 export function formatCompact(n: number): string {
+  if (n >= 1_000_000_000_000) return `${(n / 1_000_000_000_000).toFixed(2)}T`;
   if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(1)}B`;
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;

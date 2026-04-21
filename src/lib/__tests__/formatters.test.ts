@@ -137,6 +137,22 @@ describe('formatMarkup', () => {
 // -------------------------------------------------------------------
 // computeMarkupPercent — returns numeric markup
 // -------------------------------------------------------------------
+describe('formatCurrency trillion threshold', () => {
+  it('renders trillions with T suffix, not inflated billions', () => {
+    // 204,254,012,000,000 cents = $2.04 trillion.
+    // Previously rendered as "$2042.5B" which is misleading formatting.
+    expect(formatCurrency(204_254_012_000_000, true)).toBe('$2.04T');
+  });
+
+  it('renders exactly 1 trillion', () => {
+    expect(formatCurrency(100_000_000_000_000, true)).toBe('$1.00T');
+  });
+
+  it('keeps sub-trillion values in B', () => {
+    expect(formatCurrency(99_900_000_000_000, true)).toBe('$999.0B');
+  });
+});
+
 describe('computeMarkupPercent', () => {
   it('returns 0 when COGS is 0', () => {
     expect(computeMarkupPercent(0, 500)).toBe(0);

@@ -1,12 +1,13 @@
 {
-  "checked_at": "2026-05-03T10:59:52.642132",
-  "issues_found": 306,
+  "checked_at": "2026-05-04T11:57:53.320246",
+  "issues_found": 307,
   "issues": [
     "STALE: No changelog entries found for WAC Monitor",
     "STALE: No changelog entries found for SEC 10-Q",
     "STALE: No changelog entries found for IRA/CMS",
     "STALE: No changelog entries found for FDA Orange Book",
     "STALE: No changelog entries found for ClinicalTrials.gov",
+    "STALE: FDA Purple Book last updated 11 days ago (threshold: 10)",
     "MISSING INSTITUTION: Humira COGS estimate has no institution",
     "MISSING INSTITUTION: Humira COGS estimate has no institution",
     "MISSING INSTITUTION: Keytruda COGS estimate has no institution",

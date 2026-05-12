@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-12",
+    "timestamp": "2026-05-12T12:02:56.714315",
+    "source": "FDA Orange Book",
+    "update_type": "PATENT_REFRESH",
+    "drug_name": "ALL",
+    "manufacturer": "ALL",
+    "description": "Orange Book patent data refreshed (0 updates)",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files"
+  },
+  {
     "date": "2026-04-23",
     "timestamp": "2026-04-23T12:59:46.751080",
     "source": "FDA Purple Book",

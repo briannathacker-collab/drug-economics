@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-06-30T14:23:17.205614",
-  "issues_found": 305,
+  "checked_at": "2026-07-01T14:36:38.623952",
+  "issues_found": 306,
   "issues": [
     "STALE: No changelog entries found for WAC Monitor",
     "STALE: No changelog entries found for SEC 10-Q",
@@ -306,7 +306,8 @@
     "MISSING POPULATION SOURCE: Botox in delay_tactics has no population_source",
     "MISSING POPULATION SOURCE URL: Botox in delay_tactics has no population_source_url",
     "MISSING POPULATION SOURCE: Rituxan in delay_tactics has no population_source",
-    "MISSING POPULATION SOURCE URL: Rituxan in delay_tactics has no population_source_url"
+    "MISSING POPULATION SOURCE URL: Rituxan in delay_tactics has no population_source_url",
+    "FRESHNESS WARNING: 100/100 records in wac_prices.json have effective_date older than 180 days"
   ],
   "status": "FAIL"
 }

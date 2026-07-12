@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-11T11:12:31.735806",
+  "checked_at": "2026-07-12T11:17:21.155301",
   "issues_found": 307,
   "issues": [
-    "STALE: CMS ASP last updated 124 days ago (threshold: 120)",
+    "STALE: CMS ASP last updated 125 days ago (threshold: 120)",
     "STALE: No changelog entries found for WAC Monitor",
     "STALE: No changelog entries found for SEC 10-Q",
     "STALE: No changelog entries found for IRA/CMS",

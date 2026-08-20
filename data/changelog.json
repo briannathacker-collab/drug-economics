@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-20",
+    "timestamp": "2026-08-20T12:24:07.386374",
+    "source": "FDA Purple Book",
+    "update_type": "WEEKLY_REFRESH",
+    "drug_name": "ALL",
+    "manufacturer": "ALL",
+    "description": "Biosimilar pipeline refreshed (0 status changes, 0 new detections)",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://purplebooksearch.fda.gov/"
+  },
+  {
     "date": "2026-08-18",
     "timestamp": "2026-08-18T12:49:09.080075",
     "source": "FDA Orange Book",

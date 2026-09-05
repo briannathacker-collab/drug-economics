@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T13:25:37.657931",
+    "source": "International Prices",
+    "update_type": "MONTHLY_CHECK",
+    "drug_name": "ALL",
+    "manufacturer": "ALL",
+    "description": "International price comparison refreshed (0 drugs updated)",
+    "previous_value_cents": null,
+    "new_value_cents": null,
+    "pct_change": null,
+    "source_url": "https://www.canada.ca/en/patented-medicine-prices-review.html"
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T12:24:07.386374",
     "source": "FDA Purple Book",

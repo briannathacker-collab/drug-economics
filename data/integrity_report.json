@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-08T18:07:40.727873",
+  "checked_at": "2026-10-09T16:55:31.558947",
   "issues_found": 309,
   "issues": [
-    "STALE: CMS ASP last updated 213 days ago (threshold: 120)",
+    "STALE: CMS ASP last updated 214 days ago (threshold: 120)",
     "STALE: No changelog entries found for WAC Monitor",
     "STALE: No changelog entries found for SEC 10-Q",
     "STALE: No changelog entries found for IRA/CMS",
-    "STALE: FDA Orange Book last updated 51 days ago (threshold: 35)",
+    "STALE: FDA Orange Book last updated 52 days ago (threshold: 35)",
     "STALE: No changelog entries found for ClinicalTrials.gov",
-    "STALE: FDA Purple Book last updated 49 days ago (threshold: 10)",
+    "STALE: FDA Purple Book last updated 50 days ago (threshold: 10)",
     "MISSING INSTITUTION: Humira COGS estimate has no institution",
     "MISSING INSTITUTION: Humira COGS estimate has no institution",
     "MISSING INSTITUTION: Keytruda COGS estimate has no institution",
